@@ -7,10 +7,10 @@ Aplikacja w **Next.js 15 + Supabase** – ta sama baza i auth co wersja Python (
 ## 1. Nowe repozytorium na GitHubie
 
 1. Wejdź na **https://github.com/new**
-2. **Repository name:** np. `quiz-historia-app` (lub inna nazwa)
-3. **Public**, bez inicjalizacji (bez README, .gitignore – już są w projekcie)
+2. **Repository name:** `quiz-historia-app` (lub inna nazwa)
+3. **Public**, **bez** inicjalizacji (bez README, .gitignore – już są w projekcie)
 4. Kliknij **Create repository**
-5. GitHub pokaże instrukcje „push an existing repository” – skorzystasz z nich w kroku 3 poniżej.
+5. W folderze projektu: `git push -u origin main` (remote jest już ustawiony). Szczegóły w **KROKI.md**.
 
 ---
 
