@@ -10,7 +10,7 @@ Aplikacja w **Next.js 15 + Supabase** – ta sama baza i auth co wersja Python (
 2. **Repository name:** `quiz-historia-app` (lub inna nazwa)
 3. **Public**, **bez** inicjalizacji (bez README, .gitignore – już są w projekcie)
 4. Kliknij **Create repository**
-5. W folderze projektu: `git push -u origin main` (remote jest już ustawiony). Szczegóły w **KROKI.md**.
+5. Repozytorium: **https://github.com/Verti86/history_master** – kod jest już tam wypchnięty. Kolejne zmiany: `git push`.
 
 ---
 
