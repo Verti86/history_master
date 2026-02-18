@@ -1,6 +1,12 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
+import { createClient } from "@/lib/supabase/server";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (user) redirect("/menu");
+
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-8">
       <h1 className="text-3xl font-bold mb-2">🛡️ History Master Online</h1>
@@ -22,7 +28,7 @@ export default function HomePage() {
         </Link>
       </div>
       <p className="mt-8 text-sm text-[#888]">
-        Ta sama baza Supabase co aplikacja Python (Streamlit). Logowanie i ranking współdzielone.
+        Ta sama baza Supabase co aplikacja Python. Logowanie i ranking współdzielone.
       </p>
     </main>
   );
