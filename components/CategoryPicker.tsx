@@ -25,35 +25,6 @@ const ICON_ANIMATIONS: Record<string, string> = {
 export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption = true }: Props) {
   return (
     <main className="min-h-screen bg-gray-900 text-white p-8 max-w-2xl mx-auto">
-      <style jsx global>{`
-        @keyframes spin-slow {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
-        }
-        @keyframes bounce-slow {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-4px); }
-        }
-        @keyframes shake {
-          0%, 100% { transform: rotate(0deg); }
-          25% { transform: rotate(-5deg); }
-          75% { transform: rotate(5deg); }
-        }
-        @keyframes flicker {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0.7; }
-        }
-        @keyframes float {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-3px); }
-        }
-        .animate-spin-slow { animation: spin-slow 8s linear infinite; }
-        .animate-bounce-slow { animation: bounce-slow 2s ease-in-out infinite; }
-        .animate-shake { animation: shake 1s ease-in-out infinite; }
-        .animate-flicker { animation: flicker 0.5s ease-in-out infinite; }
-        .animate-float { animation: float 3s ease-in-out infinite; }
-      `}</style>
-
       <h1 className="text-2xl font-bold mb-2">{title}</h1>
       <p className="text-gray-400 mb-6">{subtitle}</p>
 

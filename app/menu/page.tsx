@@ -48,31 +48,6 @@ export default async function MenuPage() {
       <p className="text-[#aaa] mb-6">Witaj, <strong className="text-[#fafafa]">{nick}</strong>! ⚔️</p>
       <p className="mb-6">Twoje XP: <strong className="text-[#ffbd45]">{totalXp}</strong></p>
 
-      <style jsx global>{`
-        @keyframes wiggle {
-          0%, 100% { transform: rotate(0deg); }
-          25% { transform: rotate(-8deg); }
-          75% { transform: rotate(8deg); }
-        }
-        @keyframes pulse-glow {
-          0%, 100% { filter: brightness(1); }
-          50% { filter: brightness(1.3); }
-        }
-        @keyframes float-slow {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-5px); }
-        }
-        @keyframes magnify {
-          0%, 100% { transform: scale(1); }
-          50% { transform: scale(1.1); }
-        }
-        .menu-card:hover .menu-icon { animation: wiggle 0.5s ease-in-out; }
-        .menu-card-quiz:hover .menu-icon { animation: pulse-glow 0.8s ease-in-out infinite; }
-        .menu-card-fiszki:hover .menu-icon { animation: pulse-glow 0.6s ease-in-out infinite; }
-        .menu-card-czas:hover .menu-icon { animation: float-slow 1s ease-in-out infinite; }
-        .menu-card-skojarzenia:hover .menu-icon { animation: magnify 0.8s ease-in-out infinite; }
-      `}</style>
-
       <div className="grid grid-cols-2 gap-4 mb-8">
         <Link
           href="/quiz"
