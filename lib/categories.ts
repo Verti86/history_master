@@ -26,6 +26,10 @@ export const CATEGORIES: Category[] = [
   { id: "anglia-parlament", file: "bazamonarchia_parlamentarna_w_anglii.json", name: "Anglia: Monarchia parlamentarna", icon: "🦁" },
   { id: "europa-kryzys", file: "bazaeuropa_i_kryzys.json", name: "Europa i kryzys", icon: "🔥" },
   { id: "oswiecenie", file: "bazaoswiecenie_reformy.json", name: "Oświecenie i reformy", icon: "💡", dateRange: "XVIII wiek" },
+  { id: "usa-niepodleglosc", file: "bazapowstanie_stanow_zjednoczonych.json", name: "Powstanie Stanów Zjednoczonych", icon: "🗽", dateRange: "1775–1787" },
+  { id: "rewolucja-francuska", file: "bazarewolucja_francuska.json", name: "Wielka rewolucja we Francji", icon: "🔴", dateRange: "1789–1799" },
+  { id: "rozbiory-kosciuszko", file: "bazarozbiory_walka_o_niepodleglosc.json", name: "Walka o niepodległość – rozbiory, Kościuszko", icon: "🕊️", dateRange: "1772–1795" },
+  { id: "epoka-napoleonska", file: "bazaepoka_napoleonska.json", name: "Epoka napoleońska", icon: "🎖️", dateRange: "1799–1815" },
 ];
 
 export function getCategoryById(id: string): Category | undefined {
