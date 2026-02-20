@@ -1,0 +1,149 @@
+[
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Kiedy zmarł ostatni król z dynastii Jagiellonów i co to oznaczało dla Rzeczypospolitej?",
+    "answers": ["Zygmunt II August zmarł w 1572 r. bezpotomnie – wprowadzono wolną elekcję", "W 1548 r. – Jagiellonowie nadal rządzili", "W 1569 r. – unia lubelska", "W 1587 r. – wybrano Wazę"],
+    "correct_index": 0,
+    "explanation": "Śmierć Zygmunta Augusta bez męskiego potomka oznaczała koniec dynastii; szlachta uchwaliła wolną elekcję."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Co to była wolna elekcja?",
+    "answers": ["Wybór króla przez całą szlachtę na polu elekcyjnym", "Dziedziczenie tronu przez syna króla", "Nominacja przez papieża", "Wybór przez magnatów"],
+    "correct_index": 0,
+    "explanation": "Każdy król był wybierany przez szlachtę; elekcja viritim oznaczała prawo każdego szlachcica do głosowania."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Kto był pierwszym królem elekcyjnym Rzeczypospolitej?",
+    "answers": ["Henryk Walezy (1573–1574)", "Stefan Batory", "Zygmunt III Waza", "Jan III Sobieski"],
+    "correct_index": 0,
+    "explanation": "Henryk Walezy (Henryk III) został wybrany w 1573 r.; po kilku miesiącach uciekł do Francji, by objąć tamtejszy tron."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Co to były artykuły henrykowskie?",
+    "answers": ["Zbiór zasad ustrojowych, które król musiał zaprzysiąc przed koronacją (elekcja, Sejm, pokój religijny)", "Podatki dla króla", "Wojsko stałe", "Sojusz z Turcją"],
+    "correct_index": 0,
+    "explanation": "Król zobowiązywał się m.in. do zwoływania Sejmu, nie prowadzenia wojny bez zgody szlachty i zachowania pokoju religijnego."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "W którym roku uchwalono artykuły henrykowskie?",
+    "answers": ["1573", "1569", "1572", "1587"],
+    "correct_index": 0,
+    "explanation": "Artykuły henrykowskie uchwalono podczas pierwszej elekcji (1573); były potwierdzane przy każdej następnej elekcji."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Co to były pacta conventa?",
+    "answers": ["Indywidualne zobowiązania kandydata na króla, przyrzeczenia dla szlachty", "Traktat pokojowy z Turcją", "Umowa z Litwą", "Sojusz z Rosją"],
+    "correct_index": 0,
+    "explanation": "Każdy kandydat składał dodatkowe obietnice (np. wypłata długów, wojsko, sojusze) – pacta conventa były wyjątkowe dla każdego króla."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Kto został wybrany królem Polski po ucieczce Henryka Walezego (1575)?",
+    "answers": ["Stefan Batory", "Maksymilian II Habsburg", "Iwan Groźny", "Jan III Sobieski"],
+    "correct_index": 0,
+    "explanation": "Po ucieczce Walezego szlachta wybrała Stefana Batorego (1575), księcia Siedmiogrodu – Anna Jagiellonka została jego żoną."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Z kim Stefan Batory zawarł małżeństwo, aby legitymizować swoją władzę?",
+    "answers": ["Z Anną Jagiellonką (siostrą Zygmunta Augusta)", "Z królową Francji", "Z księżniczką austriacką", "Z córką cara"],
+    "correct_index": 0,
+    "explanation": "Ślub z Anną Jagiellonką (1576) łączył Batorego z dynastią Jagiellonów i zwiększał poparcie szlachty."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Z kim Stefan Batory toczył wojny, odnosząc największe sukcesy militarne?",
+    "answers": ["Z Rosją (car Iwan IV Groźny)", "Z Turcją", "Ze Szwecją", "Z Austrią"],
+    "correct_index": 0,
+    "explanation": "Batory odniósł zwycięstwa nad Rosją (m.in. Psków, Wielkie Łuki) i zmusił cara do zawarcia pokoju w Jamie Zapolskim (1582)."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Gdzie Stefan Batory odniósł kluczowe zwycięstwo w wojnie z Rosją (oblężenie Pskowa)?",
+    "answers": ["Psków (1581–1582) – oblężenie zmusiło cara do rokowań", "Moskwa", "Smoleńsk", "Kazań"],
+    "correct_index": 0,
+    "explanation": "Oblężenie Pskowa (1581–1582) złamało opór Rosji; pokój w Jamie Zapolskim przywrócił Polsce Inflanty."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Co to był pokój w Jamie Zapolskim (1582)?",
+    "answers": ["Pokój kończący wojnę polsko-rosyjską; Rosja odstąpiła Inflanty Polsce", "Pokój ze Szwecją", "Pokój z Turcją", "Unia z Litwą"],
+    "correct_index": 0,
+    "explanation": "Na mocy pokoju w Jamie Zapolskim (1582) Rosja zrzekła się Inflant na rzecz Rzeczypospolitej."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Kto był hetmanem i głównym doradcą wojskowym Stefana Batorego?",
+    "answers": ["Jan Zamoyski", "Stanisław Żółkiewski", "Jan Karol Chodkiewicz", "Stefan Czarniecki"],
+    "correct_index": 0,
+    "explanation": "Jan Zamoyski był kanclerzem i hetmanem wielkim koronnym; odgrywał kluczową rolę w polityce i wojnach Batorego."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "W którym roku zmarł Stefan Batory?",
+    "answers": ["1586", "1575", "1582", "1596"],
+    "correct_index": 0,
+    "explanation": "Stefan Batory zmarł nagle w 1586 r. w Grodnie; po nim wybrano Zygmunta III Wazę (1587)."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Gdzie odbywały się wolne elekcje w Rzeczypospolitej?",
+    "answers": ["Na polu elekcyjnym pod Warszawą (Wola)", "W Krakowie na Wawelu", "W Wilnie", "W Gdańsku"],
+    "correct_index": 0,
+    "explanation": "Elekcje odbywały się na polu elekcyjnym na Woli (obecnie dzielnica Warszawy); szlachta zbierała się tam, by wybrać króla."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Co gwarantowała konfederacja warszawska (1573) w kwestii wyznań?",
+    "answers": ["Pokój między wyznaniami – zakaz prześladowań z powodu religii", "Dominację katolicyzmu", "Wypędzenie protestantów", "Sojusz z Turcją"],
+    "correct_index": 0,
+    "explanation": "Konfederacja warszawska zapewniała tolerancję religijną – była warunkiem zgody szlachty na pierwszą elekcję."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Dlaczego konfederacja warszawska została uchwalona przed pierwszą elekcją?",
+    "answers": ["Szlachta różnych wyznań chciała zabezpieczyć pokój religijny przed wyborem króla", "Papież ją wymusił", "Król Henryk Walezy ją zaproponował", "Turcja zagroziła wojną"],
+    "correct_index": 0,
+    "explanation": "Szlachta protestancka i katolicka obawiała się króla, który mógłby narzucić jedną wiarę – stąd gwarancja pokoju religijnego."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Kto konkurował ze Stefanem Batorym o tron Polski w 1575 roku?",
+    "answers": ["Maksymilian II Habsburg (cesarz niemiecki)", "Henryk Walezy", "Iwan Groźny", "Jan Zamoyski"],
+    "correct_index": 0,
+    "explanation": "Maksymilian Habsburg pretendował do tronu; część szlachty go poparła; Batory został koronowany dzięki Janowi Zamoyskiemu i poparciu Litwy."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Jakie reformy wojskowe wprowadził Stefan Batory?",
+    "answers": ["Utworzenie piechoty wybranieckiej (chłopi z dóbr królewskich) i reorganizacja armii", "Husaria jako jedyna formacja", "Rozwiązanie armii", "Najem wyłącznie zagraniczny"],
+    "correct_index": 0,
+    "explanation": "Piechota wybraniecka składała się z chłopów z królewszczyzn; Batory dbał o dyscyplinę i nowoczesne uzbrojenie."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Kto założył Zamość i uczynił go miastem idealnym?",
+    "answers": ["Jan Zamoyski", "Stefan Batory", "Zygmunt III Waza", "Jan III Sobieski"],
+    "correct_index": 0,
+    "explanation": "Jan Zamoyski zbudował Zamość według renesansowych planów – miasto idealne z arkadami, ratuszem i akademią."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Czym w Rzeczypospolitej była „interrex”?",
+    "answers": ["Osoba sprawująca władzę w czasie bezkrólewia (np. prymas Polski)", "Król tymczasowy", "Regent", "Hetman"],
+    "correct_index": 0,
+    "explanation": "W okresie bezkrólewia prymas Polski pełnił funkcję interrexa – zwoływał sejm konwokacyjny i elekcyjny."
+  },
+  {
+    "category": "Początki Rzeczypospolitej Obojga Narodów",
+    "question": "Jakie były główne zasady ustrojowe artykułów henrykowskich?",
+    "answers": ["Elekcja viritim, zwoływanie Sejmu co 2 lata, zakaz wojny bez zgody Sejmu, pokój religijny", "Monarchia absolutna", "Władza króla dziedziczna", "Sojusz z Turcją"],
+    "correct_index": 0,
+    "explanation": "Artykuły ograniczały władzę króla i gwarantowały szlachcie udział w rządach oraz wolność wyznania."
+  }
+]

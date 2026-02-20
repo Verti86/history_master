@@ -1,0 +1,191 @@
+[
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "W którym roku zawarto unię lubelską (realną unię Polski z Litwą)?",
+    "answers": ["1569", "1385", "1410", "1572"],
+    "correct_index": 0,
+    "explanation": "Unia lubelska (1569) połączyła Polskę i Litwę w jedną Rzeczpospolitą Obojga Narodów – wspólny monarcha, sejm i polityka, odrębne urzędy i skarb."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Co zmieniła unia lubelska w stosunku do unii w Krewie?",
+    "answers": ["Powstała unia realna: wspólny król, sejm, elekcja; Litwa straciła Ukrainę na rzecz Korony", "Litwa całkowicie wcielona do Polski", "Polska wcielona do Litwy", "Tylko sojusz wojskowy"],
+    "correct_index": 0,
+    "explanation": "Unia realna oznaczała wspólne instytucje; Wołyń, Podole i Ukraina zostały przyłączone do Korony (wcześniej były w Wielkim Księstwie Litewskim)."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Kto wynalazł druk ruchomą czcionką, co zrewolucjonizowało przekaz wiedzy?",
+    "answers": ["Jan Gutenberg", "Leonardo da Vinci", "Mikołaj Kopernik", "Erazm z Rotterdamu"],
+    "correct_index": 0,
+    "explanation": "Gutenberg ok. 1450 r. w Moguncji wynalazł druk ruchomą czcionką – umożliwiło to masową produkcję książek."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Który astronom ogłosił teorię heliocentryczną (Słońce w centrum Wszechświata)?",
+    "answers": ["Mikołaj Kopernik", "Galileusz", "Kepler", "Newton"],
+    "correct_index": 0,
+    "explanation": "Kopernik w dziele „O obrotach sfer niebieskich” (1543) dowodził, że Ziemia krąży wokół Słońca – rewolucja naukowa."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Kto potwierdził odkrycia Kopernika za pomocą teleskopu i naraził się na proces inkwizycji?",
+    "answers": ["Galileusz (Galileo Galilei)", "Mikołaj Kopernik", "Kepler", "Giordano Bruno"],
+    "correct_index": 0,
+    "explanation": "Galileusz obserwował Księżyc i planety; bronił heliocentryzmu, za co Kościół zmusił go do odwołania poglądów."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Kto był twórcą renesansowych arcydzieł: „Mona Lisa”, „Ostatnia Wieczerza”?",
+    "answers": ["Leonardo da Vinci", "Michał Anioł", "Rafael Santi", "Donatello"],
+    "correct_index": 0,
+    "explanation": "Leonardo łączył sztukę z nauką; jego dzieła symbolizują renesansowe dążenie do poznania i piękna."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Kto namalował freski w Kaplicy Sykstyńskiej w Watykanie?",
+    "answers": ["Michał Anioł (Michelangelo Buonarroti)", "Leonardo da Vinci", "Rafael Santi", "Tycjan"],
+    "correct_index": 0,
+    "explanation": "Michał Anioł stworzył m.in. „Stworzenie Adama” i „Sąd Ostateczny” – jedne z najsłynniejszych dzieł renesansu."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Kim był Erazm z Rotterdamu?",
+    "answers": ["Humanistą, krytykiem Kościoła, autorem „Pochwały głupoty”", "Wodzem wojskowym", "Papieżem", "Królem Niderlandów"],
+    "correct_index": 0,
+    "explanation": "Erazm był jednym z największych humanistów; krytykował nadużycia w Kościele, ale nie zerwał z katolicyzmem."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "W którym roku Marcin Luter przybił 95 tez do drzwi kościoła w Wittenberdze?",
+    "answers": ["1517", "1521", "1545", "1563"],
+    "correct_index": 0,
+    "explanation": "1517 r. – początek reformacji; Luter krytykował sprzedaż odpustów i kwestionował władzę papieża."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Jakie były główne postulaty Marcina Lutra?",
+    "answers": ["Tylko wiara usprawiedliwia, sola scriptura (tylko Pismo), odrzucenie odpustów i władzy papieża", "Zniesienie mszy", "Wojna z katolikami", "Likwidacja Biblii"],
+    "correct_index": 0,
+    "explanation": "Luter głosił zbawienie przez wiarę, a nie uczynki; uznawał tylko Pismo Święte i odrzucał tradycję Kościoła."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Kim był Jan Kalwin i gdzie stworzył swoje państwo wyznaniowe?",
+    "answers": ["Reformatorem, twórcą kalwinizmu – w Genewie", "Królem Francji", "Papieżem", "Cesarzem Niemiec"],
+    "correct_index": 0,
+    "explanation": "Kalwin stworzył surowy ustrój w Genewie; kalwinizm rozprzestrzenił się m.in. we Francji, Niderlandach i Polsce."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "W jakich okolicznościach powstał Kościół anglikański?",
+    "answers": ["Henryk VIII zerwał z Rzymem, by unieważnić małżeństwo i poślubić Annę Boleyn", "Anglia została najechana przez katolików", "Ludność zbuntowała się przeciw papieżowi", "Papież zrzekł się zwierzchnictwa nad Anglią"],
+    "correct_index": 0,
+    "explanation": "Papież nie zgodził się na unieważnienie małżeństwa; król ogłosił się głową Kościoła w Anglii (1534)."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "W jakim celu zwołano sobór trydencki (1545–1563)?",
+    "answers": ["Reforma Kościoła katolickiego i odpowiedź na reformację", "Wypowiedzenie wojny protestantom", "Uznanie Lutra za świętego", "Aneksja ziem protestanckich"],
+    "correct_index": 0,
+    "explanation": "Sobór ustalił doktrynę katolicką, zreformował duchowieństwo i dał impuls do kontrreformacji."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Kto był ostatnim królem Polski z dynastii Jagiellonów?",
+    "answers": ["Zygmunt II August", "Zygmunt III Waza", "Stefan Batory", "Henryk Walezy"],
+    "correct_index": 0,
+    "explanation": "Zygmunt II August (1548–1572) zmarł bezpotomnie – po nim wprowadzono wolną elekcję."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Co to były Prusy Książęce i kiedy powstały?",
+    "answers": ["Państwo lenników Polski utworzone w 1525 r. z sekularyzacji zakonu krzyżackiego", "Część Litwy", "Kolonizacja Ameryki", "Województwo polskie"],
+    "correct_index": 0,
+    "explanation": "Wielki mistrz krzyżacki Albrecht Hohenzollern przeszedł na luteranizm, zsekularyzował zakon i złożył hołd królowi Polski."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Gdzie i kiedy Albrecht Hohenzollern złożył hołd lenny królowi Polski?",
+    "answers": ["Hołd pruski w Krakowie (1525)", "W Wilnie (1569)", "W Warszawie (1596)", "W Gdańsku (1454)"],
+    "correct_index": 0,
+    "explanation": "Albrecht Hohenzollern w 1525 r. złożył hołd Zygmuntowi Staremu – Prusy Książęce stały się lennem Rzeczypospolitej."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Jak w XVI wieku funkcjonowała gospodarka na wsi w Rzeczypospolitej?",
+    "answers": ["Folwark pańszczyźniany – szlachta produkowała zboże, chłopi odrabiali pańszczyznę", "Tylko gospodarstwa czynszowe", "Wolni chłopi bez powinności", "Praca najemna na wielką skalę"],
+    "correct_index": 0,
+    "explanation": "Szlachta zakładała folwarki; chłopi musieli pracować na ziemi pana (pańszczyzna) – zboże szło na eksport."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Kto napisał „Żeńcy” i „Żywot człowieka poczciwego”?",
+    "answers": ["Mikołaj Rej", "Jan Kochanowski", "Andrzej Frycz Modrzewski", "Jan Dantyszek"],
+    "correct_index": 0,
+    "explanation": "Mikołaj Rej to „ojciec literatury polskiej”; pisał po polsku, łącząc renesans z tradycją ziemiańską."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Kto jest autorem „Trenów” i „Fraszek”?",
+    "answers": ["Jan Kochanowski", "Mikołaj Rej", "Andrzej Frycz Modrzewski", "Jan Dantyszek"],
+    "correct_index": 0,
+    "explanation": "Jan Kochanowski to najwybitniejszy poeta polskiego renesansu; „Treny” napisał po śmierci córki Urszulki."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Kto napisał traktat „O poprawie Rzeczypospolitej”, postulując m.in. równość wobec prawa?",
+    "answers": ["Andrzej Frycz Modrzewski", "Jan Kochanowski", "Mikołaj Rej", "Jan Łaski"],
+    "correct_index": 0,
+    "explanation": "Modrzewski domagał się reform: równości praw dla mieszczan i chłopów, reformy sądownictwa i Kościoła."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Gdzie Jan Kochanowski spędził ostatnie lata życia i napisał „Treny”?",
+    "answers": ["W Czarnolesie", "W Krakowie", "W Warszawie", "We Lwowie"],
+    "correct_index": 0,
+    "explanation": "Kochanowski osiadł w Czarnolesie; tam tworzył i tam zmarł w 1584 r."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Jakie cechy architektury charakteryzują renesans?",
+    "answers": ["Proporcje, kopuły, arkady, inspiracja antykiem (Rzym, Grecja)", "Strzelistość, witraże (gotyk)", "Ciężkie mury, małe okna (romański)", "Ozdobność, dynamizm (barok)"],
+    "correct_index": 0,
+    "explanation": "Renesans odwoływał się do starożytności: harmonijne proporcje, kolumny, symetria – np. kaplica Zygmuntowska na Wawelu."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Który renesansowy zabytek na Wawelu jest mauzoleum królów?",
+    "answers": ["Kaplica Zygmuntowska", "Katedra romańska", "Zamek gotycki", "Kurza Stopka"],
+    "correct_index": 0,
+    "explanation": "Kaplica Zygmuntowska (1543) – dzieło Bartłomieja Berrecciego – to perła renesansu w Polsce i mauzoleum Jagiellonów."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Czym był humanizm w epoce renesansu?",
+    "answers": ["Prąd kulturowy stawiający człowieka w centrum, rozwój nauki i języków", "Nauka o Bogu", "Sztuka wojenna", "System feudalny"],
+    "correct_index": 0,
+    "explanation": "Humaniści studiowali starożytność, propagowali edukację i krytyczne myślenie – „człowiek miarą wszechrzeczy”."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Jaki wpływ miała reformacja na Rzeczpospolitą w XVI wieku?",
+    "answers": ["Część szlachty przyjęła luteranizm, kalwinizm i arianizm; tolerancja religijna", "Cała szlachta została protestantami", "Król nakazał prześladowania", "Reformacja nie dotarła do Polski"],
+    "correct_index": 0,
+    "explanation": "Polska była wielowyznaniowa; szlachta miała dużą swobodę – dopiero kontrreformacja i Wazowie ograniczyły tolerancję."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Jak nazywa się dokument Mikołaja Kopernika z 1543 roku, w którym przedstawił teorię heliocentryczną?",
+    "answers": ["O obrotach sfer niebieskich (De revolutionibus)", "Pochwała głupoty", "95 tez", "O poprawie Rzeczypospolitej"],
+    "correct_index": 0,
+    "explanation": "„De revolutionibus orbium coelestium” – dzieło Kopernika ukazało się w 1543 r., tuż przed jego śmiercią."
+  },
+  {
+    "category": "Złoty wiek w Polsce na tle europejskim",
+    "question": "Które ziemie przyłączono do Korony na mocy unii lubelskiej (1569)?",
+    "answers": ["Wołyń, Podole i Ukraina (wcześniej w Wielkim Księstwie Litewskim)", "Litwę całą", "Prusy Książęce", "Inflanty"],
+    "correct_index": 0,
+    "explanation": "Ukraina, Wołyń i Podole zostały włączone do Korony – szlachta litewska w tych ziemiach uzyskała prawa polskiej szlachty."
+  }
+]

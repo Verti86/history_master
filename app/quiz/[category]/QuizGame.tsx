@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect, useRef } from "react";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
-import type { QuizQuestion } from "@/lib/quiz-data";
+import type { QuizQuestion } from "@/lib/quiz-loader";
 
 const QUESTIONS_PER_ROUND = 10;
 
@@ -16,7 +16,13 @@ function shuffle<T>(arr: T[]): T[] {
   return out;
 }
 
-export default function QuizGame({ questions, userId }: { questions: QuizQuestion[]; userId: string }) {
+type Props = {
+  questions: QuizQuestion[];
+  userId: string;
+  categoryName: string;
+};
+
+export default function QuizGame({ questions, userId, categoryName }: Props) {
   const [order] = useState(() => shuffle(questions).slice(0, QUESTIONS_PER_ROUND));
   const [answerOrders] = useState(() => order.map(() => shuffle([0, 1, 2, 3])));
   const [index, setIndex] = useState(0);
@@ -74,9 +80,14 @@ export default function QuizGame({ questions, userId }: { questions: QuizQuestio
           Wynik: <strong>{score}</strong> / {total}
         </p>
         {!saved && <p className="text-gray-400">Zapisywanie wyniku...</p>}
-        <Link href="/menu" className="inline-block px-6 py-3 rounded-lg bg-[#ffbd45] text-[#0e1117] font-medium hover:opacity-90">
-          Wróć do menu
-        </Link>
+        <div className="flex flex-col gap-3">
+          <Link href="/quiz" className="inline-block px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 text-center">
+            📚 Wybierz inny temat
+          </Link>
+          <Link href="/menu" className="inline-block px-6 py-3 rounded-lg bg-[#ffbd45] text-[#0e1117] font-medium hover:opacity-90 text-center">
+            ← Wróć do menu
+          </Link>
+        </div>
       </div>
     );
   }
@@ -93,6 +104,7 @@ export default function QuizGame({ questions, userId }: { questions: QuizQuestio
         <div className="h-full bg-[#ffbd45] transition-all" style={{ width: `${((index + 1) / total) * 100}%` }} />
       </div>
 
+      <p className="text-xs text-gray-500">{categoryName}</p>
       <h2 className="text-xl font-medium">{current.question}</h2>
 
       {feedback === "wrong" && (
@@ -132,7 +144,7 @@ export default function QuizGame({ questions, userId }: { questions: QuizQuestio
       )}
 
       <p className="text-center">
-        <Link href="/menu" className="text-sm text-[#888] hover:text-[#ffbd45]">← Przerwij i wróć do menu</Link>
+        <Link href="/quiz" className="text-sm text-[#888] hover:text-[#ffbd45]">← Zmień temat</Link>
       </p>
     </div>
   );

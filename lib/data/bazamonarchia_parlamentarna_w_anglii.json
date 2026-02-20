@@ -1,0 +1,156 @@
+[
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Jak nazywali się angielscy protestanci dążący do reformy Kościoła anglikańskiego w duchu kalwinizmu?",
+    "answers": ["Purytanie", "Hugenoci", "Luteranie", "Anglikanie"],
+    "correct_index": 0,
+    "explanation": "Purytanie (od łac. puritas - czystość) chcieli oczyścić Kościół z pozostałości katolicyzmu i sprzeciwiali się polityce królów z dynastii Stuartów."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "W którym roku wybuchła wojna domowa w Anglii między królem a zwolennikami parlamentu?",
+    "answers": ["1640 r.", "1688 r.", "1649 r.", "1660 r."],
+    "correct_index": 0,
+    "explanation": "Konflikt zaostrzył się w 1640 roku, co doprowadziło do krwawej wojny domowej kończącej się zwycięstwem parlamentu."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Kto stał na czele armii parlamentu i sprawował władzę w Anglii jako lord protektor?",
+    "answers": ["Oliver Cromwell", "Karol I Stuart", "Jakub II", "Wilhelm Orański"],
+    "correct_index": 0,
+    "explanation": "Oliver Cromwell był charyzmatycznym dowódcą armii purytańskiej, który po zwycięstwie wprowadził w kraju dyktaturę wojskową."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Jaki los spotkał króla Karola I Stuarta w 1649 roku?",
+    "answers": ["Został skazany na śmierć i ścięty", "Uciekł do Francji", "Zmarł z przyczyn naturalnych w więzieniu", "Abdykował na rzecz syna"],
+    "correct_index": 0,
+    "explanation": "Po raz pierwszy w dziejach nowożytnej Europy naród zbuntował się przeciw władcy, wytoczył mu proces i wykonał wyrok śmierci."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Czym stała się Anglia po egzekucji Karola I w latach 1649–1660?",
+    "answers": ["Republiką", "Monarchią absolutną", "Księstwem", "Emiratem"],
+    "correct_index": 0,
+    "explanation": "Po śmierci króla Anglia na krótko stała się republiką, choć faktyczne rządy sprawował Cromwell jako lord protektor."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Jak nazywano bezkrwawe przejęcie władzy przez Marię Stuart i Wilhelma Orańskiego w 1688 roku?",
+    "answers": ["Wspaniała Rewolucja", "Wojna domowa", "Restauracja Stuartów", "Wiosna Ludów"],
+    "correct_index": 0,
+    "explanation": "Wydarzenie to nazwano 'Wspaniałą' (chwalebną) rewolucją, ponieważ zmiana władzy dokonała się bez walki zbrojnej."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Który dokument z 1689 roku ograniczał władzę króla na rzecz parlamentu?",
+    "answers": ["Deklaracja praw (Bill of Rights)", "Habeas Corpus Act", "Edykt nantejski", "Karta Praw Podstawowych"],
+    "correct_index": 0,
+    "explanation": "Bill of Rights stał się fundamentem ustroju Anglii, wykluczając m.in. katolików z prawa do dziedziczenia tronu."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Zgodnie z zasadą monarchii parlamentarnej, król:",
+    "answers": ["Panuje, ale nie rządzi", "Ma władzę absolutną", "Jest najwyższym prawodawcą", "Nie może zostać odwołany"],
+    "correct_index": 0,
+    "explanation": "Władca pełni funkcje reprezentacyjne, a realną władzę sprawuje gabinet ministrów odpowiedzialny przed parlamentem."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Jak nazywały się dwa ugrupowania polityczne powstałe w Anglii w XVII wieku?",
+    "answers": ["Torysi i wigowie", "Jakubini i żyrondyści", "Katolicy i hugenoci", "Szlachta i mieszczaństwo"],
+    "correct_index": 0,
+    "explanation": "Torysi wspierali silną władzę królewską, natomiast wigowie byli zwolennikami przewagi parlamentu."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "W którym roku powstała Wielka Brytania poprzez unię realną Anglii i Szkocji?",
+    "answers": ["1707 r.", "1688 r.", "1660 r.", "1776 r."],
+    "correct_index": 0,
+    "explanation": "Unia z 1707 roku połączyła oba kraje wspólnym parlamentem i rządem, tworząc Królestwo Wielkiej Brytanii."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Co gwarantowała ustawa Habeas Corpus Act z lat 70. XVII wieku?",
+    "answers": ["Nikt nie może być uwięziony bez pisemnego nakazu sądowego", "Król może nakładać podatki bez zgody sejmu", "Wolność wyznania dla katolików", "Prawo do posiadania prywatnej armii"],
+    "correct_index": 0,
+    "explanation": "Ustawa ta chroniła obywateli przed samowolą urzędników i bezprawnym przetrzymywaniem w więzieniu."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Kto sprawuje władzę wykonawczą w systemie monarchii parlamentarnej Wielkiej Brytanii?",
+    "answers": ["Gabinet ministrów z premierem na czele", "Król samodzielnie", "Sąd Najwyższy", "Lordowie w Izbie Wyższej"],
+    "correct_index": 0,
+    "explanation": "Rząd (gabinet) jest powoływany z partii mającej większość w parlamencie i to on kieruje państwem."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Jak nazywała się rzeka, nad którą leży Londyn – centrum wydarzeń rewolucji angielskiej?",
+    "answers": ["Tamiza", "Sekwana", "Wisła", "Tyber"],
+    "correct_index": 0,
+    "explanation": "Tamiza to główna rzeka stolicy Anglii, gdzie zapadały kluczowe decyzje polityczne XVII wieku."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Dlaczego purytanie byli w opozycji do królów z dynastii Stuartów?",
+    "answers": ["Uważali, że królowie sprzyjają katolicyzmowi", "Chcieli wprowadzenia monarchii absolutnej", "Byli zwolennikami sojuszu z Francją", "Nie chcieli płacić żadnych podatków"],
+    "correct_index": 0,
+    "explanation": "Stuartowie dążyli do wzmocnienia anglikanizmu, co purytanie postrzegali jako powrót do błędów Kościoła rzymskiego."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Co wydarzyło się w Anglii w 1660 roku?",
+    "answers": ["Restauracja (powrót) Stuartów na tron", "Początek wojny domowej", "Uchwalenie Deklaracji praw", "Śmierć Olivera Cromwella"],
+    "correct_index": 0,
+    "explanation": "Po okresie republiki Anglicy zdecydowali się na powrót do monarchii, zapraszając na tron syna ściętego króla."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Które miasto w Ameryce Północnej zostało zdobyte przez Anglików i przemianowane z Nowego Amsterdamu na Nowy Jork?",
+    "answers": ["Nowy Jork", "Boston", "Filadelfia", "Quebec"],
+    "correct_index": 0,
+    "explanation": "Miasto zostało nazwane na cześć brata króla Jakuba II, który nosił tytuł księcia Yorku."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Kto w Anglii XVII wieku miał wyłączne prawo do stanowienia praw i nakładania podatków?",
+    "answers": ["Parlament", "Król", "Armia", "Kościół"],
+    "correct_index": 0,
+    "explanation": "Spór o to, kto ma decydować o podatkach, był jedną z głównych przyczyn konfliktu między królem a społeczeństwem."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Jak nazywała się dynastia, która objęła tron Anglii na początku XVII wieku po Elżbiecie I?",
+    "answers": ["Stuartowie", "Tudorowie", "Burbonowie", "Habsburgowie"],
+    "correct_index": 0,
+    "explanation": "Stuartowie pochodzili ze Szkocji i próbowali wprowadzić w Anglii rządy na wzór absolutny."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Czego zakazywał Bill of Rights królowi w czasie pokoju?",
+    "answers": ["Utrzymywania stałej armii bez zgody parlamentu", "Podróżowania za granicę", "Wybierania żony spoza Anglii", "Polowania w lasach królewskich"],
+    "correct_index": 0,
+    "explanation": "Było to zabezpieczenie przed próbami wprowadzenia dyktatury wojskowej przez monarchę."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Z czego czerpały wzorce obyczajowe i artystyczne polskie elity w XVII wieku, podczas gdy Anglia budowała parlamentaryzm?",
+    "answers": ["Z wzorców francuskich", "Z wzorców amerykańskich", "Z wzorców chińskich", "Z wzorców skandynawskich"],
+    "correct_index": 0,
+    "explanation": "Francja Ludwika XIV była wówczas kulturalnym centrum Europy, które naśladowała większość dworów."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Jaki ustrój określa się mianem monarchii parlamentarnej?",
+    "answers": ["Taki, w którym władza monarchy jest ograniczona przez parlament", "Taki, w którym król ma władzę totalną", "Taki, w którym nie ma króla, a rządzi prezydent", "Taki, w którym rządzą tylko kapłani"],
+    "correct_index": 0,
+    "explanation": "W tym systemie król jest symbolem jedności, ale rzeczywiste prawo i podatki zależą od reprezentantów społeczeństwa."
+  },
+  {
+    "category": "Monarchia parlamentarna w Anglii",
+    "question": "Kim był Oliver Cromwell przed objęciem funkcji lorda protektora?",
+    "answers": ["Dowódcą wojskowym parlamentu", "Biskupem anglikańskim", "Kupcem londyńskim", "Królewskim błaznem"],
+    "correct_index": 0,
+    "explanation": "Jego talenty dowódcze pozwoliły stworzyć Armię Nowego Wzoru, która pokonała wojska królewskie."
+  }
+]

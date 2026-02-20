@@ -1,0 +1,156 @@
+[
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "W którym roku uchwalono konfederację warszawską?",
+    "answers": ["1573", "1569", "1596", "1655"],
+    "correct_index": 0,
+    "explanation": "Konfederacja warszawska (1573) gwarantowała pokój między wyznaniami i równouprawnienie innowierców – była ewenementem w ówczesnej Europie."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Co gwarantowała konfederacja warszawska?",
+    "answers": ["Pokój między wyznaniami i zakaz prześladowań z powodu religii", "Dominację katolicyzmu", "Wypędzenie wszystkich innowierców", "Unię z Kościołem prawosławnym"],
+    "correct_index": 0,
+    "explanation": "Szlachta różnych wyznań zobowiązała się do zachowania pokoju religijnego i niekarania za wyznawanie innej wiary."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "W którym roku zawarto unię brzeską?",
+    "answers": ["1596", "1573", "1655", "1683"],
+    "correct_index": 0,
+    "explanation": "Unia brzeska (1596) połączyła część Cerkwi prawosławnej w Rzeczypospolitej z Rzymem – powstał Kościół unicki (grekokatolicki)."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Co to był Kościół unicki (grekokatolicki) po unii brzeskiej?",
+    "answers": ["Cerkiew uznająca papieża, zachowująca obrządek wschodni", "Kościół luterański", "Sekta protestancka", "Kościół prawosławny bez zmian"],
+    "correct_index": 0,
+    "explanation": "Unici uznawali zwierzchność papieża i dogmaty katolickie, ale zachowali liturgię i obyczaje wschodnie (język, kalendarz)."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Który zakon odegrał największą rolę w kontrreformacji w Rzeczypospolitej?",
+    "answers": ["Jezuici", "Dominikanie", "Franciszkanie", "Paulini"],
+    "correct_index": 0,
+    "explanation": "Jezuici zakładali kolegia, prowadzili misje i kazania, wpływając na powrót wielu szlachciców do katolicyzmu."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Kim byli Bracia polscy (arianie)?",
+    "answers": ["Odłamem reformacji – antytrynitarze, skrajni racjonaliści", "Zakonem katolickim", "Prawosławnymi", "Żydami"],
+    "correct_index": 0,
+    "explanation": "Bracia polscy odrzucali dogmat Trójcy Świętej, głosili tolerancję i racjonalizm; mieli ośrodek w Rakowie; zostali wygnani w 1658 r."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "W którym roku wygnano Braci polskich (arian) z Rzeczypospolitej?",
+    "answers": ["1658", "1573", "1596", "1683"],
+    "correct_index": 0,
+    "explanation": "Sejm uchwalił wygnanie arian w 1658 r. – mieli opuścić kraj w ciągu 3 lat; był to wyłom w tradycji tolerancji."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Który król Polski był gorliwym katolikiem i wspierał kontrreformację?",
+    "answers": ["Zygmunt III Waza", "Henryk Walezy", "Stefan Batory", "Władysław IV Waza"],
+    "correct_index": 0,
+    "explanation": "Zygmunt III Waza wspierał jezuitów i Kościół katolicki; za jego panowania kontrreformacja nasiliła się w Rzeczypospolitej."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Gdzie Bracia polscy mieli swój główny ośrodek (akademia, drukarnia)?",
+    "answers": ["Raków (Raków pod Kielcami)", "Gdańsk", "Kraków", "Warszawa"],
+    "correct_index": 0,
+    "explanation": "W Rakowie działała słynna akademia ariańska i drukarnia; po wygnaniu Braci polskich ośrodek upadł."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Które wyznanie w Rzeczypospolitej było związane z Niemcami i miastami (np. Gdańsk)?",
+    "answers": ["Luteranizm", "Kalwinizm", "Prawosławie", "Unia brzeska"],
+    "correct_index": 0,
+    "explanation": "Luteranizm był popularny wśród mieszczan i w Prusach Królewskich (Gdańsk, Toruń); wielu kolonistów niemieckich było luteranami."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Które wyznanie reformowane było popularne wśród szlachty małopolskiej i litewskiej?",
+    "answers": ["Kalwinizm", "Luteranizm", "Prawosławie", "Arianie"],
+    "correct_index": 0,
+    "explanation": "Kalwinizm (reformowany) przyjęła część szlachty; mieli zbory i szkoły; z czasem wielu przeszło z powrotem na katolicyzm."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Co to był sobór trydencki (1545–1563)?",
+    "answers": ["Sobór Kościoła katolickiego – reforma wewnętrzna i odpowiedź na reformację", "Zjazd protestantów", "Unia z prawosławiem", "Sejm Rzeczypospolitej"],
+    "correct_index": 0,
+    "explanation": "Sobór trydencki ustalił doktrynę katolicką, zreformował duchowieństwo i dał impuls do kontrreformacji w całej Europie."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Kto w Rzeczypospolitej pozostawał w większości prawosławny w XVII wieku?",
+    "answers": ["Mieszkańcy Ukrainy (Kozacy, chłopi, część szlachty)", "Mieszczanie gdańscy", "Szlachta wielkopolska", "Żydzi"],
+    "correct_index": 0,
+    "explanation": "Na Ukrainie Cerkiew prawosławna była silna; unia brzeska podzieliła wiernych na unitów i prawosławnych."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Dlaczego unia brzeska spotkała się z oporem części wiernych?",
+    "answers": ["Część duchownych i wiernych nie chciała uznawać papieża i obawiała się latynizacji", "Zakazywał jej król", "Zakazywał ją Sejm", "Turcja się sprzeciwiła"],
+    "correct_index": 0,
+    "explanation": "Opór wobec unii wynikał z przywiązania do tradycji prawosławnej i obawy przed utratą odrębności obrządku."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Który władca Rzeczypospolitej był wyznania luterańskiego przed objęciem tronu?",
+    "answers": ["Zygmunt III Waza (przeszedł na katolicyzm)", "Stefan Batory", "Jan III Sobieski", "Henryk Walezy"],
+    "correct_index": 0,
+    "explanation": "Zygmunt III Waza wychował się w Szwecji jako luteranin; po elekcji na króla Polski przeszedł na katolicyzm."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Czym w Rzeczypospolitej były „dysydenci”?",
+    "answers": ["Innowiercami – protestantami i prawosławnymi (w znaczeniu prawnym)", "Tylko arianami", "Tylko Żydami", "Katolikami"],
+    "correct_index": 0,
+    "explanation": "Dysydentami nazywano osoby niebędące katolikami – np. luteran, kalwinistów, unitów; konfederacja warszawska ich chroniła."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Które miasto w Rzeczypospolitej słynęło z wielowyznaniowości i tolerancji w XVI–XVII w.?",
+    "answers": ["Wilno i Lwów (różne wyznania i narodowości)", "Tylko Gdańsk", "Tylko Kraków", "Tylko Warszawa"],
+    "correct_index": 0,
+    "explanation": "Wilno i Lwów były wielonarodowe i wielowyznaniowe (katolicy, unici, prawosławni, Żydzi, Ormianie, protestanci)."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Jaki był stosunek artykułów henrykowskich (1573) do kwestii wyznania?",
+    "answers": ["Potwierdzały konfederację warszawską – król zobowiązany do zachowania pokoju między wyznaniami", "Zakazywały innowiercom wstępu do kraju", "Nakazywały królowi nawracać na katolicyzm", "Nie poruszały tej kwestii"],
+    "correct_index": 0,
+    "explanation": "Artykuły henrykowskie zobowiązywały króla do przestrzegania konfederacji warszawskiej i niekarania z powodu religii."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Który ruch w Kościele katolickim przeciwstawiał się reformacji i umacniał wiarę?",
+    "answers": ["Kontrreformacja", "Reformacja", "Unia brzeska", "Sobór w Bazylei"],
+    "correct_index": 0,
+    "explanation": "Kontrreformacja to działania Kościoła katolickiego (sobór trydencki, jezuici, cenzura) mające odzyskać wpływy i wiernych."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Kim w kontekście wyznań w Rzeczypospolitej byli Ormianie?",
+    "answers": ["Mniejszością z własnym obrządkiem (Kościół ormiański), głównie we Lwowie", "Tylko kupcami żydowskimi", "Sektą protestancką", "Prawosławnymi z Moskwy"],
+    "correct_index": 0,
+    "explanation": "Ormianie mieli własny Kościół (obrządek ormiański), osiedlali się głównie we Lwowie i zajmowali handlem."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Kiedy w Rzeczypospolitej oficjalnie zakończyła się pełna tolerancja dla wszystkich wyznań (wygnanie arian)?",
+    "answers": ["W 1658 r. po wygnaniu Braci polskich", "W 1573 r. po konfederacji warszawskiej", "W 1596 r. po unii brzeskiej", "Nigdy – tolerancja trwała do rozbiorów"],
+    "correct_index": 0,
+    "explanation": "Wygnanie arian (1658) było pierwszym prawem wymierzonym w konkretne wyznanie; katolicyzm zyskiwał dominację."
+  },
+  {
+    "category": "Reformacja, kontrreformacja i wyznania w Rzeczypospolitej",
+    "question": "Jaki był główny cel unii brzeskiej z punktu widzenia Rzymu i króla?",
+    "answers": ["Zjednoczenie Cerkwi w Rzeczypospolitej z Kościołem katolickim i wzmocnienie jedności państwa", "Wypędzenie prawosławnych", "Zniszczenie protestantyzmu", "Sojusz z Turcją"],
+    "correct_index": 0,
+    "explanation": "Unia miała włączyć prawosławnych w obręb Kościoła katolickiego przy zachowaniu obrządku wschodniego i wzmocnić spójność Rzeczypospolitej."
+  }
+]

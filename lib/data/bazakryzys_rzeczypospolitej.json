@@ -1,0 +1,156 @@
+[
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Jaki był skutek demograficzny wojen toczonych przez Polskę w połowie XVII wieku?",
+    "answers": ["Spadek liczby ludności o około 1/3", "Wzrost liczby ludności", "Brak zmian w zaludnieniu", "Napływ osadników z zachodu"],
+    "correct_index": 0,
+    "explanation": "W wyniku wojen, głodu i chorób liczba ludności Rzeczypospolitej spadła drastycznie – w niektórych regionach straty sięgały nawet 50%."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Jak nazywała się niepełnowartościowa moneta wprowadzona w Polsce w czasie kryzysu?",
+    "answers": ["Tymf", "Dukat", "Talar", "Grosz praski"],
+    "correct_index": 0,
+    "explanation": "Andrzej Tymf bił monety, które miały zawyżoną wartość nominalną w stosunku do zawartości srebra, co doprowadziło do inflacji ('Dobry żart tynfa wart')."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Co oznacza zasada 'liberum veto'?",
+    "answers": ["Wolne nie pozwalam", "Wolny wybór", "Głos większości", "Zgoda króla"],
+    "correct_index": 0,
+    "explanation": "Zasada ta pozwalała jednemu posłowi zerwać obrady sejmu i unieważnić wszystkie podjęte na nim uchwały."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Kto i w którym roku po raz pierwszy użył liberum veto do zerwania sejmu?",
+    "answers": ["Władysław Siciński w 1652 r.", "Jan Zamoyski w 1605 r.", "Jerzy Lubomirski w 1665 r.", "Bohdan Chmielnicki w 1648 r."],
+    "correct_index": 0,
+    "explanation": "Poseł Władysław Siciński nie zgodził się na przedłużenie obrad, co stworzyło niebezpieczny precedens paraliżujący państwo."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Jak nazywał się bunt szlachty przeciwko królowi Janowi Kazimierzowi w latach 60. XVII wieku?",
+    "answers": ["Rokosz Lubomirskiego", "Rokosz Zebrzydowskiego", "Konfederacja barska", "Konfederacja targowicka"],
+    "correct_index": 0,
+    "explanation": "Jerzy Lubomirski stanął na czele szlachty sprzeciwiającej się reformom króla, co doprowadziło do krwawej wojny domowej."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Jaką decyzję podjął król Jan Kazimierz w 1668 roku, zniechęcony oporem szlachty?",
+    "answers": ["Abdykował (zrzekł się tronu)", "Ogłosił się carem", "Wypowiedział wojnę Turcji", "Rozwiązał senat"],
+    "correct_index": 0,
+    "explanation": "Król, nie mogąc przeprowadzić reform i wzmocnić władzy, zrezygnował z korony i wyjechał do Francji."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Kto został wybrany na króla Polski po abdykacji Jana Kazimierza?",
+    "answers": ["Michał Korybut Wiśniowiecki", "Jan III Sobieski", "August II Mocny", "Stanisław Leszczyński"],
+    "correct_index": 0,
+    "explanation": "Szlachta wybrała 'Piasta', syna słynnego pogromcy Kozaków – Jeremiego Wiśniowieckiego."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Jak nazywa się monumentalny pałac – ruina, będący symbolem magnackiej fortuny w XVII wieku?",
+    "answers": ["Krzyżtopór w Ujeździe", "Wawel", "Zamek Królewski w Warszawie", "Wilanów"],
+    "correct_index": 0,
+    "explanation": "Pałac ten, wybudowany przez Krzysztofa Ossolińskiego, miał kalendarzową symbolikę (okna, pokoje, sale), ale został zniszczony podczas potopu."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Ile baszt posiadał pałac Krzyżtopór, zgodnie z symboliką kalendarza?",
+    "answers": ["4 (pory roku)", "12 (miesięcy)", "7 (dni tygodnia)", "52 (tygodnie)"],
+    "correct_index": 0,
+    "explanation": "Cztery baszty symbolizowały cztery pory roku. Pałac miał też 12 sal (miesiące), 52 pokoje (tygodnie) i 365 okien (dni)."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Na czym polegało zjawisko klientelizmu w relacjach szlachty z magnatami?",
+    "answers": ["Biedna szlachta uzależniała się od magnatów w zamian za opiekę", "Magnaci płacili podatki za szlachtę", "Szlachta kupowała ziemię od króla", "Chłopi stawali się szlachcicami"],
+    "correct_index": 0,
+    "explanation": "Zubożała szlachta (klienci) głosowała na sejmikach tak, jak kazali im potężni magnaci (patroni), co psuło ustrój państwa."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Co stało się z polskim rolnictwem w wyniku wojen połowy XVII wieku?",
+    "answers": ["Wiele ziem leżało odłogiem, spadły zbiory i eksport zboża", "Rolnictwo rozkwitło dzięki nowym maszynom", "Chłopi wykupili ziemię na własność", "Zaczęto uprawiać głównie ziemniaki"],
+    "correct_index": 0,
+    "explanation": "Zniszczenia wojenne i brak rąk do pracy spowodowały, że ziemia nie była uprawiana (leżała odłogiem), co zrujnowało gospodarkę."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Jak zmieniła się sytuacja chłopów w Polsce w drugiej połowie XVII wieku?",
+    "answers": ["Wzrosła pańszczyzna i przywiązanie do ziemi", "Otrzymali wolność osobistą", "Mogli swobodnie przenosić się do miast", "Zostali zwolnieni z podatków"],
+    "correct_index": 0,
+    "explanation": "Szlachta, chcąc odrobić straty wojenne, zwiększała obciążenia chłopów, co prowadziło do ich skrajnego zubożenia."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Co oznacza powiedzenie 'Dobry żart tynfa wart'?",
+    "answers": ["Że żart jest kiepski, tak jak kiepska była moneta tynf", "Że żart jest bardzo cenny", "Że za żart trzeba płacić złotem", "Pochodzi od nazwiska królewskiego błazna"],
+    "correct_index": 0,
+    "explanation": "Powiedzenie to ironicznie odnosiło się do niskiej wartości monety bitej przez Andrzeja Tymfa."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Jakim władcą okazał się Michał Korybut Wiśniowiecki?",
+    "answers": ["Słabym i nieudolnym", "Wybitnym wodzem jak jego ojciec", "Wielkim reformatorem gospodarki", "Twórcą potęgi morskiej Polski"],
+    "correct_index": 0,
+    "explanation": "Mimo sławnego ojca, Michał Korybut nie posiadał talentów przywódczych i nie potrafił opanować chaosu w państwie."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Czym był 'rokosz' w dawnej Polsce?",
+    "answers": ["Zbrojnym wystąpieniem szlachty przeciwko królowi", "Rodzajem podatku", "Nazwą sejmu walnego", "Świętem dziękczynienia"],
+    "correct_index": 0,
+    "explanation": "Szlachta miała prawo wypowiedzieć posłuszeństwo królowi, jeśli uznała, że łamie on jej przywileje."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Jakie zjawisko polityczne osłabiło władzę centralną w Polsce w XVII wieku?",
+    "answers": ["Oligarchia magnacka", "Absolutyzm królewski", "Demokracja ludowa", "Rządy parlamentarne"],
+    "correct_index": 0,
+    "explanation": "Władza przeszła w ręce najbogatszych rodów (magnatów), które realizowały własne interesy kosztem dobra państwa."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Jaki styl architektoniczny reprezentują ruiny pałacu Krzyżtopór?",
+    "answers": ["Palazzo in fortezza (pałac w twierdzy)", "Gotycki zamek obronny", "Drewniany dworek szlachecki", "Renesansowa willa miejska"],
+    "correct_index": 0,
+    "explanation": "Budowla łączyła cechy luksusowej rezydencji (pałacu) z systemem fortyfikacji bastionowych (forteca)."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Dlaczego Jan Kazimierz chciał przeprowadzić reformy (np. elekcję vivente rege)?",
+    "answers": ["Aby wzmocnić państwo po potopie szwedzkim", "Aby oddać Polskę Szwedom", "Aby zlikwidować szlachtę", "Aby wprowadzić religię protestancką"],
+    "correct_index": 0,
+    "explanation": "Król widział słabość państwa i chciał usprawnić rządy oraz zapewnić następstwo tronu jeszcze za swojego życia, co spotkało się z oporem."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Co symbolizował herb 'Topór' umieszczony na bramie wjazdowej pałacu Krzyżtopór?",
+    "answers": ["Herb rodu Ossolińskich", "Symbol katowski", "Narzędzie do walki ze Szwedami", "Godło muratorów"],
+    "correct_index": 0,
+    "explanation": "Nazwa pałacu pochodzi od krzyża (symbol wiary) i topora (herbu fundatora Krzysztofa Ossolińskiego)."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Jaki był skutek stosowania liberum veto dla polskiego parlamentaryzmu?",
+    "answers": ["Paraliż decyzyjny i zrywanie sejmów", "Usprawnienie obrad", "Szybsze uchwalanie podatków", "Wzmocnienie pozycji króla"],
+    "correct_index": 0,
+    "explanation": "Wymóg jednomyślności sprawił, że jeden przekupiony poseł mógł zablokować reformy potrzebne całemu państwu."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Dlaczego miasta polskie podupadły w drugiej połowie XVII wieku?",
+    "answers": ["Zostały zniszczone i ograbione przez wojska najeźdźców", "Mieszczanie masowo wyjeżdżali do Ameryki", "Król zakazał handlu w miastach", "Szlachta przeniosła się do miast"],
+    "correct_index": 0,
+    "explanation": "Wojny (zwłaszcza potop szwedzki) doprowadziły do ruiny miast, spadku liczby rzemieślników i załamania handlu."
+  },
+  {
+    "category": "Kryzys Rzeczypospolitej w połowie XVII wieku",
+    "question": "Kto był głównym przeciwnikiem politycznym Jana Kazimierza, który doprowadził do rokoszu?",
+    "answers": ["Jerzy Lubomirski", "Stefan Czarniecki", "Jan Sobieski", "Augustyn Kordecki"],
+    "correct_index": 0,
+    "explanation": "Hetman Jerzy Lubomirski, obawiając się wzmocnienia władzy królewskiej, stanął na czele buntu szlachty."
+  }
+]

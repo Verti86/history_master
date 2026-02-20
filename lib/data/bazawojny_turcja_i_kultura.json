@@ -1,0 +1,170 @@
+[
+    {
+        "category": "Wojny z Turcją",
+        "question": "Gdzie zginął hetman Stanisław Żółkiewski w 1620 roku?",
+        "answers": ["Pod Cecorą", "Pod Chocimiem", "Pod Wiedniem", "Pod Kamieńcem"],
+        "correct_index": 0,
+        "explanation": "Klęska pod Cecorą była szokiem dla szlachty i otworzyła Turkom drogę do Polski."
+    },
+    {
+        "category": "Wojny z Turcją",
+        "question": "Kto dowodził udaną obroną obozu pod Chocimiem w 1621 roku?",
+        "answers": ["Jan Karol Chodkiewicz", "Jan III Sobieski", "Stanisław Żółkiewski", "Jeremi Wiśniowiecki"],
+        "correct_index": 0,
+        "explanation": "Sędziwy hetman Chodkiewicz zmarł w trakcie oblężenia, ale obóz został obroniony."
+    },
+    {
+        "category": "Wojny z Turcją",
+        "question": "Jaka twierdza, zwana 'kluczem do Rzeczypospolitej', upadła w 1672 roku?",
+        "answers": ["Kamieniec Podolski", "Lwów", "Zamość", "Częstochowa"],
+        "correct_index": 0,
+        "explanation": "Upadek potężnej twierdzy w Kamieńcu zmusił Polskę do podpisania haniebnego traktatu."
+    },
+    {
+        "category": "Wojny z Turcją",
+        "question": "Co zakładał traktat w Buczaczu (1672)?",
+        "answers": ["Polska traci Podole i płaci haracz Turcji", "Polska zyskuje ziemie", "Sojusz polsko-turecki", "Turcja oddaje Kamieniec"],
+        "correct_index": 0,
+        "explanation": "Rzeczpospolita stała się formalnie lennem Turcji, co oburzyło szlachtę i doprowadziło do nowej wojny."
+    },
+    {
+        "category": "Wojny z Turcją",
+        "question": "Gdzie Jan Sobieski odniósł wielkie zwycięstwo w 1673 roku (dzień przed śmiercią króla Michała)?",
+        "answers": ["Pod Chocimiem", "Pod Wiedniem", "Pod Cecorą", "Pod Parkanami"],
+        "correct_index": 0,
+        "explanation": "Zwycięstwo pod Chocimiem przyniosło Sobieskiemu sławę i koronę królewską."
+    },
+    {
+        "category": "Wojny z Turcją",
+        "question": "Kiedy miała miejsce Odsiecz Wiedeńska?",
+        "answers": ["12 września 1683", "1673", "1699", "1655"],
+        "correct_index": 0,
+        "explanation": "Jan III Sobieski rozbił armię turecką oblegającą Wiedeń."
+    },
+    {
+        "category": "Wojny z Turcją",
+        "question": "Jak nazywał się wódz turecki pokonany pod Wiedniem?",
+        "answers": ["Kara Mustafa", "Sulejman Wspaniały", "Mehmed IV", "Ahmed III"],
+        "correct_index": 0,
+        "explanation": "Wielki wezyr Kara Mustafa został po klęsce uduszony z rozkazu sułtana."
+    },
+    {
+        "category": "Wojny z Turcją",
+        "question": "Co to była Święta Liga (1684)?",
+        "answers": ["Sojusz antyturecki państw chrześcijańskich", "Związek miast handlowych", "Porozumienie z Rosją", "Zakon rycerski"],
+        "correct_index": 0,
+        "explanation": "Polska, Austria, Wenecja i papiestwo (później Rosja) zawiązały sojusz przeciw Turcji."
+    },
+    {
+        "category": "Wojny z Turcją",
+        "question": "Pokój w Karłowicach (1699) kończył wojny z Turcją. Co zyskała Polska?",
+        "answers": ["Odzyskała Podole i Ukrainę (bez haraczu)", "Zyskała dostęp do Morza Czarnego", "Straciła Lwów", "Nic nie zyskała"],
+        "correct_index": 0,
+        "explanation": "Polska odzyskała utracone ziemie, a Turcja przestała być potęgą zagrażającą Europie."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Skąd pochodzi nazwa 'barok'?",
+        "answers": ["Z portugalskiego 'barocco' (dziwna perła)", "Z łaciny 'barus' (ciężki)", "Z greki 'baros' (bogactwo)", "Z włoskiego 'bello' (piękny)"],
+        "correct_index": 0,
+        "explanation": "Oznacza perłę o nieregularnym kształcie, co odzwierciedlało dziwność i nietypowość tego stylu."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Cechy charakterystyczne architektury baroku to:",
+        "answers": ["Dynamika, przepych, faliste linie, kontrasty", "Prostota, harmonia, minimalizm", "Strzelistość, witraże, ostre łuki", "Cegła, małe okna, funkcjonalność"],
+        "correct_index": 0,
+        "explanation": "Barok miał zachwycać, oszałamiać bogactwem i wywoływać emocje."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Jaki kościół w Rzymie jest wzorem dla świątyń barokowych (styl jezuicki)?",
+        "answers": ["Il Gesù", "Św. Piotra", "Notre Dame", "Hagia Sophia"],
+        "correct_index": 0,
+        "explanation": "Kościół Il Gesù stał się pierwowzorem dla wielu kościołów jezuickich w Polsce (np. św. Piotra i Pawła w Krakowie)."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Sarmatyzm to:",
+        "answers": ["Ideologia szlachty polskiej wywodząca jej rodowód od starożytnych Sarmatów", "Styl malarski", "Nazwa ubioru", "Ruch religijny"],
+        "correct_index": 0,
+        "explanation": "Szlachta wierzyła, że pochodzi od wojowniczego ludu Sarmatów, co uzasadniało jej przywileje."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Jak nazywa się charakterystyczny element stroju sarmackiego (wierzchni płaszcz z rozciętymi rękawami)?",
+        "answers": ["Kontusz", "Żupan", "Frak", "Surdut"],
+        "correct_index": 0,
+        "explanation": "Kontusz noszono na żupanie, a przewiązywano go pasem słuckim."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Portret trumienny to zjawisko typowe dla:",
+        "answers": ["Polskiego baroku sarmackiego", "Francuskiego rokoka", "Malarstwa holenderskiego", "Sztuki włoskiej"],
+        "correct_index": 0,
+        "explanation": "Realistyczny wizerunek zmarłego umieszczano na trumnie podczas uroczystości pogrzebowych (pompa funebris)."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Rezydencja Jana III Sobieskiego w Wilanowie jest przykładem stylu:",
+        "answers": ["Barokowego", "Renesansowego", "Gotyckiego", "Klasycystycznego"],
+        "correct_index": 0,
+        "explanation": "Jest to typowa barokowa rezydencja 'entre cour et jardin' (między dziedzińcem a ogrodem), zwana polskim Wersalem."
+    },
+    {
+        "category": "Wojskowość",
+        "question": "Husaria to:",
+        "answers": ["Ciężka jazda, przełamująca szyki wroga szarżą", "Lekka jazda zwiadowcza", "Piechota z muszkietami", "Artyleria"],
+        "correct_index": 0,
+        "explanation": "Husaria była elitą polskiej armii, decydującą o zwycięstwach (np. pod Kircholmem, Wiedniem)."
+    },
+    {
+        "category": "Wojskowość",
+        "question": "Czym była jazda 'pancerna'?",
+        "answers": ["Średniozbrojną jazdą wspierającą husarię", "Jazdą lekką typu tatarskiego", "Piechotą", "Oddziałem królewskim"],
+        "correct_index": 0,
+        "explanation": "Pancerni (wcześniej kozacy) stanowili trzon armii, byli bardziej uniwersalni niż husaria."
+    },
+    {
+        "category": "Wojskowość",
+        "question": "Dragoni to:",
+        "answers": ["Żołnierze walczący pieszo, ale przemieszczający się konno", "Ciężka kawaleria", "Marynarze", "Gwardia przyboczna"],
+        "correct_index": 0,
+        "explanation": "Dragoni używali koni do transportu, ale walczyli jak piechota (z bronią palną)."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Peter Paul Rubens zasłynął z malowania:",
+        "answers": ["Postaci o bujnych kształtach, pełnych dynamiki", "Chudych ascetów", "Martwej natury", "Pejzaży morskich"],
+        "correct_index": 0,
+        "explanation": "Od jego nazwiska pochodzi określenie 'rubensowskie kształty'."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Mistrzem światłocienia w malarstwie barokowym (autor 'Lekcji anatomii doktora Tulpa') był:",
+        "answers": ["Rembrandt van Rijn", "Jan Vermeer", "Caravaggio", "Leonardo da Vinci"],
+        "correct_index": 0,
+        "explanation": "Rembrandt (Holender) genialnie operował światłem, wydobywając psychologię postaci."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Jan Chryzostom Pasek jest autorem:",
+        "answers": ["Pamiętników", "Trenów", "Pana Tadeusza", "Ody do młodości"],
+        "correct_index": 0,
+        "explanation": "Jego Pamiętniki są bezcennym źródłem wiedzy o mentalności i życiu codziennym Sarmatów."
+    },
+    {
+        "category": "Kultura Baroku",
+        "question": "Makaronizmy w języku polskim XVII wieku to:",
+        "answers": ["Wtrącenia z łaciny", "Nazwy potraw", "Błędy ortograficzne", "Zapożyczenia z niemieckiego"],
+        "correct_index": 0,
+        "explanation": "Szlachta chętnie mieszała język polski z łacińskimi zwrotami, co nazywano makaronizowaniem."
+    },
+    {
+        "category": "Wojny z Turcją",
+        "question": "Jak nazywał się król Polski, który dowodził pod Wiedniem?",
+        "answers": ["Jan III Sobieski", "Stefan Batory", "Zygmunt III Waza", "Władysław IV"],
+        "correct_index": 0,
+        "explanation": "Sobieski został wybrany na dowódcę połączonych sił sprzymierzonych."
+    }
+]

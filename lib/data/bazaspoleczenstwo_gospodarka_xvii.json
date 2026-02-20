@@ -1,0 +1,156 @@
+[
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Jaki był główny system gospodarczy na wsi w Rzeczypospolitej w XVII wieku?",
+    "answers": ["Folwark pańszczyźniany", "Gospodarstwa czynszowe", "Wolne chłopskie dzierżawy", "Praca najemna"],
+    "correct_index": 0,
+    "explanation": "Szlachta opierała dochody na folwarkach, gdzie chłopi odrabiali pańszczyznę – obowiązkową pracę na ziemi pana."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Co to była pańszczyzna?",
+    "answers": ["Obowiązkowa, darmowa praca chłopów na ziemi pana", "Podatek płacony królowi", "Służba wojskowa szlachty", "Danina dla Kościoła"],
+    "correct_index": 0,
+    "explanation": "Pańszczyzna polegała na tym, że chłopi przez określoną liczbę dni w tygodniu musieli pracować na folwarku szlachcica."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Który stan miał w Rzeczypospolitej największe przywileje polityczne?",
+    "answers": ["Szlachta", "Mieszczanie", "Chłopi", "Duchowieństwo"],
+    "correct_index": 0,
+    "explanation": "Szlachta decydowała o prawach, podatkach i elekcji króla; mieszczanie i chłopi nie mieli porównywalnych uprawnień."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Co Rzeczpospolitą nazywano „spichlerzem Europy”?",
+    "answers": ["Eksport zboża Wisłą do Gdańska i dalej za granicę", "Import przypraw z Azji", "Hodowla bydła na eksport", "Wydobycie soli"],
+    "correct_index": 0,
+    "explanation": "Zboże z folwarków płynęło Wisłą do Gdańska i stamtąd do Europy Zachodniej; to był główny towar eksportowy."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Które miasto było głównym portem Rzeczypospolitej w XVII wieku?",
+    "answers": ["Gdańsk", "Gdynia", "Szczecin", "Królewiec"],
+    "correct_index": 0,
+    "explanation": "Gdańsk kontrolował handel zbożem i innymi towarami; miał autonomię i był najbogatszym miastem Rzeczypospolitej."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Kim w Rzeczypospolitej byli „narodowościowo i wyznaniowo” Żydzi?",
+    "answers": ["Mniejszością z autonomią gmin, zajmującą się handlem i rzemiosłem", "Niewolnikami szlachty", "Właścicielami wielkich majątków ziemskich", "Głównie żołnierzami"],
+    "correct_index": 0,
+    "explanation": "Żydzi mieli własne gminy (kahaly), sądy i zajmowali się głównie handlem, lichwą i rzemiosłem w miastach i na dworach."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Czym w praktyce było „poddaństwo” chłopów w XVII wieku?",
+    "answers": ["Przywiązaniem chłopa do ziemi i pana – brak swobody opuszczania wsi", "Zakazem noszenia broni", "Obowiązkiem płacenia tylko podatków", "Przynależnością do cechu"],
+    "correct_index": 0,
+    "explanation": "Chłop nie mógł opuścić wsi bez zgody pana, podlegał sądom pana i musiał odrabiać pańszczyznę."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Kto w Rzeczypospolitej mógł uczestniczyć w sejmikach i sejmie?",
+    "answers": ["Szlachta", "Wszyscy mieszkańcy", "Tylko magnaci", "Mieszczanie i szlachta"],
+    "correct_index": 0,
+    "explanation": "Sejmiki i Sejm były zarezerwowane dla stanu szlacheckiego; mieszczanie i chłopi nie mieli w nich reprezentacji."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Kogo w Rzeczypospolitej nazywano „magnatami”?",
+    "answers": ["Najbogatszą szlachtę posiadającą ogromne majątki i wpływy", "Królów", "Biskupów", "Kupców gdańskich"],
+    "correct_index": 0,
+    "explanation": "Magnaci to rody takie jak Radziwiłłowie, Potoccy czy Wiśniowieccy – dysponowali tysiącami poddanych i własnymi wojskami."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Jaki ustrój miały miasta w Rzeczypospolitej w XVII wieku?",
+    "answers": ["Prawo magdeburskie – samorząd, wójt, rada, ława", "Bezpośrednie rządy króla", "Rządy szlachty z okolicy", "Władza biskupów"],
+    "correct_index": 0,
+    "explanation": "Miasta na prawie magdeburskim miały własny samorząd (rada miejska, wójt), sądy i przywileje handlowe."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Który warunek życia chłopów w XVII wieku pogorszył się w stosunku do XVI wieku?",
+    "answers": ["Wzrost pańszczyzny i ograniczenie ucieczek (poddaństwo)", "Spadek cen zboża", "Wzrost areału ziemi chłopskiej", "Zniesienie podatków"],
+    "correct_index": 0,
+    "explanation": "Szlachta zwiększała wymiar pańszczyzny (np. do kilku dni w tygodniu) i ograniczała możliwość odejścia chłopa ze wsi."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Co to był „folwark”?",
+    "answers": ["Gospodarstwo rolne szlachcica, na którym pracowali chłopi (pańszczyzna)", "Zakład rzemieślniczy w mieście", "Kopalnia soli", "Klasztor"],
+    "correct_index": 0,
+    "explanation": "Folwark to duże gospodarstwo pana, nastawione na produkcję zboża i hodowlę, oparte na pracy chłopów."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Dlaczego w XVII wieku mówi się o „upadku miast” w Rzeczypospolitej?",
+    "answers": ["Wojny, pożary i przywileje szlachty osłabiły handel i rzemiosło", "Król zlikwidował miasta", "Epidemie zabiły mieszczan", "Miasta przeniosły się za granicę"],
+    "correct_index": 0,
+    "explanation": "Wojny niszczyły miasta, szlachta konkurowała z mieszczanami w handlu, a przywileje dla szlachty ograniczały rozwój miast."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Kto w Rzeczypospolitej płacił podatki na wojsko (np. „podymne”, „łanowe”)?",
+    "answers": ["Głównie chłopi i mieszczanie; szlachta często się wyłączała", "Tylko magnaci", "Tylko król", "Wszyscy równo"],
+    "correct_index": 0,
+    "explanation": "Szlachta wywalczyła sobie zwolnienia lub niski udział w podatkach; główne ciężary spadały na chłopów i miasta."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Jaką rolę w gospodarce Rzeczypospolitej odgrywała Wisła?",
+    "answers": ["Główny szlak transportu zboża i towarów do Gdańska", "Tylko obrona przed najazdami", "Łączenie z Morzem Czarnym", "Nie odgrywała większej roli"],
+    "correct_index": 0,
+    "explanation": "Zboże i drewno spławiano Wisłą do Gdańska, skąd trafiały do Europy – to był krwioobieg handlu Rzeczypospolitej."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Kogo w społeczeństwie Rzeczypospolitej nazywano „gołotą”?",
+    "answers": ["Biedną szlachtę nieposiadającą ziemi", "Zbiegłych chłopów", "Mieszczan", "Żydów"],
+    "correct_index": 0,
+    "explanation": "Gołota to szlachta bez majątku ziemskiego, często służąca u magnatów lub żyjąca z dzierżawy; nadal należała do stanu uprzywilejowanego."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Czym był „sejmik”?",
+    "answers": ["Zgromadzeniem szlachty z danego województwa przed sejmem", "Sądem królewskim", "Radą miasta", "Zgromadzeniem chłopów"],
+    "correct_index": 0,
+    "explanation": "Na sejmikach szlachta wybierała posłów na Sejm, ustalała instrukcje i decydowała o podatkach lokalnych."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Który region Rzeczypospolitej w XVII wieku był głównym obszarem produkcji zboża na eksport?",
+    "answers": ["Ukraina i ziemie centralne (Wielkopolska, Mazowsze)", "Pomorze", "Litwa północna", "Karpaty"],
+    "correct_index": 0,
+    "explanation": "Folwarki na żyznych ziemiach Ukrainy i Królestwa produkowały ogromne ilości zboża spławianego do Gdańska."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Jak nazywała się warstwa chłopów mająca nieco lepszy status (własna ziemia, mniejsza pańszczyzna)?",
+    "answers": ["Zagrodnicy / półrolnicy (różne nazwy w różnych regionach)", "Magnaci", "Mieszczanie", "Szlachta"],
+    "correct_index": 0,
+    "explanation": "Część chłopów miała mniejsze gospodarstwa lub zajmowała się rzemiosłem; ich pańszczyzna była niższa niż pełnorolnych."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Skąd Rzeczpospolita czerpała w XVII wieku największe dochody państwa?",
+    "answers": ["Z podatków (łanowe, podymne, cła) i dóbr królewskich", "Z haraczu tureckiego", "Z kolonii", "Tylko z darów szlachty"],
+    "correct_index": 0,
+    "explanation": "Skarb opierał się na podatkach uchwalanych przez Sejm oraz dochodach z królewszczyzn; szlachta często ograniczała podatki."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Dlaczego wojny XVII wieku pogorszyły sytuację chłopów i miast?",
+    "answers": ["Zniszczenia, kontrybucje, rekwizycje i uciekinierzy zwiększyli chaos i ubóstwo", "Król zlikwidował przywileje", "Szlachta oddała ziemię chłopom", "Nie pogorszyły – sytuacja się poprawiła"],
+    "correct_index": 0,
+    "explanation": "Przejścia wojsk, epidemie, pożary i grabieże pustoszyły wsie i miasta, a odbudowa trwała dziesięciolecia."
+  },
+  {
+    "category": "Społeczeństwo i gospodarka Rzeczypospolitej w XVII w.",
+    "question": "Kto w Rzeczypospolitej mógł piastować urzędy ziemskie (wojewoda, kasztelan, starosta)?",
+    "answers": ["Szlachta (w praktyce często magnaci i zamożna szlachta)", "Mieszczanie", "Chłopi", "Tylko król"],
+    "correct_index": 0,
+    "explanation": "Urzędy ziemskie i dworskie były zarezerwowane dla szlachty; najważniejsze trafiały do magnatów i zaufanych króla."
+  }
+]

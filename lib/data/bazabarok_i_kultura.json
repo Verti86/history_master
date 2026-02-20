@@ -1,0 +1,163 @@
+[
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Co oznacza słowo 'barocco', od którego pochodzi nazwa epoki barok?",
+    "answers": ["Perła o dziwnym, nieregularnym kształcie", "Złoty wiek", "Odrodzenie sztuki", "Powrót do natury"],
+    "correct_index": 0,
+    "explanation": "Termin ten (z języka portugalskiego) pierwotnie oznaczał coś dziwnego, nietypowego, co dobrze oddawało charakter nowej sztuki."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Jaki był główny cel sztuki barokowej w Kościele katolickim?",
+    "answers": ["Olśniewać bogactwem, oddziaływać na emocje i umacniać wiarę", "Uczyć czytać i pisać", "Promować skromność i ubóstwo", "Zniechęcać do udziału w nabożeństwach"],
+    "correct_index": 0,
+    "explanation": "Kościół wykorzystywał przepych baroku (złoto, rzeźby, malowidła), aby przyciągnąć wiernych i ukazać potęgę katolicyzmu."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Jak nazywamy ideologię i styl życia polskiej szlachty w XVII wieku, nawiązujący do starożytnego ludu?",
+    "answers": ["Sarmatyzm", "Humanizm", "Oświecenie", "Romantyzm"],
+    "correct_index": 0,
+    "explanation": "Szlachta wierzyła, że pochodzi od walecznych Sarmatów, co uzasadniało ich uprzywilejowaną pozycję w państwie."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Który element stroju szlacheckiego był długim pasem materiału, często jedwabnym, owijanym wokół talii?",
+    "answers": ["Pas słucki (kontuszowy)", "Żupan", "Kołpak", "Hajdawery"],
+    "correct_index": 0,
+    "explanation": "Bogato zdobiony pas był jednym z najdroższych i najważniejszych elementów stroju sarmackiego."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Czym są 'portrety trumienne', charakterystyczne dla polskiego baroku?",
+    "answers": ["Wizerunkami zmarłego malowanymi na blasze, mocowanymi do trumny", "Portretami królów w trumnach", "Rzeźbami nagrobnymi", "Obrazami przedstawiającymi śmierć"],
+    "correct_index": 0,
+    "explanation": "Realistyczne portrety trumienne były unikalnym zjawiskiem w skali światowej, ściśle związanym z sarmackim ceremoniałem pogrzebowym."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Jak nazywa się wierzchnia szata szlachecka z rozciętymi rękawami, nakładana na żupan?",
+    "answers": ["Kontusz", "Delia", "Ferezja", "Kaftan"],
+    "correct_index": 0,
+    "explanation": "Kontusz z 'wylotami' (rozciętymi rękawami) odrzucanymi do tyłu był najbardziej rozpoznawalnym elementem polskiego stroju narodowego."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Który zakon odegrał kluczową rolę w rozwoju szkolnictwa i architektury barokowej w Polsce?",
+    "answers": ["Jezuici", "Franciszkanie", "Dominikanie", "Benedyktyni"],
+    "correct_index": 0,
+    "explanation": "Kościół Il Gesù w Rzymie (jezuicki) stał się wzorem dla wielu świątyń barokowych w całej Europie, także w Polsce."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Co charakteryzuje malarstwo barokowe (np. dzieła Rembrandta)?",
+    "answers": ["Gra światła i cienia (światłocień), dynamika, emocje", "Spokój i harmonia", "Geometryczne kształty", "Płaskie plamy barwne"],
+    "correct_index": 0,
+    "explanation": "Artyści baroku mistrzowsko operowali światłem, aby wydobyć dramaturgię sceny i skupić uwagę widza na najważniejszych elementach."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Która grupa religijna została wygnana z Polski w 1658 roku?",
+    "answers": ["Arianie (Bracia Polscy)", "Luteranie", "Kalwini", "Prawosławni"],
+    "correct_index": 0,
+    "explanation": "Arian oskarżono o współpracę ze Szwedami podczas potopu, co stało się pretekstem do ich wygnania (oznaka nietolerancji)."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Jak nazywa się słynna rezydencja królewska pod Warszawą, zbudowana dla Jana III Sobieskiego?",
+    "answers": ["Pałac w Wilanowie", "Zamek Królewski", "Łazienki Królewskie", "Wawel"],
+    "correct_index": 0,
+    "explanation": "Wilanów to arcydzieło polskiego baroku, łączące elementy tradycyjnego dworu szlacheckiego z włoską willą i francuskim pałacem."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Z jakich kultur czerpał inspiracje sarmatyzm?",
+    "answers": ["Z kultury Wschodu (Orientu) i Zachodu", "Tylko z kultury rzymskiej", "Tylko z kultury francuskiej", "Z kultury chińskiej"],
+    "correct_index": 0,
+    "explanation": "Szlachta chętnie przejmowała wschodnie elementy uzbrojenia, stroju i zdobnictwa (np. od Turków i Tatarów), łącząc je z tradycją europejską."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Kto jest autorem rzeźby 'Ekstaza św. Teresy', symbolu barokowej emocjonalności?",
+    "answers": ["Gianlorenzo Bernini", "Michał Anioł", "Leonardo da Vinci", "Rembrandt"],
+    "correct_index": 0,
+    "explanation": "Bernini potrafił w kamieniu oddać niezwykłe emocje i ruch, co jest kwintesencją rzeźby barokowej."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Jakie cechy posiada architektura barokowa?",
+    "answers": ["Bogactwo zdobień, faliste linie, przepych, monumentalizm", "Prostota i oszczędność", "Strzeliste wieże i witraże", "Kolumny greckie i harmonia"],
+    "correct_index": 0,
+    "explanation": "Budowle miały zadziwiać widza, stąd liczne złocenia, stiuki, malowidła iluzjonistyczne i skomplikowane fasady."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Co to jest 'martwa natura' w malarstwie?",
+    "answers": ["Obraz przedstawiający przedmioty nieożywione (owoce, naczynia, kwiaty)", "Portret zmarłej osoby", "Pejzaż zimowy", "Scena bitewna"],
+    "correct_index": 0,
+    "explanation": "Martwe natury (np. pędzla Pietera Claesz'a) często zawierały ukrytą symbolikę przemijania (czaszki, zwiędłe kwiaty, zegary)."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Jakie nakrycie głowy nosił szlachcic do stroju narodowego?",
+    "answers": ["Kołpak z czaplim piórem", "Cylinder", "Kapelusz słomkowy", "Hełm"],
+    "correct_index": 0,
+    "explanation": "Futrzana czapka (kołpak), często ozdobiona piórami (szkofią), dopełniała sarmacki wizerunek."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Gdzie znajduje się słynne sanktuarium maryjne ze świętą Lipką i barokowymi organami?",
+    "answers": ["Na Warmii (Święta Lipka)", "Na Jasnej Górze", "W Licheniu", "W Kalwarii Zebrzydowskiej"],
+    "correct_index": 0,
+    "explanation": "Bazylika w Świętej Lipce to perła baroku, znana z 'tańczących' organów z ruchomymi figurkami aniołów."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Jaki malarz holenderski słynął z portretów mieszczan i scen rodzajowych (np. 'Dziewczyna z perłą')?",
+    "answers": ["Jan Vermeer", "Rembrandt", "Peter Paul Rubens", "Caravaggio"],
+    "correct_index": 0,
+    "explanation": "Vermeer był mistrzem w ukazywaniu spokoju domowego zacisza i gry światła wpadającego przez okno."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Czym charakteryzował się typowy dworek szlachecki w Polsce?",
+    "answers": ["Był parterowy, drewniany, z gankiem wspartym na kolumnach", "Był murowaną fortecą z fosą", "Miał kilka pięter i wieżyczki", "Przypominał gotycki zamek"],
+    "correct_index": 0,
+    "explanation": "Dworek szlachecki ('z drewna, lecz podmurowany') był symbolem ziemiańskiego stylu życia i gościnności."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Kto był mecenasem sztuki w krajach protestanckich (np. w Holandii)?",
+    "answers": ["Bogaci mieszczanie i kupcy", "Kościół katolicki", "Król i dwór", "Chłopi"],
+    "correct_index": 0,
+    "explanation": "W przeciwieństwie do katolickiego południa, w Holandii obrazy zamawiali zwykli obywatele do swoich domów, stąd popularność małych formatów."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Co symbolizuje 'przemijanie' (vanitas) w sztuce baroku?",
+    "answers": ["Kruchość ludzkiego życia i nieuchronność śmierci", "Radość z życia doczesnego", "Pochwałę bogactwa", "Wieczną młodość"],
+    "correct_index": 0,
+    "explanation": "Hasło 'memento mori' (pamiętaj o śmierci) było wszechobecne w baroku, przypominając o marności świata (vanitas vanitatum)."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Jaką broń białą, o zakrzywionej głowni, nosili szlachcice przy boku?",
+    "answers": ["Szablę (karabelę)", "Miecz", "Szpadę", "Rapier"],
+    "correct_index": 0,
+    "explanation": "Szabla, zwłaszcza ozdobna karabela, była symbolem stanu szlacheckiego i gotowości do obrony ojczyzny."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "Dlaczego w XVII wieku w Polsce nasiliła się nietolerancja religijna?",
+    "answers": ["Wojny z innowiercami (Szwecja, Turcja, Rosja) budziły niechęć do obcych wyznań", "Szlachta stała się bardziej wykształcona", "Król nakazał prześladowania", "Papież rozwiązał zakon jezuitów"],
+    "correct_index": 0,
+    "explanation": "Polak-katolik zaczął być utożsamiany z patriotą, a innowierców często podejrzewano o sprzyjanie wrogom państwa."
+  },
+  {
+    "category": "Barok i kultura XVII wieku",
+    "question": "W jakim mieście znajduje się kościół św. Piotra i Pawła, wzorowany na rzymskim Il Gesù?",
+    "answers": ["W Krakowie", "W Warszawie", "W Gdańsku", "W Poznaniu"],
+    "correct_index": 0,
+    "explanation": "Jest to jeden z pierwszych i najpiękniejszych przykładów architektury wczesnego baroku w Polsce."
+  }
+]

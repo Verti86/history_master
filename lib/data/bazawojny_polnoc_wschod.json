@@ -1,0 +1,177 @@
+[
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "W którym roku stoczono bitwę pod Kircholmem?",
+        "answers": ["1605", "1627", "1655", "1660"],
+        "correct_index": 0,
+        "explanation": "Hetman Chodkiewicz rozbił trzykrotnie liczniejszą armię szwedzką w 1605 r."
+    },
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "Kto dowodził wojskami polskimi pod Kircholmem?",
+        "answers": ["Jan Karol Chodkiewicz", "Stefan Czarniecki", "Jan Zamoyski", "Stanisław Żółkiewski"],
+        "correct_index": 0,
+        "explanation": "Genialne zwycięstwo odniósł hetman Jan Karol Chodkiewicz."
+    },
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "Jaką nazwę nosi konflikt ze Szwecją w latach 1655–1660?",
+        "answers": ["Potop szwedzki", "Wojna trzydziestoletnia", "Dymitriada", "Wojna o Inflanty"],
+        "correct_index": 0,
+        "explanation": "Nagły i masowy najazd wojsk szwedzkich nazwano Potopem."
+    },
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "Gdzie podpisano pokój kończący Potop szwedzki (1660)?",
+        "answers": ["W Oliwie", "W Polanowie", "W Buczaczu", "W Sztumskiej Wsi"],
+        "correct_index": 0,
+        "explanation": "Pokój w Oliwie przywracał stan posiadania sprzed wojny, ale Jan Kazimierz zrzekł się pretensji do tronu Szwecji."
+    },
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "Kto dowodził obroną klasztoru na Jasnej Górze?",
+        "answers": ["Augustyn Kordecki", "Stefan Czarniecki", "Piotr Skarga", "Hieronim Radziejowski"],
+        "correct_index": 0,
+        "explanation": "Przeor Augustyn Kordecki dowodził obroną sanktuarium w 1655 roku."
+    },
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "Jaką taktykę walki ze Szwedami stosował Stefan Czarniecki?",
+        "answers": ["Wojna szarpana (podjazdowa)", "Walna bitwa", "Obrona twierdz", "Atak frontalny"],
+        "correct_index": 0,
+        "explanation": "Unikał walnych bitew, atakując mniejsze oddziały wroga z zaskoczenia."
+    },
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "Co wydarzyło się pod Ujściem w 1655 roku?",
+        "answers": ["Pospolite ruszenie poddało się Szwedom bez walki", "Polacy wygrali bitwę", "Podpisano pokój", "Koronowano króla"],
+        "correct_index": 0,
+        "explanation": "Szlachta wielkopolska skapitulowała przed Karolem X Gustawem, uznając jego władzę."
+    },
+    {
+        "category": "Wojny z Rosją",
+        "question": "Czym były 'Dymitriady'?",
+        "answers": ["Prywatnymi wyprawami magnatów w celu osadzenia Dymitra na tronie carskim", "Reformami w Rosji", "Wojnami o Smoleńsk", "Powstaniami kozackimi"],
+        "correct_index": 0,
+        "explanation": "Polscy magnaci ingerowali w sprawy Rosji w czasie 'Wielkiej Smuty', wspierając Samozwańców."
+    },
+    {
+        "category": "Wojny z Rosją",
+        "question": "W którym roku stoczono bitwę pod Kłuszynem?",
+        "answers": ["1610", "1605", "1612", "1634"],
+        "correct_index": 0,
+        "explanation": "W 1610 roku Stanisław Żółkiewski pokonał armię rosyjsko-szwedzką, co otworzyło drogę do Moskwy."
+    },
+    {
+        "category": "Wojny z Rosją",
+        "question": "Który polski królewicz został wybrany na cara Rosji (choć nie objął władzy)?",
+        "answers": ["Władysław IV Waza", "Jan Kazimierz", "Zygmunt III", "Jan III Sobieski"],
+        "correct_index": 0,
+        "explanation": "Bojarzy moskiewscy zgodzili się uznać królewicza Władysława za cara."
+    },
+    {
+        "category": "Wojny z Rosją",
+        "question": "Czym był 'Hołd Ruski' (1611)?",
+        "answers": ["Car Wasyl Szujski złożył hołd Zygmuntowi III w Warszawie", "Polacy złożyli hołd carowi", "Kozacy przysięgli wierność Polsce", "Rosja oddała Kijów"],
+        "correct_index": 0,
+        "explanation": "Wzięty do niewoli car Wasyl Szujski ukorzył się przed królem Polski na Zamku Królewskim."
+    },
+    {
+        "category": "Wojny z Rosją",
+        "question": "Pokój w Polanowie (1634) zakończył wojnę o:",
+        "answers": ["Smoleńsk", "Kijów", "Inflanty", "Pomorze"],
+        "correct_index": 0,
+        "explanation": "Władysław IV zrzekł się pretensji do tronu carskiego, ale Polska zachowała ziemię smoleńską."
+    },
+    {
+        "category": "Wojny z Rosją",
+        "question": "Co zakładał rozejm w Andruszowie (1667) z Rosją?",
+        "answers": ["Podział Ukrainy na Prawobrzeżną (Polska) i Lewobrzeżną (Rosja)", "Odzyskanie Smoleńska", "Utratę Litwy", "Sojusz przeciw Szwecji"],
+        "correct_index": 0,
+        "explanation": "Rozejm ten usankcjonował podział Ukrainy wzdłuż Dniepru. Kijów przypadł Rosji."
+    },
+    {
+        "category": "Kozacy",
+        "question": "Gdzie znajdowało się centrum życia Kozaków (siedziba)?",
+        "answers": ["Na Zaporożu (Sicz)", "We Lwowie", "W Kijowie", "Na Podolu"],
+        "correct_index": 0,
+        "explanation": "Sicz Zaporoska znajdowała się na wyspach Dniepru, za porohami (progami rzecznymi)."
+    },
+    {
+        "category": "Kozacy",
+        "question": "Co to był 'rejestr kozacki'?",
+        "answers": ["Spis Kozaków pobierających żołd od Rzeczpospolitej", "Lista wrogów", "Spis ludności wiejskiej", "Dokument podatkowy"],
+        "correct_index": 0,
+        "explanation": "Kozacy rejestrowi służyli w wojsku i byli zwolnieni z pańszczyzny, co rodziło konflikty z tymi spoza rejestru."
+    },
+    {
+        "category": "Kozacy",
+        "question": "W którym roku wybuchło powstanie Bohdana Chmielnickiego?",
+        "answers": ["1648", "1654", "1667", "1651"],
+        "correct_index": 0,
+        "explanation": "Wybuchło w 1648 roku, rozpoczynając serię klęsk Rzeczypospolitej."
+    },
+    {
+        "category": "Kozacy",
+        "question": "Kto był głównym przeciwnikiem Chmielnickiego, dowodzącym obroną Zbaraża?",
+        "answers": ["Jeremi Wiśniowiecki", "Władysław IV", "Jan Kazimierz", "Stefan Czarniecki"],
+        "correct_index": 0,
+        "explanation": "Książę Jeremi Wiśniowiecki prowadził bezwzględną walkę z powstańcami."
+    },
+    {
+        "category": "Kozacy",
+        "question": "Jak zakończyła się bitwa pod Beresteczkiem (1651)?",
+        "answers": ["Wielkim zwycięstwem Polaków", "Klęską Polaków", "Rozejmem", "Nierozstrzygnięta"],
+        "correct_index": 0,
+        "explanation": "Była to jedna z największych bitew lądowych XVII w., w której Jan Kazimierz pokonał Kozaków i Tatarów."
+    },
+    {
+        "category": "Kozacy",
+        "question": "Co postanowiono w ugodzie w Perejasławiu (1654)?",
+        "answers": ["Kozacy oddali się pod opiekę cara Rosji", "Kozacy wrócili do Polski", "Utworzono państwo kozackie", "Turcja zajęła Ukrainę"],
+        "correct_index": 0,
+        "explanation": "Decyzja Chmielnickiego o poddaniu się Rosji doprowadziła do wojny polsko-rosyjskiej."
+    },
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "Jak nazywał się magnat, który zdradził Polskę i namawiał Szwedów do ataku (1655)?",
+        "answers": ["Hieronim Radziejowski", "Bogusław Radziwiłł", "Jeremi Wiśniowiecki", "Jan Sobieski"],
+        "correct_index": 0,
+        "explanation": "Były podkanclerzy, skłócony z królem, szukał zemsty u Szwedów."
+    },
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "Jaki układ z 1657 r. uniezależnił Prusy Książęce od Polski?",
+        "answers": ["Traktaty welawsko-bydgoskie", "Pokój w Oliwie", "Rozejm w Sztumskiej Wsi", "Pokój w Polanowie"],
+        "correct_index": 0,
+        "explanation": "Polska zrzekła się zwierzchnictwa lennego nad Prusami, by odciągnąć Brandenburgię od sojuszu ze Szwecją."
+    },
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "Która bitwa morska z 1627 roku zakończyła się zwycięstwem polskiej floty?",
+        "answers": ["Bitwa pod Oliwą", "Bitwa pod Zatoce Puckiej", "Bitwa pod Kopenhagą", "Bitwa pod Gdańskiem"],
+        "correct_index": 0,
+        "explanation": "Polska flota niespodziewanie pokonała szwedzką eskadrę ('Słońce zaszło w południe')."
+    },
+    {
+        "category": "Wojny z Rosją",
+        "question": "Jak nazywano okres chaosu w Rosji na początku XVII w.?",
+        "answers": ["Wielka Smuta", "Złoty Wiek", "Czas Carów", "Krwawa Niedziela"],
+        "correct_index": 0,
+        "explanation": "Kryzys dynastyczny i gospodarczy w Rosji nazywano Wielką Smutą."
+    },
+    {
+        "category": "Kozacy",
+        "question": "Ugoda w Hadziaczu (1658) miała przekształcić Rzeczpospolitą w państwo:",
+        "answers": ["Trojga Narodów (Polaków, Litwinów, Rusinów)", "Konfederację", "Monarchię absolutną", "Lenno Rosji"],
+        "correct_index": 0,
+        "explanation": "Była to próba porozumienia z Kozakami, która ostatecznie się nie powiodła."
+    },
+    {
+        "category": "Wojny ze Szwecją",
+        "question": "Co to były śluby lwowskie Jana Kazimierza?",
+        "answers": ["Przyrzeczenie poprawy losu chłopów i obrona wiary", "Ślub z Marią Ludwiką", "Sojusz z Rosją", "Abdykacja"],
+        "correct_index": 0,
+        "explanation": "Król złożył śluby w katedrze we Lwowie, aby zachęcić lud do walki z najeźdźcą."
+    }
+]

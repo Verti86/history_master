@@ -1,0 +1,149 @@
+[
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Kto sformułował zasadę trójpodziału władzy (władza ustawodawcza, wykonawcza, sądownicza)?",
+    "answers": ["Karol Monteskiusz (Montesquieu)", "Jan Jakub Rousseau", "Wolter", "John Locke"],
+    "correct_index": 0,
+    "explanation": "Monteskiusz w dziele „O duchu praw” (1748) postulował rozdzielenie władzy, by ograniczyć absolutyzm i chronić wolność obywateli."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Co to była zasada umowy społecznej (Jean-Jacques Rousseau)?",
+    "answers": ["Władza wynika z umowy między ludźmi; suwerenność należy do ludu", "Król ma władzę z łaski Boga", "Papież rządzi monarchami", "Magnaci wybierają króla"],
+    "correct_index": 0,
+    "explanation": "Rousseau w „Umowie społecznej” (1762) głosił, że lud jest suwerenem – władza pochodzi od obywateli, nie od Boga czy króla."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Który francuski filozof oświecenia krytykował Kościół i przesądy, głosząc rozum i tolerancję?",
+    "answers": ["Wolter (Voltaire)", "Monteskiusz", "Rousseau", "Diderot"],
+    "correct_index": 0,
+    "explanation": "Wolter walczył z fanatyzmem religijnym i absolutyzmem; propagował wolność słowa i tolerancję."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Co to była Wielka Encyklopedia Francuska?",
+    "answers": ["Wielkie dzieło oświecenia (Diderot, d’Alembert) – kompendium wiedzy i idei postępu", "Słownik kościelny", "Podręcznik wojskowy", "Kodeks prawny"],
+    "correct_index": 0,
+    "explanation": "Encyklopedia (1751–1772) popularyzowała naukę, technikę i idee Oświecenia; przyczyniła się do krytyki starego porządku."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Jakie idee charakteryzowały Oświecenie?",
+    "answers": ["Rozum, postęp, nauka, tolerancja, krytyka przesądów i absolutyzmu", "Wiarę w cuda", "Władzę absolutną monarchy", "Feudalizm"],
+    "correct_index": 0,
+    "explanation": "Oświeceniowcy wierzyli w możliwości rozumu, postęp ludzkości i konieczność reform społecznych i politycznych."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Który władca Prus był nazywany „królem filozofem” i wprowadził reformy oświeceniowe?",
+    "answers": ["Fryderyk II Wielki", "Fryderyk Wilhelm I", "August II Mocny", "Ludwik XIV"],
+    "correct_index": 0,
+    "explanation": "Fryderyk II Wielki (1740–1786) prowadził wojny, ale także reformował państwo: szkolnictwo, prawo, tolerancja religijna."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Jaka była postawa Fryderyka II Wielkiego wobec religii?",
+    "answers": ["Tolerancja religijna – „W moim państwie każdy może zbawiać się po swojemu”", "Prześladowanie protestantów", "Przymusowa konwersja na katolicyzm", "Ateizm państwowy"],
+    "correct_index": 0,
+    "explanation": "Fryderyk II pozwalał na różne wyznania; pragmatycznie dbał o rozwój kraju, nie o dominację jednej religii."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Która caryca Rosji prowadziła reformy oświeceniowe i korespondowała z Wolterem?",
+    "answers": ["Katarzyna II Wielka", "Piotr I Wielki", "Elżbieta Piotrowna", "Anna Iwanowna"],
+    "correct_index": 0,
+    "explanation": "Katarzyna II (1762–1796) wprowadzała reformy oświeceniowe, ale zachowała absolutyzm i rozbudowała państwo."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Co to było „oświecenie absolutystyczne”?",
+    "answers": ["Reformy wprowadzane przez monarchów (Prusy, Rosja, Austria) – oświecenie z góry, bez ograniczenia władzy króla", "Republikańska rewolucja", "Dyktatura rozumu", "Koniec monarchii"],
+    "correct_index": 0,
+    "explanation": "Władcy tacy jak Fryderyk II, Katarzyna II i Maria Teresa wprowadzali reformy (edukacja, prawo, gospodarka), lecz zachowali władzę absolutną."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Która władczyni Austrii wprowadzała reformy oświeceniowe (szkoły, zniesienie tortur)?",
+    "answers": ["Maria Teresa i Józef II", "Katarzyna II", "Elżbieta I", "Królowa Wiktoria"],
+    "correct_index": 0,
+    "explanation": "Maria Teresa (1740–1780) i syn Józef II (1780–1790) reformowali państwo: szkolnictwo, zniesienie poddaństwa chłopów (Józef II), tolerancja."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Jakie reformy przeprowadził cesarz Józef II w Austrii?",
+    "answers": ["Zniesienie poddaństwa chłopów, tolerancja religijna, reformy prawne i oświatowe", "Wojna z Turcją", "Sojusz z Francją", "Likwidacja uniwersytetów"],
+    "correct_index": 0,
+    "explanation": "Józef II wprowadził patent o zniesieniu poddaństwa (1781), tolerancję dla protestantów i Żydów oraz reformy w sądownictwie."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "W jakiej epoce rozwinęła się architektura klasycystyczna (inspiracja antykiem)?",
+    "answers": ["W oświeceniu (XVIII wiek)", "W średniowieczu", "W renesansie", "W baroku"],
+    "correct_index": 0,
+    "explanation": "Klasycyzm oświecenia nawiązywał do antyku – harmonia, prostota, kolumny; odróżniał się od barokowej dynamiki."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Kto był angielskim filozofem oświecenia, prekursorem idei praw naturalnych i umowy społecznej?",
+    "answers": ["John Locke", "Thomas Hobbes", "David Hume", "Isaac Newton"],
+    "correct_index": 0,
+    "explanation": "Locke głosił, że ludzie mają naturalne prawa (życie, wolność, własność); władza wynika z umowy i może być obalona, jeśli łamie prawa."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "W którym wieku przypada apogeum Oświecenia w Europie?",
+    "answers": ["XVIII wiek (wieku rozumu)", "XV wiek", "XVI wiek", "XIX wiek"],
+    "correct_index": 0,
+    "explanation": "Oświecenie rozkwitło w XVIII w.; zwano je „wiekiem rozumu” – rozwój nauki, filozofii, krytyki społeczeństwa."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Jaką rolę w Oświeceniu odgrywały salony i kawiarnie?",
+    "answers": ["Miejsca dyskusji filozofów, artystów i polityków – wymiana idei", "Tylko rozrywka", "Centra handlowe", "Warsztaty rzemieślnicze"],
+    "correct_index": 0,
+    "explanation": "W Paryżu i innych miastach salony i kawiarnie były ośrodkami debat; tam rodziły się idee rewolucyjne."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Co Monteskiusz postulował dla ochrony wolności obywateli?",
+    "answers": ["Rozdzielenie władzy ustawodawczej, wykonawczej i sądowniczej", "Władzę absolutną monarchy", "Demokrację bezpośrednią", "Rządy arystokracji"],
+    "correct_index": 0,
+    "explanation": "Trójpodział władzy miał zapobiec despotyzmowi – żadna instytucja nie mogła mieć pełnej kontroli nad państwem."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Jakie reformy oświeceniowe przeprowadził Fryderyk II w Prusach?",
+    "answers": ["Kodyfikacja prawa, rozwój edukacji, tolerancja religijna, osuszanie bagien, kolonizacja", "Likwidacja armii", "Sojusz z papieżem", "Nakaz jednej religii"],
+    "correct_index": 0,
+    "explanation": "Fryderyk II dbał o prawo, szkolnictwo i gospodarkę; państwo miało być silne i racjonalnie zarządzane."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Dlaczego Katarzynę II nazywano „oświeconą despotką”?",
+    "answers": ["Łączyła idee oświecenia (reformy, mecenat) z absolutyzmem – władza pozostawała w rękach monarchy", "Była dyktatorką", "Zlikwidowała monarchię", "Nie wprowadzała żadnych reform"],
+    "correct_index": 0,
+    "explanation": "Katarzyna prowadziła reformy (edukacja, prawo), ale nie rezygnowała z władzy absolutnej – suwerenność ludu była dla niej nie do przyjęcia."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Jak Oświecenie wpływało na sztukę i architekturę?",
+    "answers": ["Klasycyzm – harmonia, proporcje, inspiracja antykiem; krytyka barokowej przesady", "Barok triumfalny", "Gotyk", "Romantyzm"],
+    "correct_index": 0,
+    "explanation": "Klasycyzm oświecenia preferował prostotę, ład i antyczne wzorce – np. Palladianizm w architekturze."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Jakie hasło było charakterystyczne dla Oświecenia?",
+    "answers": ["„Miej odwagę posługiwać się własnym rozumem” (Kant)", "„Państwo to ja”", "„Boże, chroń króla”", "„W imię Boga”"],
+    "correct_index": 0,
+    "explanation": "Immanuel Kant zachęcał do samodzielnego myślenia – oświecenie to wyjście z „niepełnoletności” i odważne korzystanie z rozumu."
+  },
+  {
+    "category": "Oświecenie i reformy w Europie",
+    "question": "Jaką postawę wobec Kościoła prezentowało Oświecenie?",
+    "answers": ["Krytyka nadużyć, przesądów i nietolerancji; postulat rozdziału Kościoła od państwa", "Poparcie dla dominacji Kościoła", "Wojna z religią", "Uznanie jedynej słusznej wiary"],
+    "correct_index": 0,
+    "explanation": "Oświeceniowcy krytykowali Kościół za fanatyzm i sojusz z władzą, ale wielu pozostawało deistami (wiara w Boga bez instytucji)."
+  }
+]

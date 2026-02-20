@@ -1,0 +1,156 @@
+[
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "W którym roku Zygmunt III Waza został wybrany na króla Polski?",
+    "answers": ["1587", "1596", "1610", "1632"],
+    "correct_index": 0,
+    "explanation": "Zygmunt III Waza został wybrany w 1587 r. po ucieczce Henryka Walezego; koronowano go w 1587 (niektórzy podają 1588)."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Z jakiej dynastii wywodził się Zygmunt III Waza?",
+    "answers": ["Wazów – szwedzkiej dynastii królewskiej", "Jagiellonów", "Habsburgów", "Wittelsbachów"],
+    "correct_index": 0,
+    "explanation": "Wazowie panowali w Szwecji; Zygmunt był synem króla Szwecji Jana III i Katarzyny Jagiellonki."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Dlaczego Zygmunt III Waza stracił tron szwedzki?",
+    "answers": ["Szwedzi odrzucili katolicyzm i unię z Polską; obalono go na rzecz stryja Karola", "Przegrał wojnę z Danią", "Abdykował dobrowolnie", "Zmarł w Szwecji"],
+    "correct_index": 0,
+    "explanation": "Zygmunt chciał przywrócić katolicyzm w Szwecji i rządzić z Polski; Szwedzi wybrali Karola IX (potem Gustaw II Adolf), co doprowadziło do długotrwałych wojen."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Które miasto Zygmunt III Waza uczynił faktyczną stolicą Rzeczypospolitej?",
+    "answers": ["Warszawę", "Kraków", "Gdańsk", "Wilno"],
+    "correct_index": 0,
+    "explanation": "Król przeniósł dwór do Warszawy (po pożarze Wawelu); Warszawa stała się centrum politycznym, choć koronacje nadal odbywały się w Krakowie."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Kto był bezpośrednim następcą Zygmunta III na tronie polskim?",
+    "answers": ["Władysław IV Waza", "Jan II Kazimierz", "Jan III Sobieski", "Michał Korybut Wiśniowiecki"],
+    "correct_index": 0,
+    "explanation": "Władysław IV Waza (syn Zygmunta III) panował w latach 1632–1648; był lubiany za wojskowość i mecenat."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "W którym roku zmarł Zygmunt III Waza?",
+    "answers": ["1632", "1648", "1621", "1610"],
+    "correct_index": 0,
+    "explanation": "Zygmunt III Waza zmarł w 1632 r. w Warszawie; panował 45 lat – jeden z najdłuższych okresów panowania w dziejach Polski."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Z kim Zygmunt III Waza toczył wojnę o tron szwedzki?",
+    "answers": ["Ze stryjem Karolem IX i potem z Gustawem II Adolfem", "Tylko z Danią", "Tylko z Rosją", "Z Turcją"],
+    "correct_index": 0,
+    "explanation": "Po detronizacji w Szwecji Zygmunt i jego synowie rościli prawa do korony szwedzkiej; konflikt z Gustawem II Adolfem trwał dziesięciolecia."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Która wojna za Zygmunta III przyniosła zajęcie Moskwy przez wojska polskie?",
+    "answers": ["Wojna z Rosją (wielka smuta) – wyprawa na Moskwę po Kłuszynie", "Wojna ze Szwecją", "Wojna z Turcją", "Powstanie Chmielnickiego"],
+    "correct_index": 0,
+    "explanation": "Po bitwie pod Kłuszynem (1610) wojska Żółkiewskiego zajęły Moskwę; królewicz Władysław był kandydatem na cara."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Kto po Zygmuncie III i Władysławie IV był ostatnim Wazą na tronie polskim?",
+    "answers": ["Jan II Kazimierz", "Michał Korybut Wiśniowiecki", "Jan III Sobieski", "August II Mocny"],
+    "correct_index": 0,
+    "explanation": "Jan II Kazimierz Waza (1648–1668) był drugim synem Zygmunta III; po nim tron objął Michał Korybut Wiśniowiecki (elekcja)."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Kiedy Jan II Kazimierz abdykował?",
+    "answers": ["1668", "1655", "1660", "1672"],
+    "correct_index": 0,
+    "explanation": "Jan II Kazimierz abdykował w 1668 r. po śmierci żony i w obliczu opozycji szlachty; wyjechał do Francji."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Która żona Zygmunta III była Habsburżanką i matką Władysława IV i Jana Kazimierza?",
+    "answers": ["Konstancja Habsburżanka (druga żona)", "Anna Habsburżanka (pierwsza żona)", "Maria Ludwika", "Eleonora"],
+    "correct_index": 0,
+    "explanation": "Zygmunt III ożenił się najpierw z Anną Habsburżanką, potem z Konstancją – obie z rodu Habsburgów; Konstancja urodziła m.in. Władysława IV i Jana Kazimierza."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Jak nazywał się królewicz Waza, który przez krótki czas był uznawany za cara Rosji?",
+    "answers": ["Władysław (późniejszy Władysław IV)", "Jan Kazimierz", "Karol Ferdynand", "Aleksander"],
+    "correct_index": 0,
+    "explanation": "Bojarzy obwołali królewicza Władysława carem po zajęciu Moskwy (1610); ojciec nie zgodził się na jego konwersję na prawosławie, co pogrzebało szansę na tron."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Który konflikt wewnętrzny w czasie rządów Wazów dotyczył rokoszu szlachty przeciw królowi?",
+    "answers": ["Rokosz Zebrzydowskiego (1606–1609)", "Rokosz Lubomirskiego", "Konfederacja targowicka", "Konfederacja barska"],
+    "correct_index": 0,
+    "explanation": "Rokosz Zebrzydowskiego (1606–1609) był zbrojnym buntem szlachty przeciw Zygmuntowi III (m.in. z powodu polityki wobec Szwecji i Rosji)."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Kto dowodził wojskami królewskimi w bitwie pod Guzowem (1607) przeciw rokoszanom?",
+    "answers": ["Jan Karol Chodkiewicz (wojsko królewskie)", "Stanisław Żółkiewski po stronie rokoszan", "Stefan Czarniecki", "Jan III Sobieski"],
+    "correct_index": 0,
+    "explanation": "Bitwa pod Guzowem zakończyła rokosz Zebrzydowskiego – wojska królewskie pod Chodkiewiczem pokonały rokoszan."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Za którego Wazy wybuchła wojna z Kozakami (powstanie Chmielnickiego)?",
+    "answers": ["Za Jana II Kazimierza (1648)", "Za Zygmunta III", "Za Władysława IV", "Za Jana III Sobieskiego"],
+    "correct_index": 0,
+    "explanation": "Powstanie Chmielnickiego wybuchło w 1648 r., już za Jana II Kazimierza; Władysław IV zmarł w tym samym roku."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Który król z dynastii Wazów panował najkrócej?",
+    "answers": ["Władysław IV (1632–1648) – 16 lat", "Jan II Kazimierz panował dłużej", "Zygmunt III panował najdłużej", "Wszyscy Wazowie panowali podobnie długo"],
+    "correct_index": 0,
+    "explanation": "Władysław IV panował 16 lat (1632–1648), Jan II Kazimierz 20 lat (1648–1668), Zygmunt III 45 lat (1587–1632)."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Kto był matką Zygmunta III Wazy (łączyła go z Jagiellonami)?",
+    "answers": ["Katarzyna Jagiellonka", "Bona Sforza", "Anna Jagiellonka", "Elżbieta Habsburżanka"],
+    "correct_index": 0,
+    "explanation": "Katarzyna Jagiellonka była siostrą Zygmunta Augusta; poślubiła Jana III Wazę (króla Szwecji) – ich synem był Zygmunt III."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Za którego Wazy miał miejsce potop szwedzki?",
+    "answers": ["Jana II Kazimierza (najazd od 1655)", "Zygmunta III", "Władysława IV", "Michała Korybuta"],
+    "correct_index": 0,
+    "explanation": "Potop szwedzki (1655–1660) przypadł na panowanie Jana II Kazimierza; Szwedzi wykorzystali osłabienie po powstaniu Chmielnickiego."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Jaką politykę wyznaniową prowadził Zygmunt III Waza?",
+    "answers": ["Wspierał katolicyzm i kontrreformację", "Bronił równouprawnienia protestantów", "Nakazał tolerancję dla wszystkich wyznań", "Przeszedł na prawosławie"],
+    "correct_index": 0,
+    "explanation": "Zygmunt III był gorliwym katolikiem; faworyzował jezuitów i dążył do umocnienia pozycji Kościoła katolickiego."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Która twierdza została zdobyta przez Zygmunta III w wojnie z Rosją (wielka smuta)?",
+    "answers": ["Smoleńsk (1609–1611)", "Moskwa", "Kijów", "Psków"],
+    "correct_index": 0,
+    "explanation": "Oblężenie i zdobycie Smoleńska (1609–1611) było jednym z największych sukcesów Zygmunta III w wojnie z Rosją."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Ilu królów z dynastii Wazów panowało w Rzeczypospolitej?",
+    "answers": ["Trzech: Zygmunt III, Władysław IV, Jan II Kazimierz", "Dwóch", "Czterech", "Pięciu"],
+    "correct_index": 0,
+    "explanation": "W Rzeczypospolitej panowali Zygmunt III Waza (1587–1632), Władysław IV (1632–1648) i Jan II Kazimierz (1648–1668)."
+  },
+  {
+    "category": "Zygmunt III Waza i dynastia Wazów",
+    "question": "Kto został wybrany na króla Polski po abdykacji Jana II Kazimierza (1668)?",
+    "answers": ["Michał Korybut Wiśniowiecki", "Jan III Sobieski", "August II", "Ludwik XIV"],
+    "correct_index": 0,
+    "explanation": "W 1669 r. szlachta wybrała Michała Korybuta Wiśniowieckiego – był to koniec dynastii Wazów na tronie polskim."
+  }
+]

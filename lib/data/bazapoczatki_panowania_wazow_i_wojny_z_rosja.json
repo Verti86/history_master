@@ -1,0 +1,156 @@
+[
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Kto był pierwszym władcą z dynastii Wazów na polskim tronie?",
+    "answers": ["Zygmunt III Waza", "Władysław IV Waza", "Jan II Kazimierz Waza", "Stefan Batory"],
+    "correct_index": 0,
+    "explanation": "Zygmunt III został wybrany na króla Polski w 1587 r. dzięki pokrewieństwu z Jagiellonami – był synem Katarzyny Jagiellonki."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Jak nazywano okres zamieszania i kryzysu w Rosji po wygaśnięciu dynastii Rurykowiczów?",
+    "answers": ["Wielka smuta", "Dymitriada", "Restauracja", "Wspaniała rewolucja"],
+    "correct_index": 0,
+    "explanation": "Wielka smuta (zamieszanie, zamęt) to czas walk o władzę, głodu i interwencji sąsiednich państw w Rosji na początku XVII w."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Kim był Dymitr Samozwaniec?",
+    "answers": ["Pretendentem do tronu carskiego podającym się za syna Iwana Groźnego", "Polskim magnatem, który podbił Moskwę", "Pierwszym carem z dynastii Romanowów", "Dowódcą wojsk rosyjskich pod Kłuszynem"],
+    "correct_index": 0,
+    "explanation": "Dymitr twierdził, że jest cudownie ocalałym carewiczem. Zyskał poparcie części polskich magnatów i na krótko zasiadł na tronie w Moskwie."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Jak nazywały się prywatne wyprawy polskich magnatów w celu osadzenia Dymitra na tronie w Moskwie?",
+    "answers": ["Dymitriady", "Krucjaty", "Relekcje", "Wojny północne"],
+    "correct_index": 0,
+    "explanation": "Nazwa pochodzi od imienia Dymitra, którego magnaci (np. Jerzy Mniszech) wspierali zbrojnie w zamian za obietnice nadań ziemskich."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "W której bitwie w 1610 r. husaria pod dowództwem Stanisława Żółkiewskiego pokonała wielokrotnie liczniejsze wojska rosyjskie?",
+    "answers": ["Pod Kłuszynem", "Pod Cecorą", "Pod Chocimiem", "Pod Wiedniem"],
+    "correct_index": 0,
+    "explanation": "Zwycięstwo pod Kłuszynem otworzyło Polakom drogę do Moskwy i pozwoliło na zajęcie Kremla."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "W jakich latach polska załoga okupowała Kreml w Moskwie?",
+    "answers": ["1610–1612", "1605–1606", "1587–1632", "1632–1634"],
+    "correct_index": 0,
+    "explanation": "Polacy przebywali na Kremlu dwa lata, aż zostali zmuszeni do kapitulacji przez rosyjskie powstanie ludowe."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Kogo bojarzy rosyjscy wybrali na cara w 1610 r. (choć nigdy nie objął on faktycznie rządów)?",
+    "answers": ["Królewicza Władysława Wazę", "Zygmunta III Wazę", "Michała Romanowa", "Iwana Groźnego"],
+    "correct_index": 0,
+    "explanation": "Warunkiem objęcia tronu przez Władysława miało być jego przejście na prawosławie, na co nie zgodził się jego ojciec, Zygmunt III."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Która dynastia objęła rządy w Rosji w 1613 r., kończąc okres wielkiej smuty?",
+    "answers": ["Romanowowie", "Rurykowicze", "Habsburgowie", "Wazowie"],
+    "correct_index": 0,
+    "explanation": "Pierwszym carem z tej dynastii został Michał I Romanow, którego rządy zapoczątkowały proces umacniania Rosji."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "W którym roku podpisano pokój w Polanowie?",
+    "answers": ["1634 r.", "1610 r.", "1618 r.", "1648 r."],
+    "correct_index": 0,
+    "explanation": "Pokój ten kończył wojnę smoleńską i potwierdzał przynależność Smoleńska do Rzeczypospolitej."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Jaki był przybliżony obszar Rzeczypospolitej po pokoju w Polanowie (największy w historii)?",
+    "answers": ["Około 1 mln km²", "Około 500 tys. km²", "Około 800 tys. km²", "Około 1,5 mln km²"],
+    "correct_index": 0,
+    "explanation": "Commonwealth była wówczas jednym z największych (po Rosji) państw w Europie pod względem terytorialnym."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Z jakiego kraju wywodziła się dynastia Wazów?",
+    "answers": ["Ze Szwecji", "Z Francji", "Z Austrii", "Z Rosji"],
+    "correct_index": 0,
+    "explanation": "Zygmunt III Waza był synem króla szwedzkiego i dążył do połączenia tronów Polski i Szwecji."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Kto był matką Zygmunta III Wazy, zapewniając mu prawa do polskiego tronu?",
+    "answers": ["Katarzyna Jagiellonka", "Anna Jagiellonka", "Maryna Mniszchówna", "Bona Sforza"],
+    "correct_index": 0,
+    "explanation": "Dzięki temu, że była ona córką Zygmunta Starego, dynastia Wazów mogła być postrzegana jako kontynuacja Jagiellonów."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Jak nazywała się Polka, która została żoną Dymitra Samozwańca i carową Rosji?",
+    "answers": ["Maryna Mniszchówna", "Katarzyna Jagiellonka", "Anna Jagiellonka", "Barbara Radziwiłłówna"],
+    "correct_index": 0,
+    "explanation": "Jej ślub z Dymitrem i koronacja w Moskwie wywołały oburzenie rosyjskiej ludności i przyspieszyły upadek męża."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Jak nazywano wyższą warstwę szlachty w Rosji?",
+    "answers": ["Bojarzy", "Magnaci", "Purytanie", "Kozacy"],
+    "correct_index": 0,
+    "explanation": "Bojarzy posiadali wielkie majątki ziemskie i brali udział w zarządzaniu państwem."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "W którym roku Zygmunt III Waza rozpoczął oficjalną interwencję zbrojną w Rosji?",
+    "answers": ["1609 r.", "1605 r.", "1613 r.", "1634 r."],
+    "correct_index": 0,
+    "explanation": "Zaniepokojony sojuszem rosyjsko-szwedzkim, król postanowił osobiście uderzyć na Rosję, rozpoczynając oblężenie Smoleńska."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Który polski król odebrał hołd od wodza armii rosyjskiej po zwycięstwie pod Smoleńskiem w 1634 r.?",
+    "answers": ["Władysław IV Waza", "Zygmunt III Waza", "Jan II Kazimierz", "Michał Korybut Wiśniowiecki"],
+    "correct_index": 0,
+    "explanation": "Władysław IV osobiście dowodził odsieczą Smoleńska, zmuszając 30-tysięczną armię rosyjską do kapitulacji."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Czego musiał zrzec się Władysław IV Waza w pokoju polanowskim?",
+    "answers": ["Pretensji do tytułu cara Rosji", "Smoleńska", "Prawa do polskiego tronu", "Dostępu do Bałtyku"],
+    "correct_index": 0,
+    "explanation": "Choć Polska zyskała tereny, król oficjalnie zrezygnował z roszczeń do tronu moskiewskiego."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Kto panował w Polsce po śmierci Zygmunta III Wazy w latach 1632–1648?",
+    "answers": ["Władysław IV Waza", "Jan II Kazimierz", "Michał I Romanow", "Karol IX"],
+    "correct_index": 0,
+    "explanation": "Był to czas sukcesów militarnych, m.in. zwycięskiej wojny smoleńskiej z Rosją."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Jak nazywało się miasto, które było głównym celem polskich wypraw i oblężeń w wojnach z Rosją początku XVII w.?",
+    "answers": ["Smoleńsk", "Nowogród", "Kijów", "Gdańsk"],
+    "correct_index": 0,
+    "explanation": "Smoleńsk był kluczową twierdzą broniącą drogi do Moskwy; Polska odzyskała go w 1611 r."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Kto był ostatnim królem z polskiej linii Wazów?",
+    "answers": ["Jan II Kazimierz Waza", "Władysław IV Waza", "Zygmunt III Waza", "August II Mocny"],
+    "correct_index": 0,
+    "explanation": "Jego panowanie przypadło na bardzo trudny okres wojen ze Szwecją, Rosją i Kozakami."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Dlaczego Zygmunt III Waza przeniósł dwór królewski z Krakowa do Warszawy?",
+    "answers": ["Z powodu położenia Warszawy bliżej Szwecji", "Bo Kraków został zniszczony w czasie wojny", "Bo Warszawa była bezpieczniejsza przed Rosjanami", "Bo tak nakazała mu żona"],
+    "correct_index": 0,
+    "explanation": "Warszawa znajdowała się w połowie drogi między Szwecją (którą król chciał rządzić) a Krakowem, co ułatwiało komunikację."
+  },
+  {
+    "category": "Początki panowania Wazów i wojny z Rosją",
+    "question": "Jaką nazwę nosił rosyjski ustrój polityczny, w którym car posiadał pełną i nieograniczoną władzę?",
+    "answers": ["Samodzierżawie", "Demokracja szlachecka", "Absolutyzm oświecony", "Monarchia parlamentarna"],
+    "correct_index": 0,
+    "explanation": "Termin pochodzi od rosyjskiego słowa oznaczającego jednowładztwo."
+  }
+]

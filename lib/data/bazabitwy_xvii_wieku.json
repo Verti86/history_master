@@ -1,0 +1,163 @@
+[
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "W którym roku rozegrała się bitwa pod Kircholmem?",
+    "answers": ["1605", "1610", "1620", "1632"],
+    "correct_index": 0,
+    "explanation": "Bitwa pod Kircholmem (1605) to jedno z najświetniejszych zwycięstw husarii – hetman Jan Karol Chodkiewicz rozbił kilkakrotnie silniejszą armię szwedzką."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Kto dowodził wojskami Rzeczypospolitej w bitwie pod Kłuszynem (1610)?",
+    "answers": ["Stanisław Żółkiewski", "Jan Karol Chodkiewicz", "Jan III Sobieski", "Stefan Czarniecki"],
+    "correct_index": 0,
+    "explanation": "Hetman Żółkiewski pokonał pod Kłuszynem połączone siły rosyjskie i szwedzkie, co umożliwiło zajęcie Moskwy przez wojska polskie."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Bitwa pod Beresteczkiem (1651) była starciem z:",
+    "answers": ["powstańcami kozackimi i Tatarami", "armią szwedzką", "wojskami moskiewskimi", "Turcją"],
+    "correct_index": 0,
+    "explanation": "Pod Beresteczkiem Jan Kazimierz rozbił siły Chmielnickiego i Tatarów – była to jedna z największych bitew lądowych XVII wieku w Europie."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Bitwa morska pod Oliwą (1627) to zwycięstwo floty polskiej nad:",
+    "answers": ["Szwecją", "Turcją", "Rosją", "Duńczykami"],
+    "correct_index": 0,
+    "explanation": "Pod Oliwą flota Rzeczypospolitej pod dowództwem Arenda Dickmanna pokonała szwedzką eskadrę blokującą Gdańsk."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "W którym roku miała miejsce bitwa pod Wiedniem (Odsiecz Wiedeńska)?",
+    "answers": ["1683", "1673", "1699", "1621"],
+    "correct_index": 0,
+    "explanation": "12 września 1683 r. Jan III Sobieski rozgromił armię turecką oblegającą Wiedeń, co zatrzymało ekspansję imperium osmańskiego w Europie."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Bitwa pod Parkanami (1683) była:",
+    "answers": ["pogonią za rozbitą armią turecką po Wiedniu", "bitwą z Kozakami", "starciem ze Szwedami", "obroną Kamieńca"],
+    "correct_index": 0,
+    "explanation": "Kilka dni po Wiedniu wojska polskie i sojusznicze starły się z wycofującymi się Turkami pod Parkanami; początkowo Polacy ponieśli klęskę, potem odnieśli zwycięstwo."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Która bitwa z okresu potopu szwedzkiego uznawana jest za obronę klasztoru i symbol oporu?",
+    "answers": ["Obrona Jasnej Góry (Częstochowy)", "Obrona Gdańska", "Obrona Lwowa", "Obrona Zamościa"],
+    "correct_index": 0,
+    "explanation": "Obrona Jasnej Góry (1655) pod przewodem przeora Augustyna Kordeckiego zatrzymała Szwedów i stała się symbolem oporu całego kraju."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Kto dowodził obroną Jasnej Góry w 1655 roku?",
+    "answers": ["Augustyn Kordecki", "Stefan Czarniecki", "Jan III Sobieski", "Stanisław Żółkiewski"],
+    "correct_index": 0,
+    "explanation": "Przeor paulinów Augustyn Kordecki zorganizował obronę sanktuarium i odparł ataki wojsk szwedzkich."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Bitwa pod Prostkami (1656) była starciem z:",
+    "answers": ["wojskami brandenbursko-szwedzkimi", "Kozakami", "Turcją", "Moskwa"],
+    "correct_index": 0,
+    "explanation": "Pod Prostkami wojska litewskie pod Bogusławem Radziwiłłem i Tatarami pokonały armię brandenburską sprzymierzoną ze Szwedami."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Gdzie Stefan Czarniecki odniósł słynne zwycięstwo nad Szwedami w 1656 roku?",
+    "answers": ["Pod Warką", "Pod Kircholmem", "Pod Kłuszynem", "Pod Beresteczkiem"],
+    "correct_index": 0,
+    "explanation": "Bitwa pod Warką (1656) to jedno z pierwszych większych zwycięstw w wojnie ze Szwedami, dowodzone przez hetmana Stefana Czarnieckiego."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Która bitwa z 1660 roku zakończyła się zwycięstwem nad Rosją i pozwoliła odzyskać Wilno?",
+    "answers": ["Bitwa pod Połonką", "Bitwa pod Kłuszynem", "Bitwa pod Smoleńskiem", "Bitwa pod Kircholmem"],
+    "correct_index": 0,
+    "explanation": "Pod Połonką wojska Rzeczypospolitej pod Pawłem Janem Sapiehą i Stefanem Czarnieckim rozbiły armię rosyjską i uwolniły Litwę."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Bitwa pod Cudnowem (1660) dotyczyła walk z:",
+    "answers": ["Kozakami i Rosjanami", "tylko Szwedami", "tylko Turcją", "Tatarami"],
+    "correct_index": 0,
+    "explanation": "Pod Cudnowem wojska koronne rozbiły siły kozacko-rosyjskie; po klęsce Jurij Chmielnicki uznał zwierzchność Turcji (ugoda w Słobodyszczach)."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Jak nazywała się słynna formacja jazdy polskiej, która przełamywała szyki wroga?",
+    "answers": ["Husaria", "Pancerni", "Lisowczycy", "Kozacy"],
+    "correct_index": 0,
+    "explanation": "Husaria była ciężką jazdą z długimi kopiami i charakterystycznymi „skrzydłami”, uznawaną za jedną z najlepszych formacji kawaleryjskich w Europie."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "W którym roku wojska polskie zajęły Moskwę w trakcie wojny z Rosją?",
+    "answers": ["1610", "1605", "1612", "1632"],
+    "correct_index": 0,
+    "explanation": "Po zwycięstwie pod Kłuszynem (1610) oddziały Żółkiewskiego zajęły Moskwę; w Kremlu przez krótki czas przebywał królewicz Władysław (Waza)."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Bitwa pod Chocimiem w 1621 roku zakończyła się:",
+    "answers": ["powstrzymaniem inwazji tureckiej", "klęską Polski", "zajęciem Stambułu", "sojuszem z Turcją"],
+    "correct_index": 0,
+    "explanation": "Obrona obozu pod Chocimiem (z udziałem Kozaków) zatrzymała wielką armię sułtana Osmana II; zmarł tam hetman Jan Karol Chodkiewicz."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Która bitwa z 1673 roku otworzyła Janowi Sobieskiemu drogę do tronu?",
+    "answers": ["Bitwa pod Chocimiem (1673)", "Bitwa pod Wiedniem", "Bitwa pod Beresteczkiem", "Bitwa pod Kircholmem"],
+    "correct_index": 0,
+    "explanation": "Zwycięstwo pod Chocimiem w 1673 r. przyniosło Sobieskiemu sławę i poparcie szlachty; wkrótce został obrany królem."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Bitwa pod Żółtymi Wodami (1648) to początek:",
+    "answers": ["powstania Chmielnickiego", "potopu szwedzkiego", "wojny z Turcją", "wojny z Rosją"],
+    "correct_index": 0,
+    "explanation": "Pod Żółtymi Wodami Kozacy Chmielnickiego rozbili oddziały koronne – był to jeden z pierwszych starć powstania kozackiego."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Kto dowodził wojskami polskimi w bitwie pod Beresteczkiem w 1651 roku?",
+    "answers": ["Jan II Kazimierz", "Jan III Sobieski", "Zygmunt III Waza", "Władysław IV"],
+    "correct_index": 0,
+    "explanation": "Król Jan Kazimierz osobiście dowodził w tej wielkiej bitwie przeciw Kozakom i Tatarom."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Bitwa pod Smoleńskiem (1609–1611) była elementem:",
+    "answers": ["wojny polsko-rosyjskiej (dymitriady)", "potopu szwedzkiego", "wojny z Turcją", "powstania kozackiego"],
+    "correct_index": 0,
+    "explanation": "Oblężenie i zdobycie Smoleńska przez Zygmunta III Wazę było częścią interwencji w Rosji w czasie wielkiej smuty."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Która z bitew XVII wieku uznawana jest za „ostatnią wielką bitwę husarii”?",
+    "answers": ["Bitwa pod Wiedniem (1683)", "Bitwa pod Kircholmem", "Bitwa pod Kłuszynem", "Bitwa pod Beresteczkiem"],
+    "correct_index": 0,
+    "explanation": "Szarża husarii pod Wiedniem w 1683 r. przełamała obóz turecki i jest często uznawana za ostatni wielki sukces tej formacji."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "W którym roku miała miejsce klęska pod Cecorą?",
+    "answers": ["1620", "1621", "1672", "1683"],
+    "correct_index": 0,
+    "explanation": "W 1620 r. pod Cecorą zginął hetman Stanisław Żółkiewski; klęska otworzyła Turkom drogę i doprowadziła do bitwy pod Chocimiem (1621)."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Bitwa pod Konotopem (1659) była starciem:",
+    "answers": ["kozacko-tatarskim zwycięstwem nad wojskami moskiewskimi", "polsko-szwedzkim", "polsko-tureckim", "rosyjsko-tureckim"],
+    "correct_index": 0,
+    "explanation": "Pod Konotopem Kozacy i Tatarzy rozbili armię rosyjską; bitwa miała znaczenie dla układu sił na Ukrainie w dobie wojen."
+  },
+  {
+    "category": "Wielkie bitwy XVII wieku",
+    "question": "Która twierdza broniła się przed Szwedami w 1655 roku i nie została zdobyta?",
+    "answers": ["Jasna Góra (Częstochowa)", "Kraków", "Warszawa", "Poznań"],
+    "correct_index": 0,
+    "explanation": "Tylko Jasna Góra pod Augustynem Kordeckim skutecznie oparła się Szwedom; Kraków i Warszawa wpadły w ich ręce."
+  }
+]

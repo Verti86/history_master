@@ -1,0 +1,164 @@
+[
+  {
+    "category": "Monarchia we Francji",
+    "question": "Który władca wypowiedział słynne słowa: 'Państwo to ja'?",
+    "answers": ["Ludwik XIV", "Ludwik XIII", "Kardynał Richelieu", "Henryk IV"],
+    "correct_index": 0,
+    "explanation": "Ludwik XIV z dynastii Burbonów uważał, że jego władza pochodzi od Boga i skupiał w swoich rękach pełnię rządów."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Kto był pierwszym ministrem Ludwika XIII i głównym architektem francuskiego absolutyzmu?",
+    "answers": ["Kardynał Richelieu", "Kardynał Mazarin", "Jean Bodin", "Jean-Baptiste Colbert"],
+    "correct_index": 0,
+    "explanation": "Kardynał Armand de Richelieu dążył do wzmocnienia pozycji monarchy, kierując się tzw. 'racją stanu'."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Dlaczego Ludwika XIV nazywano 'Królem Słońce'?",
+    "answers": [
+      "Bo dworzanie krążyli wokół niego niczym planety wokół Słońca",
+      "Bo podbił kraje leżące na południu",
+      "Z powodu jego zamiłowania do astronomii",
+      "Ponieważ urodził się w najbardziej słoneczny dzień roku"
+    ],
+    "correct_index": 0,
+    "explanation": "Przydomek ten nawiązywał do centralnej roli króla w państwie i rozbudowanego ceremoniału dworskiego."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Co stało się symbolem potęgi władzy Ludwika XIV i wzorcem dla monarchów w całej Europie?",
+    "answers": ["Pałac w Wersalu", "Twierdza w Bastylii", "Katedra Notre Dame", "Zamek w Blois"],
+    "correct_index": 0,
+    "explanation": "Monumentalny pałac w Wersalu pod Paryżem był centrum życia politycznego i kulturalnego Francji XVII wieku."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Co Ludwik XIV zrobił w 1685 roku w kwestii tolerancji religijnej?",
+    "answers": [
+      "Zniósł Edykt nantejski i zakazał praktykowania kalwinizmu",
+      "Wprowadził pełną wolność wyznania dla wszystkich",
+      "Ogłosił Francję państwem protestanckim",
+      "Zabronił wyznawania katolicyzmu"
+    ],
+    "correct_index": 0,
+    "explanation": "Król uważał, że wyznanie poddanych powinno być jednolite, co zmusiło wielu hugenotów do ucieczki z kraju."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Co oznacza termin 'racja stanu' wprowadzony przez kardynała Richelieu?",
+    "answers": [
+      "Nadrzędny interes państwa, któremu należy podporządkować inne cele",
+      "Prawo szlachty do posiadania prywatnych wojsk",
+      "Zasada, według której monarcha musi słuchać poddanych",
+      "Przywilej duchowieństwa do niepłacenia podatków"
+    ],
+    "correct_index": 0,
+    "explanation": "Racja stanu pozwalała na surowe działania, jeśli tylko przynosiły one korzyść państwu."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Kto był autorem dzieła 'Sześć ksiąg o Rzeczypospolitej', uzasadniającego władzę absolutną?",
+    "answers": ["Jean Bodin", "Molier", "Kornel", "Jean-Baptiste Racine"],
+    "correct_index": 0,
+    "explanation": "Bodin twierdził, że król jest jedynym prawodawcą i nie podlega prawom, które sam ustanawia."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Jak liczna była stała armia francuska w okresie potęgi Ludwika XIV?",
+    "answers": ["200–400 tys. żołnierzy", "10–20 tys. żołnierzy", "50–80 tys. żołnierzy", "Ponad milion żołnierzy"],
+    "correct_index": 0,
+    "explanation": "Była to w tamtym czasie najsilniejsza i najliczniejsza siła zbrojna w Europie."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Który język od przełomu XVII i XVIII wieku stał się językiem dyplomacji i elit w Europie?",
+    "answers": ["Francuski", "Łacina", "Angielski", "Hiszpański"],
+    "correct_index": 0,
+    "explanation": "Dzięki dominacji kulturalnej Francji, jej język wyparł łacinę i stał się ulubionym językiem wykształconych Europejczyków."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Który dokument z 1598 roku zapewniał hugenotom wolność wyznania we Francji?",
+    "answers": ["Edykt nantejski", "Pokój pirenejski", "Deklaracja Praw", "Traktat w Buczaczu"],
+    "correct_index": 0,
+    "explanation": "Edykt nantejski wydał Henryk IV, aby zakończyć krwawe wojny religijne we Francji."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Jak nazywano francuskich protestantów, których zwalczał kardynał Richelieu?",
+    "answers": ["Hugenoci", "Arianie", "Luteranie", "Anglikanie"],
+    "correct_index": 0,
+    "explanation": "Hugenoci to francuscy kalwiniści. Richelieu odebrał im niezależność polityczną i twierdzę La Rochelle."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "W którym roku Ludwik XIV objął rządy we Francji?",
+    "answers": ["1643 r.", "1610 r.", "1624 r.", "1685 r."],
+    "correct_index": 0,
+    "explanation": "Ludwik XIV został królem w wieku 5 lat, po śmierci swojego ojca Ludwika XIII."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Która grupa społeczna została odsunięta od realnej władzy przez Ludwika XIV?",
+    "answers": ["Arystokracja i szlachta", "Duchowieństwo", "Mieszczaństwo", "Chłopi"],
+    "correct_index": 0,
+    "explanation": "Król pozbawił szlachtę wpływów politycznych, czyniąc z nich uzależnionych od siebie dworzan w Wersalu."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Jak nazywa się system rządów, w którym władca skupia w swoich rękach całą władzę?",
+    "answers": ["Monarchia absolutna", "Demokracja szlachecka", "Monarchia parlamentarna", "Republika"],
+    "correct_index": 0,
+    "explanation": "W absolutyzmie król sam stanowi prawa, mianuje urzędników i jest najwyższym sędzią."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Kto dbał o rozwój gospodarczy Francji i budowę systemu twierdz za czasów Ludwika XIV?",
+    "answers": ["Uzdolnieni ministrowie", "Stany Generalne", "Parlament", "Sejm"],
+    "correct_index": 0,
+    "explanation": "Król otaczał się wykształconymi urzędnikami (np. Colbert), którzy reformowali państwo."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Która twierdza hugenotów została zdobyta przez kardynała Richelieu w 1628 roku?",
+    "answers": ["La Rochelle", "Bastylia", "Wersal", "Kamieniec Podolski"],
+    "correct_index": 0,
+    "explanation": "Zdobycie La Rochelle było kluczowe dla złamania potęgi politycznej protestantów we Francji."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Czym charakteryzowała się władza absolutna według Jeana Bodina?",
+    "answers": ["Była nietykalna i święta", "Była ograniczona przez prawo", "Była zależna od woli ludu", "Była wybieralna"],
+    "correct_index": 0,
+    "explanation": "Bodin uważał monarchę za ziemskiego przedstawiciela Boga, który odpowiada tylko przed Nim."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "W jakim stylu architektonicznym i artystycznym został zbudowany pałac w Wersalu?",
+    "answers": ["Barokowym", "Gotyckim", "Romańskim", "Renesansowym"],
+    "correct_index": 0,
+    "explanation": "Wersal to szczytowe osiągnięcie baroku, z jego przepychem, rzeźbami i ogrodami."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Jak nazywało się zgromadzenie przedstawicieli trzech stanów, którego Ludwik XIV nie zwoływał?",
+    "answers": ["Stany Generalne", "Izba Gmin", "Senat", "Kongres"],
+    "correct_index": 0,
+    "explanation": "Po 1614 roku królowie francuscy przestali zwoływać Stany Generalne, aby nie dzielić się władzą."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Kto sprawował faktyczne rządy we Francji w czasie małoletności Ludwika XIV?",
+    "answers": ["Kardynał Mazarin", "Ludwik XIII", "Richelieu", "Henryk IV"],
+    "correct_index": 0,
+    "explanation": "Kardynał Juliusz Mazarin kontynuował politykę Richelieu do czasu pełnoletności Ludwika XIV."
+  },
+  {
+    "category": "Monarchia we Francji",
+    "question": "Która dziedzina kultury rozkwitła we Francji dzięki mecenatowi Ludwika XIV?",
+    "answers": ["Teatr i literatura", "Grafika komputerowa", "Fotografia", "Jazz"],
+    "correct_index": 0,
+    "explanation": "Król wspierał artystów takich jak Molier, Corneille czy Racine, tworząc centrum kultury europejskiej."
+  }
+]

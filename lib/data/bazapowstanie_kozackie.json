@@ -1,0 +1,156 @@
+[
+  {
+    "category": "Powstanie kozackie",
+    "question": "Kim byli Kozacy, zamieszkujący tereny Zaporoża?",
+    "answers": ["Wolną ludnością, głównie zbiegłymi chłopami i drobną szlachtą", "Regularną armią polską", "Kupcami tureckimi", "Osadnikami z Niemiec"],
+    "correct_index": 0,
+    "explanation": "Kozacy wywodzili się z chłopstwa lub drobnej szlachty, wyznawali prawosławie i posługiwali się językiem ruskim (ukraińskim)."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Co oznacza nazwa 'Zaporoże', określająca siedzibę Kozaków?",
+    "answers": ["Kraina leżąca za porohami (skalnymi progami) Dniepru", "Ziemia spalona słońcem", "Kraina lasów i jezior", "Miejsce za górami"],
+    "correct_index": 0,
+    "explanation": "Nazwa pochodzi od naturalnych przeszkód na rzece Dniepr – progów skalnych, za którymi osiedlali się Kozacy."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Jak nazywał się główny warowny obóz Kozaków położony na wyspach Dniepru?",
+    "answers": ["Sicz", "Kreml", "Wawel", "Majdan"],
+    "correct_index": 0,
+    "explanation": "Sicz była centrum życia wojskowego i politycznego Kozaków, gdzie stacjonowała ich elita."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Czym był 'rejestr kozacki'?",
+    "answers": ["Spisem żołnierzy kozackich opłacanych przez króla", "Listą wrogów Rzeczypospolitej", "Spisem ludności Kijowa", "Rejestrem długów magnackich"],
+    "correct_index": 0,
+    "explanation": "Kozacy rejestrowi służyli w obronie granic Rzeczypospolitej w zamian za żołd i zwolnienie z podatków."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Jak nazywały się lekkie, zwrotne łodzie używane przez Kozaków do wypraw wojennych?",
+    "answers": ["Czajki", "Galeony", "Kogi", "Fregaty"],
+    "correct_index": 0,
+    "explanation": "Na czajkach Kozacy wyprawiali się przez Morze Czarne, aby łupić ziemie tureckie."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "W którym roku wybuchło wielkie powstanie kozackie pod wodzą Bohdana Chmielnickiego?",
+    "answers": ["W 1648 roku", "W 1605 roku", "W 1620 roku", "W 1683 roku"],
+    "correct_index": 0,
+    "explanation": "Bunt na Ukrainie szybko przerodził się w wojnę, gdy do Kozaków dołączyły masy chłopstwa."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Kto stanął na czele powstania kozackiego w 1648 roku?",
+    "answers": ["Bohdan Chmielnicki", "Jeremi Wiśniowiecki", "Iwan Mazepa", "Taras Bulba"],
+    "correct_index": 0,
+    "explanation": "Chmielnicki, szlachcic ruski, wykorzystał niezadowolenie Kozaków do wywołania buntu przeciw Rzeczypospolitej."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Z kim sprzymierzył się Bohdan Chmielnicki przeciwko Polsce w pierwszej fazie powstania?",
+    "answers": ["Z Tatarami z Chanatu Krymskiego", "Z Turcją", "Z Austrią", "Z zakonem krzyżackim"],
+    "correct_index": 0,
+    "explanation": "Sojusz z Tatarami zapewnił Kozakom wsparcie potężnej jazdy, której im brakowało."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Jaką religię wyznawała większość Kozaków i ludności ukraińskiej?",
+    "answers": ["Prawosławie", "Katolicyzm", "Luteranizm", "Islam"],
+    "correct_index": 0,
+    "explanation": "Konflikt religijny między prawosławnymi Kozakami a katolicką szlachtą był jedną z przyczyn powstania."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Jak nazywał się charakterystyczny kosmyk włosów noszony przez Kozaków na czubku ogolonej głowy?",
+    "answers": ["Osełedec", "Irokez", "Warkocz", "Grzywka"],
+    "correct_index": 0,
+    "explanation": "Osełedec był elementem tradycyjnego wyglądu Kozaka, obok sumiastych wąsów i szerokich spodni (szarawarów)."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Który król Polski zmarł w 1648 roku, w momencie wybuchu powstania?",
+    "answers": ["Władysław IV Waza", "Zygmunt III Waza", "Jan II Kazimierz", "Jan III Sobieski"],
+    "correct_index": 0,
+    "explanation": "Śmierć króla i następcze bezkrólewie osłabiły Rzeczpospolitą w kluczowym momencie walk."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Kto został wybrany na króla Polski w czasie trwania powstania Chmielnickiego?",
+    "answers": ["Jan II Kazimierz Waza", "Michał Korybut Wiśniowiecki", "August II Mocny", "Stanisław Leszczyński"],
+    "correct_index": 0,
+    "explanation": "Był to młodszy brat zmarłego Władysława IV."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "W jakiej twierdzy, bronionej m.in. przez Jeremiego Wiśniowieckiego, Polacy odzyskali inicjatywę w 1649 roku?",
+    "answers": ["W Zbarażu", "W Kamieńcu Podolskim", "W Chocimiu", "W Smoleńsku"],
+    "correct_index": 0,
+    "explanation": "Bohaterska obrona Zbaraża powstrzymała marsz wojsk kozacko-tatarskich."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Co postanowiono w ugodzie w Perejasławiu w 1654 roku?",
+    "answers": ["Ukraina poddała się pod opiekę cara Rosji", "Kozacy zawarli pokój z Polską", "Turcja zajęła Ukrainę", "Kozacy utworzyli niepodległe państwo"],
+    "correct_index": 0,
+    "explanation": "Decyzja Chmielnickiego o poddaniu się Rosji doprowadziła do wybuchu wojny polsko-rosyjskiej."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Jaki był skutek ugody perejasławskiej dla Rzeczypospolitej?",
+    "answers": ["Wybuch wojny z Rosją i utrata części Ukrainy", "Zyskanie sojusznika w walce z Turcją", "Powiększenie terytorium Polski", "Koniec wojen kozackich"],
+    "correct_index": 0,
+    "explanation": "Wsparcie cara dla Kozaków umiędzynarodowiło konflikt i doprowadziło do trwałej utraty wschodnich ziem przez Polskę."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Co ustalono w rozejmie w Andruszowie w 1667 roku?",
+    "answers": ["Podział Ukrainy między Polskę a Rosję wzdłuż Dniepru", "Oddanie całej Ukrainy Rosji", "Powrót Ukrainy do Polski", "Utworzenie państwa kozackiego"],
+    "correct_index": 0,
+    "explanation": "Polska zatrzymała ziemie na zachód od Dniepru, a Rosja przejęła tereny na wschód (Zadnieprze) wraz z Kijowem."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Kim był Jeremi Wiśniowiecki?",
+    "answers": ["Polskim magnatem i wybitnym dowódcą walczącym z Kozakami", "Hetmanem kozackim", "Posłem tureckim", "Królem Polski"],
+    "correct_index": 0,
+    "explanation": "Książę Jeremi Wiśniowiecki zasłynął z krwawego tłumienia powstania i obrony Zbaraża."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Jaka powieść Henryka Sienkiewicza opowiada o powstaniu Chmielnickiego?",
+    "answers": ["Ogniem i mieczem", "Potop", "Pan Wołodyjowski", "Krzyżacy"],
+    "correct_index": 0,
+    "explanation": "Powieść ta, napisana 'ku pokrzepieniu serc', spopularyzowała obraz walk na Ukrainie w XVII wieku."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Dlaczego szlachta polska kolonizowała Ukrainę w XVII wieku?",
+    "answers": ["By zakładać wielkie majątki na żyznych ziemiach", "By szerzyć protestantyzm", "By uciec przed podatkami", "By budować fabryki"],
+    "correct_index": 0,
+    "explanation": "Na Ukrainie powstawały ogromne latyfundia magnackie, co rodziło konflikty społeczne z miejscową ludnością."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Jak nazywano wojska kozackie, które nie mieściły się w rejestrze i nie otrzymywały żołdu?",
+    "answers": ["Czerń", "Husaria", "Lisowczycy", "Piechota wybraniecka"],
+    "correct_index": 0,
+    "explanation": "To właśnie niezadowolona biedota i Kozacy wypisani z rejestru stanowili główną siłę napędową powstania."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Co było jedną z głównych przyczyn wybuchu powstania w 1648 roku?",
+    "answers": ["Próba ograniczenia liczby Kozaków rejestrowych i przywilejów", "Najazd turecki", "Chęć podboju Rosji przez Polskę", "Zbyt wysokie podatki nałożone przez cara"],
+    "correct_index": 0,
+    "explanation": "Sejm postanowił zmniejszyć rejestr, co oznaczało, że wielu Kozaków musiało wrócić do stanu chłopskiego (pańszczyźnianego)."
+  },
+  {
+    "category": "Powstanie kozackie",
+    "question": "Kto obecnie uważany jest na Ukrainie za bohatera narodowego i ojca państwowości?",
+    "answers": ["Bohdan Chmielnicki", "Jeremi Wiśniowiecki", "Jan Kazimierz", "Stefan Batory"],
+    "correct_index": 0,
+    "explanation": "Mimo krwawego charakteru buntu, Chmielnicki jest czczony za próbę uniezależnienia Ukrainy od Polski."
+  }
+]

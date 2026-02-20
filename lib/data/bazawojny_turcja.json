@@ -1,0 +1,163 @@
+[
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Co było główną przyczyną wojen polsko-tureckich w XVII wieku?",
+    "answers": ["Najazdy Kozaków na Turcję i Tatarów na Polskę", "Spór o dostęp do Morza Bałtyckiego", "Konflikt religijny wywołany przez papieża", "Chęć zdobycia Konstantynopola przez Polaków"],
+    "correct_index": 0,
+    "explanation": "Kozacy (poddani Polski) łupili ziemie tureckie, a Tatarzy (lennicy Turcji) najeżdżali Rzeczpospolitą, co doprowadziło do otwartej wojny."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Gdzie zginął hetman Stanisław Żółkiewski w 1620 roku?",
+    "answers": ["Pod Cecorą", "Pod Wiedniem", "Pod Chocimiem", "W Kamieńcu Podolskim"],
+    "correct_index": 0,
+    "explanation": "Klęska pod Cecorą była szokiem dla szlachty i otworzyła Turkom drogę w głąb Rzeczypospolitej."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Kto dowodził obroną obozu pod Chocimiem w 1621 roku i zmarł w trakcie walk?",
+    "answers": ["Jan Karol Chodkiewicz", "Jan III Sobieski", "Stefan Czarniecki", "Stanisław Żółkiewski"],
+    "correct_index": 0,
+    "explanation": "Sędziwy hetman Chodkiewicz zmarł w obozie, ale jego wojska (wspierane przez Kozaków) powstrzymały armię sułtana."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Jaka potężna twierdza, zwana 'kluczem do Rzeczypospolitej', upadła w 1672 roku?",
+    "answers": ["Kamieniec Podolski", "Lwów", "Zamość", "Częstochowa"],
+    "correct_index": 0,
+    "explanation": "Upadek tej nowoczesnej twierdzy zmusił Polskę do podpisania upokarzającego traktatu pokojowego."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Co zakładał traktat w Buczaczu (1672 r.)?",
+    "answers": ["Polska traci Podole i płaci haracz Turcji", "Turcja oddaje Polsce Mołdawię", "Polska i Turcja zawierają sojusz przeciw Rosji", "Turcja przyjmuje chrzest"],
+    "correct_index": 0,
+    "explanation": "Rzeczpospolita stała się formalnie lennikiem Turcji i musiała płacić coroczną daninę (haracz), co oburzyło szlachtę."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Gdzie Jan Sobieski odniósł wielkie zwycięstwo w 1673 roku (dzień przed śmiercią króla Michała)?",
+    "answers": ["Pod Chocimiem", "Pod Wiedniem", "Pod Cecorą", "Pod Parkanami"],
+    "correct_index": 0,
+    "explanation": "Zwycięstwo pod Chocimiem przyniosło Sobieskiemu sławę i utorowało mu drogę do korony królewskiej."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Kiedy miała miejsce Odsiecz Wiedeńska?",
+    "answers": ["12 września 1683 r.", "1673 r.", "1699 r.", "1648 r."],
+    "correct_index": 0,
+    "explanation": "Jan III Sobieski rozbił armię turecką oblegającą Wiedeń, ratując chrześcijańską Europę."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Jak nazywał się wielki wezyr dowodzący Turkami pod Wiedniem?",
+    "answers": ["Kara Mustafa", "Sulejman Wspaniały", "Osman II", "Mehmed IV"],
+    "correct_index": 0,
+    "explanation": "Kara Mustafa był pewny zwycięstwa, ale został zaskoczony atakiem husarii ze wzgórz Lasu Wiedeńskiego."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Jakie słowa wypowiedział Jan III Sobieski po zwycięstwie wiedeńskim?",
+    "answers": ["Venimus, vidimus, Deus vicit (Przybyliśmy, zobaczyliśmy, Bóg zwyciężył)", "Veni, vidi, vici", "Kości zostały rzucone", "Państwo to ja"],
+    "correct_index": 0,
+    "explanation": "Król przesłał te słowa papieżowi, podkreślając boską pomoc w zwycięstwie nad muzułmanami."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Do kogo Jan III Sobieski pisał słynne listy z wyprawy wiedeńskiej?",
+    "answers": ["Do żony Marii Kazimiery (Marysieńki)", "Do papieża", "Do cesarza Austrii", "Do syna Jakuba"],
+    "correct_index": 0,
+    "explanation": "Listy Sobieskiego do ukochanej żony są dziś cennym zabytkiem literatury i źródłem historycznym."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Czym charakteryzowała się husaria?",
+    "answers": ["Była ciężką jazdą wyposażoną w kopie i skrzydła", "Była lekką jazdą tatarską", "Walczyła pieszo przy użyciu muszkietów", "Była artylerią"],
+    "correct_index": 0,
+    "explanation": "Husaria była najskuteczniejszą formacją wojskową Rzeczypospolitej, przełamującą szyki wroga szarżą."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Jaka formacja wojskowa walczyła zarówno konno (dojazd), jak i pieszo (walka)?",
+    "answers": ["Dragoni", "Husaria", "Pancerni", "Lisowczycy"],
+    "correct_index": 0,
+    "explanation": "Dragoni używali broni palnej i walczyli w szyku pieszym, ale przemieszczali się konno, co dawało im mobilność."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Gdzie podpisano pokój kończący wojny z Turcją w 1699 roku?",
+    "answers": ["W Karłowicach", "W Buczaczu", "W Oliwie", "W Polanowie"],
+    "correct_index": 0,
+    "explanation": "Na mocy pokoju w Karłowicach Polska odzyskała utracone ziemie (Podole z Kamieńcem) i przestała płacić haracz."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Jak nazywała się koalicja państw chrześcijańskich zawiązana przeciwko Turcji po 1683 r.?",
+    "answers": ["Święta Liga", "Unia Protestancka", "Związek Szmalkaldzki", "Trójprzymierze"],
+    "correct_index": 0,
+    "explanation": "W skład Świętej Ligi weszły m.in. Polska, Austria, Wenecja i papiestwo, by ostatecznie wyprzeć Turków z Europy."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Którą prowincję utraciła Polska na rzecz Turcji w 1672 roku?",
+    "answers": ["Podole", "Wielkopolskę", "Mazowsze", "Litwę"],
+    "correct_index": 0,
+    "explanation": "Utrata żyznego Podola wraz z twierdzą w Kamieńcu była bolesnym ciosem dla Rzeczypospolitej."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Co to były 'skrzydła' husarskie i do czego służyły?",
+    "answers": ["Konstrukcje z piórami mocowane do siodła lub pleców, płoszące konie wroga hałasem", "Ozdoba noszona tylko na paradach", "Mechanizm pozwalający latać", "Tarcze ochronne"],
+    "correct_index": 0,
+    "explanation": "Szum piór podczas szarży oraz ich widok miał wywołać panikę w szeregach wroga i wśród jego koni."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Jak nazywali się średniozbrojni kawalerzyści, stanowiący większość jazdy polskiej?",
+    "answers": ["Pancerni (Towarzysze pancerni)", "Muszkieterzy", "Dragoni", "Piechota wybraniecka"],
+    "correct_index": 0,
+    "explanation": "Pancerni, w kolczugach i z szablami, wspierali uderzenia husarii i walczyli, gdy teren nie sprzyjał ciężkiej jeździe."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "W jakim stylu wybudowano pałac Jana III Sobieskiego w Wilanowie?",
+    "answers": ["Barokowym", "Gotyckim", "Romańskim", "Klasycystycznym"],
+    "correct_index": 0,
+    "explanation": "Pałac w Wilanowie jest perłą polskiego baroku i miał przypominać królowi o zwycięstwach oraz ukochanej żonie."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Kim był Sulejman Wspaniały?",
+    "answers": ["Sułtanem tureckim, za którego panowania imperium osiągnęło szczyt potęgi (XVI w.)", "Hetmanem kozackim", "Królem Polski", "Wezyrem pod Wiedniem"],
+    "correct_index": 0,
+    "explanation": "To za jego czasów Turcja stała się zagrożeniem dla całej Europy, choć z Polską utrzymywał pokój."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Jak zakończyło się oblężenie Wiednia dla Turków?",
+    "answers": ["Paniczną ucieczką i utratą całego obozu", "Zdobyciem miasta", "Podpisaniem rozejmu", "Wycofaniem się w porządku"],
+    "correct_index": 0,
+    "explanation": "Turcy uciekli w popłochu, zostawiając namioty, broń i skarby, które wpadły w ręce zwycięzców."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Co oznacza termin 'Imperium Osmańskie'?",
+    "answers": ["Państwo tureckie rządzone przez dynastię Osmanów", "Państwo Kozaków", "Inna nazwa Rzeczypospolitej", "Księstwo Moskiewskie"],
+    "correct_index": 0,
+    "explanation": "Imperium to rozciągało się na trzech kontynentach: Europie, Azji i Afryce."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Jak nazywała się długa kopia używana przez husarię?",
+    "answers": ["Kopia husarska", "Spisa", "Halabarda", "Lanca"],
+    "correct_index": 0,
+    "explanation": "Kopia była bronią jednorazowego użytku – kruszyła się przy uderzeniu, przebijając zbroje i tarcze wroga."
+  },
+  {
+    "category": "Wojny Rzeczypospolitej z Turcją",
+    "question": "Kto był sojusznikiem Polski podczas Odsieczy Wiedeńskiej?",
+    "answers": ["Austria (Habsburgowie) i Niemcy", "Francja", "Rosja", "Szwecja"],
+    "correct_index": 0,
+    "explanation": "Król Jan III Sobieski pospieszył na ratunek cesarzowi Leopoldowi I, dotrzymując sojuszu zaczepno-obronnego."
+  }
+]

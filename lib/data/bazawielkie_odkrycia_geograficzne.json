@@ -1,0 +1,142 @@
+[
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "W którym roku Krzysztof Kolumb dopłynął do wybrzeży Ameryki?",
+    "answers": ["1492", "1488", "1498", "1519"],
+    "correct_index": 0,
+    "explanation": "12 października 1492 r. Kolumb dopłynął do wyspy na Bahamach, myśląc że dotarł do Indii – w rzeczywistości odkrył Nowy Świat."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Jak nazywano nowy kontynent od imienia podróżnika, który jako pierwszy opisał go jako odrębną część świata?",
+    "answers": ["Ameryka (od Ameriga Vespucciego)", "Kolumbia (od Kolumba)", "Atlantis", "Indie Zachodnie"],
+    "correct_index": 0,
+    "explanation": "Amerigo Vespucci jako pierwszy uznał odkryte ziemie za nowy kontynent; mapograf Waldseemüller nadał mu nazwę Ameryka."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Kto w 1498 roku jako pierwszy Europejczyk dopłynął drogą morską do Indii (obejmując Przylądek Dobrej Nadziei)?",
+    "answers": ["Vasco da Gama", "Krzysztof Kolumb", "Ferdynand Magellan", "Bartolomeu Dias"],
+    "correct_index": 0,
+    "explanation": "Vasco da Gama opłynął Afrykę i dotarł do Indii (Kalikat), otwierając Portugalczykom drogę do handlu przyprawami."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Kto jako pierwszy opłynął kulę ziemską (wyprawa 1519–1522)?",
+    "answers": ["Ekspedycja Magellana (po jego śmierci dokończył Juan Sebastián Elcano)", "Krzysztof Kolumb", "Vasco da Gama", "James Cook"],
+    "correct_index": 0,
+    "explanation": "Ferdynand Magellan wyruszył w 1519 r.; zginął na Filipinach, ale jego załoga pod Elcano dopłynęła do Hiszpanii w 1522 r."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Jaki cieśninę przepłynął Magellan, łącząc Ocean Atlantycki z Pacyfikiem?",
+    "answers": ["Cieśninę Magellana (na południu Ameryki Południowej)", "Cieśninę Gibraltarską", "Przejście Północno-Zachodnie", "Kanał Sueski"],
+    "correct_index": 0,
+    "explanation": "Magellan odkrył i przepłynął cieśninę między kontynentem a Ziemią Ognistą – dziś nazywa się ją Cieśniną Magellana."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Co było główną przyczyną wielkich odkryć geograficznych w XV–XVI wieku?",
+    "answers": ["Poszukiwanie drogi do Indii po przyprawy i metale szlachetne (Turcy zamknęli szlaki lądowe)", "Chęć nawrócenia całego świata na chrześcijaństwo", "Eksperymenty naukowe", "Ucieczka przed epidemią"],
+    "correct_index": 0,
+    "explanation": "Turcy kontrolowali szlaki lądowe do Indii; Europejczycy szukali drogi morskiej po przyprawy, złoto i srebro."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Które państwo wysłało wyprawę Kolumba?",
+    "answers": ["Hiszpania (królowa Izabela Kastylijska)", "Portugalia", "Włochy", "Anglia"],
+    "correct_index": 0,
+    "explanation": "Królowa Izabela Kastylijska i król Ferdynand Aragoński sfinansowali wyprawę Kolumba; Portugalczycy wcześniej odrzucili jego projekt."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Kto w 1488 roku jako pierwszy Europejczyk opłynął Przylądek Dobrej Nadziei?",
+    "answers": ["Bartolomeu Dias", "Vasco da Gama", "Krzysztof Kolumb", "Ferdynand Magellan"],
+    "correct_index": 0,
+    "explanation": "Portugalczyk Bartolomeu Dias opłynął południowy kraniec Afryki i udowodnił, że można dotrzeć do Indii drogą morską."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Jaki wpływ miały odkrycia geograficzne na Europę?",
+    "answers": ["Napływ złota i srebra, wzrost cen, rozwój handlu, upadek feudalizmu", "Upadek miast portowych", "Zamknięcie uniwersytetów", "Dominacja muzułmańska"],
+    "correct_index": 0,
+    "explanation": "Metal z Ameryki spowodował inflację; bogactwo wzmocniło monarchie i burżuazję; handel przeniósł się na Atlantyk."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Które państwo skolonizowało Brazylię?",
+    "answers": ["Portugalia", "Hiszpania", "Anglia", "Francja"],
+    "correct_index": 0,
+    "explanation": "Portugalia zajęła Brazylię na mocy traktatu w Tordesillas (1494), który podzielił świat między Hiszpanię a Portugalię."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Które państwo skolonizowało większość Ameryki Środkowej i Południowej (Meksyk, Peru, Chile)?",
+    "answers": ["Hiszpania", "Portugalia", "Anglia", "Holandia"],
+    "correct_index": 0,
+    "explanation": "Hiszpania podbiła imperia Azteków i Inków oraz rozległe tereny; Portugalia zatrzymała Brazylię."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Co to był traktat w Tordesillas (1494)?",
+    "answers": ["Podział świata między Hiszpanię a Portugalię wzdłuż południka", "Pokój między Turcją a Europą", "Sojusz przeciwko Anglii", "Umowa handlowa z Indiami"],
+    "correct_index": 0,
+    "explanation": "Papież podzielił świat: Hiszpania otrzymała ziemie na zachód od linii, Portugalia na wschód (w tym Brazylię)."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Jaki wpływ odkrycia Ameryki miały na ludność rodzimą?",
+    "answers": ["Epidemie, niewola, wymarcie milionów Indian (konkwista)", "Przyjaźń i wymiana kulturalna", "Brak wpływu", "Indianie podbili Europę"],
+    "correct_index": 0,
+    "explanation": "Konkwista, choroby przywleczone z Europy i praca przymusowa doprowadziły do śmierci ogromnej części ludności Indian."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Kim byli konkwistadorzy?",
+    "answers": ["Hiszpańscy zdobywcy i kolonizatorzy Ameryki (np. Cortez, Pizarro)", "Portugalscy kupcy", "Angielscy żeglarze", "Misjonarze jezuiccy"],
+    "correct_index": 0,
+    "explanation": "Hernán Cortés podbił imperium Azteków (Meksyk), Francisco Pizarro – imperium Inków (Peru)."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Kto podbił imperium Azteków w Meksyku?",
+    "answers": ["Hernán Cortés", "Francisco Pizarro", "Vasco da Gama", "Ferdynand Magellan"],
+    "correct_index": 0,
+    "explanation": "Cortés w 1519–1521 r. pokonał Azteków i zajął ich stolicę Tenochtitlán (dzisiejszy Meksyk)."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Kto podbił imperium Inków w Peru?",
+    "answers": ["Francisco Pizarro", "Hernán Cortés", "Krzysztof Kolumb", "Vasco da Gama"],
+    "correct_index": 0,
+    "explanation": "Pizarro w latach 1531–1533 pokonał Inków i zdobył ich stolicę Cuzco oraz olbrzymie bogactwa."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Co przyczyniło się do możliwości dalekich wypraw morskich w XV wieku?",
+    "answers": ["Rozwój nawigacji, karawela, kompas, mapy", "Upadek Bizancjum", "Wynalezienie prochu", "Sojusz z Turcją"],
+    "correct_index": 0,
+    "explanation": "Karawela (statek żaglowy), kompas, astrolabium i poprawione mapy umożliwiły dalekie rejsy oceaniczne."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Gdzie Krzysztof Kolumb sądził, że dopłynął w 1492 roku?",
+    "answers": ["Do Indii (wschodnie wybrzeże Azji)", "Do Ameryki", "Do Afryki", "Do Australii"],
+    "correct_index": 0,
+    "explanation": "Kolumb wierzył, że płynąc na zachód, dotrze do Indii; dopiero późniejsze wyprawy potwierdziły istnienie nowego kontynentu."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Jak nazywa się ocean, który Magellan nazwał „Spokojnym” (Pacyfik)?",
+    "answers": ["Ocean Spokojny (Pacyfik)", "Ocean Atlantycki", "Ocean Indyjski", "Ocean Arktyczny"],
+    "correct_index": 0,
+    "explanation": "Magellan nadał mu nazwę Mare Pacificum (Morze Spokojne) z powodu spokojnej pogody podczas przepłynięcia."
+  },
+  {
+    "category": "Wielkie odkrycia geograficzne",
+    "question": "Które przyprawy były głównym celem europejskiego handlu z Indiami?",
+    "answers": ["Pieprz, goździki, cynamon, gałka muszkatołowa", "Cukier i kawa", "Ryż i herbata", "Kakao"],
+    "correct_index": 0,
+    "explanation": "Przyprawy były niezbędne do konserwacji żywności i bardzo drogie; kontrolowanie szlaków do Indii dawało ogromne zyski."
+  }
+]

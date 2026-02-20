@@ -1,10 +1,10 @@
 import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
-import FlashcardsGame from "./FlashcardsGame";
-import { getFlashcardsForCategory } from "@/lib/quiz-loader";
+import QuizGame from "./QuizGame";
+import { getQuestionsForCategory } from "@/lib/quiz-loader";
 import { getCategoryById } from "@/lib/categories";
 
-export default async function FiszkiCategoryPage({
+export default async function QuizCategoryPage({
   params,
 }: {
   params: Promise<{ category: string }>;
@@ -23,10 +23,18 @@ export default async function FiszkiCategoryPage({
   if (!profile?.nickname) redirect("/ustaw-nick");
 
   const categoryInfo = getCategoryById(category);
-  if (!categoryInfo) redirect("/fiszki");
+  if (!categoryInfo) redirect("/quiz");
 
-  const flashcards = getFlashcardsForCategory(category);
-  if (flashcards.length === 0) redirect("/fiszki");
+  const questions = getQuestionsForCategory(category);
+  if (questions.length === 0) redirect("/quiz");
 
-  return <FlashcardsGame flashcards={flashcards} userId={user.id} categoryName={categoryInfo.name} />;
+  return (
+    <main className="min-h-screen p-8 max-w-2xl mx-auto">
+      <QuizGame 
+        questions={questions} 
+        userId={user.id} 
+        categoryName={categoryInfo.name}
+      />
+    </main>
+  );
 }

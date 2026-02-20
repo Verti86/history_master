@@ -1,0 +1,184 @@
+[
+    {
+        "category": "Francja - Absolutyzm",
+        "question": "Kto sprawował władzę we Francji w drugiej połowie XVII wieku i jest symbolem absolutyzmu?",
+        "answers": ["Ludwik XIV", "Ludwik XIII", "Henryk IV", "Kardynał Richelieu"],
+        "correct_index": 0,
+        "explanation": "Ludwik XIV, znany jako Król Słońce, panował 72 lata i wprowadził rządy absolutne."
+    },
+    {
+        "category": "Francja - Absolutyzm",
+        "question": "Jakie słowa, oddające istotę absolutyzmu, przypisuje się Ludwikowi XIV?",
+        "answers": ["Państwo to ja", "Cel uświęca środki", "Po nas choćby potop", "Wolność, Równość, Braterstwo"],
+        "correct_index": 0,
+        "explanation": "L'état, c'est moi – król utożsamiał się z całym państwem."
+    },
+    {
+        "category": "Francja - Absolutyzm",
+        "question": "Jak nazywał się pierwszy minister Ludwika XIII, twórca podstaw absolutyzmu?",
+        "answers": ["Kardynał Richelieu", "Kardynał Mazarin", "Jean-Baptiste Colbert", "Oliver Cromwell"],
+        "correct_index": 0,
+        "explanation": "Kardynał Richelieu dążył do wzmocnienia władzy królewskiej i osłabienia arystokracji."
+    },
+    {
+        "category": "Francja - Absolutyzm",
+        "question": "Co oznacza pojęcie 'racja stanu' wprowadzone przez Richelieu?",
+        "answers": ["Interes państwa jest nadrzędny nad innymi normami", "Władza należy do ludu", "Kościół jest najważniejszy", "Szlachta decyduje o wojnie"],
+        "correct_index": 0,
+        "explanation": "Racja stanu to nadrzędny interes państwa, któremu należy podporządkować inne działania."
+    },
+    {
+        "category": "Francja - Absolutyzm",
+        "question": "W którym roku Ludwik XIV odwołał Edykt nantejski (znosząc tolerancję religijną)?",
+        "answers": ["1685", "1648", "1700", "1598"],
+        "correct_index": 0,
+        "explanation": "W 1685 roku król zabronił wyznawania kalwinizmu, co zmusiło hugenotów do emigracji."
+    },
+    {
+        "category": "Francja - Absolutyzm",
+        "question": "Jak nazywano francuskich kalwinistów?",
+        "answers": ["Hugenoci", "Purytanie", "Arianie", "Luteranie"],
+        "correct_index": 0,
+        "explanation": "Hugenoci to francuscy protestanci, którzy po 1685 roku musieli uciekać z kraju."
+    },
+    {
+        "category": "Francja - Absolutyzm",
+        "question": "Wielki pałac pod Paryżem, symbol potęgi Ludwika XIV, to:",
+        "answers": ["Wersal", "Luwr", "Bastylia", "Tuileries"],
+        "correct_index": 0,
+        "explanation": "Wersal stał się wzorem dla wszystkich dworów europejskich ('Złota klatka' dla arystokracji)."
+    },
+    {
+        "category": "Anglia - Monarchia",
+        "question": "Jak nazywali się angielscy protestanci dążący do 'oczyszczenia' Kościoła anglikańskiego?",
+        "answers": ["Purytanie", "Jezuici", "Hugenoci", "Arianie"],
+        "correct_index": 0,
+        "explanation": "Purytanie (od łac. puritas - czystość) chcieli reform w duchu nauk Kalwina."
+    },
+    {
+        "category": "Anglia - Monarchia",
+        "question": "W którym roku wybuchła wojna domowa w Anglii?",
+        "answers": ["1642", "1688", "1605", "1660"],
+        "correct_index": 0,
+        "explanation": "W 1642 roku zaostrzył się konflikt między królem Karolem I a Parlamentem."
+    },
+    {
+        "category": "Anglia - Monarchia",
+        "question": "Jaki los spotkał króla Karola I Stuarta w 1649 roku?",
+        "answers": ["Został ścięty publicznie", "Uciekł do Francji", "Zmarł na wojnie", "Został dożywotnio uwięziony"],
+        "correct_index": 0,
+        "explanation": "Po raz pierwszy w historii Europy poddani osądzili i ścięli swojego króla."
+    },
+    {
+        "category": "Anglia - Monarchia",
+        "question": "Kto przejął władzę w Anglii po obaleniu monarchii i przyjął tytuł Lorda Protektora?",
+        "answers": ["Oliver Cromwell", "Wilhelm Orański", "Karol II", "Jakub I"],
+        "correct_index": 0,
+        "explanation": "Oliver Cromwell rządził Anglią jako dyktator (Lord Protektor) w okresie republiki."
+    },
+    {
+        "category": "Anglia - Monarchia",
+        "question": "Jak nazywa się bezkrwawe przekazanie władzy Wilhelmowi Orańskiemu w 1688 roku?",
+        "answers": ["Chwalebna Rewolucja", "Wielka Smuta", "Wiosna Ludów", "Powstanie Cromwella"],
+        "correct_index": 0,
+        "explanation": "Parlament odsunął Jakuba II i powołał Wilhelma Orańskiego, co nazwano Chwalebną Rewolucją."
+    },
+    {
+        "category": "Anglia - Monarchia",
+        "question": "Jaki dokument z 1689 roku ograniczał władzę króla na rzecz Parlamentu?",
+        "answers": ["Deklaracja praw (Bill of Rights)", "Edykt nantejski", "Wielka Karta Swobód", "Akt supremacji"],
+        "correct_index": 0,
+        "explanation": "Deklaracja praw stworzyła podstawy monarchii parlamentarnej ('król panuje, ale nie rządzi')."
+    },
+    {
+        "category": "Kryzys Rzeczypospolitej",
+        "question": "Kto po raz pierwszy użył 'liberum veto' do zerwania sejmu?",
+        "answers": ["Władysław Siciński", "Jan Zamoyski", "Jeremi Wiśniowiecki", "Hieronim Radziejowski"],
+        "correct_index": 0,
+        "explanation": "Poseł Władysław Siciński zerwał sejm w 1652 roku."
+    },
+    {
+        "category": "Kryzys Rzeczypospolitej",
+        "question": "Jakie były skutki demograficzne wojen w XVII wieku dla Polski?",
+        "answers": ["Spadek liczby ludności o ok. 30%", "Wzrost liczby ludności", "Brak zmian", "Napływ ludności z zachodu"],
+        "correct_index": 0,
+        "explanation": "Wojny, głód i choroby spowodowały utratę około 1/3 ludności Rzeczypospolitej."
+    },
+    {
+        "category": "Kryzys Rzeczypospolitej",
+        "question": "Co oznacza powiedzenie 'dobry żart tynfa wart'?",
+        "answers": ["Coś mało wartościowego", "Coś bardzo cennego", "Dobry humor króla", "Nazwa podatku"],
+        "correct_index": 0,
+        "explanation": "Tynf był monetą o zaniżonej zawartości srebra, bitym w czasie kryzysu gospodarczego."
+    },
+    {
+        "category": "Kryzys Rzeczypospolitej",
+        "question": "Jak nazywamy system rządów, w którym decydujący głos miały potężne rody magnackie?",
+        "answers": ["Oligarchia magnacka", "Monarchia absolutna", "Demokracja szlachecka", "Republika"],
+        "correct_index": 0,
+        "explanation": "W II połowie XVII w. demokracja szlachecka przekształciła się w oligarchię magnacką (rządy nielicznych bogaczy)."
+    },
+    {
+        "category": "Kryzys Rzeczypospolitej",
+        "question": "W którym roku wygnano z Polski arian (braci polskich)?",
+        "answers": ["1658", "1655", "1683", "1660"],
+        "correct_index": 0,
+        "explanation": "Oskarżono ich o sprzyjanie Szwedom podczas Potopu i wygnano z kraju."
+    },
+    {
+        "category": "Kryzys Rzeczypospolitej",
+        "question": "Jak nazywał się rokosz przeciwko Janowi Kazimierzowi (wojna domowa) z lat 1665-1666?",
+        "answers": ["Rokosz Lubomirskiego", "Rokosz Zebrzydowskiego", "Rokosz Lwowski", "Konfederacja Barska"],
+        "correct_index": 0,
+        "explanation": "Jerzy Lubomirski sprzeciwił się planom reform króla, co doprowadziło do krwawej wojny domowej (bitwa pod Mątwami)."
+    },
+    {
+        "category": "Kryzys Rzeczypospolitej",
+        "question": "W którym roku król Jan Kazimierz abdykował (zrzekł się tronu)?",
+        "answers": ["1668", "1660", "1655", "1673"],
+        "correct_index": 0,
+        "explanation": "Zniechęcony oporem szlachty i wojnami, Jan Kazimierz zrezygnował z władzy i wyjechał do Francji."
+    },
+    {
+        "category": "Kryzys Rzeczypospolitej",
+        "question": "Czym była 'klientela' magnacka?",
+        "answers": ["Uboga szlachta uzależniona od magnata", "Sieć sklepów", "Oddziały cudzoziemskie", "Grupa artystów"],
+        "correct_index": 0,
+        "explanation": "Magnaci opłacali i utrzymywali ubogą szlachtę ('klientów'), która w zamian głosowała na sejmikach zgodnie z ich wolą."
+    },
+    {
+        "category": "Kryzys Rzeczypospolitej",
+        "question": "Kto został królem po abdykacji Jana Kazimierza (w 1669 roku)?",
+        "answers": ["Michał Korybut Wiśniowiecki", "Jan III Sobieski", "August II Mocny", "Stanisław Leszczyński"],
+        "correct_index": 0,
+        "explanation": "Szlachta wybrała 'Piasta', syna pogromcy Kozaków – Michała Korybuta Wiśniowieckiego."
+    },
+    {
+        "category": "Kryzys Rzeczypospolitej",
+        "question": "Jak nazywał się zamek magnacki będący symbolem megalomanii, posiadający 365 okien?",
+        "answers": ["Krzyżtopór", "Wawel", "Malbork", "Zamek Królewski"],
+        "correct_index": 0,
+        "explanation": "Zamek Krzyżtopór w Ujeździe miał 4 wieże (pory roku), 12 sal (miesiące), 52 pokoje (tygodnie) i 365 okien (dni)."
+    },
+    {
+        "category": "Francja - Absolutyzm",
+        "question": "Co to była 'Fronda' we Francji?",
+        "answers": ["Bunt przeciwko władzy królewskiej", "Rodzaj procy", "Nazwa tańca", "Święto dworskie"],
+        "correct_index": 0,
+        "explanation": "Za młodości Ludwika XIV doszło do buntu (Frondy), co zniechęciło króla do Paryża (dlatego zbudował Wersal)."
+    },
+    {
+        "category": "Anglia - Monarchia",
+        "question": "Jak nazywała się armia stworzona przez Cromwella?",
+        "answers": ["Armia Nowego Wzoru", "Żelaznobocy", "Husaria", "Muszkieterzy Króla"],
+        "correct_index": 0,
+        "explanation": "Armia Nowego Wzoru (New Model Army) składała się z fanatycznych, zdyscyplinowanych purytanów."
+    },
+    {
+        "category": "Anglia - Monarchia",
+        "question": "W jakich latach Anglia była republiką?",
+        "answers": ["1649-1660", "1600-1620", "1688-1700", "1550-1560"],
+        "correct_index": 0,
+        "explanation": "Okres od ścięcia Karola I do restauracji Stuartów (powrotu Karola II) to jedyny czas republiki w historii Anglii."
+    }
+]
