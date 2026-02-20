@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ChatWidget from "@/components/ChatWidget";
 
 export const metadata: Metadata = {
   title: "History Master Online | Quiz z historii – klasa 6",
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="pl">
       <body className="antialiased min-h-screen bg-[#0e1117] text-[#fafafa]">
         {children}
+        <ChatWidget />
       </body>
     </html>
   );

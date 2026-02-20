@@ -69,3 +69,21 @@
 .menu-card-fiszki:hover .menu-icon { animation: pulse-glow 0.6s ease-in-out infinite; }
 .menu-card-czas:hover .menu-icon { animation: float-slow 1s ease-in-out infinite; }
 .menu-card-skojarzenia:hover .menu-icon { animation: magnify 0.8s ease-in-out infinite; }
+
+/* Chat animations */
+@keyframes slide-in-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-in {
+  animation: slide-in-bottom 0.2s ease-out;
+}
+.slide-in-from-bottom-4 {
+  animation: slide-in-bottom 0.2s ease-out;
+}
