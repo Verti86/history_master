@@ -7,7 +7,7 @@ type Message = {
   id: string;
   user_id: string;
   nickname: string;
-  message: string;
+  content: string;
   created_at: string;
 };
 
@@ -92,7 +92,7 @@ export default function ChatWidget() {
     const { error: insertError } = await supabase.from("chat_messages").insert({
       user_id: userId,
       nickname: nickname,
-      message: newMessage.trim(),
+      content: newMessage.trim(),
     });
 
     if (insertError) {
@@ -156,7 +156,7 @@ export default function ChatWidget() {
                   {msg.user_id !== userId && (
                     <p className="text-xs text-purple-400 font-medium mb-1">{msg.nickname}</p>
                   )}
-                  <p className="text-sm break-words">{msg.message}</p>
+                  <p className="text-sm break-words">{msg.content}</p>
                 </div>
                 <span className="text-[10px] text-gray-600 mt-0.5 px-1">
                   {formatTime(msg.created_at)}
