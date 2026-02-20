@@ -32,7 +32,21 @@ export default function UstawNickPage() {
       router.push("/login");
       return;
     }
-    const { error: err } = await supabase.from("profiles").upsert({ id: user.id, nickname: s });
+    // Sprawdź czy nick jest zajęty przez innego użytkownika
+    const { data: existing } = await supabase
+      .from("profiles")
+      .select("id")
+      .eq("nick", s)
+      .neq("id", user.id)
+      .maybeSingle();
+    
+    if (existing) {
+      setError("Ten nick jest już zajęty. Wybierz inny.");
+      setLoading(false);
+      return;
+    }
+
+    const { error: err } = await supabase.from("profiles").upsert({ id: user.id, nick: s });
     setLoading(false);
     if (err) {
       setError("Nie udało się zapisać. Spróbuj ponownie.");
