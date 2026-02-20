@@ -129,9 +129,15 @@ export default function ChatWidget() {
   }
 
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div
+      className="fixed z-[9999]"
+      style={{
+        bottom: "max(1rem, env(safe-area-inset-bottom))",
+        right: "max(1rem, env(safe-area-inset-right))",
+      }}
+    >
       {isOpen ? (
-        <div className="w-80 h-96 bg-gray-900 border border-gray-700 rounded-xl shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-4 duration-200">
+        <div className="w-[calc(100vw-2rem)] max-w-sm h-[70vh] max-h-[28rem] min-h-[20rem] bg-gray-900 border border-gray-700 rounded-xl shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-4 duration-200">
           {/* Header */}
           <div className="bg-gradient-to-r from-purple-700 to-blue-700 p-3 flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -210,9 +216,9 @@ export default function ChatWidget() {
       ) : (
         <button
           onClick={() => setIsOpen(true)}
-          className="relative w-14 h-14 bg-gradient-to-br from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 rounded-full shadow-lg hover:shadow-purple-500/30 transition-all duration-300 flex items-center justify-center group"
+          className="relative w-16 h-16 min-w-[4rem] min-h-[4rem] bg-gradient-to-br from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 rounded-full shadow-xl shadow-purple-900/40 transition-all duration-300 flex items-center justify-center group touch-manipulation"
         >
-          <span className="text-2xl group-hover:scale-110 transition-transform">💬</span>
+          <span className="text-3xl group-hover:scale-110 transition-transform select-none">💬</span>
           {unreadCount > 0 && (
             <span className="absolute -top-1 -right-1 w-6 h-6 bg-red-500 text-white text-xs font-bold rounded-full flex items-center justify-center animate-bounce">
               {unreadCount > 9 ? "9+" : unreadCount}
