@@ -18,18 +18,18 @@ export default async function MenuPage() {
 
   const { data: stats } = await supabase
     .from("game_stats")
-    .select("score")
+    .select("points")
     .eq("user_id", user.id);
-  const totalXp = (stats || []).reduce((s, r) => s + (r.score || 0), 0);
+  const totalXp = (stats || []).reduce((s, r) => s + (r.points || 0), 0);
 
-  const { data: allStats } = await supabase.from("game_stats").select("user_id, score");
+  const { data: allStats } = await supabase.from("game_stats").select("user_id, points");
   const { data: profiles } = await supabase.from("profiles").select("id, nickname");
   const nicks: Record<string, string> = {};
   (profiles || []).forEach((p) => { nicks[p.id] = p.nickname || `Gracz_${p.id.slice(0, 8)}`; });
   const scores: Record<string, number> = {};
   (allStats || []).forEach((r) => {
     const name = nicks[r.user_id] || `Gracz_${r.user_id?.slice(0, 8)}`;
-    scores[name] = (scores[name] || 0) + (r.score || 0);
+    scores[name] = (scores[name] || 0) + (r.points || 0);
   });
   const ranking = Object.entries(scores)
     .sort((a, b) => b[1] - a[1])

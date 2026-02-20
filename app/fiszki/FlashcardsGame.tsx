@@ -63,9 +63,8 @@ export default function FlashcardsGame({ flashcards, userId }: Props) {
       const supabase = createClient();
       await supabase.from("game_stats").insert({
         user_id: userId,
-        game_type: "fiszki",
-        score: score,
-        max_score: 10,
+        game_mode: "Fiszki",
+        points: score,
       });
     } catch (e) {
       console.error("Błąd zapisu:", e);

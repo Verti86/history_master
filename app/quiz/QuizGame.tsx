@@ -56,9 +56,8 @@ export default function QuizGame({ questions, userId }: { questions: QuizQuestio
     const supabase = createClient();
     await supabase.from("game_stats").insert({
       user_id: userId,
-      game_type: "quiz",
-      score: finalScore,
-      max_score: total,
+      game_mode: "Quiz",
+      points: finalScore,
     });
   }
 

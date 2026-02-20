@@ -99,9 +99,8 @@ export default function AssociationsGame({ associations, userId }: Props) {
       const supabase = createClient();
       await supabase.from("game_stats").insert({
         user_id: userId,
-        game_type: "skojarzenia",
-        score: score,
-        max_score: maxScore,
+        game_mode: "Skojarzenia",
+        points: score,
       });
     } catch (e) {
       console.error("Błąd zapisu:", e);

@@ -86,9 +86,8 @@ export default function TimelineGame({ events, userId }: Props) {
       const supabase = createClient();
       await supabase.from("game_stats").insert({
         user_id: userId,
-        game_type: "os_czasu",
-        score: finalScore,
-        max_score: totalRounds,
+        game_mode: "Oś czasu",
+        points: finalScore,
       });
     } catch (e) {
       console.error("Błąd zapisu:", e);
