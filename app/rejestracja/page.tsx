@@ -16,12 +16,16 @@ export default function RejestracjaPage() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError(null);
+    if (password.length < 8) {
+      setError("Hasło musi mieć co najmniej 8 znaków.");
+      return;
+    }
     setLoading(true);
     const supabase = createClient();
     const { error: err } = await supabase.auth.signUp({ email, password });
     setLoading(false);
     if (err) {
-      setError(err.message);
+      setError("Rejestracja nie powiodła się. Sprawdź email i hasło (min. 8 znaków) i spróbuj ponownie.");
       return;
     }
     setSuccess(true);
@@ -57,7 +61,7 @@ export default function RejestracjaPage() {
         </div>
         <div>
           <label htmlFor="password" className="block text-sm text-[#aaa] mb-1">
-            Hasło (min. 6 znaków)
+            Hasło (min. 8 znaków)
           </label>
           <input
             id="password"
@@ -65,7 +69,8 @@ export default function RejestracjaPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            minLength={6}
+            minLength={8}
+            autoComplete="new-password"
             className="w-full px-4 py-2 rounded-lg bg-[#262730] border border-[#444] text-[#fafafa] focus:border-[#ffbd45] outline-none"
           />
         </div>

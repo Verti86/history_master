@@ -8,12 +8,12 @@ export default async function HomePage() {
   if (user) redirect("/menu");
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center p-8">
-      <h1 className="text-3xl font-bold mb-2">🛡️ History Master Online</h1>
-      <p className="text-[#aaa] mb-8 text-center max-w-md">
+    <main className="min-h-screen flex flex-col items-center p-8">
+      <h1 className="text-3xl font-bold mb-2 mt-4">🛡️ History Master Online</h1>
+      <p className="text-[#aaa] mb-6 text-center max-w-md">
         Quiz, fiszki i oś czasu z historii – zgodne z podstawą programową dla klasy 6 SP
       </p>
-      <div className="flex gap-4">
+      <div className="flex gap-4 mb-10">
         <Link
           href="/login"
           className="px-6 py-3 rounded-lg bg-[#ffbd45] text-[#0e1117] font-medium hover:opacity-90"
@@ -27,7 +27,20 @@ export default async function HomePage() {
           Rejestracja
         </Link>
       </div>
-      <p className="mt-8 text-sm text-[#888]">
+
+      <section className="max-w-xl text-center text-[#aaa] text-sm space-y-3 mb-10">
+        <h2 className="text-[#e0e0e0] font-semibold text-base">Dla kogo jest ta aplikacja?</h2>
+        <p>
+          <strong className="text-[#fafafa]">History Master Online</strong> to darmowa aplikacja do nauki historii dla uczniów <strong className="text-[#fafafa]">klasy 6 szkoły podstawowej</strong>. 
+          Zawiera quizy z historii Polski i świata, fiszki, oś czasu oraz skojarzenia – wszystko zgodne z podstawą programową. 
+          Idealna do powtórek przed sprawdzianem, na lekcję lub w domu. Ucz się przez quiz, fiszki i układanie wydarzeń na osi czasu.
+        </p>
+        <p>
+          Tematy: wielkie odkrycia geograficzne, złoty wiek, reformacja, Rzeczpospolita Obojga Narodów, Wazowie, potop szwedzki, wojny z Turcją i Rosją, barok, oświecenie i inne.
+        </p>
+      </section>
+
+      <p className="text-sm text-[#888]">
         Ta sama baza Supabase co aplikacja Python. Logowanie i ranking współdzielone.
       </p>
     </main>

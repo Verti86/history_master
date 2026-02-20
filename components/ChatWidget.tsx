@@ -48,7 +48,7 @@ export default function ChatWidget() {
         .limit(100);
       if (fetchError) {
         console.error("Fetch messages error:", fetchError);
-        setError(`Nie można załadować czatu: ${fetchError.message}`);
+        setError("Nie można załadować czatu. Odśwież stronę.");
       } else if (data) {
         setMessages(data);
       }
@@ -107,7 +107,7 @@ export default function ChatWidget() {
 
     if (insertError) {
       console.error("Chat error:", insertError);
-      setError(insertError.message);
+      setError("Nie udało się wysłać wiadomości. Spróbuj ponownie.");
       setNewMessage(messageContent);
     } else if (data) {
       setMessages((prev) => {

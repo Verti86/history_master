@@ -20,7 +20,7 @@ export default function LoginPage() {
     const { error: err } = await supabase.auth.signInWithPassword({ email, password });
     setLoading(false);
     if (err) {
-      setError(err.message);
+      setError("Nieprawidłowy email lub hasło. Sprawdź dane i spróbuj ponownie.");
       return;
     }
     router.push("/");
@@ -54,6 +54,7 @@ export default function LoginPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
+            autoComplete="current-password"
             className="w-full px-4 py-2 rounded-lg bg-[#262730] border border-[#444] text-[#fafafa] focus:border-[#ffbd45] outline-none"
           />
         </div>
