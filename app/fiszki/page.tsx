@@ -1,6 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
 import CategoryPicker from "@/components/CategoryPicker";
+import { CATEGORIES } from "@/lib/categories";
 
 export default async function FiszkiPage() {
   const supabase = await createClient();
@@ -19,6 +20,7 @@ export default async function FiszkiPage() {
       baseUrl="/fiszki"
       title="🧠 Fiszki"
       subtitle="Wybierz temat do nauki:"
+      categoryCount={CATEGORIES.length}
     />
   );
 }

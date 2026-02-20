@@ -6,6 +6,8 @@ type Props = {
   title: string;
   subtitle: string;
   showAllOption?: boolean;
+  /** Liczba działów (jeśli podana, używana zamiast CATEGORIES.length – gwarantuje aktualną wartość po deployu) */
+  categoryCount?: number;
 };
 
 const ICON_ANIMATIONS: Record<string, string> = {
@@ -22,7 +24,8 @@ const ICON_ANIMATIONS: Record<string, string> = {
   "🦁": "animate-shake",
 };
 
-export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption = true }: Props) {
+export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption = true, categoryCount }: Props) {
+  const count = categoryCount ?? CATEGORIES.length;
   return (
     <main className="min-h-screen bg-gray-900 text-white p-8 max-w-2xl mx-auto">
       <h1 className="text-2xl font-bold mb-2">{title}</h1>
@@ -37,7 +40,7 @@ export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption
             <span className="text-2xl group-hover:animate-bounce">📚</span>
             <div>
               <span className="font-medium">Wszystkie tematy</span>
-              <span className="text-sm text-gray-300 ml-2">({CATEGORIES.length} działów)</span>
+              <span className="text-sm text-gray-300 ml-2">({count} działów)</span>
             </div>
           </Link>
         )}
