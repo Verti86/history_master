@@ -19,6 +19,7 @@ export default function ChatWidget() {
   const [userId, setUserId] = useState<string | null>(null);
   const [nickname, setNickname] = useState<string | null>(null);
   const [unreadCount, setUnreadCount] = useState(0);
+  const [error, setError] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const supabase = createClient();
 
@@ -40,12 +41,17 @@ export default function ChatWidget() {
 
   useEffect(() => {
     const fetchMessages = async () => {
-      const { data } = await supabase
+      const { data, error: fetchError } = await supabase
         .from("chat_messages")
         .select("*")
         .order("created_at", { ascending: true })
         .limit(100);
-      if (data) setMessages(data);
+      if (fetchError) {
+        console.error("Fetch messages error:", fetchError);
+        setError(`Nie można załadować czatu: ${fetchError.message}`);
+      } else if (data) {
+        setMessages(data);
+      }
     };
     fetchMessages();
 
@@ -81,13 +87,18 @@ export default function ChatWidget() {
     if (!newMessage.trim() || !userId || !nickname) return;
 
     setLoading(true);
-    const { error } = await supabase.from("chat_messages").insert({
+    setError(null);
+    
+    const { error: insertError } = await supabase.from("chat_messages").insert({
       user_id: userId,
       nickname: nickname,
       message: newMessage.trim(),
     });
 
-    if (!error) {
+    if (insertError) {
+      console.error("Chat error:", insertError);
+      setError(insertError.message);
+    } else {
       setNewMessage("");
     }
     setLoading(false);
@@ -157,6 +168,9 @@ export default function ChatWidget() {
 
           {/* Input */}
           <form onSubmit={sendMessage} className="p-2 bg-gray-900 border-t border-gray-800">
+            {error && (
+              <p className="text-red-400 text-xs mb-2 px-1">Błąd: {error}</p>
+            )}
             <div className="flex gap-2">
               <input
                 type="text"
