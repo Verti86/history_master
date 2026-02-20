@@ -36,7 +36,7 @@ export default function UstawNickPage() {
     const { data: existing } = await supabase
       .from("profiles")
       .select("id")
-      .eq("nick", s)
+      .eq("nickname", s)
       .neq("id", user.id)
       .maybeSingle();
     
@@ -46,7 +46,7 @@ export default function UstawNickPage() {
       return;
     }
 
-    const { error: err } = await supabase.from("profiles").upsert({ id: user.id, nick: s });
+    const { error: err } = await supabase.from("profiles").upsert({ id: user.id, nickname: s });
     setLoading(false);
     if (err) {
       setError("Nie udało się zapisać. Spróbuj ponownie.");

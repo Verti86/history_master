@@ -15,11 +15,11 @@ export default async function OsCzasuPage() {
 
   const { data: profile } = await supabase
     .from("profiles")
-    .select("nick")
+    .select("nickname")
     .eq("id", user.id)
     .single();
 
-  if (!profile?.nick) {
+  if (!profile?.nickname) {
     redirect("/ustaw-nick");
   }
 

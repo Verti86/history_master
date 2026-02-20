@@ -9,11 +9,11 @@ export default async function MenuPage() {
 
   const { data: profile } = await supabase
     .from("profiles")
-    .select("nick")
+    .select("nickname")
     .eq("id", user.id)
     .single();
 
-  const nick = profile?.nick?.trim() || null;
+  const nick = profile?.nickname?.trim() || null;
   if (!nick) redirect("/ustaw-nick");
 
   const { data: stats } = await supabase
@@ -23,9 +23,9 @@ export default async function MenuPage() {
   const totalXp = (stats || []).reduce((s, r) => s + (r.score || 0), 0);
 
   const { data: allStats } = await supabase.from("game_stats").select("user_id, score");
-  const { data: profiles } = await supabase.from("profiles").select("id, nick");
+  const { data: profiles } = await supabase.from("profiles").select("id, nickname");
   const nicks: Record<string, string> = {};
-  (profiles || []).forEach((p) => { nicks[p.id] = p.nick || `Gracz_${p.id.slice(0, 8)}`; });
+  (profiles || []).forEach((p) => { nicks[p.id] = p.nickname || `Gracz_${p.id.slice(0, 8)}`; });
   const scores: Record<string, number> = {};
   (allStats || []).forEach((r) => {
     const name = nicks[r.user_id] || `Gracz_${r.user_id?.slice(0, 8)}`;

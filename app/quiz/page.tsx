@@ -8,8 +8,8 @@ export default async function QuizPage() {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) redirect("/login");
 
-  const { data: profile } = await supabase.from("profiles").select("nick").eq("id", user.id).single();
-  if (!profile?.nick?.trim()) redirect("/ustaw-nick");
+  const { data: profile } = await supabase.from("profiles").select("nickname").eq("id", user.id).single();
+  if (!profile?.nickname?.trim()) redirect("/ustaw-nick");
 
   const questions = getQuizQuestions();
   if (questions.length === 0) redirect("/menu");
