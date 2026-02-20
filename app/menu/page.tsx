@@ -48,30 +48,59 @@ export default async function MenuPage() {
       <p className="text-[#aaa] mb-6">Witaj, <strong className="text-[#fafafa]">{nick}</strong>! ⚔️</p>
       <p className="mb-6">Twoje XP: <strong className="text-[#ffbd45]">{totalXp}</strong></p>
 
+      <style jsx global>{`
+        @keyframes wiggle {
+          0%, 100% { transform: rotate(0deg); }
+          25% { transform: rotate(-8deg); }
+          75% { transform: rotate(8deg); }
+        }
+        @keyframes pulse-glow {
+          0%, 100% { filter: brightness(1); }
+          50% { filter: brightness(1.3); }
+        }
+        @keyframes float-slow {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-5px); }
+        }
+        @keyframes magnify {
+          0%, 100% { transform: scale(1); }
+          50% { transform: scale(1.1); }
+        }
+        .menu-card:hover .menu-icon { animation: wiggle 0.5s ease-in-out; }
+        .menu-card-quiz:hover .menu-icon { animation: pulse-glow 0.8s ease-in-out infinite; }
+        .menu-card-fiszki:hover .menu-icon { animation: pulse-glow 0.6s ease-in-out infinite; }
+        .menu-card-czas:hover .menu-icon { animation: float-slow 1s ease-in-out infinite; }
+        .menu-card-skojarzenia:hover .menu-icon { animation: magnify 0.8s ease-in-out infinite; }
+      `}</style>
+
       <div className="grid grid-cols-2 gap-4 mb-8">
         <Link
           href="/quiz"
-          className="p-4 rounded-xl bg-[#262730] border border-[#444] hover:border-[#ffbd45] text-center transition"
+          className="menu-card menu-card-quiz p-4 rounded-xl bg-gradient-to-br from-[#262730] to-[#1a1a24] border border-[#444] hover:border-[#ffbd45] hover:shadow-lg hover:shadow-yellow-500/20 text-center transition-all duration-300 group"
         >
-          📝 Quiz
+          <span className="menu-icon text-2xl inline-block mb-1">📝</span>
+          <span className="block font-medium">Quiz</span>
         </Link>
         <Link
           href="/fiszki"
-          className="p-4 rounded-xl bg-[#262730] border border-[#444] hover:border-[#ffbd45] text-center transition"
+          className="menu-card menu-card-fiszki p-4 rounded-xl bg-gradient-to-br from-[#262730] to-[#1a1a24] border border-[#444] hover:border-[#60a5fa] hover:shadow-lg hover:shadow-blue-500/20 text-center transition-all duration-300 group"
         >
-          🧠 Fiszki
+          <span className="menu-icon text-2xl inline-block mb-1">🧠</span>
+          <span className="block font-medium">Fiszki</span>
         </Link>
         <Link
           href="/os-czasu"
-          className="p-4 rounded-xl bg-[#262730] border border-[#444] hover:border-[#ffbd45] text-center transition"
+          className="menu-card menu-card-czas p-4 rounded-xl bg-gradient-to-br from-[#262730] to-[#1a1a24] border border-[#444] hover:border-[#a78bfa] hover:shadow-lg hover:shadow-purple-500/20 text-center transition-all duration-300 group"
         >
-          ⏳ Oś czasu
+          <span className="menu-icon text-2xl inline-block mb-1">⏳</span>
+          <span className="block font-medium">Oś czasu</span>
         </Link>
         <Link
           href="/skojarzenia"
-          className="p-4 rounded-xl bg-[#262730] border border-[#444] hover:border-[#ffbd45] text-center transition"
+          className="menu-card menu-card-skojarzenia p-4 rounded-xl bg-gradient-to-br from-[#262730] to-[#1a1a24] border border-[#444] hover:border-[#34d399] hover:shadow-lg hover:shadow-green-500/20 text-center transition-all duration-300 group"
         >
-          🕵️ Skojarzenia
+          <span className="menu-icon text-2xl inline-block mb-1">🕵️</span>
+          <span className="block font-medium">Skojarzenia</span>
         </Link>
       </div>
 
