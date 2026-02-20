@@ -81,6 +81,11 @@ export default function UstawNickPage() {
         </button>
       </form>
       <Link href="/" className="mt-6 text-sm text-[#888] hover:text-[#aaa]">← Strona główna</Link>
+      <form action="/auth/signout" method="post" className="mt-4">
+        <button type="submit" className="text-sm text-red-400 hover:text-red-300">
+          Wyloguj się
+        </button>
+      </form>
     </main>
   );
 }
