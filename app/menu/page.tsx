@@ -9,27 +9,27 @@ export default async function MenuPage() {
 
   const { data: profile } = await supabase
     .from("profiles")
-    .select("nickname")
+    .select("nick")
     .eq("id", user.id)
     .single();
 
-  const nick = profile?.nickname?.trim() || null;
+  const nick = profile?.nick?.trim() || null;
   if (!nick) redirect("/ustaw-nick");
 
   const { data: stats } = await supabase
     .from("game_stats")
-    .select("points")
+    .select("score")
     .eq("user_id", user.id);
-  const totalXp = (stats || []).reduce((s, r) => s + (r.points || 0), 0);
+  const totalXp = (stats || []).reduce((s, r) => s + (r.score || 0), 0);
 
-  const { data: allStats } = await supabase.from("game_stats").select("user_id, points");
-  const { data: profiles } = await supabase.from("profiles").select("id, nickname");
+  const { data: allStats } = await supabase.from("game_stats").select("user_id, score");
+  const { data: profiles } = await supabase.from("profiles").select("id, nick");
   const nicks: Record<string, string> = {};
-  (profiles || []).forEach((p) => { nicks[p.id] = p.nickname || `Gracz_${p.id.slice(0, 8)}`; });
+  (profiles || []).forEach((p) => { nicks[p.id] = p.nick || `Gracz_${p.id.slice(0, 8)}`; });
   const scores: Record<string, number> = {};
   (allStats || []).forEach((r) => {
     const name = nicks[r.user_id] || `Gracz_${r.user_id?.slice(0, 8)}`;
-    scores[name] = (scores[name] || 0) + (r.points || 0);
+    scores[name] = (scores[name] || 0) + (r.score || 0);
   });
   const ranking = Object.entries(scores)
     .sort((a, b) => b[1] - a[1])
@@ -51,19 +51,28 @@ export default async function MenuPage() {
       <div className="grid grid-cols-2 gap-4 mb-8">
         <Link
           href="/quiz"
-          className="p-4 rounded-xl bg-[#262730] border border-[#444] hover:border-[#ffbd45] text-center"
+          className="p-4 rounded-xl bg-[#262730] border border-[#444] hover:border-[#ffbd45] text-center transition"
         >
           📝 Quiz
         </Link>
-        <span className="p-4 rounded-xl bg-[#262730] border border-[#444] opacity-60 text-center cursor-not-allowed block">
-          🧠 Fiszki (wkrótce)
-        </span>
-        <span className="p-4 rounded-xl bg-[#262730] border border-[#444] opacity-60 text-center cursor-not-allowed block">
-          ⏳ Oś czasu (wkrótce)
-        </span>
-        <span className="p-4 rounded-xl bg-[#262730] border border-[#444] opacity-60 text-center cursor-not-allowed block">
-          🕵️ Skojarzenia (wkrótce)
-        </span>
+        <Link
+          href="/fiszki"
+          className="p-4 rounded-xl bg-[#262730] border border-[#444] hover:border-[#ffbd45] text-center transition"
+        >
+          🧠 Fiszki
+        </Link>
+        <Link
+          href="/os-czasu"
+          className="p-4 rounded-xl bg-[#262730] border border-[#444] hover:border-[#ffbd45] text-center transition"
+        >
+          ⏳ Oś czasu
+        </Link>
+        <Link
+          href="/skojarzenia"
+          className="p-4 rounded-xl bg-[#262730] border border-[#444] hover:border-[#ffbd45] text-center transition"
+        >
+          🕵️ Skojarzenia
+        </Link>
       </div>
 
       <section className="border border-[#444] rounded-xl p-4">

@@ -1,4 +1,4 @@
-import zlotyWiek from "./data/quiz-zloty-wiek.json";
+import allQuestions from "./data/quiz-all.json";
 
 export type QuizQuestion = {
   category: string;
@@ -9,5 +9,13 @@ export type QuizQuestion = {
 };
 
 export function getQuizQuestions(): QuizQuestion[] {
-  return zlotyWiek as QuizQuestion[];
+  return allQuestions as QuizQuestion[];
+}
+
+export function loadQuizQuestions(): { question: string; correct: string; answers: string[] }[] {
+  return allQuestions.map((q) => ({
+    question: q.question,
+    correct: q.answers[q.correct_index],
+    answers: q.answers,
+  }));
 }

@@ -1,9 +1,11 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import type { QuizQuestion } from "@/lib/quiz-data";
+
+const QUESTIONS_PER_ROUND = 10;
 
 function shuffle<T>(arr: T[]): T[] {
   const out = [...arr];
@@ -15,15 +17,24 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export default function QuizGame({ questions, userId }: { questions: QuizQuestion[]; userId: string }) {
-  const [order] = useState(() => shuffle(questions));
+  const [order] = useState(() => shuffle(questions).slice(0, QUESTIONS_PER_ROUND));
   const [answerOrders] = useState(() => order.map(() => shuffle([0, 1, 2, 3])));
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [feedback, setFeedback] = useState<"ok" | "wrong" | null>(null);
+  const [saved, setSaved] = useState(false);
+  const savingRef = useRef(false);
 
   const current = order[index];
   const total = order.length;
   const finished = index >= total;
+
+  useEffect(() => {
+    if (finished && !saved && !savingRef.current) {
+      savingRef.current = true;
+      saveScore(score).then(() => setSaved(true));
+    }
+  }, [finished, saved, score]);
 
   const answers = useMemo(() => {
     if (!current || !answerOrders[index]) return [];
@@ -36,11 +47,19 @@ export default function QuizGame({ questions, userId }: { questions: QuizQuestio
     if (ans === correct) {
       setFeedback("ok");
       setScore((s) => s + 1);
-      const supabase = createClient();
-      await supabase.from("game_stats").insert({ user_id: userId, game_mode: "Quiz", points: 1 });
     } else {
       setFeedback("wrong");
     }
+  }
+
+  async function saveScore(finalScore: number) {
+    const supabase = createClient();
+    await supabase.from("game_stats").insert({
+      user_id: userId,
+      game_type: "quiz",
+      score: finalScore,
+      max_score: total,
+    });
   }
 
   function nextQuestion() {
@@ -52,7 +71,10 @@ export default function QuizGame({ questions, userId }: { questions: QuizQuestio
     return (
       <div className="space-y-6">
         <h1 className="text-2xl font-bold">🎉 Koniec quizu!</h1>
-        <p className="text-[#ffbd45] text-xl">Zdobyte punkty w tej rundzie: <strong>{score}</strong></p>
+        <p className="text-[#ffbd45] text-xl">
+          Wynik: <strong>{score}</strong> / {total}
+        </p>
+        {!saved && <p className="text-gray-400">Zapisywanie wyniku...</p>}
         <Link href="/menu" className="inline-block px-6 py-3 rounded-lg bg-[#ffbd45] text-[#0e1117] font-medium hover:opacity-90">
           Wróć do menu
         </Link>
