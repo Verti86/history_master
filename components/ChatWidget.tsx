@@ -62,8 +62,12 @@ export default function ChatWidget() {
         { event: "INSERT", schema: "public", table: "chat_messages" },
         (payload) => {
           const newMsg = payload.new as Message;
-          setMessages((prev) => [...prev, newMsg]);
-          if (!isOpen) {
+          setMessages((prev) => {
+            const exists = prev.some((m) => m.id === newMsg.id);
+            if (exists) return prev;
+            return [...prev, newMsg];
+          });
+          if (!isOpen && newMsg.user_id !== userId) {
             setUnreadCount((c) => c + 1);
           }
         }
@@ -86,20 +90,31 @@ export default function ChatWidget() {
     e.preventDefault();
     if (!newMessage.trim() || !userId || !nickname) return;
 
+    const messageContent = newMessage.trim();
     setLoading(true);
     setError(null);
+    setNewMessage("");
     
-    const { error: insertError } = await supabase.from("chat_messages").insert({
-      user_id: userId,
-      nickname: nickname,
-      content: newMessage.trim(),
-    });
+    const { data, error: insertError } = await supabase
+      .from("chat_messages")
+      .insert({
+        user_id: userId,
+        nickname: nickname,
+        content: messageContent,
+      })
+      .select()
+      .single();
 
     if (insertError) {
       console.error("Chat error:", insertError);
       setError(insertError.message);
-    } else {
-      setNewMessage("");
+      setNewMessage(messageContent);
+    } else if (data) {
+      setMessages((prev) => {
+        const exists = prev.some((m) => m.id === data.id);
+        if (exists) return prev;
+        return [...prev, data];
+      });
     }
     setLoading(false);
   };
