@@ -113,7 +113,7 @@ export default function AssociationsGame({ associations, userId }: Props) {
 
   if (items.length === 0) {
     return (
-      <main className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
+      <main className="min-h-screen flex items-center justify-center" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
         <p>Ładowanie...</p>
       </main>
     );
@@ -141,33 +141,34 @@ export default function AssociationsGame({ associations, userId }: Props) {
   }
 
   return (
-    <main className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
+    <main className="min-h-screen flex flex-col items-center justify-center p-4" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
       <div className="w-full max-w-lg">
         <div className="flex justify-between items-center mb-6">
-          <span className="text-gray-400">
+          <span style={{ color: "var(--hm-muted)" }}>
             Postać {currentIndex + 1} / {items.length}
           </span>
-          <span className="text-green-400">Punkty: {score}</span>
+          <span className="text-green-600 font-medium">Punkty: {score}</span>
         </div>
 
-        <h2 className="text-xl text-center mb-4">
+        <h2 className="text-xl text-center mb-4" style={{ color: "var(--hm-text)" }}>
           🕵️ Kim jest ta postać?
         </h2>
 
-        <p className="text-center text-sm text-gray-400 mb-4">
+        <p className="text-center text-sm mb-4" style={{ color: "var(--hm-muted)" }}>
           Im mniej podpowiedzi odkryjesz, tym więcej punktów! (3-1 pkt)
         </p>
 
-        <div className="bg-gray-800 rounded-xl p-6 mb-6">
+        <div className="rounded-xl p-6 mb-6 border" style={{ background: "var(--hm-card)", borderColor: "var(--hm-border)" }}>
           <div className="space-y-3">
             {currentItem.hints.map((hint, idx) => (
               <div
                 key={idx}
-                className={`p-3 rounded-lg transition ${
-                  idx < revealedHints
-                    ? "bg-gray-700 text-white"
-                    : "bg-gray-600 text-gray-500"
-                }`}
+                className="p-3 rounded-lg border transition"
+                style={{
+                  background: idx < revealedHints ? "var(--hm-option-bg)" : "var(--hm-progress-track)",
+                  color: idx < revealedHints ? "var(--hm-option-text)" : "var(--hm-muted)",
+                  borderColor: "var(--hm-border)",
+                }}
               >
                 {idx < revealedHints ? (
                   <span>💡 {hint}</span>
@@ -190,11 +191,11 @@ export default function AssociationsGame({ associations, userId }: Props) {
 
         {result ? (
           <div className="text-center">
-            <p className={`text-xl font-bold ${result === "correct" ? "text-green-400" : "text-red-400"}`}>
+            <p className={`text-xl font-bold ${result === "correct" ? "text-green-600" : "text-red-600"}`}>
               {result === "correct" ? "✓ Dobrze!" : "✗ Źle!"}
             </p>
-            <p className="text-gray-300 mt-2">
-              Odpowiedź: <span className="font-bold">{currentItem.answer}</span>
+            <p className="mt-2" style={{ color: "var(--hm-muted)" }}>
+              Odpowiedź: <span className="font-bold" style={{ color: "var(--hm-text)" }}>{currentItem.answer}</span>
             </p>
           </div>
         ) : (
@@ -204,20 +205,22 @@ export default function AssociationsGame({ associations, userId }: Props) {
               value={guess}
               onChange={(e) => setGuess(e.target.value)}
               placeholder="Wpisz imię i nazwisko..."
-              className="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white focus:border-blue-500 focus:outline-none"
+              className="w-full px-4 py-3 rounded-lg border focus:border-blue-500 focus:outline-none"
+              style={{ background: "var(--hm-card)", borderColor: "var(--hm-border)", color: "var(--hm-text)" }}
             />
             <div className="flex gap-4">
               <button
                 type="submit"
                 disabled={!guess.trim()}
-                className="flex-1 bg-green-600 hover:bg-green-700 disabled:bg-gray-600 text-white font-semibold py-3 px-6 rounded-lg transition"
+                className="flex-1 bg-green-600 hover:bg-green-700 disabled:opacity-50 text-white font-semibold py-3 px-6 rounded-lg transition"
               >
                 Sprawdź
               </button>
               <button
                 type="button"
                 onClick={handleSkip}
-                className="bg-gray-600 hover:bg-gray-500 text-white font-semibold py-3 px-6 rounded-lg transition"
+                className="font-semibold py-3 px-6 rounded-lg border transition"
+                style={{ background: "var(--hm-option-bg)", color: "var(--hm-option-text)", borderColor: "var(--hm-option-border)" }}
               >
                 Poddaję się
               </button>
@@ -226,7 +229,7 @@ export default function AssociationsGame({ associations, userId }: Props) {
         )}
 
         <div className="mt-8 text-center">
-          <Link href="/menu" className="text-gray-400 hover:text-white text-sm">
+          <Link href="/menu" className="text-sm hover:opacity-90" style={{ color: "var(--hm-muted)" }}>
             ← Powrót do menu
           </Link>
         </div>

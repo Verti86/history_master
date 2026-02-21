@@ -86,7 +86,7 @@ export default function FlashcardsGame({ flashcards, userId, categoryName, categ
 
   if (deck.length === 0) {
     return (
-      <main className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
+      <main className="min-h-screen flex items-center justify-center" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
         <p>Ładowanie fiszek...</p>
       </main>
     );
@@ -140,14 +140,14 @@ export default function FlashcardsGame({ flashcards, userId, categoryName, categ
   }
 
   return (
-    <main className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
+    <main className="min-h-screen flex flex-col items-center justify-center p-4" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
       <div className="w-full max-w-lg">
         <div className="flex justify-between items-center mb-4">
-          <span className="text-gray-400">
+          <span style={{ color: "var(--hm-muted)" }}>
             Karta {currentIndex + 1} / {totalCards}
-            {isRepeatMode && <span className="text-yellow-400 ml-2">(powtórka)</span>}
+            {isRepeatMode && <span className="text-yellow-600 ml-2">(powtórka)</span>}
           </span>
-          <span className="text-green-400">XP: {score}</span>
+          <span className="text-green-600 font-medium">XP: {score}</span>
         </div>
 
         <div
@@ -159,16 +159,16 @@ export default function FlashcardsGame({ flashcards, userId, categoryName, categ
               flipped ? "rotate-y-180" : ""
             }`}
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center p-6 backface-hidden">
+            <div className="absolute inset-0 rounded-xl flex items-center justify-center p-6 backface-hidden" style={{ background: "var(--hm-flashcard-front-bg)", color: "var(--hm-flashcard-front-text)" }}>
               <p className="text-xl text-center">{currentCard.question}</p>
             </div>
-            <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-green-800 rounded-xl flex flex-col items-center justify-center p-6 backface-hidden rotate-y-180">
-              <p className="text-sm text-green-200 mb-2">Odpowiedź:</p>
+            <div className="absolute inset-0 rounded-xl flex flex-col items-center justify-center p-6 backface-hidden rotate-y-180" style={{ background: "var(--hm-flashcard-back-bg)", color: "var(--hm-flashcard-back-text)" }}>
+              <p className="text-sm opacity-90 mb-2">Odpowiedź:</p>
               <p className="text-xl text-center font-bold mb-4">
                 {currentCard.answer}
               </p>
               {currentCard.explanation && (
-                <p className="text-sm text-green-200 text-center border-t border-green-500 pt-3 mt-2">
+                <p className="text-sm opacity-90 text-center border-t border-current pt-3 mt-2">
                   {currentCard.explanation}
                 </p>
               )}
@@ -176,7 +176,7 @@ export default function FlashcardsGame({ flashcards, userId, categoryName, categ
           </div>
         </div>
 
-        <p className="text-center text-gray-400 mt-3 text-sm">
+        <p className="text-center mt-3 text-sm" style={{ color: "var(--hm-muted)" }}>
           {flipped ? "Oceń się:" : "Kliknij kartę, aby obrócić"}
         </p>
 
@@ -198,7 +198,7 @@ export default function FlashcardsGame({ flashcards, userId, categoryName, categ
         )}
 
         <div className="mt-8 text-center">
-          <Link href="/fiszki" className="text-gray-400 hover:text-white text-sm">
+          <Link href="/fiszki" className="text-sm hover:opacity-90" style={{ color: "var(--hm-muted)" }}>
             ← Zmień temat
           </Link>
         </div>

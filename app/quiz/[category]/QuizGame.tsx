@@ -101,11 +101,11 @@ export default function QuizGame({ questions, userId, categoryName, categoryId }
     return (
       <div className="space-y-6">
         <XpToast xp={score} show={showXpToast} onDone={() => setShowXpToast(false)} />
-        <h1 className="text-2xl font-bold">🎉 Koniec quizu!</h1>
-        <p className="text-[#ffbd45] text-xl">
+        <h1 className="text-2xl font-bold" style={{ color: "var(--hm-text)" }}>🎉 Koniec quizu!</h1>
+        <p className="text-xl" style={{ color: "#b45309" }}>
           Wynik: <strong>{score}</strong> / {total}
         </p>
-        {!saved && <p className="text-gray-400">Zapisywanie wyniku...</p>}
+        {!saved && <p style={{ color: "var(--hm-muted)" }}>Zapisywanie wyniku...</p>}
         <div className="flex flex-col gap-3">
           <Link href="/quiz" className="inline-block px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 text-center">
             📚 Wybierz inny temat
@@ -122,16 +122,16 @@ export default function QuizGame({ questions, userId, categoryName, categoryId }
 
   return (
     <div className="space-y-6">
-      <div className="flex justify-between text-sm text-[#888]">
+      <div className="flex justify-between text-sm" style={{ color: "var(--hm-muted)" }}>
         <span>Pytanie {index + 1} / {total}</span>
         <span>Punkty: {score}</span>
       </div>
-      <div className="h-2 bg-[#262730] rounded-full overflow-hidden">
+      <div className="h-2 rounded-full overflow-hidden" style={{ backgroundColor: "var(--hm-progress-track)" }}>
         <div className="h-full bg-[#ffbd45] transition-all" style={{ width: `${((index + 1) / total) * 100}%` }} />
       </div>
 
-      <p className="text-xs text-gray-500">{categoryName}</p>
-      <h2 className="text-xl font-medium">{current.question}</h2>
+      <p className="text-xs" style={{ color: "var(--hm-muted)" }}>{categoryName}</p>
+      <h2 className="text-xl font-medium" style={{ color: "var(--hm-text)" }}>{current.question}</h2>
 
       {feedback === "wrong" && (
         <div className="p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-200 text-sm">
@@ -153,7 +153,8 @@ export default function QuizGame({ questions, userId, categoryName, categoryId }
             type="button"
             onClick={() => handleAnswer(ans)}
             disabled={feedback !== null}
-            className="p-4 rounded-xl bg-[#262730] border border-[#444] hover:border-[#ffbd45] text-left disabled:opacity-70 disabled:cursor-not-allowed"
+            className="p-4 rounded-xl border hover:border-[#ffbd45] text-left disabled:opacity-70 disabled:cursor-not-allowed"
+            style={{ backgroundColor: "var(--hm-option-bg)", color: "var(--hm-option-text)", borderColor: "var(--hm-option-border)" }}
           >
             {ans}
           </button>
@@ -171,7 +172,7 @@ export default function QuizGame({ questions, userId, categoryName, categoryId }
       )}
 
       <p className="text-center">
-        <Link href="/quiz" className="text-sm text-[#888] hover:text-[#ffbd45]">← Zmień temat</Link>
+        <Link href="/quiz" className="text-sm hover:opacity-90" style={{ color: "var(--hm-muted)" }}>← Zmień temat</Link>
       </p>
     </div>
   );

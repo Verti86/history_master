@@ -109,7 +109,7 @@ export default function TimelineGame({ events, userId }: Props) {
 
   if (pairs.length === 0) {
     return (
-      <main className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
+      <main className="min-h-screen flex items-center justify-center" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
         <p>Ładowanie...</p>
       </main>
     );
@@ -124,7 +124,7 @@ export default function TimelineGame({ events, userId }: Props) {
           <p className="text-xl mb-6">
             Wynik: <span className="text-green-400 font-bold">{score}</span> / {totalRounds}
           </p>
-          {saving && <p className="text-gray-400 mb-4">Zapisywanie...</p>}
+          {saving && <p className="mb-4" style={{ color: "var(--hm-muted)" }}>Zapisywanie...</p>}
           <Link
             href="/menu"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition"
@@ -155,26 +155,32 @@ export default function TimelineGame({ events, userId }: Props) {
           </select>
         </div>
 
-        <h2 className="text-xl text-center mb-6">
-          Które wydarzenie było <span className="text-yellow-400 font-bold">WCZEŚNIEJ</span>?
+        <h2 className="text-xl text-center mb-6" style={{ color: "var(--hm-text)" }}>
+          Które wydarzenie było <span className="text-yellow-600 font-bold">WCZEŚNIEJ</span>?
         </h2>
 
         <div className="flex flex-col gap-4">
           {[currentPair.event1, currentPair.event2].map((event, idx) => {
             const earlier = currentPair.event1.year < currentPair.event2.year ? currentPair.event1 : currentPair.event2;
             const isEarlier = event.event === earlier.event;
-
-            let bgColor = "bg-gray-700 hover:bg-gray-600";
-            if (answered) {
-              bgColor = isEarlier ? "bg-green-600" : "bg-red-600";
-            }
+            const isCorrect = answered && isEarlier;
+            const isWrong = answered && !isEarlier;
 
             return (
               <button
                 key={idx}
                 onClick={() => handleAnswer(event)}
                 disabled={answered !== null}
-                className={`${bgColor} text-white font-semibold py-4 px-6 rounded-lg transition text-left`}
+                className="font-semibold py-4 px-6 rounded-lg border transition text-left disabled:cursor-not-allowed"
+                style={
+                  answered
+                    ? isCorrect
+                      ? { backgroundColor: "#16a34a", color: "#fff", borderColor: "#16a34a" }
+                      : isWrong
+                        ? { backgroundColor: "#dc2626", color: "#fff", borderColor: "#dc2626" }
+                        : undefined
+                    : { backgroundColor: "var(--hm-option-bg)", color: "var(--hm-option-text)", borderColor: "var(--hm-option-border)" }
+                }
               >
                 {event.event}
                 {answered && (
