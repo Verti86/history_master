@@ -80,7 +80,7 @@ export default async function MenuPage() {
       <p className="mb-1">Twoje XP: <strong className="text-[#ffbd45]">{totalXp}</strong></p>
       <p className="mb-1">{level.icon} Poziom: <strong>{level.name}</strong></p>
       {level.nextLevelAt != null && (
-        <div className="mb-2 w-full max-w-xs h-2 bg-[#262730] rounded-full overflow-hidden">
+        <div className="mb-2 w-full max-w-xs h-2 rounded-full overflow-hidden" style={{ backgroundColor: "var(--hm-progress-track)" }}>
           <div className="h-full bg-[#ffbd45] transition-all" style={{ width: `${level.progress * 100}%` }} />
         </div>
       )}
@@ -89,7 +89,7 @@ export default async function MenuPage() {
       <section className="border border-[var(--hm-border)] rounded-xl p-3 mb-6">
         <h3 className="font-bold text-sm mb-2">🎯 {weekChallenge.title}</h3>
         <p className="text-sm text-[var(--hm-muted)] mb-2">{weekChallenge.description}</p>
-        <div className="w-full h-2 bg-[#262730] rounded-full overflow-hidden">
+        <div className="w-full h-2 rounded-full overflow-hidden" style={{ backgroundColor: "var(--hm-progress-track)" }}>
           <div className="h-full bg-emerald-500 transition-all" style={{ width: `${Math.min(1, weekXp / weekChallenge.targetXp) * 100}%` }} />
         </div>
         <p className="text-xs mt-1">{weekXp} / {weekChallenge.targetXp} XP</p>
@@ -135,7 +135,8 @@ export default async function MenuPage() {
         <p className="mt-6 text-center">
           <Link
             href="/admin"
-            className="inline-flex items-center gap-2 rounded-xl border border-[#555] bg-[#262730]/80 px-4 py-2.5 text-sm font-medium text-[#aaa] transition-colors hover:border-[#ffbd45] hover:text-[#fafafa]"
+            className="inline-flex items-center gap-2 rounded-xl border px-4 py-2.5 text-sm font-medium transition-colors hover:border-[#ffbd45]"
+            style={{ borderColor: "var(--hm-link-secondary-border)", backgroundColor: "var(--hm-link-secondary-bg)", color: "var(--hm-link-secondary-text)" }}
           >
             ⚙️ Panel administracyjny
           </Link>
@@ -145,7 +146,8 @@ export default async function MenuPage() {
       <nav className="mt-8 flex flex-wrap items-center justify-center gap-3" aria-label="Nawigacja">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 rounded-xl border border-[#444] bg-[#262730]/80 px-4 py-2.5 text-sm font-medium text-[#fafafa] transition-colors hover:border-[#ffbd45] hover:bg-[#262730]"
+          className="inline-flex items-center gap-2 rounded-xl border px-4 py-2.5 text-sm font-medium transition-colors hover:border-[#ffbd45]"
+          style={{ borderColor: "var(--hm-link-secondary-border)", backgroundColor: "var(--hm-link-secondary-bg)", color: "var(--hm-link-secondary-text)" }}
         >
           <span aria-hidden>←</span>
           Strona główna
@@ -153,7 +155,8 @@ export default async function MenuPage() {
         <form action="/auth/signout" method="post" className="inline">
           <button
             type="submit"
-            className="inline-flex items-center gap-2 rounded-xl border border-[#555] bg-transparent px-4 py-2.5 text-sm font-medium text-[#aaa] transition-colors hover:border-red-500/60 hover:bg-red-500/10 hover:text-red-400"
+            className="hm-btn-logout inline-flex items-center gap-2 rounded-xl border border-[var(--hm-border)] px-4 py-2.5 text-sm font-medium transition-colors hover:border-red-500/60 hover:bg-red-500/10 hover:text-red-400"
+            style={{ backgroundColor: "var(--hm-btn-secondary-bg)", color: "var(--hm-btn-secondary-text)" }}
           >
             Wyloguj
           </button>

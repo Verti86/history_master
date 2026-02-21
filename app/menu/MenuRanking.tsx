@@ -13,14 +13,16 @@ export default function MenuRanking({ all, week }: Props) {
         <button
           type="button"
           onClick={() => setTab("all")}
-          className={`px-3 py-1 rounded text-sm ${tab === "all" ? "bg-[#ffbd45] text-[#0e1117]" : "bg-[#262730] text-[#aaa]"}`}
+          className={`px-3 py-1 rounded text-sm font-medium ${tab === "all" ? "bg-[#ffbd45] text-[#0e1117]" : ""}`}
+          style={tab !== "all" ? { backgroundColor: "var(--hm-tab-inactive-bg)", color: "var(--hm-tab-inactive-text)" } : undefined}
         >
           Cały czas
         </button>
         <button
           type="button"
           onClick={() => setTab("week")}
-          className={`px-3 py-1 rounded text-sm ${tab === "week" ? "bg-[#ffbd45] text-[#0e1117]" : "bg-[#262730] text-[#aaa]"}`}
+          className={`px-3 py-1 rounded text-sm font-medium ${tab === "week" ? "bg-[#ffbd45] text-[#0e1117]" : ""}`}
+          style={tab !== "week" ? { backgroundColor: "var(--hm-tab-inactive-bg)", color: "var(--hm-tab-inactive-text)" } : undefined}
         >
           Ten tydzień
         </button>
