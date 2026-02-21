@@ -2,6 +2,8 @@
 
 Aby maile wysyłane po rejestracji były **po polsku i przyjazne dzieciom**, wklej poniższą treść w Supabase.
 
+**Ważne:** W mailu użytkownika widać **tylko** to, co jest wewnątrz bloku `html` poniżej – żadne nagłówki („Gdzie to ustawić”), znaki `##` ani instrukcje. Żeby zobaczyć dokładny wygląd maila, otwórz w przeglądarce plik **`email-potwierdzenie-podglad.html`** (w tym samym folderze).
+
 ## Gdzie to ustawić
 
 1. Zaloguj się do **Supabase Dashboard**.
