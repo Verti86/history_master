@@ -82,7 +82,7 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased min-h-screen flex flex-col bg-[#0e1117] text-[#fafafa]">
-        <div className="flex-1 flex flex-col">
+        <div className="flex-1 flex flex-col pb-16">
           {children}
         </div>
         <Footer />
