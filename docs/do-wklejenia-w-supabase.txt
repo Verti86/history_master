@@ -1,0 +1,31 @@
+========== TEMAT (pole Subject) ==========
+
+Potwierdź swój adres email – History Master Online
+
+
+========== TREŚĆ (pole Body – wklej w Source) ==========
+
+<div style="font-family: Arial, sans-serif; max-width: 480px; margin: 0 auto; padding: 24px; color: #333;">
+  <h1 style="color: #1a1a1a; font-size: 22px; margin-bottom: 16px;">Cześć! 👋</h1>
+  <p style="font-size: 16px; line-height: 1.5; margin-bottom: 12px;">
+    Założyłeś lub założyłaś konto w <strong>History Master Online</strong> – aplikacji do nauki historii.
+  </p>
+  <p style="font-size: 16px; line-height: 1.5; margin-bottom: 20px;">
+    <strong>Co teraz zrobić?</strong><br>
+    Kliknij w poniższy przycisk. Przeniesie Cię do aplikacji i aktywuje Twoje konto. Potem będziesz mógł lub mogła się zalogować i grać!
+  </p>
+  <p style="margin: 24px 0;">
+    <a href="{{ .ConfirmationURL }}" style="display: inline-block; background: #ffbd45; color: #0e1117; font-weight: bold; font-size: 16px; padding: 14px 28px; text-decoration: none; border-radius: 12px;">Potwierdź mój email</a>
+  </p>
+  <p style="font-size: 14px; color: #666; line-height: 1.5;">
+    Jeśli przycisk nie działa, skopiuj i wklej ten link do przeglądarki:<br>
+    <a href="{{ .ConfirmationURL }}" style="color: #ffbd45; word-break: break-all;">{{ .ConfirmationURL }}</a>
+  </p>
+  <p style="font-size: 13px; color: #888; margin-top: 24px;">
+    Jeśli to nie Ty zakładałeś lub zakładałaś tego konta, po prostu zignoruj tę wiadomość.
+  </p>
+  <p style="font-size: 13px; color: #888; margin-top: 16px;">
+    Do zobaczenia w grze! ⚔️<br>
+    <strong>History Master Online</strong>
+  </p>
+</div>

@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { isAdmin } from "@/lib/admin";
 
 export default async function MenuPage() {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) redirect("/login");
+  const admin = isAdmin(user);
 
   const { data: profile } = await supabase
     .from("profiles")
@@ -85,6 +87,17 @@ export default async function MenuPage() {
           {ranking.length === 0 && <li className="text-[#888]">Brak wyników.</li>}
         </ul>
       </section>
+
+      {admin && (
+        <p className="mt-6 text-center">
+          <Link
+            href="/admin"
+            className="inline-flex items-center gap-2 rounded-xl border border-[#555] bg-[#262730]/80 px-4 py-2.5 text-sm font-medium text-[#aaa] transition-colors hover:border-[#ffbd45] hover:text-[#fafafa]"
+          >
+            ⚙️ Panel administracyjny
+          </Link>
+        </p>
+      )}
 
       <nav className="mt-8 flex flex-wrap items-center justify-center gap-3" aria-label="Nawigacja">
         <Link

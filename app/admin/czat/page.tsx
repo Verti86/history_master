@@ -1,0 +1,119 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import { createClient } from "@/lib/supabase/client";
+
+type Message = {
+  id: string;
+  user_id: string;
+  nickname: string;
+  content: string;
+  created_at: string;
+};
+
+export default function AdminCzatPage() {
+  const [messages, setMessages] = useState<Message[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const supabase = createClient();
+
+  useEffect(() => {
+    const load = async () => {
+      const { data, error: e } = await supabase
+        .from("chat_messages")
+        .select("id, user_id, nickname, content, created_at")
+        .order("created_at", { ascending: false })
+        .limit(200);
+      if (e) {
+        setError("Nie udało się załadować wiadomości.");
+        setLoading(false);
+        return;
+      }
+      setMessages(data ?? []);
+      setLoading(false);
+    };
+    load();
+
+    const channel = supabase
+      .channel("admin_chat")
+      .on(
+        "postgres_changes",
+        { event: "*", schema: "public", table: "chat_messages" },
+        () => load()
+      )
+      .subscribe();
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, [supabase]);
+
+  async function handleDelete(id: string) {
+    if (!confirm("Usunąć tę wiadomość?")) return;
+    setDeletingId(id);
+    setError(null);
+    const { error: e } = await supabase.from("chat_messages").delete().eq("id", id);
+    setDeletingId(null);
+    if (e) {
+      setError("Nie udało się usunąć (brak uprawnień?).");
+      return;
+    }
+    setMessages((prev) => prev.filter((m) => m.id !== id));
+  }
+
+  function formatDate(s: string) {
+    try {
+      return new Date(s).toLocaleString("pl-PL", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+      });
+    } catch {
+      return s;
+    }
+  }
+
+  if (loading) {
+    return <p className="text-[#888]">Ładowanie…</p>;
+  }
+
+  return (
+    <main>
+      <h2 className="text-lg font-bold mb-4">💬 Moderacja czatu</h2>
+      <p className="text-sm text-[#888] mb-6">
+        Ostatnie wiadomości (najnowsze na górze). Usuń nieodpowiednie – po kliknięciu „Usuń” wiadomość znika na stałe.
+      </p>
+      {error && (
+        <p className="text-red-400 text-sm mb-4">{error}</p>
+      )}
+      <div className="space-y-3">
+        {messages.length === 0 && (
+          <p className="text-[#888]">Brak wiadomości w czacie.</p>
+        )}
+        {messages.map((m) => (
+          <div
+            key={m.id}
+            className="flex flex-wrap items-start justify-between gap-2 rounded-lg border border-[#444] bg-[#262730]/50 p-3"
+          >
+            <div className="min-w-0 flex-1">
+              <p className="text-xs text-[#888]">
+                <strong className="text-[#fafafa]">{m.nickname}</strong> · {formatDate(m.created_at)}
+              </p>
+              <p className="text-sm text-[#e0e0e0] break-words mt-1">{m.content}</p>
+            </div>
+            <button
+              type="button"
+              onClick={() => handleDelete(m.id)}
+              disabled={deletingId === m.id}
+              className="shrink-0 rounded-lg border border-red-500/50 bg-red-500/10 px-3 py-1.5 text-xs font-medium text-red-400 hover:bg-red-500/20 disabled:opacity-50"
+            >
+              {deletingId === m.id ? "Usuwanie…" : "Usuń"}
+            </button>
+          </div>
+        ))}
+      </div>
+    </main>
+  );
+}
