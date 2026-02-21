@@ -165,6 +165,16 @@ export default function ChatWidget() {
           }
         }
       )
+      .on(
+        "postgres_changes",
+        { event: "DELETE", schema: "public", table: "chat_messages" },
+        (payload) => {
+          const old = payload.old as { id?: string };
+          if (old?.id) {
+            setMessages((prev) => prev.filter((m) => m.id !== old.id));
+          }
+        }
+      )
       .subscribe();
 
     return () => {

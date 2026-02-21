@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { createClient } from "@/lib/supabase/client";
+import { deleteChatMessage } from "./actions";
 
 type Message = {
   id: string;
@@ -52,10 +53,10 @@ export default function AdminCzatPage() {
     if (!confirm("Usunąć tę wiadomość?")) return;
     setDeletingId(id);
     setError(null);
-    const { error: e } = await supabase.from("chat_messages").delete().eq("id", id);
+    const result = await deleteChatMessage(id);
     setDeletingId(null);
-    if (e) {
-      setError("Nie udało się usunąć (brak uprawnień?).");
+    if (!result.ok) {
+      setError(result.error ?? "Nie udało się usunąć.");
       return;
     }
     setMessages((prev) => prev.filter((m) => m.id !== id));
