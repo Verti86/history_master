@@ -98,28 +98,32 @@ export default async function MenuPage() {
       <div className="grid grid-cols-2 gap-4 mb-8">
         <Link
           href="/quiz"
-          className="menu-card menu-card-quiz p-4 rounded-xl bg-gradient-to-br from-[#262730] to-[#1a1a24] border border-[#444] hover:border-[#ffbd45] hover:shadow-lg hover:shadow-yellow-500/20 text-center transition-all duration-300 group"
+          className="menu-card menu-card-quiz p-4 rounded-xl border hover:border-[#ffbd45] hover:shadow-lg hover:shadow-yellow-500/20 text-center transition-all duration-300 group"
+          style={{ background: "var(--hm-menu-card-bg)", color: "var(--hm-menu-card-text)", borderColor: "var(--hm-menu-card-border)" }}
         >
           <span className="menu-icon text-2xl inline-block mb-1">📝</span>
           <span className="block font-medium">Quiz</span>
         </Link>
         <Link
           href="/fiszki"
-          className="menu-card menu-card-fiszki p-4 rounded-xl bg-gradient-to-br from-[#262730] to-[#1a1a24] border border-[#444] hover:border-[#60a5fa] hover:shadow-lg hover:shadow-blue-500/20 text-center transition-all duration-300 group"
+          className="menu-card menu-card-fiszki p-4 rounded-xl border hover:border-[#60a5fa] hover:shadow-lg hover:shadow-blue-500/20 text-center transition-all duration-300 group"
+          style={{ background: "var(--hm-menu-card-bg)", color: "var(--hm-menu-card-text)", borderColor: "var(--hm-menu-card-border)" }}
         >
           <span className="menu-icon text-2xl inline-block mb-1">🧠</span>
           <span className="block font-medium">Fiszki</span>
         </Link>
         <Link
           href="/os-czasu"
-          className="menu-card menu-card-czas p-4 rounded-xl bg-gradient-to-br from-[#262730] to-[#1a1a24] border border-[#444] hover:border-[#a78bfa] hover:shadow-lg hover:shadow-purple-500/20 text-center transition-all duration-300 group"
+          className="menu-card menu-card-czas p-4 rounded-xl border hover:border-[#a78bfa] hover:shadow-lg hover:shadow-purple-500/20 text-center transition-all duration-300 group"
+          style={{ background: "var(--hm-menu-card-bg)", color: "var(--hm-menu-card-text)", borderColor: "var(--hm-menu-card-border)" }}
         >
           <span className="menu-icon text-2xl inline-block mb-1">⏳</span>
           <span className="block font-medium">Oś czasu</span>
         </Link>
         <Link
           href="/skojarzenia"
-          className="menu-card menu-card-skojarzenia p-4 rounded-xl bg-gradient-to-br from-[#262730] to-[#1a1a24] border border-[#444] hover:border-[#34d399] hover:shadow-lg hover:shadow-green-500/20 text-center transition-all duration-300 group"
+          className="menu-card menu-card-skojarzenia p-4 rounded-xl border hover:border-[#34d399] hover:shadow-lg hover:shadow-green-500/20 text-center transition-all duration-300 group"
+          style={{ background: "var(--hm-menu-card-bg)", color: "var(--hm-menu-card-text)", borderColor: "var(--hm-menu-card-border)" }}
         >
           <span className="menu-icon text-2xl inline-block mb-1">🕵️</span>
           <span className="block font-medium">Skojarzenia</span>

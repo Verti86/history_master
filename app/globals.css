@@ -16,6 +16,9 @@
   --hm-link-secondary-bg: rgba(38, 39, 48, 0.8);
   --hm-link-secondary-text: #fafafa;
   --hm-progress-track: #262730;
+  --hm-menu-card-bg: linear-gradient(to bottom right, #262730, #1a1a24);
+  --hm-menu-card-text: #fafafa;
+  --hm-menu-card-border: #444;
 }
 html.light {
   --hm-bg: #f0f2f5;
@@ -31,6 +34,9 @@ html.light {
   --hm-link-secondary-bg: #f3f4f6;
   --hm-link-secondary-text: #111827;
   --hm-progress-track: #e5e7eb;
+  --hm-menu-card-bg: linear-gradient(to bottom right, #ffffff, #e5e7eb);
+  --hm-menu-card-text: #111827;
+  --hm-menu-card-border: #d1d5db;
 }
 body {
   background-color: var(--hm-bg);
