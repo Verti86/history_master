@@ -1,17 +1,18 @@
 import Link from "next/link";
 import { GITHUB_REPO_URL } from "@/lib/site-config";
 import { FooterAuthor } from "./FooterAuthor";
+import { FooterThemeToggle } from "./FooterThemeToggle";
 
 export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
     <footer
-      className="fixed bottom-0 left-0 right-0 z-10 py-4 text-center text-sm text-gray-500 bg-[#0e1117]/95 border-t border-gray-800"
+      className="fixed bottom-0 left-0 right-0 z-10 py-4 text-center text-sm text-gray-500 bg-[var(--hm-bg)]/95 border-t border-[var(--hm-border)]"
       role="contentinfo"
     >
       <p>
-        Created by <FooterAuthor /> • {year} •{" "}
+        Created by <FooterAuthor /> • {year} • <FooterThemeToggle /> •{" "}
         <Link
           href={GITHUB_REPO_URL}
           target="_blank"

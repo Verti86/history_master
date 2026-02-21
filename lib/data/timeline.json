@@ -1,14 +1,14 @@
 [
-  {"event": "Bitwa pod Kircholmem", "year": 1605},
-  {"event": "Klęska pod Cecorą", "year": 1620},
-  {"event": "Wybuch powstania Chmielnickiego", "year": 1648},
-  {"event": "Ścięcie króla Karola I Stuarta", "year": 1649},
-  {"event": "Pierwsze użycie liberum veto", "year": 1652},
-  {"event": "Obrona Jasnej Góry (Potop)", "year": 1655},
-  {"event": "Śluby Lwowskie Jana Kazimierza", "year": 1656},
-  {"event": "Pokój w Oliwie", "year": 1660},
-  {"event": "Traktat w Buczaczu", "year": 1672},
-  {"event": "Zwycięstwo pod Chocimiem", "year": 1673},
-  {"event": "Odsiecz Wiedeńska", "year": 1683},
-  {"event": "Pokój w Karłowicach", "year": 1699}
+  {"event":"Bitwa pod Kircholmem","year":1605,"description":"Wielkie zwycięstwo husarii pod dowództwem Jana Karola Chodkiewicza nad Szwedami.","epoch":"XVII"},
+  {"event":"Klęska pod Cecorą","year":1620,"description":"Śmierć hetmana Stanisława Żółkiewskiego w bitwie z Turkami.","epoch":"XVII"},
+  {"event":"Wybuch powstania Chmielnickiego","year":1648,"description":"Powstanie kozackie na Ukrainie pod przywództwem Bohdana Chmielnickiego.","epoch":"XVII"},
+  {"event":"Ścięcie króla Karola I Stuarta","year":1649,"description":"W Anglii po wojnie domowej wykonano wyrok na królu.","epoch":"XVII"},
+  {"event":"Pierwsze użycie liberum veto","year":1652,"description":"Władysław Siciński zerwał sejm – początek kryzysu parlamentaryzmu w Rzeczypospolitej.","epoch":"XVII"},
+  {"event":"Obrona Jasnej Góry (Potop)","year":1655,"description":"Przeor Augustyn Kordecki dowodził obroną klasztoru przed Szwedami.","epoch":"XVII"},
+  {"event":"Śluby Lwowskie Jana Kazimierza","year":1656,"description":"Król oddał Rzeczpospolitą w opiekę Matce Bożej.","epoch":"XVII"},
+  {"event":"Pokój w Oliwie","year":1660,"description":"Zakończenie wojny ze Szwecją.","epoch":"XVII"},
+  {"event":"Traktat w Buczaczu","year":1672,"description":"Rzeczpospolita utraciła Podole na rzecz Turcji.","epoch":"XVII"},
+  {"event":"Zwycięstwo pod Chocimiem","year":1673,"description":"Jan Sobieski pokonał Turków przed objęciem tronu.","epoch":"XVII"},
+  {"event":"Odsiecz Wiedeńska","year":1683,"description":"Jan III Sobieski rozgromił armię turecką pod Wiedniem.","epoch":"XVII"},
+  {"event":"Pokój w Karłowicach","year":1699,"description":"Koniec wojen z Turcją, odzyskanie Kamieńca.","epoch":"XVII"}
 ]

@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect, useRef } from "react";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import type { QuizQuestion } from "@/lib/quiz-loader";
+import { XpToast } from "@/components/XpToast";
 
 const QUESTIONS_PER_ROUND = 10;
 
@@ -20,15 +21,17 @@ type Props = {
   questions: QuizQuestion[];
   userId: string;
   categoryName: string;
+  categoryId: string;
 };
 
-export default function QuizGame({ questions, userId, categoryName }: Props) {
+export default function QuizGame({ questions, userId, categoryName, categoryId }: Props) {
   const [order] = useState(() => shuffle(questions).slice(0, QUESTIONS_PER_ROUND));
   const [answerOrders] = useState(() => order.map(() => shuffle([0, 1, 2, 3])));
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [feedback, setFeedback] = useState<"ok" | "wrong" | null>(null);
   const [saved, setSaved] = useState(false);
+  const [showXpToast, setShowXpToast] = useState(false);
   const savingRef = useRef(false);
 
   const current = order[index];
@@ -38,7 +41,10 @@ export default function QuizGame({ questions, userId, categoryName }: Props) {
   useEffect(() => {
     if (finished && !saved && !savingRef.current) {
       savingRef.current = true;
-      saveScore(score).then(() => setSaved(true));
+      saveScore(score).then(() => {
+        setSaved(true);
+        setShowXpToast(true);
+      });
     }
   }, [finished, saved, score]);
 
@@ -46,6 +52,23 @@ export default function QuizGame({ questions, userId, categoryName }: Props) {
     if (!current || !answerOrders[index]) return [];
     return answerOrders[index].map((i) => current.answers[i]);
   }, [current, answerOrders, index]);
+
+  async function saveWrongAnswer(questionText: string) {
+    const supabase = createClient();
+    const { data: row } = await supabase.from("quiz_wrong_answers").select("id, times_wrong").eq("user_id", userId).eq("category_id", categoryId).eq("question_text", questionText).maybeSingle();
+    const now = new Date().toISOString();
+    if (row?.id) {
+      await supabase.from("quiz_wrong_answers").update({ times_wrong: (row.times_wrong ?? 1) + 1, last_wrong_at: now }).eq("id", row.id);
+    } else {
+      await supabase.from("quiz_wrong_answers").insert({
+        user_id: userId,
+        category_id: categoryId,
+        question_text: questionText,
+        times_wrong: 1,
+        last_wrong_at: now,
+      });
+    }
+  }
 
   async function handleAnswer(ans: string) {
     if (feedback !== null) return;
@@ -55,6 +78,7 @@ export default function QuizGame({ questions, userId, categoryName }: Props) {
       setScore((s) => s + 1);
     } else {
       setFeedback("wrong");
+      saveWrongAnswer(current.question);
     }
   }
 
@@ -64,6 +88,7 @@ export default function QuizGame({ questions, userId, categoryName }: Props) {
       user_id: userId,
       game_mode: "Quiz",
       points: finalScore,
+      category_id: categoryId,
     });
   }
 
@@ -75,6 +100,7 @@ export default function QuizGame({ questions, userId, categoryName }: Props) {
   if (finished) {
     return (
       <div className="space-y-6">
+        <XpToast xp={score} show={showXpToast} onDone={() => setShowXpToast(false)} />
         <h1 className="text-2xl font-bold">🎉 Koniec quizu!</h1>
         <p className="text-[#ffbd45] text-xl">
           Wynik: <strong>{score}</strong> / {total}
@@ -116,6 +142,7 @@ export default function QuizGame({ questions, userId, categoryName }: Props) {
       {feedback === "ok" && (
         <div className="p-4 rounded-lg bg-green-900/30 border border-green-700 text-green-200 text-sm">
           Brawo!
+          {current.explanation && <p className="mt-2 text-[#aaa]">{current.explanation}</p>}
         </div>
       )}
 

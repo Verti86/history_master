@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --hm-bg: #0e1117;
+  --hm-text: #fafafa;
+  --hm-muted: #888;
+  --hm-border: #333;
+  --hm-card: #161b22;
+}
+html.light {
+  --hm-bg: #f5f5f5;
+  --hm-text: #1a1a1a;
+  --hm-muted: #666;
+  --hm-border: #e5e5e5;
+  --hm-card: #fff;
+}
+body {
+  background-color: var(--hm-bg);
+  color: var(--hm-text);
+}
+
 .perspective-1000 {
   perspective: 1000px;
 }

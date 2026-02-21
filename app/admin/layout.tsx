@@ -37,6 +37,12 @@ export default async function AdminLayout({
             Moderacja czatu
           </Link>
           <Link
+            href="/admin/eksport"
+            className="text-sm text-[#aaa] hover:text-[#ffbd45] transition-colors"
+          >
+            Eksport
+          </Link>
+          <Link
             href="/menu"
             className="text-sm text-[#888] hover:text-[#fafafa] transition-colors"
           >

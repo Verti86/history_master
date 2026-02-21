@@ -3,10 +3,13 @@
 import { useState, useEffect } from "react";
 import { createClient } from "@/lib/supabase/client";
 import Link from "next/link";
+import { XpToast } from "@/components/XpToast";
 
 type TimelineEvent = {
   event: string;
   year: number;
+  description?: string;
+  epoch?: string;
 };
 
 type Props = {
@@ -41,18 +44,26 @@ function generatePairs(events: TimelineEvent[], count: number) {
   return pairs;
 }
 
+const EPOCHS = [{ value: "all", label: "Wszystkie" }, { value: "XVII", label: "XVII wiek" }];
+
 export default function TimelineGame({ events, userId }: Props) {
+  const [epochFilter, setEpochFilter] = useState("all");
+  const filteredEvents = epochFilter === "all" ? events : events.filter((e) => e.epoch === epochFilter);
   const [pairs, setPairs] = useState<{ event1: TimelineEvent; event2: TimelineEvent }[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [answered, setAnswered] = useState<"correct" | "wrong" | null>(null);
   const [finished, setFinished] = useState(false);
   const [saving, setSaving] = useState(false);
-  const totalRounds = 10;
+  const [showXpToast, setShowXpToast] = useState(false);
+  const totalRounds = Math.min(10, Math.floor(filteredEvents.length / 2));
 
   useEffect(() => {
-    setPairs(generatePairs(events, totalRounds));
-  }, [events]);
+    setPairs(generatePairs(filteredEvents, totalRounds));
+    setCurrentIndex(0);
+    setScore(0);
+    setAnswered(null);
+  }, [epochFilter, filteredEvents.length]);
 
   const currentPair = pairs[currentIndex];
 
@@ -82,6 +93,7 @@ export default function TimelineGame({ events, userId }: Props) {
   const finishGame = async (finalScore: number) => {
     setFinished(true);
     setSaving(true);
+    setShowXpToast(true);
     try {
       const supabase = createClient();
       await supabase.from("game_stats").insert({
@@ -105,8 +117,9 @@ export default function TimelineGame({ events, userId }: Props) {
 
   if (finished) {
     return (
-      <main className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
-        <div className="bg-gray-800 rounded-xl p-8 max-w-md w-full text-center">
+      <main className="min-h-screen flex flex-col items-center justify-center p-4" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
+        <XpToast xp={score} show={showXpToast} onDone={() => setShowXpToast(false)} />
+        <div className="rounded-xl p-8 max-w-md w-full text-center border border-[var(--hm-border)]" style={{ background: "var(--hm-card)" }}>
           <h1 className="text-3xl font-bold mb-4">⏳ Koniec!</h1>
           <p className="text-xl mb-6">
             Wynik: <span className="text-green-400 font-bold">{score}</span> / {totalRounds}
@@ -123,14 +136,23 @@ export default function TimelineGame({ events, userId }: Props) {
     );
   }
 
+  const earlierEvent = currentPair ? (currentPair.event1.year < currentPair.event2.year ? currentPair.event1 : currentPair.event2) : null;
+
   return (
-    <main className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
+    <main className="min-h-screen flex flex-col items-center justify-center p-4" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
       <div className="w-full max-w-xl">
-        <div className="flex justify-between items-center mb-6">
-          <span className="text-gray-400">
-            Runda {currentIndex + 1} / {pairs.length}
-          </span>
+        <div className="flex flex-wrap justify-between items-center gap-2 mb-4">
+          <span className="text-[var(--hm-muted)]">Runda {currentIndex + 1} / {pairs.length}</span>
           <span className="text-green-400">Wynik: {score}</span>
+          <select
+            value={epochFilter}
+            onChange={(e) => setEpochFilter(e.target.value)}
+            className="rounded-lg bg-[var(--hm-card)] border border-[var(--hm-border)] px-3 py-1.5 text-sm"
+          >
+            {EPOCHS.map((opt) => (
+              <option key={opt.value} value={opt.value}>{opt.label}</option>
+            ))}
+          </select>
         </div>
 
         <h2 className="text-xl text-center mb-6">
@@ -164,13 +186,18 @@ export default function TimelineGame({ events, userId }: Props) {
         </div>
 
         {answered && (
-          <p className={`text-center mt-4 text-lg ${answered === "correct" ? "text-green-400" : "text-red-400"}`}>
-            {answered === "correct" ? "✓ Dobrze!" : "✗ Źle!"}
-          </p>
+          <div className="mt-4 text-center">
+            <p className={`text-lg ${answered === "correct" ? "text-green-400" : "text-red-400"}`}>
+              {answered === "correct" ? "✓ Dobrze!" : "✗ Źle!"}
+            </p>
+            {earlierEvent?.description && (
+              <p className="mt-2 text-sm text-[var(--hm-muted)] max-w-xl mx-auto">{earlierEvent.description}</p>
+            )}
+          </div>
         )}
 
         <div className="mt-8 text-center">
-          <Link href="/menu" className="text-gray-400 hover:text-white text-sm">
+          <Link href="/menu" className="text-[var(--hm-muted)] hover:opacity-90 text-sm">
             ← Powrót do menu
           </Link>
         </div>

@@ -28,5 +28,5 @@ export default async function FiszkiCategoryPage({
   const flashcards = getFlashcardsForCategory(category);
   if (flashcards.length === 0) redirect("/fiszki");
 
-  return <FlashcardsGame flashcards={flashcards} userId={user.id} categoryName={categoryInfo.name} />;
+  return <FlashcardsGame flashcards={flashcards} userId={user.id} categoryName={categoryInfo.name} categoryId={category} />;
 }

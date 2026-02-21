@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { createClient } from "@/lib/supabase/client";
 import Link from "next/link";
+import { XpToast } from "@/components/XpToast";
 
 type Flashcard = {
   question: string;
@@ -14,6 +15,7 @@ type Props = {
   flashcards: Flashcard[];
   userId: string;
   categoryName: string;
+  categoryId: string;
 };
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -25,7 +27,7 @@ function shuffleArray<T>(array: T[]): T[] {
   return arr;
 }
 
-export default function FlashcardsGame({ flashcards, userId, categoryName }: Props) {
+export default function FlashcardsGame({ flashcards, userId, categoryName, categoryId }: Props) {
   const [deck, setDeck] = useState<Flashcard[]>([]);
   const [wrongCards, setWrongCards] = useState<Flashcard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,6 +36,7 @@ export default function FlashcardsGame({ flashcards, userId, categoryName }: Pro
   const [finished, setFinished] = useState(false);
   const [saving, setSaving] = useState(false);
   const [isRepeatMode, setIsRepeatMode] = useState(false);
+  const [showXpToast, setShowXpToast] = useState(false);
 
   useEffect(() => {
     setDeck(shuffleArray(flashcards));
@@ -42,16 +45,19 @@ export default function FlashcardsGame({ flashcards, userId, categoryName }: Pro
   const currentCard = deck[currentIndex];
   const totalCards = deck.length;
 
+  useEffect(() => {
+    if (finished && score > 0) setShowXpToast(true);
+  }, [finished, score]);
+
   const handleKnow = async () => {
     setScore((s) => s + 1);
-    
     const supabase = createClient();
     await supabase.from("game_stats").insert({
       user_id: userId,
       game_mode: "Fiszki",
       points: 1,
+      category_id: categoryId,
     });
-    
     nextCard();
   };
 
@@ -88,8 +94,9 @@ export default function FlashcardsGame({ flashcards, userId, categoryName }: Pro
 
   if (finished) {
     return (
-      <main className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
-        <div className="bg-gray-800 rounded-xl p-8 max-w-md w-full text-center">
+      <main className="min-h-screen flex flex-col items-center justify-center p-4" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
+        <XpToast xp={score} show={showXpToast} onDone={() => setShowXpToast(false)} />
+        <div className="rounded-xl p-8 max-w-md w-full text-center border border-[var(--hm-border)]" style={{ background: "var(--hm-card)" }}>
           <h1 className="text-3xl font-bold mb-4">🎉 Koniec!</h1>
           <p className="text-xl mb-2">
             Zdobyłeś <span className="text-green-400 font-bold">{score}</span> XP

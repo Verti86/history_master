@@ -2,6 +2,11 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { isAdmin } from "@/lib/admin";
+import { getLevelForXp } from "@/lib/levels";
+import { ACHIEVEMENTS } from "@/lib/achievements";
+import { computeStreak } from "@/lib/streak";
+import { getCurrentWeekChallenge, getCurrentWeekStart } from "@/lib/weekly-challenge";
+import MenuRanking from "./MenuRanking";
 
 export default async function MenuPage() {
   const supabase = await createClient();
@@ -20,30 +25,75 @@ export default async function MenuPage() {
 
   const { data: stats } = await supabase
     .from("game_stats")
-    .select("points")
+    .select("points, game_mode, category_id, created_at")
     .eq("user_id", user.id);
   const totalXp = (stats || []).reduce((s, r) => s + (r.points || 0), 0);
+  const level = getLevelForXp(totalXp);
+  const activityDates = (stats || [])
+    .map((r) => (r as { created_at?: string }).created_at)
+    .filter(Boolean)
+    .map((c) => (c as string).slice(0, 10));
+  const streak = computeStreak(activityDates);
+  const quizCount = (stats || []).filter((r) => (r as { game_mode?: string }).game_mode === "Quiz").length;
+  const flashcardCount = (stats || []).filter((r) => (r as { game_mode?: string }).game_mode === "Fiszki").reduce((s, r) => s + (r.points || 0), 0);
+  const categoryIds = new Set((stats || []).map((r) => (r as { category_id?: string }).category_id).filter(Boolean) as string[]);
+  const weekStart = getCurrentWeekStart();
+  const weekXp = (stats || []).reduce((s, r) => {
+    const created = (r as { created_at?: string }).created_at;
+    if (!created || created.slice(0, 10) < weekStart) return s;
+    return s + (r.points || 0);
+  }, 0);
+  const weekChallenge = getCurrentWeekChallenge();
 
-  const { data: allStats } = await supabase.from("game_stats").select("user_id, points");
+  const { data: unlocked } = await supabase.from("user_achievements").select("achievement_id").eq("user_id", user.id);
+  const unlockedIds = new Set((unlocked || []).map((u) => u.achievement_id));
+  for (const a of ACHIEVEMENTS) {
+    if (a.check(totalXp, { quizCount, flashcardCount, categoryIds }) && !unlockedIds.has(a.id)) {
+      await supabase.from("user_achievements").upsert({ user_id: user.id, achievement_id: a.id }, { onConflict: "user_id,achievement_id" });
+      unlockedIds.add(a.id);
+    }
+  }
+  const achievementCount = unlockedIds.size;
+
+  const { data: allStats } = await supabase.from("game_stats").select("user_id, points, created_at");
   const { data: profiles } = await supabase.from("profiles").select("id, nickname");
   const nicks: Record<string, string> = {};
   (profiles || []).forEach((p) => { nicks[p.id] = p.nickname || `Gracz_${p.id.slice(0, 8)}`; });
-  const scores: Record<string, number> = {};
+  const scoresAll: Record<string, number> = {};
+  const scoresWeek: Record<string, number> = {};
   (allStats || []).forEach((r) => {
     const name = nicks[r.user_id] || `Gracz_${r.user_id?.slice(0, 8)}`;
-    scores[name] = (scores[name] || 0) + (r.points || 0);
+    const pts = r.points || 0;
+    scoresAll[name] = (scoresAll[name] || 0) + pts;
+    const created = (r as { created_at?: string }).created_at;
+    if (created && created.slice(0, 10) >= weekStart) scoresWeek[name] = (scoresWeek[name] || 0) + pts;
   });
-  const ranking = Object.entries(scores)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 10);
+  const rankingAll = Object.entries(scoresAll).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  const rankingWeek = Object.entries(scoresWeek).sort((a, b) => b[1] - a[1]).slice(0, 10);
 
   return (
     <main className="min-h-screen p-8 max-w-2xl mx-auto">
       <header className="mb-8">
         <h1 className="text-2xl font-bold">🛡️ History Master Online</h1>
       </header>
-      <p className="text-[#aaa] mb-6">Witaj, <strong className="text-[#fafafa]">{nick}</strong>! ⚔️</p>
-      <p className="mb-6">Twoje XP: <strong className="text-[#ffbd45]">{totalXp}</strong></p>
+      <p className="text-[var(--hm-text)] mb-2">Witaj, <strong>{nick}</strong>! ⚔️</p>
+      <p className="mb-1">Twoje XP: <strong className="text-[#ffbd45]">{totalXp}</strong></p>
+      <p className="mb-1">{level.icon} Poziom: <strong>{level.name}</strong></p>
+      {level.nextLevelAt != null && (
+        <div className="mb-2 w-full max-w-xs h-2 bg-[#262730] rounded-full overflow-hidden">
+          <div className="h-full bg-[#ffbd45] transition-all" style={{ width: `${level.progress * 100}%` }} />
+        </div>
+      )}
+      {streak > 0 && <p className="mb-4 text-amber-400">🔥 {streak} {streak === 1 ? "dzień" : "dni"} z rzędu</p>}
+      <p className="mb-2 text-sm text-[var(--hm-muted)]">Odznaki: {achievementCount}/{ACHIEVEMENTS.length}</p>
+      <section className="border border-[var(--hm-border)] rounded-xl p-3 mb-6">
+        <h3 className="font-bold text-sm mb-2">🎯 {weekChallenge.title}</h3>
+        <p className="text-sm text-[var(--hm-muted)] mb-2">{weekChallenge.description}</p>
+        <div className="w-full h-2 bg-[#262730] rounded-full overflow-hidden">
+          <div className="h-full bg-emerald-500 transition-all" style={{ width: `${Math.min(1, weekXp / weekChallenge.targetXp) * 100}%` }} />
+        </div>
+        <p className="text-xs mt-1">{weekXp} / {weekChallenge.targetXp} XP</p>
+      </section>
 
       <div className="grid grid-cols-2 gap-4 mb-8">
         <Link
@@ -76,16 +126,9 @@ export default async function MenuPage() {
         </Link>
       </div>
 
-      <section className="border border-[#444] rounded-xl p-4">
+      <section className="border border-[var(--hm-border)] rounded-xl p-4">
         <h2 className="font-bold mb-3">🏆 Ranking Top 10</h2>
-        <ul className="space-y-1 text-sm">
-          {ranking.map(([name, pts], i) => (
-            <li key={name}>
-              {i + 1}. {name}: <strong>{pts}</strong>
-            </li>
-          ))}
-          {ranking.length === 0 && <li className="text-[#888]">Brak wyników.</li>}
-        </ul>
+        <MenuRanking all={rankingAll} week={rankingWeek} />
       </section>
 
       {admin && (

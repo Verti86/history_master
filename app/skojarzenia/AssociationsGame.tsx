@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { createClient } from "@/lib/supabase/client";
 import Link from "next/link";
+import { XpToast } from "@/components/XpToast";
 
 type AssociationItem = {
   answer: string;
@@ -32,6 +33,7 @@ export default function AssociationsGame({ associations, userId }: Props) {
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [showXpToast, setShowXpToast] = useState(false);
   const maxScore = associations.length * 3;
 
   useEffect(() => {
@@ -95,6 +97,7 @@ export default function AssociationsGame({ associations, userId }: Props) {
   const finishGame = async () => {
     setFinished(true);
     setSaving(true);
+    setShowXpToast(true);
     try {
       const supabase = createClient();
       await supabase.from("game_stats").insert({
@@ -118,8 +121,9 @@ export default function AssociationsGame({ associations, userId }: Props) {
 
   if (finished) {
     return (
-      <main className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
-        <div className="bg-gray-800 rounded-xl p-8 max-w-md w-full text-center">
+      <main className="min-h-screen flex flex-col items-center justify-center p-4" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
+        <XpToast xp={score} show={showXpToast} onDone={() => setShowXpToast(false)} />
+        <div className="rounded-xl p-8 max-w-md w-full text-center border border-[var(--hm-border)]" style={{ background: "var(--hm-card)" }}>
           <h1 className="text-3xl font-bold mb-4">🕵️ Koniec!</h1>
           <p className="text-xl mb-6">
             Wynik: <span className="text-green-400 font-bold">{score}</span> / {maxScore}

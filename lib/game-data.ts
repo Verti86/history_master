@@ -4,6 +4,8 @@ import associationsData from "./data/associations.json";
 export type TimelineEvent = {
   event: string;
   year: number;
+  description?: string;
+  epoch?: string;
 };
 
 export type AssociationItem = {
@@ -11,8 +13,10 @@ export type AssociationItem = {
   hints: string[];
 };
 
-export function getTimelineEvents(): TimelineEvent[] {
-  return timelineData as TimelineEvent[];
+export function getTimelineEvents(epochFilter?: string): TimelineEvent[] {
+  const data = timelineData as TimelineEvent[];
+  if (!epochFilter || epochFilter === "all") return data;
+  return data.filter((e) => e.epoch === epochFilter);
 }
 
 export function getAssociations(): AssociationItem[] {

@@ -55,3 +55,18 @@ export function getFlashcardsForCategory(categoryId: string): { question: string
     explanation: q.explanation || "",
   }));
 }
+
+/** Pytania do powtórki słabych stron – zwraca unikalne pytania pasujące do listy (category_id, question_text). */
+export function getWeakQuestions(wrongEntries: { category_id: string; question_text: string }[]): QuizQuestion[] {
+  const seen = new Set<string>();
+  const result: QuizQuestion[] = [];
+  for (const { category_id, question_text } of wrongEntries) {
+    const key = `${category_id}:${question_text}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const questions = getQuestionsForCategory(category_id);
+    const q = questions.find((p) => p.question === question_text);
+    if (q) result.push(q);
+  }
+  return result;
+}
