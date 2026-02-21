@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import ChatWidget from "@/components/ChatWidget";
+import Footer from "@/components/Footer";
 import { SITE_NAME, SITE_DESCRIPTION, getBaseUrl } from "@/lib/site-config";
 
 const baseUrl = getBaseUrl();
@@ -80,8 +81,11 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="antialiased min-h-screen bg-[#0e1117] text-[#fafafa]">
-        {children}
+      <body className="antialiased min-h-screen flex flex-col bg-[#0e1117] text-[#fafafa]">
+        <div className="flex-1 flex flex-col">
+          {children}
+        </div>
+        <Footer />
         <ChatWidget />
       </body>
     </html>
