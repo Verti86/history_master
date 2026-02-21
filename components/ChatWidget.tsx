@@ -1,7 +1,9 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { createClient } from "@/lib/supabase/client";
+
+const CHAT_POS_STORAGE_KEY = "chatWidgetPos";
 
 type Message = {
   id: string;
@@ -20,8 +22,99 @@ export default function ChatWidget() {
   const [nickname, setNickname] = useState<string | null>(null);
   const [unreadCount, setUnreadCount] = useState(0);
   const [error, setError] = useState<string | null>(null);
+  const [position, setPosition] = useState<{ x: number; y: number } | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const dragRef = useRef<{ startX: number; startY: number; startLeft: number; startTop: number } | null>(null);
+  const didDragRef = useRef(false);
   const supabase = createClient();
+
+  // Załaduj zapisaną pozycję
+  useEffect(() => {
+    try {
+      const raw = typeof window !== "undefined" ? localStorage.getItem(CHAT_POS_STORAGE_KEY) : null;
+      if (raw) {
+        const [x, y] = raw.split(",").map(Number);
+        if (Number.isFinite(x) && Number.isFinite(y)) setPosition({ x, y });
+      }
+    } catch {
+      // ignore
+    }
+  }, []);
+
+  // Zapisz pozycję
+  const savePosition = useCallback((pos: { x: number; y: number }) => {
+    try {
+      localStorage.setItem(CHAT_POS_STORAGE_KEY, `${pos.x},${pos.y}`);
+    } catch {
+      // ignore
+    }
+  }, []);
+
+  // Ograniczenie do viewportu (margines 20px)
+  const clampPosition = useCallback((x: number, y: number) => {
+    if (typeof window === "undefined") return { x, y };
+    const margin = 20;
+    const maxW = window.innerWidth - 80;
+    const maxH = window.innerHeight - 80;
+    return {
+      x: Math.max(margin, Math.min(x, maxW)),
+      y: Math.max(margin, Math.min(y, maxH)),
+    };
+  }, []);
+
+  // Rozpoczęcie przeciągania
+  const handlePointerDown = useCallback(
+    (e: React.PointerEvent) => {
+      if (!containerRef.current) return;
+      const rect = containerRef.current.getBoundingClientRect();
+      const left = position?.x ?? rect.left;
+      const top = position?.y ?? rect.top;
+      didDragRef.current = false;
+      dragRef.current = {
+        startX: e.clientX,
+        startY: e.clientY,
+        startLeft: left,
+        startTop: top,
+      };
+      setPosition({ x: left, y: top });
+      (e.target as HTMLElement).setPointerCapture?.(e.pointerId);
+    },
+    [position]
+  );
+
+  useEffect(() => {
+    const onMove = (e: PointerEvent) => {
+      if (!dragRef.current) return;
+      didDragRef.current = true;
+      const { startX, startY, startLeft, startTop } = dragRef.current;
+      const next = clampPosition(
+        startLeft + (e.clientX - startX),
+        startTop + (e.clientY - startY)
+      );
+      setPosition(next);
+    };
+    const onUp = (e: PointerEvent) => {
+      if (!dragRef.current) return;
+      (e.target as HTMLElement).releasePointerCapture?.(e.pointerId);
+      const { startLeft, startTop } = dragRef.current;
+      const left = clampPosition(
+        startLeft + (e.clientX - dragRef.current.startX),
+        startTop + (e.clientY - dragRef.current.startY)
+      );
+      setPosition(left);
+      savePosition(left);
+      dragRef.current = null;
+    };
+    window.addEventListener("pointermove", onMove);
+    window.addEventListener("pointerup", onUp);
+    window.addEventListener("pointercancel", onUp);
+    return () => {
+      window.removeEventListener("pointermove", onMove);
+      window.removeEventListener("pointerup", onUp);
+      window.removeEventListener("pointercancel", onUp);
+    };
+  }, [clampPosition, savePosition]);
 
   useEffect(() => {
     const getUser = async () => {
@@ -124,30 +217,43 @@ export default function ChatWidget() {
     return date.toLocaleTimeString("pl-PL", { hour: "2-digit", minute: "2-digit" });
   };
 
+  const positionStyle =
+    position === null
+      ? {
+          bottom: "max(1rem, env(safe-area-inset-bottom))",
+          right: "max(1rem, env(safe-area-inset-right))",
+        }
+      : { left: position.x, top: position.y };
+
   if (!userId || !nickname) {
     return null;
   }
 
   return (
     <div
+      ref={containerRef}
       className="fixed z-[9999]"
-      style={{
-        bottom: "max(1rem, env(safe-area-inset-bottom))",
-        right: "max(1rem, env(safe-area-inset-right))",
-      }}
+      style={positionStyle}
     >
       {isOpen ? (
         <div className="w-[calc(100vw-2rem)] max-w-sm h-[70vh] max-h-[28rem] min-h-[20rem] bg-gray-900 border border-gray-700 rounded-xl shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-4 duration-200">
-          {/* Header */}
-          <div className="bg-gradient-to-r from-purple-700 to-blue-700 p-3 flex items-center justify-between">
+          {/* Header – chwyt do przeciągania */}
+          <div
+            className="bg-gradient-to-r from-purple-700 to-blue-700 p-3 flex items-center justify-between cursor-move touch-none select-none"
+            onPointerDown={handlePointerDown}
+          >
             <div className="flex items-center gap-2">
               <span className="text-lg">💬</span>
               <span className="font-bold text-white">Czat</span>
               <span className="text-xs text-purple-200">({messages.length})</span>
             </div>
             <button
-              onClick={() => setIsOpen(false)}
-              className="text-white hover:bg-white/20 rounded p-1 transition-colors"
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                setIsOpen(false);
+              }}
+              className="text-white hover:bg-white/20 rounded p-1 transition-colors cursor-pointer touch-manipulation"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -215,8 +321,17 @@ export default function ChatWidget() {
         </div>
       ) : (
         <button
-          onClick={() => setIsOpen(true)}
-          className="relative w-16 h-16 min-w-[4rem] min-h-[4rem] bg-gradient-to-br from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 rounded-full shadow-xl shadow-purple-900/40 transition-all duration-300 flex items-center justify-center group touch-manipulation"
+          type="button"
+          onPointerDown={handlePointerDown}
+          onClick={() => {
+            if (didDragRef.current) {
+              didDragRef.current = false;
+              return;
+            }
+            setIsOpen(true);
+          }}
+          className="relative w-16 h-16 min-w-[4rem] min-h-[4rem] bg-gradient-to-br from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 rounded-full shadow-xl shadow-purple-900/40 transition-all duration-300 flex items-center justify-center group cursor-move touch-none select-none"
+          title="Przeciągnij, aby przenieść. Kliknij, aby otworzyć czat."
         >
           <span className="text-3xl group-hover:scale-110 transition-transform select-none">💬</span>
           {unreadCount > 0 && (
