@@ -80,12 +80,23 @@ export default function UstawNickPage() {
           {loading ? "Zapisywanie…" : "Zapisz"}
         </button>
       </form>
-      <Link href="/" className="mt-6 text-sm text-[#888] hover:text-[#aaa]">← Strona główna</Link>
-      <form action="/auth/signout" method="post" className="mt-4">
-        <button type="submit" className="text-sm text-red-400 hover:text-red-300">
-          Wyloguj się
-        </button>
-      </form>
+      <nav className="mt-8 flex flex-wrap items-center justify-center gap-3" aria-label="Nawigacja">
+        <Link
+          href="/"
+          className="inline-flex items-center gap-2 rounded-xl border border-[#444] bg-[#262730]/80 px-4 py-2.5 text-sm font-medium text-[#fafafa] transition-colors hover:border-[#ffbd45] hover:bg-[#262730]"
+        >
+          <span aria-hidden>←</span>
+          Strona główna
+        </Link>
+        <form action="/auth/signout" method="post" className="inline">
+          <button
+            type="submit"
+            className="inline-flex items-center gap-2 rounded-xl border border-[#555] bg-transparent px-4 py-2.5 text-sm font-medium text-[#aaa] transition-colors hover:border-red-500/60 hover:bg-red-500/10 hover:text-red-400"
+          >
+            Wyloguj się
+          </button>
+        </form>
+      </nav>
     </main>
   );
 }

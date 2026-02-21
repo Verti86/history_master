@@ -75,8 +75,12 @@ export default function LoginPage() {
           Zarejestruj się
         </Link>
       </p>
-      <Link href="/" className="mt-4 text-sm text-[#888] hover:text-[#aaa]">
-        ← Strona główna
+      <Link
+        href="/"
+        className="mt-6 inline-flex items-center gap-2 rounded-xl border border-[#444] bg-[#262730]/80 px-4 py-2.5 text-sm font-medium text-[#fafafa] transition-colors hover:border-[#ffbd45] hover:bg-[#262730]"
+      >
+        <span aria-hidden>←</span>
+        Strona główna
       </Link>
     </main>
   );

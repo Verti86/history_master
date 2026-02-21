@@ -37,14 +37,9 @@ export default async function MenuPage() {
 
   return (
     <main className="min-h-screen p-8 max-w-2xl mx-auto">
-      <div className="flex justify-between items-center mb-8">
+      <header className="mb-8">
         <h1 className="text-2xl font-bold">🛡️ History Master Online</h1>
-        <form action="/auth/signout" method="post">
-          <button type="submit" className="text-sm text-[#888] hover:text-[#fafafa]">
-            Wyloguj
-          </button>
-        </form>
-      </div>
+      </header>
       <p className="text-[#aaa] mb-6">Witaj, <strong className="text-[#fafafa]">{nick}</strong>! ⚔️</p>
       <p className="mb-6">Twoje XP: <strong className="text-[#ffbd45]">{totalXp}</strong></p>
 
@@ -91,9 +86,23 @@ export default async function MenuPage() {
         </ul>
       </section>
 
-      <p className="mt-6 text-center">
-        <Link href="/" className="text-sm text-[#888] hover:text-[#ffbd45]">← Strona główna</Link>
-      </p>
+      <nav className="mt-8 flex flex-wrap items-center justify-center gap-3" aria-label="Nawigacja">
+        <Link
+          href="/"
+          className="inline-flex items-center gap-2 rounded-xl border border-[#444] bg-[#262730]/80 px-4 py-2.5 text-sm font-medium text-[#fafafa] transition-colors hover:border-[#ffbd45] hover:bg-[#262730]"
+        >
+          <span aria-hidden>←</span>
+          Strona główna
+        </Link>
+        <form action="/auth/signout" method="post" className="inline">
+          <button
+            type="submit"
+            className="inline-flex items-center gap-2 rounded-xl border border-[#555] bg-transparent px-4 py-2.5 text-sm font-medium text-[#aaa] transition-colors hover:border-red-500/60 hover:bg-red-500/10 hover:text-red-400"
+          >
+            Wyloguj
+          </button>
+        </form>
+      </nav>
     </main>
   );
 }
