@@ -1,5 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { UserRowActions } from "./UserRowActions";
 
 type AuthUser = {
   id: string;
@@ -7,10 +8,14 @@ type AuthUser = {
   created_at?: string;
   last_sign_in_at?: string;
   email_confirmed_at?: string;
+  banned_until?: string | null;
 };
 
 export default async function AdminUzytkownicyPage() {
   const supabase = await createClient();
+  const { data: { user: currentUser } } = await supabase.auth.getUser();
+  const currentUserId = currentUser?.id ?? null;
+
   const { data: profiles } = await supabase
     .from("profiles")
     .select("id, nickname")
@@ -50,6 +55,7 @@ export default async function AdminUzytkownicyPage() {
         xp: xpByUser[u.id] ?? 0,
         created_at: u.created_at ?? null,
         last_sign_in_at: u.last_sign_in_at ?? null,
+        banned_until: u.banned_until ?? null,
       }))
     : (profiles || []).map((p) => ({
         id: p.id,
@@ -58,6 +64,7 @@ export default async function AdminUzytkownicyPage() {
         xp: xpByUser[p.id] ?? 0,
         created_at: null as string | null,
         last_sign_in_at: null as string | null,
+        banned_until: null as string | null,
       }));
 
   const sorted = [...rows].sort((a, b) => b.xp - a.xp);
@@ -86,7 +93,7 @@ export default async function AdminUzytkownicyPage() {
         </p>
       )}
       <p className="text-sm text-[#888] mb-6">
-        Zarządzanie kontem (blokada, usunięcie) w Supabase Dashboard → Authentication → Users.
+        Zablokuj, odblokuj lub usuń konto użytkownika. Własnego konta nie można zablokować ani usunąć z tego panelu.
       </p>
       <div className="overflow-x-auto rounded-xl border border-[#444]">
         <table className="w-full text-left text-sm">
@@ -99,9 +106,11 @@ export default async function AdminUzytkownicyPage() {
                 <>
                   <th className="p-3 font-medium text-[#aaa]">Rejestracja</th>
                   <th className="p-3 font-medium text-[#aaa]">Ostatnie logowanie</th>
+                  <th className="p-3 font-medium text-[#aaa]">Status</th>
                 </>
               )}
               <th className="p-3 font-medium text-[#aaa]">ID (fragment)</th>
+              {hasAuthData && <th className="p-3 font-medium text-[#aaa]">Akcje</th>}
             </tr>
           </thead>
           <tbody>
@@ -116,9 +125,25 @@ export default async function AdminUzytkownicyPage() {
                   <>
                     <td className="p-3 text-[#888]">{formatDate(r.created_at)}</td>
                     <td className="p-3 text-[#888]">{formatDate(r.last_sign_in_at)}</td>
+                    <td className="p-3">
+                      {r.banned_until && new Date(r.banned_until) > new Date() ? (
+                        <span className="text-amber-400">Zablokowany</span>
+                      ) : (
+                        "—"
+                      )}
+                    </td>
                   </>
                 )}
                 <td className="p-3 text-[#666] font-mono text-xs">{r.id.slice(0, 8)}…</td>
+                {hasAuthData && (
+                  <td className="p-3">
+                    <UserRowActions
+                      userId={r.id}
+                      isBanned={!!(r.banned_until && new Date(r.banned_until) > new Date())}
+                      isCurrentUser={currentUserId === r.id}
+                    />
+                  </td>
+                )}
               </tr>
             ))}
           </tbody>

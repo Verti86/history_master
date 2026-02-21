@@ -20,7 +20,7 @@ Od teraz ten użytkownik w menu zobaczy link **„Panel administracyjny”** i w
 
 ## Co można robić w panelu
 
-- **Użytkownicy** – lista użytkowników (email, nick, XP, data rejestracji, ostatnie logowanie). Jeśli ustawisz klucz **service_role** (patrz niżej), tabela pokaże pełne dane z auth. Blokowanie/usuwanie kont nadal w Supabase (Authentication → Users).
+- **Użytkownicy** – lista użytkowników (email, nick, XP, rejestracja, ostatnie logowanie, status). Przy każdym użytkowniku: **Zablokuj** / **Odblokuj** oraz **Usuń konto**. Własnego konta nie można zablokować ani usunąć z panelu. Wymaga **SUPABASE_SERVICE_ROLE_KEY** (patrz niżej).
 - **Moderacja czatu** – lista ostatnich wiadomości, przycisk **Usuń** przy każdej. Usunięcie jest trwałe.
 
 ## Pełna lista użytkowników (email, daty)
