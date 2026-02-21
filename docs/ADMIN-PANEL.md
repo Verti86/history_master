@@ -20,8 +20,16 @@ Od teraz ten użytkownik w menu zobaczy link **„Panel administracyjny”** i w
 
 ## Co można robić w panelu
 
-- **Użytkownicy** – lista nicków i łączne XP. Blokowanie/usuwanie kont odbywa się w Supabase (Authentication → Users).
+- **Użytkownicy** – lista użytkowników (email, nick, XP, data rejestracji, ostatnie logowanie). Jeśli ustawisz klucz **service_role** (patrz niżej), tabela pokaże pełne dane z auth. Blokowanie/usuwanie kont nadal w Supabase (Authentication → Users).
 - **Moderacja czatu** – lista ostatnich wiadomości, przycisk **Usuń** przy każdej. Usunięcie jest trwałe.
+
+## Pełna lista użytkowników (email, daty)
+
+Żeby w zakładce „Użytkownicy” widzieć **email**, **datę rejestracji** i **ostatnie logowanie**, dodaj w pliku **`.env.local`** (i na Vercel w Variables) zmienną:
+
+- **`SUPABASE_SERVICE_ROLE_KEY`** – klucz „service_role” z Supabase (Project Settings → API → `service_role`).
+
+**Uwaga:** Tego klucza **nie wolno** ujawniać w przeglądarce – używany jest tylko na serwerze (Server Components). Nie dodawaj go do `NEXT_PUBLIC_*`. Na Vercel dodaj go jako zwykłą zmienną środowiskową (bez prefiksu NEXT_PUBLIC).
 
 ## Migracja bazy
 
