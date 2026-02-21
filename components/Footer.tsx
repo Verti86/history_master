@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { GITHUB_REPO_URL } from "@/lib/site-config";
+import { FooterAuthor } from "./FooterAuthor";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -10,7 +11,7 @@ export default function Footer() {
       role="contentinfo"
     >
       <p>
-        Created by <strong className="text-gray-400">Łukasz Mandziej</strong> • {year} •{" "}
+        Created by <FooterAuthor /> • {year} •{" "}
         <Link
           href={GITHUB_REPO_URL}
           target="_blank"
