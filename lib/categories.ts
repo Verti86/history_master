@@ -13,8 +13,12 @@ export type Category = {
 
 /** Wszystkie kategorie z przypisaniem do klasy. Podstawa programowa historia SP 2017. */
 export const CATEGORIES: Category[] = [
-  // Klasa 4 – wprowadzenie do historii, czas, początki Polski
-  { id: "klasa4-poczatki", file: "klasa4_poczatki_polski.json", name: "Początki Polski – Mieszko I i chrzest", icon: "⛪", dateRange: "X wiek", grade: 4 },
+  // Klasa 4 – zgodnie z podstawą programową (działy I–IV)
+  { id: "klasa4-historia-nauka", file: "klasa4_historia_jako_nauka.json", name: "Historia jako nauka – czas i źródła", icon: "📜", dateRange: "—", grade: 4 },
+  { id: "klasa4-symbole-legendy", file: "klasa4_symbole_i_legendy.json", name: "Symbole narodowe i legendy", icon: "🏴", dateRange: "—", grade: 4 },
+  { id: "klasa4-mieszko-chrzest", file: "klasa4_mieszko_chrzest.json", name: "Początki Polski – Mieszko I i chrzest", icon: "⛪", dateRange: "X wiek", grade: 4 },
+  { id: "klasa4-boleslaw-gniezno", file: "klasa4_boleslaw_gniezno.json", name: "Bolesław Chrobry i zjazd gnieźnieński", icon: "👑", dateRange: "ok. 1000", grade: 4 },
+  { id: "klasa4-kazimierz-grunwald", file: "klasa4_kazimierz_grunwald.json", name: "Kazimierz Wielki, Jadwiga, Jagiełło, Grunwald", icon: "⚔️", dateRange: "XIV–XV w.", grade: 4 },
   // Klasa 5 – średniowiecze Polski i świata, Jagiellonowie (do XV w.)
   { id: "klasa5-sredniowiecze", file: "klasa5_sredniowiecze_polska.json", name: "Średniowiecze – Piastowie i Jagiellonowie", icon: "🏰", dateRange: "X–XV wiek", grade: 5 },
   // Klasa 6 – czasy nowożytne, RON (obecna zawartość)
