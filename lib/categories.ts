@@ -37,7 +37,9 @@ export const CATEGORIES: Category[] = [
   { id: "klasa5-bizancjum-islam", file: "klasa5_bizancjum_islam.json", name: "Bizancjum i świat islamu", icon: "🕌", dateRange: "V–XV w.", grade: 5 },
   { id: "klasa5-sredniowieczna-europa", file: "klasa5_sredniowieczna_europa.json", name: "Średniowieczna Europa", icon: "⚔️", dateRange: "V–XIII w.", grade: 5 },
   { id: "klasa5-spoleczenstwo-kultura-sredniowiecza", file: "klasa5_spoleczenstwo_kultura_sredniowiecza.json", name: "Społeczeństwo i kultura średniowiecza", icon: "📜", dateRange: "Średniowiecze", grade: 5 },
-  { id: "klasa5-sredniowiecze", file: "klasa5_sredniowiecze_polska.json", name: "Średniowiecze – Piastowie i Jagiellonowie", icon: "🏰", dateRange: "X–XV wiek", grade: 5 },
+  { id: "klasa5-polska-wczesnopiastowska", file: "klasa5_polska_wczesnopiastowska.json", name: "Polska w okresie wczesnopiastowskim", icon: "⛪", dateRange: "X–XII w.", grade: 5 },
+  { id: "klasa5-rozbicie-dzielnicowe", file: "klasa5_rozbicie_dzielnicowe.json", name: "Polska w okresie rozbicia dzielnicowego", icon: "🗡️", dateRange: "XII–XIV w.", grade: 5 },
+  { id: "klasa5-polska-xiv-xv", file: "klasa5_polska_xiv_xv.json", name: "Polska w XIV i XV wieku", icon: "🏰", dateRange: "XIV–XV w.", grade: 5 },
   // Klasa 6 – czasy nowożytne, RON (obecna zawartość)
   { id: "odkrycia", file: "bazawielkie_odkrycia_geograficzne.json", name: "Wielkie odkrycia geograficzne", icon: "🧭", dateRange: "Koniec XV – XVI wiek", grade: 6 },
   { id: "zloty-wiek", file: "bazazolty_wiek_polska.json", name: "Złoty wiek w Polsce", icon: "✨", dateRange: "XVI wiek", grade: 6 },
