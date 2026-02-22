@@ -73,8 +73,15 @@ export const CATEGORIES: Category[] = [
   { id: "klasa7-xxiv", file: "klasa7_ziemie_polskie_pod_zaborami.json", name: "Ziemie polskie pod zaborami", icon: "📜", dateRange: "II poł. XIX–1914", grade: 7 },
   { id: "klasa7-xxv", file: "klasa7_i_wojna_swiatowa.json", name: "I wojna światowa", icon: "🎖️", dateRange: "1914–1918", grade: 7 },
   { id: "klasa7-xxvi", file: "klasa7_sprawa_polska_i_wojna.json", name: "Sprawa polska w I wojnie światowej", icon: "🕊️", dateRange: "1914–1918", grade: 7 },
-  // Klasa 8 – XX wiek
-  { id: "klasa8-xx", file: "klasa8_xx_wiek.json", name: "XX wiek – wojny i odzyskanie wolności", icon: "🕊️", dateRange: "XX wiek", grade: 8 },
+  // Klasa 8 – podstawa programowa (II wojna, PRL, III RP)
+  { id: "klasa8-ii-wojna", file: "klasa8_ii_wojna_wybuch_dzialania.json", name: "II wojna światowa – wybuch i działania", icon: "⚔️", dateRange: "1939–1945", grade: 8 },
+  { id: "klasa8-okupacja", file: "klasa8_polska_pod_okupacja.json", name: "Polska pod okupacją", icon: "🏚️", dateRange: "1939–1945", grade: 8 },
+  { id: "klasa8-ppp-powstanie", file: "klasa8_ppp_powstanie_warszawskie.json", name: "PPP i powstanie warszawskie", icon: "🦅", dateRange: "1939–1944", grade: 8 },
+  { id: "klasa8-holocaust", file: "klasa8_holocaust_zbrodnie_wojenne.json", name: "Holocaust i zbrodnie wojenne", icon: "🕯️", dateRange: "1939–1945", grade: 8 },
+  { id: "klasa8-zimna-wojna", file: "klasa8_swiat_po_wojnie_zimna_wojna.json", name: "Świat po II wojnie – zimna wojna", icon: "🌐", dateRange: "1945–1991", grade: 8 },
+  { id: "klasa8-prl-stalinizm", file: "klasa8_prl_stalinizm_odwilz.json", name: "PRL – stalinizm i odwilż", icon: "📜", dateRange: "1944–1970", grade: 8 },
+  { id: "klasa8-prl-solidarnosc", file: "klasa8_prl_solidarnosc_stan_wojenny.json", name: "PRL – Solidarność i stan wojenny", icon: "✊", dateRange: "1980–1989", grade: 8 },
+  { id: "klasa8-1989-iii-rp", file: "klasa8_1989_iii_rp.json", name: "1989 i III Rzeczpospolita", icon: "🕊️", dateRange: "1989–", grade: 8 },
 ];
 
 export function getCategoriesByGrade(grade: GradeValue): Category[] {
