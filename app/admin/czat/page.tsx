@@ -77,38 +77,39 @@ export default function AdminCzatPage() {
   }
 
   if (loading) {
-    return <p className="text-[#888]">Ładowanie…</p>;
+    return <p style={{ color: "var(--hm-muted)" }}>Ładowanie…</p>;
   }
 
   return (
     <main>
-      <h2 className="text-lg font-bold mb-4">💬 Moderacja czatu</h2>
-      <p className="text-sm text-[#888] mb-6">
+      <h2 className="text-lg font-bold mb-4" style={{ color: "var(--hm-text)" }}>💬 Moderacja czatu</h2>
+      <p className="text-sm mb-6" style={{ color: "var(--hm-muted)" }}>
         Ostatnie wiadomości (najnowsze na górze). Usuń nieodpowiednie – po kliknięciu „Usuń” wiadomość znika na stałe.
       </p>
       {error && (
-        <p className="text-red-400 text-sm mb-4">{error}</p>
+        <p className="text-red-500 text-sm mb-4">{error}</p>
       )}
       <div className="space-y-3">
         {messages.length === 0 && (
-          <p className="text-[#888]">Brak wiadomości w czacie.</p>
+          <p style={{ color: "var(--hm-muted)" }}>Brak wiadomości w czacie.</p>
         )}
         {messages.map((m) => (
           <div
             key={m.id}
-            className="flex flex-wrap items-start justify-between gap-2 rounded-lg border border-[#444] bg-[#262730]/50 p-3"
+            className="flex flex-wrap items-start justify-between gap-2 rounded-lg border p-3"
+            style={{ borderColor: "var(--hm-border)", background: "var(--hm-card)" }}
           >
             <div className="min-w-0 flex-1">
-              <p className="text-xs text-[#888]">
-                <strong className="text-[#fafafa]">{m.nickname}</strong> · {formatDate(m.created_at)}
+              <p className="text-xs" style={{ color: "var(--hm-muted)" }}>
+                <strong style={{ color: "var(--hm-text)" }}>{m.nickname}</strong> · {formatDate(m.created_at)}
               </p>
-              <p className="text-sm text-[#e0e0e0] break-words mt-1">{m.content}</p>
+              <p className="text-sm break-words mt-1" style={{ color: "var(--hm-text)" }}>{m.content}</p>
             </div>
             <button
               type="button"
               onClick={() => handleDelete(m.id)}
               disabled={deletingId === m.id}
-              className="shrink-0 rounded-lg border border-red-500/50 bg-red-500/10 px-3 py-1.5 text-xs font-medium text-red-400 hover:bg-red-500/20 disabled:opacity-50"
+              className="shrink-0 rounded-lg border border-red-500/50 bg-red-500/10 px-3 py-1.5 text-xs font-medium text-red-500 hover:bg-red-500/20 disabled:opacity-50"
             >
               {deletingId === m.id ? "Usuwanie…" : "Usuń"}
             </button>

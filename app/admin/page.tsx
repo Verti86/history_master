@@ -37,48 +37,45 @@ export default async function AdminPage() {
 
   return (
     <main className="max-w-2xl">
-      <section className="mb-8 p-4 rounded-xl border border-[#444] bg-[#262730]/50">
+      <section className="mb-8 p-4 rounded-xl border" style={{ borderColor: "var(--hm-border)", background: "var(--hm-card)" }}>
         <h2 className="font-bold mb-3">📊 Statystyki</h2>
-        <ul className="text-sm text-[#aaa] space-y-1">
-          <li>Aktywni użytkownicy (ostatnie 7 dni): <strong className="text-[#fafafa]">{stats.activeLast7}</strong></li>
-          <li>Rozegrane quizy (łącznie): <strong className="text-[#fafafa]">{stats.quizPlays}</strong></li>
-          <li>Sesje fiszek (łącznie): <strong className="text-[#fafafa]">{stats.flashcardPlays}</strong></li>
+        <ul className="text-sm space-y-1" style={{ color: "var(--hm-muted)" }}>
+          <li>Aktywni użytkownicy (ostatnie 7 dni): <strong style={{ color: "var(--hm-text)" }}>{stats.activeLast7}</strong></li>
+          <li>Rozegrane quizy (łącznie): <strong style={{ color: "var(--hm-text)" }}>{stats.quizPlays}</strong></li>
+          <li>Sesje fiszek (łącznie): <strong style={{ color: "var(--hm-text)" }}>{stats.flashcardPlays}</strong></li>
           {stats.topCategories.length > 0 && (
             <li>Najpopularniejsze działy: {stats.topCategories.map((c) => `${c.id} (${c.count})`).join(", ")}</li>
           )}
         </ul>
       </section>
-      <p className="text-[#aaa] mb-6">Zarządzaj użytkownikami i moderuj czat.</p>
+      <p className="mb-6" style={{ color: "var(--hm-muted)" }}>Zarządzaj użytkownikami i moderuj czat.</p>
       <div className="grid gap-4 sm:grid-cols-2">
         <Link
           href="/admin/uzytkownicy"
-          className="block p-6 rounded-xl border border-[#444] bg-[#262730]/80 hover:border-[#ffbd45] transition-colors"
+          className="block p-6 rounded-xl border hover:border-[#ffbd45] transition-colors"
+          style={{ borderColor: "var(--hm-border)", background: "var(--hm-card)" }}
         >
           <span className="text-2xl block mb-2">👥</span>
-          <strong className="text-[#fafafa]">Użytkownicy</strong>
-          <p className="text-sm text-[#888] mt-1">
-            Lista kont, nicki, statystyki XP
-          </p>
+          <strong style={{ color: "var(--hm-text)" }}>Użytkownicy</strong>
+          <p className="text-sm mt-1" style={{ color: "var(--hm-muted)" }}>Lista kont, nicki, statystyki XP</p>
         </Link>
         <Link
           href="/admin/czat"
-          className="block p-6 rounded-xl border border-[#444] bg-[#262730]/80 hover:border-[#ffbd45] transition-colors"
+          className="block p-6 rounded-xl border hover:border-[#ffbd45] transition-colors"
+          style={{ borderColor: "var(--hm-border)", background: "var(--hm-card)" }}
         >
           <span className="text-2xl block mb-2">💬</span>
-          <strong className="text-[#fafafa]">Moderacja czatu</strong>
-          <p className="text-sm text-[#888] mt-1">
-            Ostatnie wiadomości, usuń nieodpowiednie
-          </p>
+          <strong style={{ color: "var(--hm-text)" }}>Moderacja czatu</strong>
+          <p className="text-sm mt-1" style={{ color: "var(--hm-muted)" }}>Ostatnie wiadomości, usuń nieodpowiednie</p>
         </Link>
         <Link
           href="/admin/eksport"
-          className="block p-6 rounded-xl border border-[#444] bg-[#262730]/80 hover:border-[#ffbd45] transition-colors"
+          className="block p-6 rounded-xl border hover:border-[#ffbd45] transition-colors"
+          style={{ borderColor: "var(--hm-border)", background: "var(--hm-card)" }}
         >
           <span className="text-2xl block mb-2">📥</span>
-          <strong className="text-[#fafafa]">Eksport treści</strong>
-          <p className="text-sm text-[#888] mt-1">
-            Pobierz pytania quizu i oś czasu (JSON)
-          </p>
+          <strong style={{ color: "var(--hm-text)" }}>Eksport treści</strong>
+          <p className="text-sm mt-1" style={{ color: "var(--hm-muted)" }}>Pobierz pytania quizu i oś czasu (JSON)</p>
         </Link>
       </div>
     </main>

@@ -86,55 +86,53 @@ export default async function AdminUzytkownicyPage() {
 
   return (
     <main>
-      <h2 className="text-lg font-bold mb-4">👥 Użytkownicy</h2>
+      <h2 className="text-lg font-bold mb-4" style={{ color: "var(--hm-text)" }}>👥 Użytkownicy</h2>
       {authError && (
-        <p className="text-amber-400 text-sm mb-4">
+        <p className="text-amber-500 text-sm mb-4">
           Pełne dane (email, daty) wymagają klucza <strong>SUPABASE_SERVICE_ROLE_KEY</strong> w .env.local (serwer). Obecnie: tylko nick i XP. Zobacz docs/ADMIN-PANEL.md.
         </p>
       )}
-      <p className="text-sm text-[#888] mb-6">
+      <p className="text-sm mb-6" style={{ color: "var(--hm-muted)" }}>
         Zablokuj, odblokuj lub usuń konto użytkownika. Własnego konta nie można zablokować ani usunąć z tego panelu.
       </p>
-      <div className="overflow-x-auto rounded-xl border border-[#444]">
+      <div className="overflow-x-auto rounded-xl border" style={{ borderColor: "var(--hm-border)" }}>
         <table className="w-full text-left text-sm">
           <thead>
-            <tr className="border-b border-[#444] bg-[#262730]/80">
-              {hasAuthData && <th className="p-3 font-medium text-[#aaa]">Email</th>}
-              <th className="p-3 font-medium text-[#aaa]">Nick</th>
-              <th className="p-3 font-medium text-[#aaa]">XP</th>
+            <tr className="border-b" style={{ borderColor: "var(--hm-border)", background: "var(--hm-card)" }}>
+              {hasAuthData && <th className="p-3 font-medium" style={{ color: "var(--hm-muted)" }}>Email</th>}
+              <th className="p-3 font-medium" style={{ color: "var(--hm-muted)" }}>Nick</th>
+              <th className="p-3 font-medium" style={{ color: "var(--hm-muted)" }}>XP</th>
               {hasAuthData && (
                 <>
-                  <th className="p-3 font-medium text-[#aaa]">Rejestracja</th>
-                  <th className="p-3 font-medium text-[#aaa]">Ostatnie logowanie</th>
-                  <th className="p-3 font-medium text-[#aaa]">Status</th>
+                  <th className="p-3 font-medium" style={{ color: "var(--hm-muted)" }}>Rejestracja</th>
+                  <th className="p-3 font-medium" style={{ color: "var(--hm-muted)" }}>Ostatnie logowanie</th>
+                  <th className="p-3 font-medium" style={{ color: "var(--hm-muted)" }}>Status</th>
                 </>
               )}
-              <th className="p-3 font-medium text-[#aaa]">ID (fragment)</th>
-              {hasAuthData && <th className="p-3 font-medium text-[#aaa]">Akcje</th>}
+              <th className="p-3 font-medium" style={{ color: "var(--hm-muted)" }}>ID (fragment)</th>
+              {hasAuthData && <th className="p-3 font-medium" style={{ color: "var(--hm-muted)" }}>Akcje</th>}
             </tr>
           </thead>
           <tbody>
             {sorted.map((r) => (
-              <tr key={r.id} className="border-b border-[#333]">
-                {hasAuthData && (
-                  <td className="p-3 text-[#e0e0e0]">{r.email}</td>
-                )}
-                <td className="p-3">{r.nickname}</td>
+              <tr key={r.id} className="border-b" style={{ borderColor: "var(--hm-border)" }}>
+                {hasAuthData && <td className="p-3" style={{ color: "var(--hm-text)" }}>{r.email}</td>}
+                <td className="p-3" style={{ color: "var(--hm-text)" }}>{r.nickname}</td>
                 <td className="p-3 font-medium text-[#ffbd45]">{r.xp}</td>
                 {hasAuthData && (
                   <>
-                    <td className="p-3 text-[#888]">{formatDate(r.created_at)}</td>
-                    <td className="p-3 text-[#888]">{formatDate(r.last_sign_in_at)}</td>
-                    <td className="p-3">
+                    <td className="p-3" style={{ color: "var(--hm-muted)" }}>{formatDate(r.created_at)}</td>
+                    <td className="p-3" style={{ color: "var(--hm-muted)" }}>{formatDate(r.last_sign_in_at)}</td>
+                    <td className="p-3" style={{ color: "var(--hm-text)" }}>
                       {r.banned_until && new Date(r.banned_until) > new Date() ? (
-                        <span className="text-amber-400">Zablokowany</span>
+                        <span className="text-amber-500">Zablokowany</span>
                       ) : (
                         "—"
                       )}
                     </td>
                   </>
                 )}
-                <td className="p-3 text-[#666] font-mono text-xs">{r.id.slice(0, 8)}…</td>
+                <td className="p-3 font-mono text-xs" style={{ color: "var(--hm-muted)" }}>{r.id.slice(0, 8)}…</td>
                 {hasAuthData && (
                   <td className="p-3">
                     <UserRowActions
@@ -150,7 +148,7 @@ export default async function AdminUzytkownicyPage() {
         </table>
       </div>
       {sorted.length === 0 && (
-        <p className="text-[#888] mt-4">Brak użytkowników w bazie.</p>
+        <p className="mt-4" style={{ color: "var(--hm-muted)" }}>Brak użytkowników w bazie.</p>
       )}
     </main>
   );
