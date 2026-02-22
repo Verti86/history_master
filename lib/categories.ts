@@ -64,8 +64,15 @@ export const CATEGORIES: Category[] = [
   { id: "rewolucja-francuska", file: "bazarewolucja_francuska.json", name: "Wielka rewolucja we Francji", icon: "🔴", dateRange: "1789–1799", grade: 6 },
   { id: "rozbiory-kosciuszko", file: "bazarozbiory_walka_o_niepodleglosc.json", name: "Walka o niepodległość – rozbiory, Kościuszko", icon: "🕊️", dateRange: "1772–1795", grade: 6 },
   { id: "epoka-napoleonska", file: "bazaepoka_napoleonska.json", name: "Epoka napoleońska", icon: "🎖️", dateRange: "1799–1815", grade: 6 },
-  // Klasa 7 – XIX wiek
-  { id: "klasa7-xix", file: "klasa7_xix_wiek.json", name: "XIX wiek – powstania i przemysł", icon: "🏭", dateRange: "XIX wiek", grade: 7 },
+  // Klasa 7 – podstawa programowa działy XIX–XXVI
+  { id: "klasa7-xix", file: "klasa7_kongres_wiedenski.json", name: "Europa po kongresie wiedeńskim", icon: "🏛️", dateRange: "1815–1848", grade: 7 },
+  { id: "klasa7-xx", file: "klasa7_ziemie_polskie_1815_1848.json", name: "Ziemie polskie 1815–1848", icon: "🗡️", dateRange: "1815–1848", grade: 7 },
+  { id: "klasa7-xxi", file: "klasa7_wiosna_ludow.json", name: "Wiosna Ludów", icon: "🌍", dateRange: "1848–1849", grade: 7 },
+  { id: "klasa7-xxii", file: "klasa7_powstanie_styczniowe.json", name: "Powstanie styczniowe", icon: "⚔️", dateRange: "1863–1864", grade: 7 },
+  { id: "klasa7-xxiii", file: "klasa7_europa_swiat_ii_pol_xix.json", name: "Europa i świat II poł. XIX i pocz. XX w.", icon: "🌐", dateRange: "II poł. XIX–1914", grade: 7 },
+  { id: "klasa7-xxiv", file: "klasa7_ziemie_polskie_pod_zaborami.json", name: "Ziemie polskie pod zaborami", icon: "📜", dateRange: "II poł. XIX–1914", grade: 7 },
+  { id: "klasa7-xxv", file: "klasa7_i_wojna_swiatowa.json", name: "I wojna światowa", icon: "🎖️", dateRange: "1914–1918", grade: 7 },
+  { id: "klasa7-xxvi", file: "klasa7_sprawa_polska_i_wojna.json", name: "Sprawa polska w I wojnie światowej", icon: "🕊️", dateRange: "1914–1918", grade: 7 },
   // Klasa 8 – XX wiek
   { id: "klasa8-xx", file: "klasa8_xx_wiek.json", name: "XX wiek – wojny i odzyskanie wolności", icon: "🕊️", dateRange: "XX wiek", grade: 8 },
 ];
