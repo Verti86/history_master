@@ -33,6 +33,10 @@ export const CATEGORIES: Category[] = [
   { id: "klasa4-jan-pawel-2", file: "klasa4_jan_pawel_2.json", name: "Jan Paweł II", icon: "✝️", dateRange: "XX w.", grade: 4 },
   { id: "klasa4-solidarnosc", file: "klasa4_solidarnosc.json", name: "Solidarność i jej bohaterowie", icon: "✊", dateRange: "XX w.", grade: 4 },
   // Klasa 5 – średniowiecze Polski i świata, Jagiellonowie (do XV w.)
+  { id: "klasa5-cywilizacje-starozytne", file: "klasa5_cywilizacje_starozytne.json", name: "Cywilizacje starożytne", icon: "🏛️", dateRange: "Starożytność", grade: 5 },
+  { id: "klasa5-bizancjum-islam", file: "klasa5_bizancjum_islam.json", name: "Bizancjum i świat islamu", icon: "🕌", dateRange: "V–XV w.", grade: 5 },
+  { id: "klasa5-sredniowieczna-europa", file: "klasa5_sredniowieczna_europa.json", name: "Średniowieczna Europa", icon: "⚔️", dateRange: "V–XIII w.", grade: 5 },
+  { id: "klasa5-spoleczenstwo-kultura-sredniowiecza", file: "klasa5_spoleczenstwo_kultura_sredniowiecza.json", name: "Społeczeństwo i kultura średniowiecza", icon: "📜", dateRange: "Średniowiecze", grade: 5 },
   { id: "klasa5-sredniowiecze", file: "klasa5_sredniowiecze_polska.json", name: "Średniowiecze – Piastowie i Jagiellonowie", icon: "🏰", dateRange: "X–XV wiek", grade: 5 },
   // Klasa 6 – czasy nowożytne, RON (obecna zawartość)
   { id: "odkrycia", file: "bazawielkie_odkrycia_geograficzne.json", name: "Wielkie odkrycia geograficzne", icon: "🧭", dateRange: "Koniec XV – XVI wiek", grade: 6 },
