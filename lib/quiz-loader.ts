@@ -1,4 +1,6 @@
-import { CATEGORIES, Category } from "./categories";
+import type { GradeValue } from "./grades";
+import { CATEGORIES } from "./categories";
+import { getCategoriesByGrade } from "./categories";
 
 export type QuizQuestion = {
   category: string;
@@ -14,7 +16,7 @@ function loadQuestionsFromFile(filename: string): QuizQuestion[] {
   if (questionCache[filename]) {
     return questionCache[filename];
   }
-  
+
   try {
     const data = require(`./data/${filename}`);
     questionCache[filename] = data as QuizQuestion[];
@@ -29,12 +31,8 @@ export function getQuestionsForCategory(categoryId: string): QuizQuestion[] {
   if (categoryId === "wszystkie") {
     return getAllQuestions();
   }
-  
   const category = CATEGORIES.find((c) => c.id === categoryId);
-  if (!category) {
-    return [];
-  }
-  
+  if (!category) return [];
   return loadQuestionsFromFile(category.file);
 }
 
@@ -45,6 +43,28 @@ export function getAllQuestions(): QuizQuestion[] {
     all.push(...questions);
   }
   return all;
+}
+
+/** Pytania tylko z kategorii danej klasy (dla trybu „wszystkie” w obrębie klasy). */
+export function getAllQuestionsForGrade(grade: GradeValue): QuizQuestion[] {
+  const cats = getCategoriesByGrade(grade);
+  const all: QuizQuestion[] = [];
+  for (const cat of cats) {
+    if (!cat.file) continue;
+    const questions = loadQuestionsFromFile(cat.file);
+    all.push(...questions);
+  }
+  return all;
+}
+
+/** Fiszki tylko z kategorii danej klasy (dla trybu „wszystkie” w obrębie klasy). */
+export function getFlashcardsForGrade(grade: GradeValue): { question: string; answer: string; explanation: string }[] {
+  const questions = getAllQuestionsForGrade(grade);
+  return questions.map((q) => ({
+    question: q.question,
+    answer: q.answers[q.correct_index],
+    explanation: q.explanation || "",
+  }));
 }
 
 export function getFlashcardsForCategory(categoryId: string): { question: string; answer: string; explanation: string }[] {

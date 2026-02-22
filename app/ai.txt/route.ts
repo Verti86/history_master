@@ -11,7 +11,7 @@ export async function GET() {
     "",
     `Strona: ${baseUrl}`,
     "Język: polski (pl)",
-    "Kategoria: edukacja, historia, szkoła podstawowa, klasa 6",
+    "Kategoria: edukacja, historia, szkoła podstawowa, klasy 4–8",
     "",
     "## Tryby nauki",
     "- Quiz (pytania wielokrotnego wyboru)",

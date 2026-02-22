@@ -10,14 +10,14 @@ const baseUrl = getBaseUrl();
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: `${SITE_NAME} | Quiz z historii – klasa 6 SP`,
+    default: `${SITE_NAME} | Quiz z historii – klasy 4–8 SP`,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
   keywords: [
     "historia",
     "quiz z historii",
-    "klasa 6",
+    "klasy 4–8",
     "szkoła podstawowa",
     "fiszki historia",
     "oś czasu",

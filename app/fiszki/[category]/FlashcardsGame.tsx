@@ -16,6 +16,8 @@ type Props = {
   userId: string;
   categoryName: string;
   categoryId: string;
+  /** Link powrotu do wyboru tematu (np. /fiszki?klasa=6) */
+  backHref?: string;
 };
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -27,7 +29,7 @@ function shuffleArray<T>(array: T[]): T[] {
   return arr;
 }
 
-export default function FlashcardsGame({ flashcards, userId, categoryName, categoryId }: Props) {
+export default function FlashcardsGame({ flashcards, userId, categoryName, categoryId, backHref = "/fiszki" }: Props) {
   const [deck, setDeck] = useState<Flashcard[]>([]);
   const [wrongCards, setWrongCards] = useState<Flashcard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -122,7 +124,7 @@ export default function FlashcardsGame({ flashcards, userId, categoryName, categ
 
           <div className="flex flex-col gap-3 mt-4">
             <Link
-              href="/fiszki"
+              href={backHref}
               className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition"
             >
               📚 Wybierz inny temat
@@ -198,7 +200,7 @@ export default function FlashcardsGame({ flashcards, userId, categoryName, categ
         )}
 
         <div className="mt-8 text-center">
-          <Link href="/fiszki" className="text-sm hover:opacity-90" style={{ color: "var(--hm-muted)" }}>
+          <Link href={backHref} className="text-sm hover:opacity-90" style={{ color: "var(--hm-muted)" }}>
             ← Zmień temat
           </Link>
         </div>

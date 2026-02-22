@@ -6,9 +6,18 @@ import { getLevelForXp } from "@/lib/levels";
 import { ACHIEVEMENTS } from "@/lib/achievements";
 import { computeStreak } from "@/lib/streak";
 import { getCurrentWeekChallenge, getCurrentWeekStart } from "@/lib/weekly-challenge";
+import { GRADES, parseGradeFromSearchParams } from "@/lib/grades";
 import MenuRanking from "./MenuRanking";
 
-export default async function MenuPage() {
+export default async function MenuPage({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}) {
+  const params = await searchParams;
+  const klasa = parseGradeFromSearchParams(params);
+  const q = `klasa=${klasa}`;
+
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) redirect("/login");
@@ -76,6 +85,27 @@ export default async function MenuPage() {
       <header className="mb-8">
         <h1 className="text-2xl font-bold">🛡️ History Master Online</h1>
       </header>
+
+      <section className="mb-6">
+        <p className="text-sm text-[var(--hm-muted)] mb-2">Zakres: klasa</p>
+        <div className="flex flex-wrap gap-2">
+          {GRADES.map((g) => (
+            <Link
+              key={g.value}
+              href={`/menu?klasa=${g.value}`}
+              className={`px-4 py-2 rounded-xl border text-sm font-medium transition-colors ${
+                klasa === g.value
+                  ? "border-[#ffbd45] bg-amber-500/20 text-[#ffbd45]"
+                  : "border-[var(--hm-border)] hover:border-[#ffbd45]/60"
+              }`}
+              style={klasa !== g.value ? { backgroundColor: "var(--hm-menu-card-bg)", color: "var(--hm-menu-card-text)" } : undefined}
+            >
+              {g.short}
+            </Link>
+          ))}
+        </div>
+      </section>
+
       <p className="text-[var(--hm-text)] mb-2">Witaj, <strong>{nick}</strong>! ⚔️</p>
       <p className="mb-1">Twoje XP: <strong className="text-[#ffbd45]">{totalXp}</strong></p>
       <p className="mb-1">{level.icon} Poziom: <strong>{level.name}</strong></p>
@@ -97,7 +127,7 @@ export default async function MenuPage() {
 
       <div className="grid grid-cols-2 gap-4 mb-8">
         <Link
-          href="/quiz"
+          href={`/quiz?${q}`}
           className="menu-card menu-card-quiz p-4 rounded-xl border hover:border-[#ffbd45] hover:shadow-lg hover:shadow-yellow-500/20 text-center transition-all duration-300 group"
           style={{ background: "var(--hm-menu-card-bg)", color: "var(--hm-menu-card-text)", borderColor: "var(--hm-menu-card-border)" }}
         >
@@ -105,7 +135,7 @@ export default async function MenuPage() {
           <span className="block font-medium">Quiz</span>
         </Link>
         <Link
-          href="/fiszki"
+          href={`/fiszki?${q}`}
           className="menu-card menu-card-fiszki p-4 rounded-xl border hover:border-[#60a5fa] hover:shadow-lg hover:shadow-blue-500/20 text-center transition-all duration-300 group"
           style={{ background: "var(--hm-menu-card-bg)", color: "var(--hm-menu-card-text)", borderColor: "var(--hm-menu-card-border)" }}
         >

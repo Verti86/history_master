@@ -1,42 +1,63 @@
+import { DEFAULT_GRADE } from "./grades";
+import type { GradeValue } from "./grades";
+
 export type Category = {
   id: string;
   file: string;
   name: string;
   icon: string;
   dateRange?: string;
+  /** Klasa SP (4–8) – zgodnie z podstawą programową 2017 */
+  grade: GradeValue;
 };
 
+/** Wszystkie kategorie z przypisaniem do klasy. Podstawa programowa historia SP 2017. */
 export const CATEGORIES: Category[] = [
-  { id: "odkrycia", file: "bazawielkie_odkrycia_geograficzne.json", name: "Wielkie odkrycia geograficzne", icon: "🧭", dateRange: "Koniec XV – XVI wiek" },
-  { id: "zloty-wiek", file: "bazazolty_wiek_polska.json", name: "Złoty wiek w Polsce", icon: "✨", dateRange: "XVI wiek" },
-  { id: "reformacja", file: "bazareformacja_wyznania.json", name: "Reformacja i wyznania", icon: "⛪", dateRange: "XVI–XVII wiek" },
-  { id: "poczatki-ron", file: "bazapoczatki_ron.json", name: "Początki Rzeczypospolitej Obojga Narodów", icon: "🦅", dateRange: "1572–1586" },
-  { id: "zygmunt-wazowie", file: "bazazygmunt_iii_wazowie.json", name: "Zygmunt III Waza i Wazowie", icon: "👑", dateRange: "1587–1668" },
-  { id: "wojny-rosja", file: "bazapoczatki_panowania_wazow_i_wojny_z_rosja.json", name: "Wojny z Rosją", icon: "🐻" },
-  { id: "wojny-polnoc-wschod", file: "bazawojny_polnoc_wschod.json", name: "Wojny: Północ i Wschód", icon: "🗡️" },
-  { id: "powstanie-kozackie", file: "bazapowstanie_kozackie.json", name: "Powstanie Chmielnickiego", icon: "🐴", dateRange: "1648–1657" },
-  { id: "potop-szwedzki", file: "bazawojny_szwecja.json", name: "Potop szwedzki", icon: "🌊", dateRange: "1655–1660" },
-  { id: "kryzys-rp", file: "bazakryzys_rzeczypospolitej.json", name: "Kryzys Rzeczypospolitej", icon: "⚠️" },
-  { id: "wojny-turcja", file: "bazawojny_turcja.json", name: "Wojny z Turcją", icon: "🌙" },
-  { id: "wojny-turcja-kultura", file: "bazawojny_turcja_i_kultura.json", name: "Wojny z Turcją i kultura", icon: "🕌" },
-  { id: "bitwy-xvii", file: "bazabitwy_xvii_wieku.json", name: "Wielkie bitwy XVII wieku", icon: "⚔️" },
-  { id: "spoleczenstwo-xvii", file: "bazaspoleczenstwo_gospodarka_xvii.json", name: "Społeczeństwo i gospodarka", icon: "🌾" },
-  { id: "barok-kultura", file: "bazabarok_i_kultura.json", name: "Barok i kultura sarmacka", icon: "🎭" },
-  { id: "francja-monarchia", file: "bazamonarchia_we_francji.json", name: "Francja: Monarchia absolutna", icon: "🏰" },
-  { id: "anglia-parlament", file: "bazamonarchia_parlamentarna_w_anglii.json", name: "Anglia: Monarchia parlamentarna", icon: "🦁" },
-  { id: "europa-kryzys", file: "bazaeuropa_i_kryzys.json", name: "Europa i kryzys", icon: "🔥" },
-  { id: "oswiecenie", file: "bazaoswiecenie_reformy.json", name: "Oświecenie i reformy", icon: "💡", dateRange: "XVIII wiek" },
-  { id: "usa-niepodleglosc", file: "bazapowstanie_stanow_zjednoczonych.json", name: "Powstanie Stanów Zjednoczonych", icon: "🗽", dateRange: "1775–1787" },
-  { id: "rewolucja-francuska", file: "bazarewolucja_francuska.json", name: "Wielka rewolucja we Francji", icon: "🔴", dateRange: "1789–1799" },
-  { id: "rozbiory-kosciuszko", file: "bazarozbiory_walka_o_niepodleglosc.json", name: "Walka o niepodległość – rozbiory, Kościuszko", icon: "🕊️", dateRange: "1772–1795" },
-  { id: "epoka-napoleonska", file: "bazaepoka_napoleonska.json", name: "Epoka napoleońska", icon: "🎖️", dateRange: "1799–1815" },
+  // Klasa 4 – wprowadzenie do historii, czas, początki Polski
+  { id: "klasa4-poczatki", file: "klasa4_poczatki_polski.json", name: "Początki Polski – Mieszko I i chrzest", icon: "⛪", dateRange: "X wiek", grade: 4 },
+  // Klasa 5 – średniowiecze Polski i świata, Jagiellonowie (do XV w.)
+  { id: "klasa5-sredniowiecze", file: "klasa5_sredniowiecze_polska.json", name: "Średniowiecze – Piastowie i Jagiellonowie", icon: "🏰", dateRange: "X–XV wiek", grade: 5 },
+  // Klasa 6 – czasy nowożytne, RON (obecna zawartość)
+  { id: "odkrycia", file: "bazawielkie_odkrycia_geograficzne.json", name: "Wielkie odkrycia geograficzne", icon: "🧭", dateRange: "Koniec XV – XVI wiek", grade: 6 },
+  { id: "zloty-wiek", file: "bazazolty_wiek_polska.json", name: "Złoty wiek w Polsce", icon: "✨", dateRange: "XVI wiek", grade: 6 },
+  { id: "reformacja", file: "bazareformacja_wyznania.json", name: "Reformacja i wyznania", icon: "⛪", dateRange: "XVI–XVII wiek", grade: 6 },
+  { id: "poczatki-ron", file: "bazapoczatki_ron.json", name: "Początki Rzeczypospolitej Obojga Narodów", icon: "🦅", dateRange: "1572–1586", grade: 6 },
+  { id: "zygmunt-wazowie", file: "bazazygmunt_iii_wazowie.json", name: "Zygmunt III Waza i Wazowie", icon: "👑", dateRange: "1587–1668", grade: 6 },
+  { id: "wojny-rosja", file: "bazapoczatki_panowania_wazow_i_wojny_z_rosja.json", name: "Wojny z Rosją", icon: "🐻", grade: 6 },
+  { id: "wojny-polnoc-wschod", file: "bazawojny_polnoc_wschod.json", name: "Wojny: Północ i Wschód", icon: "🗡️", grade: 6 },
+  { id: "powstanie-kozackie", file: "bazapowstanie_kozackie.json", name: "Powstanie Chmielnickiego", icon: "🐴", dateRange: "1648–1657", grade: 6 },
+  { id: "potop-szwedzki", file: "bazawojny_szwecja.json", name: "Potop szwedzki", icon: "🌊", dateRange: "1655–1660", grade: 6 },
+  { id: "kryzys-rp", file: "bazakryzys_rzeczypospolitej.json", name: "Kryzys Rzeczypospolitej", icon: "⚠️", grade: 6 },
+  { id: "wojny-turcja", file: "bazawojny_turcja.json", name: "Wojny z Turcją", icon: "🌙", grade: 6 },
+  { id: "wojny-turcja-kultura", file: "bazawojny_turcja_i_kultura.json", name: "Wojny z Turcją i kultura", icon: "🕌", grade: 6 },
+  { id: "bitwy-xvii", file: "bazabitwy_xvii_wieku.json", name: "Wielkie bitwy XVII wieku", icon: "⚔️", grade: 6 },
+  { id: "spoleczenstwo-xvii", file: "bazaspoleczenstwo_gospodarka_xvii.json", name: "Społeczeństwo i gospodarka", icon: "🌾", grade: 6 },
+  { id: "barok-kultura", file: "bazabarok_i_kultura.json", name: "Barok i kultura sarmacka", icon: "🎭", grade: 6 },
+  { id: "francja-monarchia", file: "bazamonarchia_we_francji.json", name: "Francja: Monarchia absolutna", icon: "🏰", grade: 6 },
+  { id: "anglia-parlament", file: "bazamonarchia_parlamentarna_w_anglii.json", name: "Anglia: Monarchia parlamentarna", icon: "🦁", grade: 6 },
+  { id: "europa-kryzys", file: "bazaeuropa_i_kryzys.json", name: "Europa i kryzys", icon: "🔥", grade: 6 },
+  { id: "oswiecenie", file: "bazaoswiecenie_reformy.json", name: "Oświecenie i reformy", icon: "💡", dateRange: "XVIII wiek", grade: 6 },
+  { id: "usa-niepodleglosc", file: "bazapowstanie_stanow_zjednoczonych.json", name: "Powstanie Stanów Zjednoczonych", icon: "🗽", dateRange: "1775–1787", grade: 6 },
+  { id: "rewolucja-francuska", file: "bazarewolucja_francuska.json", name: "Wielka rewolucja we Francji", icon: "🔴", dateRange: "1789–1799", grade: 6 },
+  { id: "rozbiory-kosciuszko", file: "bazarozbiory_walka_o_niepodleglosc.json", name: "Walka o niepodległość – rozbiory, Kościuszko", icon: "🕊️", dateRange: "1772–1795", grade: 6 },
+  { id: "epoka-napoleonska", file: "bazaepoka_napoleonska.json", name: "Epoka napoleońska", icon: "🎖️", dateRange: "1799–1815", grade: 6 },
+  // Klasa 7 – XIX wiek
+  { id: "klasa7-xix", file: "klasa7_xix_wiek.json", name: "XIX wiek – powstania i przemysł", icon: "🏭", dateRange: "XIX wiek", grade: 7 },
+  // Klasa 8 – XX wiek
+  { id: "klasa8-xx", file: "klasa8_xx_wiek.json", name: "XX wiek – wojny i odzyskanie wolności", icon: "🕊️", dateRange: "XX wiek", grade: 8 },
 ];
 
-export function getCategoryById(id: string): Category | undefined {
+export function getCategoriesByGrade(grade: GradeValue): Category[] {
+  return CATEGORIES.filter((c) => c.grade === grade);
+}
+
+export function getCategoryById(id: string, grade?: GradeValue): Category | undefined {
   if (id === "wszystkie") {
-    return { id: "wszystkie", file: "", name: "Wszystkie tematy", icon: "📚" };
+    return { id: "wszystkie", file: "", name: "Wszystkie tematy", icon: "📚", grade: grade ?? DEFAULT_GRADE };
   }
-  return CATEGORIES.find((c) => c.id === id);
+  const cat = CATEGORIES.find((c) => c.id === id);
+  if (grade != null && cat && cat.grade !== grade) return undefined;
+  return cat;
 }
 
 export function getCategoryByFile(file: string): Category | undefined {

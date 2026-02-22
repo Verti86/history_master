@@ -22,9 +22,11 @@ type Props = {
   userId: string;
   categoryName: string;
   categoryId: string;
+  /** Link powrotu do wyboru tematu (np. /quiz?klasa=6) */
+  backHref?: string;
 };
 
-export default function QuizGame({ questions, userId, categoryName, categoryId }: Props) {
+export default function QuizGame({ questions, userId, categoryName, categoryId, backHref = "/quiz" }: Props) {
   const [order] = useState(() => shuffle(questions).slice(0, QUESTIONS_PER_ROUND));
   const [answerOrders] = useState(() => order.map(() => shuffle([0, 1, 2, 3])));
   const [index, setIndex] = useState(0);
@@ -107,7 +109,7 @@ export default function QuizGame({ questions, userId, categoryName, categoryId }
         </p>
         {!saved && <p style={{ color: "var(--hm-muted)" }}>Zapisywanie wyniku...</p>}
         <div className="flex flex-col gap-3">
-          <Link href="/quiz" className="inline-block px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 text-center">
+          <Link href={backHref} className="inline-block px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 text-center">
             📚 Wybierz inny temat
           </Link>
           <Link href="/menu" className="inline-block px-6 py-3 rounded-lg bg-[#ffbd45] text-[#0e1117] font-medium hover:opacity-90 text-center">
@@ -172,7 +174,7 @@ export default function QuizGame({ questions, userId, categoryName, categoryId }
       )}
 
       <p className="text-center">
-        <Link href="/quiz" className="text-sm hover:opacity-90" style={{ color: "var(--hm-muted)" }}>← Zmień temat</Link>
+        <Link href={backHref} className="text-sm hover:opacity-90" style={{ color: "var(--hm-muted)" }}>← Zmień temat</Link>
       </p>
     </div>
   );

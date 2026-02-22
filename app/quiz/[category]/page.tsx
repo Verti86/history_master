@@ -2,15 +2,20 @@ import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
 import QuizGame from "./QuizGame";
-import { getQuestionsForCategory, getWeakQuestions } from "@/lib/quiz-loader";
+import { getQuestionsForCategory, getWeakQuestions, getAllQuestionsForGrade } from "@/lib/quiz-loader";
 import { getCategoryById } from "@/lib/categories";
+import { parseGradeFromSearchParams } from "@/lib/grades";
 
 export default async function QuizCategoryPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ category: string }>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const { category } = await params;
+  const klasa = parseGradeFromSearchParams(await searchParams);
+  const backHref = `/quiz?klasa=${klasa}`;
 
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
@@ -31,7 +36,7 @@ export default async function QuizCategoryPage({
       return (
         <main className="min-h-screen p-8 max-w-2xl mx-auto">
           <p className="text-[var(--hm-muted)] mb-4">Nie masz jeszcze zapisanych pomyłek. Rozwiązuj quizy – tutaj pojawią się pytania do powtórki.</p>
-          <Link href="/quiz" className="text-[#ffbd45] hover:underline">← Wybierz temat quizu</Link>
+          <Link href={backHref} className="text-[#ffbd45] hover:underline">← Wybierz temat quizu</Link>
         </main>
       );
     }
@@ -42,16 +47,19 @@ export default async function QuizCategoryPage({
           userId={user.id}
           categoryName="Powtórka słabych stron"
           categoryId="wszystkie"
+          backHref={backHref}
         />
       </main>
     );
   }
 
-  const categoryInfo = getCategoryById(category);
-  if (!categoryInfo) redirect("/quiz");
+  const categoryInfo = getCategoryById(category, klasa);
+  if (!categoryInfo) redirect(backHref);
 
-  const questions = getQuestionsForCategory(category);
-  if (questions.length === 0) redirect("/quiz");
+  const questions = category === "wszystkie"
+    ? getAllQuestionsForGrade(klasa)
+    : getQuestionsForCategory(category);
+  if (questions.length === 0) redirect(backHref);
 
   return (
     <main className="min-h-screen p-8 max-w-2xl mx-auto">
@@ -60,6 +68,7 @@ export default async function QuizCategoryPage({
         userId={user.id}
         categoryName={categoryInfo.name}
         categoryId={category}
+        backHref={backHref}
       />
     </main>
   );

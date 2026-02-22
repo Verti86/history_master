@@ -1,9 +1,19 @@
 import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
 import CategoryPicker from "@/components/CategoryPicker";
-import { CATEGORIES } from "@/lib/categories";
+import { getCategoriesByGrade } from "@/lib/categories";
+import { parseGradeFromSearchParams } from "@/lib/grades";
 
-export default async function QuizPage() {
+export default async function QuizPage({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}) {
+  const params = await searchParams;
+  const klasa = parseGradeFromSearchParams(params);
+  const categories = getCategoriesByGrade(klasa);
+  const q = `klasa=${klasa}`;
+
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) redirect("/login");
@@ -34,8 +44,10 @@ export default async function QuizPage() {
       baseUrl="/quiz"
       title="📝 Quiz"
       subtitle="Wybierz temat quizu:"
-      categoryCount={CATEGORIES.length}
-      extraLink={{ href: "/quiz/slabostrony", label: "Powtórka słabych stron" }}
+      categories={categories}
+      categoryCount={categories.length}
+      queryParams={q}
+      extraLink={{ href: `/quiz/slabostrony?${q}`, label: "Powtórka słabych stron" }}
       progress={progress}
     />
   );

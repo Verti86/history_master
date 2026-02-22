@@ -1,13 +1,18 @@
 import Link from "next/link";
 import { CATEGORIES } from "@/lib/categories";
+import type { Category } from "@/lib/categories";
 
 type Props = {
   baseUrl: string;
   title: string;
   subtitle: string;
   showAllOption?: boolean;
-  /** Liczba działów (jeśli podana, używana zamiast CATEGORIES.length – gwarantuje aktualną wartość po deployu) */
+  /** Liczba działów (jeśli podana, używana zamiast length listy kategorii) */
   categoryCount?: number;
+  /** Lista kategorii (np. dla danej klasy); gdy brak – używane są CATEGORIES */
+  categories?: Category[];
+  /** Parametry zapytania do dopisania do linków, np. "klasa=6" */
+  queryParams?: string;
   /** Opcjonalny link np. "Powtórka słabych stron" */
   extraLink?: { href: string; label: string };
   /** Opcjonalny progres per kategoria, np. "Ostatni: 7 pkt" */
@@ -28,8 +33,15 @@ const ICON_ANIMATIONS: Record<string, string> = {
   "🦁": "animate-shake",
 };
 
-export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption = true, categoryCount, extraLink, progress }: Props) {
-  const count = categoryCount ?? CATEGORIES.length;
+function appendQuery(url: string, queryParams?: string): string {
+  if (!queryParams?.trim()) return url;
+  const sep = url.includes("?") ? "&" : "?";
+  return `${url}${sep}${queryParams}`;
+}
+
+export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption = true, categoryCount, categories, queryParams, extraLink, progress }: Props) {
+  const list = categories ?? CATEGORIES;
+  const count = categoryCount ?? list.length;
   return (
     <main className="min-h-screen p-8 max-w-2xl mx-auto" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
       <h1 className="text-2xl font-bold mb-2">{title}</h1>
@@ -38,7 +50,7 @@ export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption
       <div className="grid gap-2">
         {extraLink && (
           <Link
-            href={extraLink.href}
+            href={appendQuery(extraLink.href, queryParams)}
             className="p-4 rounded-xl bg-gradient-to-r from-amber-700 to-orange-700 border border-amber-500 hover:border-amber-300 hover:scale-[1.02] transition-all flex items-center gap-3 group"
           >
             <span className="text-2xl">🔄</span>
@@ -47,7 +59,7 @@ export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption
         )}
         {showAllOption && (
           <Link
-            href={`${baseUrl}/wszystkie`}
+            href={appendQuery(`${baseUrl}/wszystkie`, queryParams)}
             className="p-4 rounded-xl bg-gradient-to-r from-purple-700 to-blue-700 border border-purple-500 hover:border-purple-300 hover:scale-[1.02] transition-all flex items-center gap-3 group"
           >
             <span className="text-2xl group-hover:animate-bounce">📚</span>
@@ -57,13 +69,13 @@ export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption
             </div>
           </Link>
         )}
-        
-        {CATEGORIES.map((cat) => {
+
+        {list.map((cat) => {
           const prog = progress?.find((p) => p.categoryId === cat.id);
           return (
             <Link
               key={cat.id}
-              href={`${baseUrl}/${cat.id}`}
+              href={appendQuery(`${baseUrl}/${cat.id}`, queryParams)}
               className="p-3 rounded-xl bg-[var(--hm-card)] border border-[var(--hm-border)] hover:border-blue-500 transition-all flex items-center gap-3 group"
             >
               <span className={`text-xl inline-block ${ICON_ANIMATIONS[cat.icon] || ""} group-hover:scale-125 transition-transform`}>
@@ -83,7 +95,7 @@ export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption
       </div>
 
       <p className="mt-8 text-center">
-        <Link href="/menu" className="text-[var(--hm-muted)] hover:opacity-90 text-sm transition-colors">
+        <Link href={appendQuery("/menu", queryParams)} className="text-[var(--hm-muted)] hover:opacity-90 text-sm transition-colors">
           ← Powrót do menu
         </Link>
       </p>
