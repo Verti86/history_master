@@ -27,7 +27,8 @@ function shuffleArray<T>(array: T[]): T[] {
 export default function AssociationsGame({ associations, userId }: Props) {
   const [items, setItems] = useState<AssociationItem[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [revealedHints, setRevealedHints] = useState(0);
+  /** Pierwsza podpowiedź zawsze widoczna na start – żeby nie zgadywać „z kart” */
+  const [revealedHints, setRevealedHints] = useState(1);
   const [guess, setGuess] = useState("");
   const [result, setResult] = useState<"correct" | "wrong" | null>(null);
   const [wrongAttempts, setWrongAttempts] = useState(0);
@@ -83,7 +84,7 @@ export default function AssociationsGame({ associations, userId }: Props) {
       finishGame();
     } else {
       setCurrentIndex((i) => i + 1);
-      setRevealedHints(0);
+      setRevealedHints(1);
       setGuess("");
       setResult(null);
       setWrongAttempts(0);
@@ -181,7 +182,7 @@ export default function AssociationsGame({ associations, userId }: Props) {
         </h2>
 
         <p className="text-center text-sm mb-4" style={{ color: "var(--hm-muted)" }}>
-          Im mniej podpowiedzi odkryjesz, tym więcej punktów! (3-1 pkt)
+          Pierwsza podpowiedź jest już odsłonięta. Kolejne odkrywaj w razie potrzeby – im mniej, tym więcej punktów (maks. 3 pkt za postać).
         </p>
 
         <div className="rounded-xl p-6 mb-6 border" style={{ background: "var(--hm-card)", borderColor: "var(--hm-border)" }}>
@@ -210,7 +211,7 @@ export default function AssociationsGame({ associations, userId }: Props) {
               onClick={revealNextHint}
               className="w-full mt-4 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-4 rounded-lg transition"
             >
-              Odkryj podpowiedź ({3 - revealedHints} pkt)
+              Odkryj kolejną podpowiedź (maks. {3 - revealedHints} pkt za tę postać)
             </button>
           )}
         </div>
