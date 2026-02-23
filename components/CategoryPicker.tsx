@@ -17,6 +17,8 @@ type Props = {
   extraLink?: { href: string; label: string };
   /** Opcjonalny progres per kategoria, np. "Ostatni: 7 pkt" */
   progress?: { categoryId: string; text: string }[];
+  /** Opcjonalna treść nad listą (np. wybór limitu pytań) */
+  extraTop?: React.ReactNode;
 };
 
 const ICON_ANIMATIONS: Record<string, string> = {
@@ -39,13 +41,14 @@ function appendQuery(url: string, queryParams?: string): string {
   return `${url}${sep}${queryParams}`;
 }
 
-export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption = true, categoryCount, categories, queryParams, extraLink, progress }: Props) {
+export default function CategoryPicker({ baseUrl, title, subtitle, showAllOption = true, categoryCount, categories, queryParams, extraLink, progress, extraTop }: Props) {
   const list = categories ?? CATEGORIES;
   const count = categoryCount ?? list.length;
   return (
     <main className="min-h-screen p-8 max-w-2xl mx-auto" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
-      <h1 className="text-2xl font-bold mb-2">{title}</h1>
-      <p className="text-[var(--hm-muted)] mb-6">{subtitle}</p>
+      {title ? <h1 className="text-2xl font-bold mb-2">{title}</h1> : null}
+      {subtitle ? <p className="text-[var(--hm-muted)] mb-6">{subtitle}</p> : null}
+      {extraTop}
 
       <div className="grid gap-2">
         {extraLink && (

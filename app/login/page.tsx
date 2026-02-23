@@ -23,7 +23,7 @@ export default function LoginPage() {
       setError("Nieprawidłowy email lub hasło. Sprawdź dane i spróbuj ponownie.");
       return;
     }
-    router.push("/");
+    router.push("/menu");
     router.refresh();
   }
 
@@ -61,6 +61,11 @@ export default function LoginPage() {
         {error && (
           <p className="text-red-400 text-sm">{error}</p>
         )}
+        <p className="text-sm text-[#aaa]">
+          <Link href="/login/reset" className="text-[#ffbd45] hover:underline">
+            Zapomniałem hasła
+          </Link>
+        </p>
         <button
           type="submit"
           disabled={loading}

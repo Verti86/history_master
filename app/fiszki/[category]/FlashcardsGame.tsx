@@ -37,6 +37,7 @@ export default function FlashcardsGame({ flashcards, userId, categoryName, categ
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [saveError, setSaveError] = useState<string | null>(null);
   const [isRepeatMode, setIsRepeatMode] = useState(false);
   const [showXpToast, setShowXpToast] = useState(false);
 
@@ -51,16 +52,37 @@ export default function FlashcardsGame({ flashcards, userId, categoryName, categ
     if (finished && score > 0) setShowXpToast(true);
   }, [finished, score]);
 
-  const handleKnow = async () => {
-    setScore((s) => s + 1);
+  const saveOnePoint = async (): Promise<boolean> => {
     const supabase = createClient();
-    await supabase.from("game_stats").insert({
+    const { error } = await supabase.from("game_stats").insert({
       user_id: userId,
       game_mode: "Fiszki",
       points: 1,
       category_id: categoryId,
     });
+    return !error;
+  };
+
+  const handleKnow = async () => {
+    setSaveError(null);
+    const ok = await saveOnePoint();
+    if (!ok) {
+      setSaveError("Nie udało się zapisać punktu. Spróbuj ponownie.");
+      return;
+    }
+    setScore((s) => s + 1);
     nextCard();
+  };
+
+  const retrySave = async () => {
+    setSaveError(null);
+    const ok = await saveOnePoint();
+    if (ok) {
+      setScore((s) => s + 1);
+      nextCard();
+    } else {
+      setSaveError("Nie udało się zapisać punktu. Spróbuj ponownie.");
+    }
   };
 
   const handleDontKnow = () => {
@@ -183,19 +205,29 @@ export default function FlashcardsGame({ flashcards, userId, categoryName, categ
         </p>
 
         {flipped && (
-          <div className="flex gap-4 mt-4 justify-center">
-            <button
-              onClick={handleDontKnow}
-              className="flex-1 bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg transition"
-            >
-              🔴 Nie pamiętam
-            </button>
-            <button
-              onClick={handleKnow}
-              className="flex-1 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition"
-            >
-              🟢 Umiem! (+1 XP)
-            </button>
+          <div className="space-y-2 mt-4">
+            {saveError && (
+              <div className="p-3 rounded-lg bg-red-900/30 border border-red-700 text-red-200 text-sm flex items-center justify-between gap-2">
+                <span>{saveError}</span>
+                <button type="button" onClick={retrySave} className="px-3 py-1 rounded bg-red-700 hover:bg-red-600 text-white text-xs font-medium">
+                  Spróbuj ponownie
+                </button>
+              </div>
+            )}
+            <div className="flex gap-4 justify-center">
+              <button
+                onClick={handleDontKnow}
+                className="flex-1 bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg transition"
+              >
+                🔴 Nie pamiętam
+              </button>
+              <button
+                onClick={handleKnow}
+                className="flex-1 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition"
+              >
+                🟢 Umiem! (+1 XP)
+              </button>
+            </div>
           </div>
         )}
 

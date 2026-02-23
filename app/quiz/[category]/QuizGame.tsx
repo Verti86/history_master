@@ -6,8 +6,6 @@ import { createClient } from "@/lib/supabase/client";
 import type { QuizQuestion } from "@/lib/quiz-loader";
 import { XpToast } from "@/components/XpToast";
 
-const QUESTIONS_PER_ROUND = 10;
-
 function shuffle<T>(arr: T[]): T[] {
   const out = [...arr];
   for (let i = out.length - 1; i > 0; i--) {
@@ -22,17 +20,21 @@ type Props = {
   userId: string;
   categoryName: string;
   categoryId: string;
+  /** Liczba pytań w rundzie (10, 20 lub wszystkie) */
+  questionsPerRound?: number;
   /** Link powrotu do wyboru tematu (np. /quiz?klasa=6) */
   backHref?: string;
 };
 
-export default function QuizGame({ questions, userId, categoryName, categoryId, backHref = "/quiz" }: Props) {
-  const [order] = useState(() => shuffle(questions).slice(0, QUESTIONS_PER_ROUND));
+export default function QuizGame({ questions, userId, categoryName, categoryId, questionsPerRound = 10, backHref = "/quiz" }: Props) {
+  const limit = questionsPerRound <= 0 ? questions.length : Math.min(questionsPerRound, questions.length);
+  const [order] = useState(() => shuffle(questions).slice(0, limit));
   const [answerOrders] = useState(() => order.map(() => shuffle([0, 1, 2, 3])));
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [feedback, setFeedback] = useState<"ok" | "wrong" | null>(null);
   const [saved, setSaved] = useState(false);
+  const [saveError, setSaveError] = useState<string | null>(null);
   const [showXpToast, setShowXpToast] = useState(false);
   const savingRef = useRef(false);
 
@@ -41,14 +43,20 @@ export default function QuizGame({ questions, userId, categoryName, categoryId, 
   const finished = index >= total;
 
   useEffect(() => {
-    if (finished && !saved && !savingRef.current) {
+    if (finished && !saved && !savingRef.current && saveError === null) {
       savingRef.current = true;
-      saveScore(score).then(() => {
-        setSaved(true);
-        setShowXpToast(true);
+      setSaveError(null);
+      saveScore(score).then((err) => {
+        if (err) {
+          setSaveError(err);
+          savingRef.current = false;
+        } else {
+          setSaved(true);
+          setShowXpToast(true);
+        }
       });
     }
-  }, [finished, saved, score]);
+  }, [finished, saved, score, saveError]);
 
   const answers = useMemo(() => {
     if (!current || !answerOrders[index]) return [];
@@ -84,14 +92,28 @@ export default function QuizGame({ questions, userId, categoryName, categoryId, 
     }
   }
 
-  async function saveScore(finalScore: number) {
+  async function saveScore(finalScore: number): Promise<string | null> {
     const supabase = createClient();
-    await supabase.from("game_stats").insert({
+    const { error } = await supabase.from("game_stats").insert({
       user_id: userId,
       game_mode: "Quiz",
       points: finalScore,
       category_id: categoryId,
     });
+    return error ? "Nie udało się zapisać wyniku. Sprawdź połączenie i spróbuj ponownie." : null;
+  }
+
+  async function retrySave() {
+    setSaveError(null);
+    savingRef.current = true;
+    const err = await saveScore(score);
+    if (err) {
+      setSaveError(err);
+      savingRef.current = false;
+    } else {
+      setSaved(true);
+      setShowXpToast(true);
+    }
   }
 
   function nextQuestion() {
@@ -107,7 +129,15 @@ export default function QuizGame({ questions, userId, categoryName, categoryId, 
         <p className="text-xl" style={{ color: "#b45309" }}>
           Wynik: <strong>{score}</strong> / {total}
         </p>
-        {!saved && <p style={{ color: "var(--hm-muted)" }}>Zapisywanie wyniku...</p>}
+        {!saved && !saveError && <p style={{ color: "var(--hm-muted)" }}>Zapisywanie wyniku...</p>}
+        {saveError && (
+          <div className="p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-200 text-sm space-y-2">
+            <p>{saveError}</p>
+            <button type="button" onClick={retrySave} className="px-4 py-2 rounded-lg bg-red-700 hover:bg-red-600 text-white font-medium text-sm">
+              Spróbuj zapisać ponownie
+            </button>
+          </div>
+        )}
         <div className="flex flex-col gap-3">
           <Link href={backHref} className="inline-block px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 text-center">
             📚 Wybierz inny temat

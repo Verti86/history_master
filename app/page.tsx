@@ -41,7 +41,7 @@ export default async function HomePage() {
       </section>
 
       <p className="text-sm text-[#888]">
-        Ta sama baza Supabase co aplikacja Python. Logowanie i ranking współdzielone.
+        Dane zapisane w chmurze – logowanie i ranking działają na wszystkich urządzeniach.
       </p>
     </main>
   );

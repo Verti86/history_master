@@ -55,6 +55,7 @@ export default function TimelineGame({ events, userId }: Props) {
   const [answered, setAnswered] = useState<"correct" | "wrong" | null>(null);
   const [finished, setFinished] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [saveError, setSaveError] = useState<string | null>(null);
   const [showXpToast, setShowXpToast] = useState(false);
   const totalRounds = Math.min(10, Math.floor(filteredEvents.length / 2));
 
@@ -93,18 +94,38 @@ export default function TimelineGame({ events, userId }: Props) {
   const finishGame = async (finalScore: number) => {
     setFinished(true);
     setSaving(true);
+    setSaveError(null);
     setShowXpToast(true);
-    try {
-      const supabase = createClient();
-      await supabase.from("game_stats").insert({
-        user_id: userId,
-        game_mode: "Oś czasu",
-        points: finalScore,
-      });
-    } catch (e) {
-      console.error("Błąd zapisu:", e);
-    }
+    const supabase = createClient();
+    const { error } = await supabase.from("game_stats").insert({
+      user_id: userId,
+      game_mode: "Oś czasu",
+      points: finalScore,
+    });
     setSaving(false);
+    if (error) setSaveError("Nie udało się zapisać wyniku. Spróbuj ponownie.");
+  };
+
+  const retrySave = async () => {
+    setSaveError(null);
+    setSaving(true);
+    const supabase = createClient();
+    const { error } = await supabase.from("game_stats").insert({
+      user_id: userId,
+      game_mode: "Oś czasu",
+      points: score,
+    });
+    setSaving(false);
+    if (error) setSaveError("Nie udało się zapisać wyniku. Spróbuj ponownie.");
+  };
+
+  const playAgain = () => {
+    setPairs(generatePairs(filteredEvents, totalRounds));
+    setCurrentIndex(0);
+    setScore(0);
+    setAnswered(null);
+    setFinished(false);
+    setSaveError(null);
   };
 
   if (pairs.length === 0) {
@@ -120,17 +141,37 @@ export default function TimelineGame({ events, userId }: Props) {
       <main className="min-h-screen flex flex-col items-center justify-center p-4" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
         <XpToast xp={score} show={showXpToast} onDone={() => setShowXpToast(false)} />
         <div className="rounded-xl p-8 max-w-md w-full text-center border border-[var(--hm-border)]" style={{ background: "var(--hm-card)" }}>
-          <h1 className="text-3xl font-bold mb-4">⏳ Koniec!</h1>
-          <p className="text-xl mb-6">
-            Wynik: <span className="text-green-400 font-bold">{score}</span> / {totalRounds}
+          <h1 className="text-3xl font-bold mb-4">⏳ Koniec rundy!</h1>
+          <p className="text-xl mb-2">
+            Zdobyte XP: <span className="text-green-400 font-bold">{score}</span>
           </p>
-          {saving && <p className="mb-4" style={{ color: "var(--hm-muted)" }}>Zapisywanie...</p>}
-          <Link
-            href="/menu"
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition"
-          >
-            ← Powrót do menu
-          </Link>
+          <p className="text-sm mb-6" style={{ color: "var(--hm-muted)" }}>
+            Wynik: {score} / {totalRounds}
+          </p>
+          {saving && !saveError && <p className="mb-4" style={{ color: "var(--hm-muted)" }}>Zapisywanie...</p>}
+          {saveError && (
+            <div className="mb-4 p-3 rounded-lg bg-red-900/30 border border-red-700 text-red-200 text-sm">
+              <p className="mb-2">{saveError}</p>
+              <button type="button" onClick={retrySave} className="px-4 py-2 rounded-lg bg-red-700 hover:bg-red-600 text-white font-medium text-sm">
+                Spróbuj zapisać ponownie
+              </button>
+            </div>
+          )}
+          <div className="flex flex-col gap-3">
+            <button
+              type="button"
+              onClick={playAgain}
+              className="w-full bg-[#ffbd45] hover:opacity-90 text-[#0e1117] font-semibold py-3 px-6 rounded-lg transition"
+            >
+              Jeszcze rundę
+            </button>
+            <Link
+              href="/menu"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition text-center"
+            >
+              ← Powrót do menu
+            </Link>
+          </div>
         </div>
       </main>
     );

@@ -1,8 +1,20 @@
+import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
 import CategoryPicker from "@/components/CategoryPicker";
 import { getCategoriesByGrade } from "@/lib/categories";
 import { parseGradeFromSearchParams } from "@/lib/grades";
+
+const LIMIT_OPTIONS = [10, 20, 0] as const; // 0 = wszystkie
+
+function parseLimit(params: Record<string, string | string[] | undefined>): number {
+  const l = params?.limit;
+  if (l == null) return 10;
+  const v = typeof l === "string" ? l : l[0];
+  if (v === "wszystkie") return 0;
+  const n = parseInt(v ?? "", 10);
+  return LIMIT_OPTIONS.includes(n as 10 | 20 | 0) ? n : 10;
+}
 
 export default async function QuizPage({
   searchParams,
@@ -11,8 +23,9 @@ export default async function QuizPage({
 }) {
   const params = await searchParams;
   const klasa = parseGradeFromSearchParams(params);
+  const limit = parseLimit(params);
   const categories = getCategoriesByGrade(klasa);
-  const q = `klasa=${klasa}`;
+  const q = `klasa=${klasa}&limit=${limit === 0 ? "wszystkie" : limit}`;
 
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
@@ -49,6 +62,22 @@ export default async function QuizPage({
       queryParams={q}
       extraLink={{ href: `/quiz/slabostrony?${q}`, label: "Powtórka słabych stron" }}
       progress={progress}
+      extraTop={
+        <p className="text-sm text-[var(--hm-muted)] mb-4">
+          Liczba pytań:{" "}
+          {([10, 20, 0] as const).map((n) => (
+            <span key={n}>
+              <Link
+                href={`/quiz?klasa=${klasa}&limit=${n === 0 ? "wszystkie" : n}`}
+                className={limit === n ? "font-medium text-[#ffbd45]" : "hover:underline"}
+              >
+                {n === 0 ? "Wszystkie" : n}
+              </Link>
+              {n !== 0 ? " | " : ""}
+            </span>
+          ))}
+        </p>
+      }
     />
   );
 }

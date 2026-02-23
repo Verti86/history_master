@@ -6,6 +6,15 @@ import { getQuestionsForCategory, getWeakQuestions, getAllQuestionsForGrade } fr
 import { getCategoryById } from "@/lib/categories";
 import { parseGradeFromSearchParams } from "@/lib/grades";
 
+function parseLimit(params: Record<string, string | string[] | undefined>): number {
+  const l = params?.limit;
+  if (l == null) return 10;
+  const v = typeof l === "string" ? l : l[0];
+  if (v === "wszystkie") return 0;
+  const n = parseInt(v ?? "", 10);
+  return [10, 20, 0].includes(n) ? n : 10;
+}
+
 export default async function QuizCategoryPage({
   params,
   searchParams,
@@ -14,8 +23,10 @@ export default async function QuizCategoryPage({
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const { category } = await params;
-  const klasa = parseGradeFromSearchParams(await searchParams);
-  const backHref = `/quiz?klasa=${klasa}`;
+  const rawParams = await searchParams;
+  const klasa = parseGradeFromSearchParams(rawParams);
+  const limit = parseLimit(rawParams);
+  const backHref = `/quiz?klasa=${klasa}&limit=${limit === 0 ? "wszystkie" : limit}`;
 
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
@@ -47,6 +58,7 @@ export default async function QuizCategoryPage({
           userId={user.id}
           categoryName="Powtórka słabych stron"
           categoryId="wszystkie"
+          questionsPerRound={limit <= 0 ? questions.length : limit}
           backHref={backHref}
         />
       </main>
@@ -68,6 +80,7 @@ export default async function QuizCategoryPage({
         userId={user.id}
         categoryName={categoryInfo.name}
         categoryId={category}
+        questionsPerRound={limit <= 0 ? questions.length : limit}
         backHref={backHref}
       />
     </main>
