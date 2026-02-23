@@ -169,7 +169,7 @@ export default async function MenuPage({
           <span className="block font-medium">Fiszki</span>
         </Link>
         <Link
-          href="/os-czasu"
+          href={`/os-czasu?klasa=${klasa}`}
           className="menu-card menu-card-czas p-4 rounded-xl border hover:border-[#a78bfa] hover:shadow-lg hover:shadow-purple-500/20 text-center transition-all duration-300 group"
           style={{ background: "var(--hm-menu-card-bg)", color: "var(--hm-menu-card-text)", borderColor: "var(--hm-menu-card-border)" }}
         >

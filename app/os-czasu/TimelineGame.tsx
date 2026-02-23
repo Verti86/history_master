@@ -15,6 +15,7 @@ type TimelineEvent = {
 type Props = {
   events: TimelineEvent[];
   userId: string;
+  backHref?: string;
 };
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -44,9 +45,17 @@ function generatePairs(events: TimelineEvent[], count: number) {
   return pairs;
 }
 
-const EPOCHS = [{ value: "all", label: "Wszystkie" }, { value: "XVII", label: "XVII wiek" }];
+function getEpochsFromEvents(events: TimelineEvent[]) {
+  const set = new Set(events.map((e) => e.epoch).filter(Boolean)) as Set<string>;
+  const list = Array.from(set).sort();
+  return [
+    { value: "all", label: "Wszystkie" },
+    ...list.map((e) => ({ value: e, label: e })),
+  ];
+}
 
-export default function TimelineGame({ events, userId }: Props) {
+export default function TimelineGame({ events, userId, backHref = "/menu" }: Props) {
+  const epochs = getEpochsFromEvents(events);
   const [epochFilter, setEpochFilter] = useState("all");
   const filteredEvents = epochFilter === "all" ? events : events.filter((e) => e.epoch === epochFilter);
   const [pairs, setPairs] = useState<{ event1: TimelineEvent; event2: TimelineEvent }[]>([]);
@@ -130,8 +139,13 @@ export default function TimelineGame({ events, userId }: Props) {
 
   if (pairs.length === 0) {
     return (
-      <main className="min-h-screen flex items-center justify-center" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
-        <p>Ładowanie...</p>
+      <main className="min-h-screen flex flex-col items-center justify-center p-4" style={{ background: "var(--hm-bg)", color: "var(--hm-text)" }}>
+        <p className="text-center mb-4">
+          {filteredEvents.length < 2
+            ? "Za mało wydarzeń w wybranej epoce. Wybierz „Wszystkie” lub inną epokę."
+            : "Ładowanie…"}
+        </p>
+        <Link href={backHref} className="text-[var(--hm-muted)] hover:underline text-sm">← Powrót do menu</Link>
       </main>
     );
   }
@@ -166,7 +180,7 @@ export default function TimelineGame({ events, userId }: Props) {
               Jeszcze rundę
             </button>
             <Link
-              href="/menu"
+              href={backHref}
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition text-center"
             >
               ← Powrót do menu
@@ -190,7 +204,7 @@ export default function TimelineGame({ events, userId }: Props) {
             onChange={(e) => setEpochFilter(e.target.value)}
             className="rounded-lg bg-[var(--hm-card)] border border-[var(--hm-border)] px-3 py-1.5 text-sm"
           >
-            {EPOCHS.map((opt) => (
+            {epochs.map((opt) => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}
           </select>
@@ -244,7 +258,7 @@ export default function TimelineGame({ events, userId }: Props) {
         )}
 
         <div className="mt-8 text-center">
-          <Link href="/menu" className="text-[var(--hm-muted)] hover:opacity-90 text-sm">
+          <Link href={backHref} className="text-[var(--hm-muted)] hover:opacity-90 text-sm">
             ← Powrót do menu
           </Link>
         </div>

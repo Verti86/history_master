@@ -6,6 +6,8 @@ export type TimelineEvent = {
   year: number;
   description?: string;
   epoch?: string;
+  /** Klasy SP (4–8), dla których wydarzenie jest w zakresie programowym. */
+  grades?: number[];
 };
 
 export type AssociationItem = {
@@ -17,10 +19,17 @@ export type AssociationItem = {
 
 type AssociationRow = AssociationItem & { grades?: number[] };
 
-export function getTimelineEvents(epochFilter?: string): TimelineEvent[] {
-  const data = timelineData as TimelineEvent[];
-  if (!epochFilter || epochFilter === "all") return data;
-  return data.filter((e) => e.epoch === epochFilter);
+type TimelineRow = TimelineEvent & { grades?: number[] };
+
+/** Wydarzenia dla danej klasy – filtrowane wg zakresu programowego. Opcjonalnie po epoce (w UI). Gdy grade brak – wszystkie (np. eksport). */
+export function getTimelineEvents(grade?: number, epochFilter?: string): TimelineEvent[] {
+  const data = timelineData as TimelineRow[];
+  let out =
+    grade == null
+      ? [...data]
+      : data.filter((e) => !e.grades || e.grades.length === 0 || e.grades.includes(grade));
+  if (epochFilter && epochFilter !== "all") out = out.filter((e) => e.epoch === epochFilter);
+  return out.map(({ event, year, description, epoch }) => ({ event, year, description, epoch }));
 }
 
 /** Skojarzenia dla danej klasy – filtrowane wg zakresu programowego. */

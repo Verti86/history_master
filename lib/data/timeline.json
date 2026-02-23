@@ -1,14 +1,2129 @@
 [
-  {"event":"Bitwa pod Kircholmem","year":1605,"description":"Wielkie zwycięstwo husarii pod dowództwem Jana Karola Chodkiewicza nad Szwedami.","epoch":"XVII"},
-  {"event":"Klęska pod Cecorą","year":1620,"description":"Śmierć hetmana Stanisława Żółkiewskiego w bitwie z Turkami.","epoch":"XVII"},
-  {"event":"Wybuch powstania Chmielnickiego","year":1648,"description":"Powstanie kozackie na Ukrainie pod przywództwem Bohdana Chmielnickiego.","epoch":"XVII"},
-  {"event":"Ścięcie króla Karola I Stuarta","year":1649,"description":"W Anglii po wojnie domowej wykonano wyrok na królu.","epoch":"XVII"},
-  {"event":"Pierwsze użycie liberum veto","year":1652,"description":"Władysław Siciński zerwał sejm – początek kryzysu parlamentaryzmu w Rzeczypospolitej.","epoch":"XVII"},
-  {"event":"Obrona Jasnej Góry (Potop)","year":1655,"description":"Przeor Augustyn Kordecki dowodził obroną klasztoru przed Szwedami.","epoch":"XVII"},
-  {"event":"Śluby Lwowskie Jana Kazimierza","year":1656,"description":"Król oddał Rzeczpospolitą w opiekę Matce Bożej.","epoch":"XVII"},
-  {"event":"Pokój w Oliwie","year":1660,"description":"Zakończenie wojny ze Szwecją.","epoch":"XVII"},
-  {"event":"Traktat w Buczaczu","year":1672,"description":"Rzeczpospolita utraciła Podole na rzecz Turcji.","epoch":"XVII"},
-  {"event":"Zwycięstwo pod Chocimiem","year":1673,"description":"Jan Sobieski pokonał Turków przed objęciem tronu.","epoch":"XVII"},
-  {"event":"Odsiecz Wiedeńska","year":1683,"description":"Jan III Sobieski rozgromił armię turecką pod Wiedniem.","epoch":"XVII"},
-  {"event":"Pokój w Karłowicach","year":1699,"description":"Koniec wojen z Turcją, odzyskanie Kamieńca.","epoch":"XVII"}
+  {
+    "event": "Bitwa pod Kircholmem",
+    "year": 1605,
+    "description": "Wielkie zwycięstwo husarii pod dowództwem Jana Karola Chodkiewicza nad Szwedami.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Klęska pod Cecorą",
+    "year": 1620,
+    "description": "Śmierć hetmana Stanisława Żółkiewskiego w bitwie z Turkami.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Wybuch powstania Chmielnickiego",
+    "year": 1648,
+    "description": "Powstanie kozackie na Ukrainie pod przywództwem Bohdana Chmielnickiego.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Ścięcie króla Karola I Stuarta",
+    "year": 1649,
+    "description": "W Anglii po wojnie domowej wykonano wyrok na królu.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Pierwsze użycie liberum veto",
+    "year": 1652,
+    "description": "Władysław Siciński zerwał sejm – początek kryzysu parlamentaryzmu w Rzeczypospolitej.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Obrona Jasnej Góry (Potop)",
+    "year": 1655,
+    "description": "Przeor Augustyn Kordecki dowodził obroną klasztoru przed Szwedami.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Śluby Lwowskie Jana Kazimierza",
+    "year": 1656,
+    "description": "Król oddał Rzeczpospolitą w opiekę Matce Bożej.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Pokój w Oliwie",
+    "year": 1660,
+    "description": "Zakończenie wojny ze Szwecją.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Traktat w Buczaczu",
+    "year": 1672,
+    "description": "Rzeczpospolita utraciła Podole na rzecz Turcji.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Zwycięstwo pod Chocimiem",
+    "year": 1673,
+    "description": "Jan Sobieski pokonał Turków przed objęciem tronu.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Odsiecz Wiedeńska",
+    "year": 1683,
+    "description": "Jan III Sobieski rozgromił armię turecką pod Wiedniem.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Pokój w Karłowicach",
+    "year": 1699,
+    "description": "Koniec wojen z Turcją, odzyskanie Kamieńca.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Chrzest Polski",
+    "year": 966,
+    "description": "Mieszko I przyjął chrzest.",
+    "epoch": "X",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Zjazd gnieźnieński",
+    "year": 1000,
+    "description": "Bolesław Chrobry i Otton III w Gnieźnie.",
+    "epoch": "XI",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Koronacja Bolesława Chrobrego",
+    "year": 1025,
+    "description": "Pierwszy król Polski.",
+    "epoch": "XI",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Śmierć św. Wojciecha",
+    "year": 997,
+    "description": "Męczeństwo u Prusów.",
+    "epoch": "X",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Bitwa pod Grunwaldem",
+    "year": 1410,
+    "description": "Zwycięstwo Jagiełły nad Krzyżakami.",
+    "epoch": "XV",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Unia w Krewie",
+    "year": 1385,
+    "description": "Polska i Litwa.",
+    "epoch": "XIV",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Założenie Akademii Krakowskiej",
+    "year": 1364,
+    "description": "Kazimierz Wielki.",
+    "epoch": "XIV",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Koronacja Jadwigi",
+    "year": 1384,
+    "description": "Król Polski.",
+    "epoch": "XIV",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Hołd pruski",
+    "year": 1525,
+    "description": "Albrecht Hohenzollern w Krakowie.",
+    "epoch": "XVI",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Unia lubelska",
+    "year": 1569,
+    "description": "Rzeczpospolita Obojga Narodów.",
+    "epoch": "XVI",
+    "grades": [
+      5,
+      6
+    ]
+  },
+  {
+    "event": "Potop szwedzki – początek",
+    "year": 1655,
+    "description": "Najazd na Rzeczpospolitą.",
+    "epoch": "XVII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Odsiecz Wiedeńska",
+    "year": 1683,
+    "description": "Jan III Sobieski pod Wiedniem.",
+    "epoch": "XVII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Konstytucja 3 maja",
+    "year": 1791,
+    "description": "Ustawa rządowa.",
+    "epoch": "XVIII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Powstanie kościuszkowskie",
+    "year": 1794,
+    "description": "Naczelnik Kościuszko.",
+    "epoch": "XVIII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "III rozbiór Polski",
+    "year": 1795,
+    "description": "Upadek Rzeczypospolitej.",
+    "epoch": "XVIII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Powstanie listopadowe",
+    "year": 1830,
+    "description": "Wybuch w Warszawie.",
+    "epoch": "XIX",
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "event": "Powstanie styczniowe",
+    "year": 1863,
+    "description": "Walka z zaborcą.",
+    "epoch": "XIX",
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "event": "Odzyskanie niepodległości",
+    "year": 1918,
+    "description": "11 listopada.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      7,
+      8
+    ]
+  },
+  {
+    "event": "Cud nad Wisłą",
+    "year": 1920,
+    "description": "Bitwa warszawska.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      7,
+      8
+    ]
+  },
+  {
+    "event": "Wybuch II wojny światowej",
+    "year": 1939,
+    "description": "1 września – atak na Polskę.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "event": "Powstanie warszawskie",
+    "year": 1944,
+    "description": "Sierpień – walka o stolicę.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "event": "Zakończenie II wojny",
+    "year": 1945,
+    "description": "8 maja w Europie.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "event": "Solidarność – rejestracja",
+    "year": 1980,
+    "description": "NSZZ Solidarność.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "event": "Stan wojenny",
+    "year": 1981,
+    "description": "13 grudnia.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "event": "Wybory 4 czerwca 1989",
+    "year": 1989,
+    "description": "Przełom, upadek komunizmu.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "event": "Wstąpienie Polski do NATO",
+    "year": 1999,
+    "description": "Sojusz północnoatlantycki.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "event": "Wstąpienie Polski do UE",
+    "year": 2004,
+    "description": "1 maja.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "event": "Śmierć Mieszka I",
+    "year": 992,
+    "description": "Pierwszy władca Polski.",
+    "epoch": "X",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Testament Bolesława Krzywoustego",
+    "year": 1138,
+    "description": "Rozbicie dzielnicowe.",
+    "epoch": "XII",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Bitwa pod Legnicą",
+    "year": 1241,
+    "description": "Henryk Pobożny i Tatarzy.",
+    "epoch": "XIII",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Koronacja Władysława Łokietka",
+    "year": 1320,
+    "description": "Zjednoczenie królestwa.",
+    "epoch": "XIV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Bitwa pod Płowcami",
+    "year": 1331,
+    "description": "Łokietek z Krzyżakami.",
+    "epoch": "XIV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Założenie Uniwersytetu w Krakowie",
+    "year": 1364,
+    "description": "Akademia Krakowska.",
+    "epoch": "XIV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Budowa piramidy Cheopsa",
+    "year": -2560,
+    "description": "Starożytny Egipt.",
+    "epoch": "Starożytność",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Kodeks Hammurabiego",
+    "year": -1754,
+    "description": "Babilon.",
+    "epoch": "Starożytność",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Wynalezienie pisma",
+    "year": -3200,
+    "description": "Sumer.",
+    "epoch": "Starożytność",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Założenie Rzymu",
+    "year": -753,
+    "description": "Według legendy.",
+    "epoch": "Starożytność",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Bitwa pod Maratonem",
+    "year": -490,
+    "description": "Grecja i Persja.",
+    "epoch": "Starożytność",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Wojny punickie – początek",
+    "year": -264,
+    "description": "Rzym i Kartagina.",
+    "epoch": "Starożytność",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Zabójstwo Cezara",
+    "year": -44,
+    "description": "Idy marcowe.",
+    "epoch": "Starożytność",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Chrzest Rusi",
+    "year": 988,
+    "description": "Włodzimierz Wielki.",
+    "epoch": "X",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Schizma wschodnia",
+    "year": 1054,
+    "description": "Podział chrześcijaństwa.",
+    "epoch": "XI",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "I wyprawa krzyżowa",
+    "year": 1096,
+    "description": "Zdobycie Jerozolimy.",
+    "epoch": "XII",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Magna Charta Libertatum",
+    "year": 1215,
+    "description": "Anglia – ograniczenie władzy króla.",
+    "epoch": "XIII",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Upadek Konstantynopola",
+    "year": 1453,
+    "description": "Turcy Osmańscy.",
+    "epoch": "XV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Odkrycie Ameryki przez Kolumba",
+    "year": 1492,
+    "description": "Wyprawa hiszpańska.",
+    "epoch": "XV",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Wynalezienie druku (Gutenberg)",
+    "year": 1450,
+    "description": "Biblia.",
+    "epoch": "XV",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Wojna trzynastoletnia – pokój",
+    "year": 1466,
+    "description": "Pokój toruński.",
+    "epoch": "XV",
+    "grades": [
+      5,
+      6
+    ]
+  },
+  {
+    "event": "Reformacja – 95 tez Lutra",
+    "year": 1517,
+    "description": "Wittenberga.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Sobór trydencki",
+    "year": 1545,
+    "description": "Kontrreformacja.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Unia brzeska",
+    "year": 1596,
+    "description": "Kościół unicki.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Wojna z Rosją – Smoleńsk",
+    "year": 1609,
+    "description": "Oblężenie.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Wielka rewolucja francuska",
+    "year": 1789,
+    "description": "Zburzenie Bastylii.",
+    "epoch": "XVIII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Deklaracja niepodległości USA",
+    "year": 1776,
+    "description": "4 lipca.",
+    "epoch": "XVIII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Koronacja Napoleona na cesarza",
+    "year": 1804,
+    "description": "Francja.",
+    "epoch": "XIX",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Kongres wiedeński",
+    "year": 1815,
+    "description": "Nowy ład w Europie.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Wiosna Ludów",
+    "year": 1848,
+    "description": "Rewolucje w Europie.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Wojna krymska",
+    "year": 1853,
+    "description": "Rosja vs Turcja, Francja, UK.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Zjednoczenie Niemiec",
+    "year": 1871,
+    "description": "Bismarck, Wersal.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Zjednoczenie Włoch",
+    "year": 1861,
+    "description": "Risorgimento.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "I wojna światowa – wybuch",
+    "year": 1914,
+    "description": "28 lipca.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Rewolucja lutowa w Rosji",
+    "year": 1917,
+    "description": "Upadek cara.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Traktat wersalski",
+    "year": 1919,
+    "description": "Koniec I wojny.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Przewrót majowy",
+    "year": 1926,
+    "description": "Piłsudski w Polsce.",
+    "epoch": "XX",
+    "grades": [
+      7,
+      8
+    ]
+  },
+  {
+    "event": "Atak na Pearl Harbor",
+    "year": 1941,
+    "description": "USA w II wojnie.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Konferencja w Jałcie",
+    "year": 1945,
+    "description": "Wielka trójka.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Powstanie NRD i RFN",
+    "year": 1949,
+    "description": "Podział Niemiec.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Powstanie węgierskie",
+    "year": 1956,
+    "description": "Budapeszt.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Praska wiosna",
+    "year": 1968,
+    "description": "Czechosłowacja.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Sierpień 1980 – strajki",
+    "year": 1980,
+    "description": "Porozumienia sierpniowe.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Upadek muru berlińskiego",
+    "year": 1989,
+    "description": "9 listopada.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Rozpad ZSRR",
+    "year": 1991,
+    "description": "Koniec zimnej wojny.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Koronacja Kazimierza Wielkiego",
+    "year": 1333,
+    "description": "Król Polski.",
+    "epoch": "XIV",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Śmierć Kazimierza Wielkiego",
+    "year": 1370,
+    "description": "Ostatni Piast.",
+    "epoch": "XIV",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Bitwa pod Worsklą",
+    "year": 1399,
+    "description": "Witold i Tatarzy.",
+    "epoch": "XIV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Bitwa pod Warną",
+    "year": 1444,
+    "description": "Śmierć Warneńczyka.",
+    "epoch": "XV",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Wojna z Zakonem 1454–1466",
+    "year": 1454,
+    "description": "Wojna trzynastoletnia.",
+    "epoch": "XV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Urodzenie Mikołaja Kopernika",
+    "year": 1473,
+    "description": "Toruń.",
+    "epoch": "XV",
+    "grades": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "event": "Oblężenie Malborka 1454",
+    "year": 1454,
+    "description": "Król Kazimierz Jagiellończyk.",
+    "epoch": "XV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Ślub Zygmunta I z Boną",
+    "year": 1518,
+    "description": "Królowa Bona Sforza.",
+    "epoch": "XVI",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Hołd pruski",
+    "year": 1525,
+    "description": "Kraków.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Unia realna polsko-litewska",
+    "year": 1569,
+    "description": "Lublin.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Wolna elekcja – Henryk Walezy",
+    "year": 1573,
+    "description": "Pierwsza elekcja.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Stefan Batory królem",
+    "year": 1576,
+    "description": "Węgier na tronie.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Oblężenie Pskowa",
+    "year": 1581,
+    "description": "Batory i Iwan Groźny.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Zygmunt III Waza królem",
+    "year": 1587,
+    "description": "Waza na tronie.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Przeniesienie stolicy do Warszawy",
+    "year": 1596,
+    "description": "Zygmunt III.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Bitwa pod Kłuszynem",
+    "year": 1610,
+    "description": "Żółkiewski, Moskwa.",
+    "epoch": "XVII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Rozejm w Dywilinie",
+    "year": 1618,
+    "description": "Koniec wojny z Rosją.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Pokój w Stuhmsdorfie",
+    "year": 1635,
+    "description": "Szwecja i Rzeczpospolita.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Śluby lwowskie",
+    "year": 1656,
+    "description": "Jan Kazimierz.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Traktat andruszowski",
+    "year": 1667,
+    "description": "Rozejm z Rosją.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Elekcja Jana III Sobieskiego",
+    "year": 1674,
+    "description": "Król Polski.",
+    "epoch": "XVII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Wiktoria wiedeńska",
+    "year": 1683,
+    "description": "12 września.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "I rozbiór Polski",
+    "year": 1772,
+    "description": "Rosja, Prusy, Austria.",
+    "epoch": "XVIII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "II rozbiór Polski",
+    "year": 1793,
+    "description": "Rosja i Prusy.",
+    "epoch": "XVIII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Insurekcja kościuszkowska",
+    "year": 1794,
+    "description": "Racławice, Warszawa.",
+    "epoch": "XVIII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Legiony we Włoszech",
+    "year": 1797,
+    "description": "Dąbrowski, Mazurek.",
+    "epoch": "XVIII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Kampania napoleońska na Moskwę",
+    "year": 1812,
+    "description": "Wyprawa na Rosję.",
+    "epoch": "XIX",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Kongres wiedeński",
+    "year": 1815,
+    "description": "Ład europejski.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Powstanie listopadowe – noc",
+    "year": 1830,
+    "description": "Podchorążowie.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Wielka emigracja",
+    "year": 1831,
+    "description": "Po upadku powstania.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Powstanie krakowskie",
+    "year": 1846,
+    "description": "Rzeczpospolita krakowska.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Wiosna Ludów w Polsce",
+    "year": 1848,
+    "description": "Poznań, Galicja.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Powstanie styczniowe – wybuch",
+    "year": 1863,
+    "description": "22 stycznia.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Wielki głód w Irlandii",
+    "year": 1845,
+    "description": "Kartofle.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Wojna secesyjna w USA",
+    "year": 1861,
+    "description": "Północ vs Południe.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Komuna paryska",
+    "year": 1871,
+    "description": "Paryż.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "I wojna światowa – koniec",
+    "year": 1918,
+    "description": "11 listopada rozejm.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Traktat ryski",
+    "year": 1921,
+    "description": "Polska i bolszewicy.",
+    "epoch": "XX",
+    "grades": [
+      7,
+      8
+    ]
+  },
+  {
+    "event": "Zamach majowy",
+    "year": 1926,
+    "description": "Piłsudski.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Pakt Ribbentrop–Mołotow",
+    "year": 1939,
+    "description": "23 sierpnia.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Kapitulacja Warszawy 1939",
+    "year": 1939,
+    "description": "28 września.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Zbrodnia katyńska",
+    "year": 1940,
+    "description": "Mord na oficerach.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Atak Niemiec na ZSRR",
+    "year": 1941,
+    "description": "Operacja Barbarossa.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Konferencja w Teheranie",
+    "year": 1943,
+    "description": "Wielka trójka.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Konferencja w Poczdamie",
+    "year": 1945,
+    "description": "Granice, okupacja.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Utworzenie PZPR",
+    "year": 1948,
+    "description": "Partia komunistyczna.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Poznański czerwiec",
+    "year": 1956,
+    "description": "Strajki w Poznaniu.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Grudzień 1970",
+    "year": 1970,
+    "description": "Strajki na Wybrzeżu.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Czerwiec 1976",
+    "year": 1976,
+    "description": "Radom, Ursus.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Papież Jan Paweł II – wybór",
+    "year": 1978,
+    "description": "16 października.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "event": "Pierwsza pielgrzymka JP2 do Polski",
+    "year": 1979,
+    "description": "„Nie lękajcie się”.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "event": "Okrągły stół",
+    "year": 1989,
+    "description": "Rozmowy opozycji z władzą.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Pierwszy niekomunistyczny rząd",
+    "year": 1989,
+    "description": "Tadeusz Mazowiecki.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Dagome iudex",
+    "year": 991,
+    "description": "Dokument oddający Polskę pod opiekę papieża.",
+    "epoch": "X",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Kanonizacja św. Stanisława",
+    "year": 1253,
+    "description": "Biskup ze Szczepanowa.",
+    "epoch": "XIII",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Sprowadzenie Krzyżaków",
+    "year": 1226,
+    "description": "Konrad Mazowiecki.",
+    "epoch": "XIII",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Bitwa pod Cedynią",
+    "year": 972,
+    "description": "Mieszko I i Odon.",
+    "epoch": "X",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Koronacja Przemysła II",
+    "year": 1295,
+    "description": "Król Polski.",
+    "epoch": "XIII",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Wielka wojna z Zakonem",
+    "year": 1409,
+    "description": "Początek konfliktu.",
+    "epoch": "XV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Pokój toruński 1411",
+    "year": 1411,
+    "description": "Po Grunwaldzie.",
+    "epoch": "XV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Wojna 13-letnia – początek",
+    "year": 1454,
+    "description": "Zakon i Polska.",
+    "epoch": "XV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Śmierć Jana Długosza",
+    "year": 1480,
+    "description": "Kronikarz.",
+    "epoch": "XV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Odkrycie drogi morskiej do Indii",
+    "year": 1498,
+    "description": "Vasco da Gama.",
+    "epoch": "XV",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Wystąpienie Lutra",
+    "year": 1517,
+    "description": "Reformacja.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Wojna z Zakonem 1519–1521",
+    "year": 1519,
+    "description": "Hołd pruski w tle.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Śmierć Zygmunta II Augusta",
+    "year": 1572,
+    "description": "Koniec Jagiellonów.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Artykuły henrykowskie",
+    "year": 1573,
+    "description": "Pacta conventa.",
+    "epoch": "XVI",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Rokosz Zebrzydowskiego",
+    "year": 1606,
+    "description": "Bunt szlachty.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Rozejm w Altmarku",
+    "year": 1629,
+    "description": "Szwecja a Rzeczpospolita.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Pokój w Buczaczu",
+    "year": 1672,
+    "description": "Turcja.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Odsiecz wiedeńska",
+    "year": 1683,
+    "description": "Sobieski.",
+    "epoch": "XVII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Wojna północna – początek",
+    "year": 1700,
+    "description": "Szwecja vs koalicja.",
+    "epoch": "XVIII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Sejm niemy",
+    "year": 1717,
+    "description": "Reformy ograniczone.",
+    "epoch": "XVIII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Wojna o sukcesję austriacką",
+    "year": 1740,
+    "description": "Maria Teresa.",
+    "epoch": "XVIII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Konfederacja barska",
+    "year": 1768,
+    "description": "Przeciw królowi i Rosji.",
+    "epoch": "XVIII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Utworzenie KEN",
+    "year": 1773,
+    "description": "Komisja Edukacji Narodowej.",
+    "epoch": "XVIII",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Konstytucja USA",
+    "year": 1787,
+    "description": "Filadelfia.",
+    "epoch": "XVIII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Zburzenie Bastylii",
+    "year": 1789,
+    "description": "14 lipca.",
+    "epoch": "XVIII",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Bitwa pod Austerlitz",
+    "year": 1805,
+    "description": "Napoleon.",
+    "epoch": "XIX",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Utworzenie Księstwa Warszawskiego",
+    "year": 1807,
+    "description": "Napoleon i Polacy.",
+    "epoch": "XIX",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "event": "Bitwa pod Waterloo",
+    "year": 1815,
+    "description": "Koniec Napoleona.",
+    "epoch": "XIX",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "event": "Rewolucja przemysłowa w Anglii",
+    "year": 1760,
+    "description": "Maszyna parowa.",
+    "epoch": "XVIII",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Powstanie dekabrystów",
+    "year": 1825,
+    "description": "Rosja.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Wiosna Ludów w Niemczech",
+    "year": 1848,
+    "description": "Zgromadzenie we Frankfurcie.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Wojna francusko-pruska",
+    "year": 1870,
+    "description": "Sedan, zjednoczenie Niemiec.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Sojusz trzech cesarzy",
+    "year": 1873,
+    "description": "Niemcy, Austria, Rosja.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "I wojna światowa – bitwa nad Marną",
+    "year": 1914,
+    "description": "Francja.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Rewolucja październikowa",
+    "year": 1917,
+    "description": "Bolszewicy.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Traktat wersalski – podpisanie",
+    "year": 1919,
+    "description": "28 czerwca.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Plebiscyt na Śląsku",
+    "year": 1921,
+    "description": "Górny Śląsk.",
+    "epoch": "XX",
+    "grades": [
+      7,
+      8
+    ]
+  },
+  {
+    "event": "Zamach w Sarajewie",
+    "year": 1914,
+    "description": "Zabójstwo Franciszka Ferdynanda.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Kampania wrześniowa – koniec",
+    "year": 1939,
+    "description": "Kapitulacja.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Utworzenie getta w Warszawie",
+    "year": 1940,
+    "description": "Getto żydowskie.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Atak Japonii na Pearl Harbor",
+    "year": 1941,
+    "description": "7 grudnia.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Bitwa pod Stalingradem",
+    "year": 1942,
+    "description": "Przełom na wschodzie.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Lądowanie w Normandii",
+    "year": 1944,
+    "description": "D-Day.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Konferencja w Jałcie",
+    "year": 1945,
+    "description": "Luty – wielka trójka.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Proces norymberski",
+    "year": 1945,
+    "description": "Zbrodniarze wojenni.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Plan Marshalla",
+    "year": 1947,
+    "description": "Odbudowa Europy.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Powstanie NATO",
+    "year": 1949,
+    "description": "Waszyngton.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Powstanie Układu Warszawskiego",
+    "year": 1955,
+    "description": "Blok wschodni.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Budowa muru berlińskiego",
+    "year": 1961,
+    "description": "Berlin.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Kryzys kubański",
+    "year": 1962,
+    "description": "Zimna wojna.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Inwazja na Czechosłowację",
+    "year": 1968,
+    "description": "Sierpień.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Sierpień 1980 – Gdańsk",
+    "year": 1980,
+    "description": "Stocznia.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Wprowadzenie stanu wojennego",
+    "year": 1981,
+    "description": "13 grudnia.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Nagroda Nobla dla Wałęsy",
+    "year": 1983,
+    "description": "Pokojowa.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Obrady Okrągłego Stołu",
+    "year": 1989,
+    "description": "Luty–kwiecień.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Wolne wybory 4 czerwca",
+    "year": 1989,
+    "description": "Sejm i Senat.",
+    "epoch": "XX",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "event": "Legenda o Lechu, Czechu i Rusie",
+    "year": 0,
+    "description": "Założenie Gniezna.",
+    "epoch": "—",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Początki państwa Piastów",
+    "year": 960,
+    "description": "Wielkopolska.",
+    "epoch": "X",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Biskupstwo w Poznaniu",
+    "year": 968,
+    "description": "Pierwsze w Polsce.",
+    "epoch": "X",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Koronacja Chrobrego",
+    "year": 1025,
+    "description": "Pierwszy król.",
+    "epoch": "XI",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Śmierć św. Stanisława",
+    "year": 1079,
+    "description": "Biskup krakowski.",
+    "epoch": "XI",
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "event": "Krzyżacy w Polsce",
+    "year": 1226,
+    "description": "Konrad Mazowiecki.",
+    "epoch": "XIII",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Bitwa pod Grunwaldem",
+    "year": 1410,
+    "description": "15 lipca.",
+    "epoch": "XV",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Druga wojna z Zakonem",
+    "year": 1454,
+    "description": "Wojna 13-letnia.",
+    "epoch": "XV",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Mikołaj Kopernik – dzieło",
+    "year": 1543,
+    "description": "O obrotach sfer.",
+    "epoch": "XVI",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Obrona Jasnej Góry",
+    "year": 1655,
+    "description": "Kordecki.",
+    "epoch": "XVII",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Mazurek Dąbrowskiego",
+    "year": 1797,
+    "description": "Pieśń Legionów.",
+    "epoch": "XVIII",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Rzeź Pragi",
+    "year": 1794,
+    "description": "Powstanie kościuszkowskie.",
+    "epoch": "XVIII",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Noc listopadowa",
+    "year": 1830,
+    "description": "Podchorążowie.",
+    "epoch": "XIX",
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "event": "Romuald Traugutt dyktatorem",
+    "year": 1863,
+    "description": "Powstanie styczniowe.",
+    "epoch": "XIX",
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "event": "Maria Skłodowska-Curie – Nobel",
+    "year": 1903,
+    "description": "Fizyka.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "event": "Legiony Polskie",
+    "year": 1914,
+    "description": "Piłsudski.",
+    "epoch": "XX",
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "event": "Budowa Gdyni",
+    "year": 1926,
+    "description": "Port.",
+    "epoch": "XX",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Akcja pod Arsenałem",
+    "year": 1943,
+    "description": "Szare Szeregi.",
+    "epoch": "XX",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Śmierć Zośki, Alka, Rudego",
+    "year": 1943,
+    "description": "Kamienie na szaniec.",
+    "epoch": "XX",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Powstanie Solidarności",
+    "year": 1980,
+    "description": "Gdańsk.",
+    "epoch": "XX",
+    "grades": [
+      4
+    ]
+  },
+  {
+    "event": "Edykt mediolański",
+    "year": 313,
+    "description": "Konstantyn – chrześcijaństwo.",
+    "epoch": "Starożytność",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Upadek Rzymu (zachód)",
+    "year": 476,
+    "description": "Koniec cesarstwa zachodniego.",
+    "epoch": "V",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Koronacja Karola Wielkiego",
+    "year": 800,
+    "description": "Cesarz.",
+    "epoch": "IX",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Wyprawy wikingów",
+    "year": 793,
+    "description": "Lindisfarne.",
+    "epoch": "VIII",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Krucjaty – zdobycie Jerozolimy",
+    "year": 1099,
+    "description": "I wyprawa.",
+    "epoch": "XII",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Magna Charta",
+    "year": 1215,
+    "description": "Anglia.",
+    "epoch": "XIII",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Czarna śmierć w Europie",
+    "year": 1347,
+    "description": "Dżuma.",
+    "epoch": "XIV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Wojna stuletnia – początek",
+    "year": 1337,
+    "description": "Anglia i Francja.",
+    "epoch": "XIV",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "event": "Sojusz trzech cesarzy",
+    "year": 1873,
+    "description": "Niemcy, Austria, Rosja.",
+    "epoch": "XIX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Wojna rosyjsko-japońska",
+    "year": 1904,
+    "description": "Port Artur.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Rewolucja 1905 w Rosji",
+    "year": 1905,
+    "description": "Car ustępstwa.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Bitwa pod Tannenbergiem",
+    "year": 1914,
+    "description": "I wojna – front wschód.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Bitwa pod Verdun",
+    "year": 1916,
+    "description": "I wojna.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Traktat brzeski",
+    "year": 1918,
+    "description": "Rosja bolszewicka.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Powstanie wielkopolskie",
+    "year": 1918,
+    "description": "Poznań.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "Plebiscyt na Warmii i Mazurach",
+    "year": 1920,
+    "description": "Warmia, Mazury.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "event": "III powstanie śląskie",
+    "year": 1921,
+    "description": "Górny Śląsk.",
+    "epoch": "XX",
+    "grades": [
+      7
+    ]
+  },
+  {"event":"Bitwa nad Sommą","year":1916,"description":"I wojna światowa – front zachodni.","epoch":"XX","grades":[7]},
+  {"event":"Rewolucja lutowa w Rosji","year":1917,"description":"Upadek caratu.","epoch":"XX","grades":[7]},
+  {"event":"Konferencja w Wersalu","year":1919,"description":"Traktat pokojowy.","epoch":"XX","grades":[7]}
 ]
