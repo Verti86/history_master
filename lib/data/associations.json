@@ -1,45 +1,2243 @@
 [
-  {"answer":"Mieszko I","hints":["Pierwszy historyczny władca Polski.","Przyjął chrzest w 966 roku.","Dzięki niemu Polska weszła do kręgu cywilizacji zachodniej."],"grades":[4,5]},
-  {"answer":"Bolesław Chrobry","hints":["Pierwszy król Polski (koronacja 1025).","Zjazd w Gnieźnie w 1000 roku.","Syn Mieszka I."],"grades":[4,5]},
-  {"answer":"Kazimierz Wielki","hints":["Zastał Polskę drewnianą, zostawił murowaną.","Założył Akademię Krakowską.","Ostatni król z dynastii Piastów."],"grades":[4,5]},
-  {"answer":"Jadwiga Andegaweńska","hints":["Królowa Polski, koronowana jako król.","Współzałożycielka Akademii Krakowskiej.","Poślubiła Władysława Jagiełłę."],"grades":[4,5]},
-  {"answer":"Władysław Jagiełło","hints":["Wielki książę litewski, król Polski.","Zwycięzca spod Grunwaldu (1410).","Założyciel dynastii Jagiellonów."],"grades":[4,5]},
-  {"answer":"Mikołaj Kopernik","hints":["Wstrzymał Słońce, ruszył Ziemię.","Autor dzieła „O obrotach sfer niebieskich”.","Kanonik, astronom, lekarz."],"grades":[4,6]},
-  {"answer":"Jan Zamoyski","hints":["Kanclerz i hetman wielki koronny.","Założyciel Zamościa.","Wódz i mąż stanu XVI wieku."],"grades":[4,6]},
-  {"answer":"Augustyn Kordecki","hints":["Zakonnik (paulin).","Obrona Jasnej Góry.","Nie poddał się Szwedom."],"grades":[4,6]},
-  {"answer":"Stefan Czarniecki","hints":["'Jam nie z soli ani z roli'.","Mistrz wojny szarpanej.","Wspomniany w hymnie."],"grades":[4,6]},
-  {"answer":"Jan III Sobieski","hints":["Nazywano go 'Lwem Lechistanu'.","Pisał listy do Marysieńki.","Dowodził pod Wiedniem."],"grades":[4,6]},
-  {"answer":"Tadeusz Kościuszko","hints":["Naczelnik insurekcji 1794 roku.","Kosynierzy spod Racławic.","Walczył też o niepodległość USA."],"grades":[4,6]},
-  {"answer":"Jan Henryk Dąbrowski","hints":["Generał, twórca Legionów Polskich we Włoszech.","Wspomniany w hymnie Polski.","Wódz w epoce napoleońskiej."],"grades":[4,6]},
-  {"answer":"Józef Wybicki","hints":["Autor słów „Mazurka Dąbrowskiego”.","Polski hymn narodowy.","Działacz polityczny w czasach zaborów."],"grades":[4,6]},
-  {"answer":"Romuald Traugutt","hints":["Dyktator powstania styczniowego.","Powstańcze państwo w konspiracji.","Stracony przez zaborcę."],"grades":[4,7]},
-  {"answer":"Maria Skłodowska-Curie","hints":["Dwukrotna noblistka.","Odkryła polon i rad.","Pionierka badań nad promieniotwórczością."],"grades":[4,7]},
-  {"answer":"Józef Piłsudski","hints":["Naczelnik państwa po I wojnie.","Legiony Polskie.","Odbudowa niepodległości w 1918."],"grades":[4,7]},
-  {"answer":"Eugeniusz Kwiatkowski","hints":["Budowa Gdyni i portu.","Wicepremier i minister.","Polska morska w II RP."],"grades":[4,8]},
-  {"answer":"Jan Bytnar","hints":["Rudy z „Kamieni na szaniec”.","Szare Szeregi.","Odznaczony Krzyżem Walecznych."],"grades":[4,8]},
-  {"answer":"Tadeusz Zawadzki","hints":["Zośka z „Kamieni na szaniec”.","Szare Szeregi, Akcja pod Arsenałem.","Dowódca Grup Szturmowych."],"grades":[4,8]},
-  {"answer":"Aleksy Dawidowski","hints":["Alek z „Kamieni na szaniec”.","Szare Szeregi.","Uczestnik akcji małego sabotażu."],"grades":[4,8]},
-  {"answer":"Witold Pilecki","hints":["Dobrowolny więzień Auschwitz.","Autor raportów z obozu.","Żołnierz niezłomny, zamordowany przez UB."],"grades":[4,8]},
-  {"answer":"Danuta Siedzikówna","hints":["Inka – sanitariuszka 5. Wileńskiej Brygady.","Żołnierz niezłomny.","'Powiedzcie babci, że zachowałam się jak trzeba'."],"grades":[4,8]},
-  {"answer":"Jan Paweł II","hints":["Papież Polak.","Pontyfikat 1978–2005.","Święty Kościoła katolickiego."],"grades":[4,8]},
-  {"answer":"Lech Wałęsa","hints":["Przewodniczący NSZZ Solidarność.","Laureat Pokojowej Nagrody Nobla.","Prezydent Polski 1990–1995."],"grades":[4,8]},
-  {"answer":"Bolesław Krzywousty","hints":["Testament i rozbicie dzielnicowe.","Kronika Galla Anonima.","Władca Polski na przełomie XI i XII w."],"grades":[5]},
-  {"answer":"Gall Anonim","hints":["Autor pierwszej kroniki Polski.","'Kronika i czyny książąt polskich'.","Nie znamy jego prawdziwego imienia."],"grades":[5]},
-  {"answer":"Władysław Łokietek","hints":["Zjednoczył Królestwo po rozbiciu dzielnicowym.","Koronacja w 1320 roku.","Ojciec Kazimierza Wielkiego."],"grades":[5]},
-  {"answer":"Zygmunt III Waza","hints":["Król Polski i Szwecji.","Przeniósł stolicę do Warszawy.","Panował najdłużej w historii Polski."],"grades":[6]},
-  {"answer":"Jan Kazimierz","hints":["Złożył śluby lwowskie.","Abdykował i wyjechał do Francji.","Potop szwedzki miał miejsce za jego panowania."],"grades":[6]},
-  {"answer":"Michał Korybut Wiśniowiecki","hints":["Wybrany na króla jako Piast.","Podpisał traktat w Buczaczu.","Zmarł w czasie sejmu w 1673."],"grades":[6]},
-  {"answer":"Bohdan Chmielnicki","hints":["Pisarz wojska zaporoskiego.","Sojusz z Tatarami.","Wywołał powstanie w 1648."],"grades":[6]},
-  {"answer":"Ludwik XIV","hints":["Król Słońce.","Państwo to ja.","Mieszkał w Wersalu."],"grades":[6]},
-  {"answer":"Krzysztof Kolumb","hints":["Odkrył Amerykę w 1492.","Wyprawy w imieniu Hiszpanii.","Przekonanie o dotarciu do Indii."],"grades":[6]},
-  {"answer":"Napoleon Bonaparte","hints":["Cesarz Francuzów.","Kodeks Napoleona.","Wojny z koalicjami europejskimi."],"grades":[6]},
-  {"answer":"Jerzy Washington","hints":["Pierwszy prezydent USA.","Dowódca w wojnie o niepodległość.","Ojciec założyciel Stanów Zjednoczonych."],"grades":[6]},
-  {"answer":"Roman Dmowski","hints":["Działacz narodowy, endecja.","Orientacja prorosyjska w I wojnie.","Traktat wersalski i sprawa polska."],"grades":[7]},
-  {"answer":"Fryderyk Chopin","hints":["Kompozytor i pianista.","Emigracja w Paryżu.","Symbol polskości w epoce romantyzmu."],"grades":[7]},
-  {"answer":"Otto von Bismarck","hints":["Kanclerz żelazny.","Zjednoczenie Niemiec.","Sojusz trzech cesarzy."],"grades":[7]},
-  {"answer":"Władysław Sikorski","hints":["Premier rządu na uchodźstwie.","Naczelny Wódz w II wojnie.","Zginął w katastrofie w Gibraltarze."],"grades":[8]},
-  {"answer":"Władysław Anders","hints":["Generał, armia polska w ZSRR.","Szlak bojowy przez Monte Cassino.","II Korpus Polski."],"grades":[8]},
-  {"answer":"Winston Churchill","hints":["Premier Wielkiej Brytanii w czasie II wojny.","Sojusznik Polski.","Konferencje wielkiej trójki."],"grades":[8]},
-  {"answer":"Anna Walentynowicz","hints":["Działaczka Wolnych Związków Zawodowych.","Zwolnienie z pracy zapoczątkowało strajki.","Symbol Solidarności."],"grades":[8]},
-  {"answer":"Jerzy Popiełuszko","hints":["Kapelan Solidarności.","Msze za ojczyznę.","Uprowadzony i zamordowany przez SB."],"grades":[8]}
+  {
+    "answer": "Mieszko I",
+    "hints": [
+      "Pierwszy historyczny władca Polski.",
+      "Przyjął chrzest w 966 roku.",
+      "Dzięki niemu Polska weszła do kręgu cywilizacji zachodniej."
+    ],
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "answer": "Bolesław Chrobry",
+    "hints": [
+      "Pierwszy król Polski (koronacja 1025).",
+      "Zjazd w Gnieźnie w 1000 roku.",
+      "Syn Mieszka I."
+    ],
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "answer": "Kazimierz Wielki",
+    "hints": [
+      "Zastał Polskę drewnianą, zostawił murowaną.",
+      "Założył Akademię Krakowską.",
+      "Ostatni król z dynastii Piastów."
+    ],
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "answer": "Jadwiga Andegaweńska",
+    "hints": [
+      "Królowa Polski, koronowana jako król.",
+      "Współzałożycielka Akademii Krakowskiej.",
+      "Poślubiła Władysława Jagiełłę."
+    ],
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "answer": "Władysław Jagiełło",
+    "hints": [
+      "Wielki książę litewski, król Polski.",
+      "Zwycięzca spod Grunwaldu (1410).",
+      "Założyciel dynastii Jagiellonów."
+    ],
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "answer": "Mikołaj Kopernik",
+    "hints": [
+      "Wstrzymał Słońce, ruszył Ziemię.",
+      "Autor dzieła „O obrotach sfer niebieskich”.",
+      "Kanonik, astronom, lekarz."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Jan Zamoyski",
+    "hints": [
+      "Kanclerz i hetman wielki koronny.",
+      "Założyciel Zamościa.",
+      "Wódz i mąż stanu XVI wieku."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Augustyn Kordecki",
+    "hints": [
+      "Zakonnik (paulin).",
+      "Obrona Jasnej Góry.",
+      "Nie poddał się Szwedom."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Stefan Czarniecki",
+    "hints": [
+      "'Jam nie z soli ani z roli'.",
+      "Mistrz wojny szarpanej.",
+      "Wspomniany w hymnie."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Jan III Sobieski",
+    "hints": [
+      "Nazywano go 'Lwem Lechistanu'.",
+      "Pisał listy do Marysieńki.",
+      "Dowodził pod Wiedniem."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Tadeusz Kościuszko",
+    "hints": [
+      "Naczelnik insurekcji 1794 roku.",
+      "Kosynierzy spod Racławic.",
+      "Walczył też o niepodległość USA."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Jan Henryk Dąbrowski",
+    "hints": [
+      "Generał, twórca Legionów Polskich we Włoszech.",
+      "Wspomniany w hymnie Polski.",
+      "Wódz w epoce napoleońskiej."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Józef Wybicki",
+    "hints": [
+      "Autor słów „Mazurka Dąbrowskiego”.",
+      "Polski hymn narodowy.",
+      "Działacz polityczny w czasach zaborów."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Romuald Traugutt",
+    "hints": [
+      "Dyktator powstania styczniowego.",
+      "Powstańcze państwo w konspiracji.",
+      "Stracony przez zaborcę."
+    ],
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "answer": "Maria Skłodowska-Curie",
+    "hints": [
+      "Dwukrotna noblistka.",
+      "Odkryła polon i rad.",
+      "Pionierka badań nad promieniotwórczością."
+    ],
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "answer": "Józef Piłsudski",
+    "hints": [
+      "Naczelnik państwa po I wojnie.",
+      "Legiony Polskie.",
+      "Odbudowa niepodległości w 1918."
+    ],
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "answer": "Eugeniusz Kwiatkowski",
+    "hints": [
+      "Budowa Gdyni i portu.",
+      "Wicepremier i minister.",
+      "Polska morska w II RP."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Jan Bytnar",
+    "hints": [
+      "Rudy z „Kamieni na szaniec”.",
+      "Szare Szeregi.",
+      "Odznaczony Krzyżem Walecznych."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Tadeusz Zawadzki",
+    "hints": [
+      "Zośka z „Kamieni na szaniec”.",
+      "Szare Szeregi, Akcja pod Arsenałem.",
+      "Dowódca Grup Szturmowych."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Aleksy Dawidowski",
+    "hints": [
+      "Alek z „Kamieni na szaniec”.",
+      "Szare Szeregi.",
+      "Uczestnik akcji małego sabotażu."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Witold Pilecki",
+    "hints": [
+      "Dobrowolny więzień Auschwitz.",
+      "Autor raportów z obozu.",
+      "Żołnierz niezłomny, zamordowany przez UB."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Danuta Siedzikówna",
+    "hints": [
+      "Inka – sanitariuszka 5. Wileńskiej Brygady.",
+      "Żołnierz niezłomny.",
+      "'Powiedzcie babci, że zachowałam się jak trzeba'."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Jan Paweł II",
+    "hints": [
+      "Papież Polak.",
+      "Pontyfikat 1978–2005.",
+      "Święty Kościoła katolickiego."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Lech Wałęsa",
+    "hints": [
+      "Przewodniczący NSZZ Solidarność.",
+      "Laureat Pokojowej Nagrody Nobla.",
+      "Prezydent Polski 1990–1995."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Bolesław Krzywousty",
+    "hints": [
+      "Testament i rozbicie dzielnicowe.",
+      "Kronika Galla Anonima.",
+      "Władca Polski na przełomie XI i XII w."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Gall Anonim",
+    "hints": [
+      "Autor pierwszej kroniki Polski.",
+      "'Kronika i czyny książąt polskich'.",
+      "Nie znamy jego prawdziwego imienia."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Władysław Łokietek",
+    "hints": [
+      "Zjednoczył Królestwo po rozbiciu dzielnicowym.",
+      "Koronacja w 1320 roku.",
+      "Ojciec Kazimierza Wielkiego."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Zygmunt III Waza",
+    "hints": [
+      "Król Polski i Szwecji.",
+      "Przeniósł stolicę do Warszawy.",
+      "Panował najdłużej w historii Polski."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Jan Kazimierz",
+    "hints": [
+      "Złożył śluby lwowskie.",
+      "Abdykował i wyjechał do Francji.",
+      "Potop szwedzki miał miejsce za jego panowania."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Michał Korybut Wiśniowiecki",
+    "hints": [
+      "Wybrany na króla jako Piast.",
+      "Podpisał traktat w Buczaczu.",
+      "Zmarł w czasie sejmu w 1673."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Bohdan Chmielnicki",
+    "hints": [
+      "Pisarz wojska zaporoskiego.",
+      "Sojusz z Tatarami.",
+      "Wywołał powstanie w 1648."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Ludwik XIV",
+    "hints": [
+      "Król Słońce.",
+      "Państwo to ja.",
+      "Mieszkał w Wersalu."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Krzysztof Kolumb",
+    "hints": [
+      "Odkrył Amerykę w 1492.",
+      "Wyprawy w imieniu Hiszpanii.",
+      "Przekonanie o dotarciu do Indii."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Napoleon Bonaparte",
+    "hints": [
+      "Cesarz Francuzów.",
+      "Kodeks Napoleona.",
+      "Wojny z koalicjami europejskimi."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Jerzy Washington",
+    "hints": [
+      "Pierwszy prezydent USA.",
+      "Dowódca w wojnie o niepodległość.",
+      "Ojciec założyciel Stanów Zjednoczonych."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Roman Dmowski",
+    "hints": [
+      "Działacz narodowy, endecja.",
+      "Orientacja prorosyjska w I wojnie.",
+      "Traktat wersalski i sprawa polska."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Fryderyk Chopin",
+    "hints": [
+      "Kompozytor i pianista.",
+      "Emigracja w Paryżu.",
+      "Symbol polskości w epoce romantyzmu."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Otto von Bismarck",
+    "hints": [
+      "Kanclerz żelazny.",
+      "Zjednoczenie Niemiec.",
+      "Sojusz trzech cesarzy."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Władysław Sikorski",
+    "hints": [
+      "Premier rządu na uchodźstwie.",
+      "Naczelny Wódz w II wojnie.",
+      "Zginął w katastrofie w Gibraltarze."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Władysław Anders",
+    "hints": [
+      "Generał, armia polska w ZSRR.",
+      "Szlak bojowy przez Monte Cassino.",
+      "II Korpus Polski."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Winston Churchill",
+    "hints": [
+      "Premier Wielkiej Brytanii w czasie II wojny.",
+      "Sojusznik Polski.",
+      "Konferencje wielkiej trójki."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Anna Walentynowicz",
+    "hints": [
+      "Działaczka Wolnych Związków Zawodowych.",
+      "Zwolnienie z pracy zapoczątkowało strajki.",
+      "Symbol Solidarności."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Jerzy Popiełuszko",
+    "hints": [
+      "Kapelan Solidarności.",
+      "Msze za ojczyznę.",
+      "Uprowadzony i zamordowany przez SB."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Dobrawa",
+    "hints": [
+      "Czeska księżna, żona Mieszka I.",
+      "Chrzest Polski 966.",
+      "Matka Bolesława Chrobrego."
+    ],
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "answer": "św. Wojciech",
+    "hints": [
+      "Biskup misjonarz, męczennik.",
+      "Zginął u Prusów.",
+      "Patron Polski, relikwie w Gnieźnie."
+    ],
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "answer": "Zawisza Czarny",
+    "hints": [
+      "Najsłynniejszy polski rycerz.",
+      "Nie ma go jako żywo.",
+      "Służył Zygmuntowi Luksemburskiemu."
+    ],
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "answer": "Władysław Warneńczyk",
+    "hints": [
+      "Król Polski i Węgier.",
+      "Zginął pod Warną w 1444.",
+      "Syn Jagiełły."
+    ],
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "answer": "Bona Sforza",
+    "hints": [
+      "Królowa Polski, żona Zygmunta I Starego.",
+      "Wprowadziła warzywa do kuchni.",
+      "Dynastia Jagiellonów."
+    ],
+    "grades": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "answer": "Zygmunt I Stary",
+    "hints": [
+      "Król Polski, ojciec Zygmunta Augusta.",
+      "Złoty wiek, renesans.",
+      "Hołd pruski 1525."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Zygmunt II August",
+    "hints": [
+      "Ostatni Jagiellon na tronie polskim.",
+      "Unia lubelska 1569.",
+      "Król bez potomka."
+    ],
+    "grades": [
+      5,
+      6
+    ]
+  },
+  {
+    "answer": "Stefan Batory",
+    "hints": [
+      "Król Polski z Węgier.",
+      "Oblężenie Pskowa.",
+      "Ufundował Akademię w Wilnie."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Stanisław Żółkiewski",
+    "hints": [
+      "Hetman, zdobył Moskwę.",
+      "Bitwa pod Kłuszynem.",
+      "Zginął pod Cecorą."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Maria Kazimiera Sobieska",
+    "hints": [
+      "Marysieńka – żona Jana III.",
+      "Listy od króla.",
+      "Królowa Polski."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Książę Józef Poniatowski",
+    "hints": [
+      "Naczelny wódz, marszałek Francji.",
+      "Zginął w Elsterze.",
+      "Bratanek ostatniego króla."
+    ],
+    "grades": [
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "answer": "Emilia Plater",
+    "hints": [
+      "Bohaterka powstania listopadowego.",
+      "Hrabianka w męskim przebraniu.",
+      "Symbol walki o niepodległość."
+    ],
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "answer": "Henryk Sienkiewicz",
+    "hints": [
+      "Autor „Quo vadis” i „Trylogii”.",
+      "Nobel z literatury.",
+      "Ku pokrzepieniu serc."
+    ],
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "answer": "Ignacy Paderewski",
+    "hints": [
+      "Pianista i premier Polski.",
+      "Działacz na rzecz niepodległości w USA.",
+      "Podpisał traktat wersalski po stronie Polski."
+    ],
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "answer": "Stanisław Staszic",
+    "hints": [
+      "Działacz oświecenia.",
+      "„Przestrogi dla Polski”.",
+      "Towarzystwo Przyjaciół Nauk."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Hugo Kołłątaj",
+    "hints": [
+      "Działacz oświecenia, Kuźnica Kołłątajowska.",
+      "Konstytucja 3 maja.",
+      "Reformy edukacji."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Gen. Józef Sowiński",
+    "hints": [
+      "Generał powstania listopadowego.",
+      "Obrona reduty na Woli.",
+      "Zginął z kulą w nodze."
+    ],
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "answer": "Gen. Józef Bem",
+    "hints": [
+      "Generał Wiosny Ludów.",
+      "Obrona Wiednia i Siedmiogrodu.",
+      "Adiutant wodza."
+    ],
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "answer": "Wincenty Witos",
+    "hints": [
+      "Chłopski premier Polski.",
+      "Trzykrotny premier II RP.",
+      "PSL „Piast”."
+    ],
+    "grades": [
+      4,
+      7,
+      8
+    ]
+  },
+  {
+    "answer": "Gen. Józef Haller",
+    "hints": [
+      "Błękitna Armia.",
+      "Zaślubiny z morzem.",
+      "Front w I wojnie."
+    ],
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "answer": "Ignacy Mościcki",
+    "hints": [
+      "Prezydent II RP (1926–1939).",
+      "Chemik, wynalazca.",
+      "Rządy sanacji."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Gen. Stanisław Maczek",
+    "hints": [
+      "Dowódca 1. Dywizji Pancernej.",
+      "Falaise, wyzwolenie Francji i Belgii.",
+      "II wojna światowa."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Gen. Stanisław Sosabowski",
+    "hints": [
+      "Twórca 1. Samodzielnej Brygady Spadochronowej.",
+      "Operacja Market Garden.",
+      "Arnhem."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Gen. Tadeusz Bór-Komorowski",
+    "hints": [
+      "Dowódca Armii Krajowej.",
+      "Powstanie warszawskie.",
+      "Naczelny wódz."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Jacek Kuroń",
+    "hints": [
+      "Działacz opozycji, KOR.",
+      "Minister w rządzie Mazowieckiego.",
+      "Solidarność."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Bronisław Geremek",
+    "hints": [
+      "Historyk, doradca Solidarności.",
+      "Minister spraw zagranicznych.",
+      "Runda stolikowa."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Tadeusz Mazowiecki",
+    "hints": [
+      "Pierwszy niekomunistyczny premier.",
+      "Rząd po 1989.",
+      "Solidarność."
+    ],
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "answer": "Lech (legendarny)",
+    "hints": [
+      "Legendarny założyciel Gniezna.",
+      "Biały orzeł w gnieździe.",
+      "Brat Czecha i Rusa."
+    ],
+    "grades": [
+      4
+    ]
+  },
+  {
+    "answer": "Stańczyk",
+    "hints": [
+      "Królewski błazen.",
+      "Symbol mądrości i krytyki.",
+      "Obraz Matejki."
+    ],
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "answer": "Konrad Mazowiecki",
+    "hints": [
+      "Sprowadził Krzyżaków do Polski.",
+      "Książę mazowiecki.",
+      "XIII wiek."
+    ],
+    "grades": [
+      4,
+      5
+    ]
+  },
+  {
+    "answer": "Henryk Pobożny",
+    "hints": [
+      "Bitwa pod Legnicą 1241.",
+      "Zginął w walce z Tatarami.",
+      "Syn Henryka Brodatego."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Henryk Brodaty",
+    "hints": [
+      "Książę śląski, kolonizacja.",
+      "Rozwój górnictwa.",
+      "Ojciec Henryka Pobożnego."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Wacław II",
+    "hints": [
+      "Król Czech i Polski.",
+      "Korona w Pradze.",
+      "Koniec XIII w."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Wacław III",
+    "hints": [
+      "Król Czech, Węgier i Polski.",
+      "Zamordowany w Ołomuńcu.",
+      "1306."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Jan z Długosza",
+    "hints": [
+      "Kronikarz, „Roczniki”.",
+      "Wychowawca synów Kazimierza Jagiellończyka.",
+      "Kanonia w Krakowie."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Kazimierz Jagiellończyk",
+    "hints": [
+      "Król Polski, wielki książę litewski.",
+      "Wojna trzynastoletnia z Zakonem.",
+      "Dynastia Jagiellonów."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Władysław II Jagiełło (Jagiełło)",
+    "hints": [
+      "Unia w Krewie.",
+      "Chrzest Litwy.",
+      "Zwycięzca spod Grunwaldu."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Wit Stwosz",
+    "hints": [
+      "Ołtarz mariacki w Krakowie.",
+      "Rzeźbiarz późnego gotyku.",
+      "Norymberga i Kraków."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Mikołaj Rej",
+    "hints": [
+      "„Polacy nie gęsi”.",
+      "Ojciec literatury polskiej.",
+      "Renesans."
+    ],
+    "grades": [
+      5,
+      6
+    ]
+  },
+  {
+    "answer": "Jan Kochanowski",
+    "hints": [
+      "„Treny”, „Odprawa posłów greckich”.",
+      "Czarnolas.",
+      "Renesansowy poeta."
+    ],
+    "grades": [
+      5,
+      6
+    ]
+  },
+  {
+    "answer": "Paweł Włodkowic",
+    "hints": [
+      "Sobór w Konstancji.",
+      "O obronie praw pogan.",
+      "Rektor Akademii Krakowskiej."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Justynian I Wielki",
+    "hints": [
+      "Cesarz bizantyński.",
+      "Kodeks Justyniana.",
+      "Odbudowa imperium."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Mahomet",
+    "hints": [
+      "Prorok islamu.",
+      "Hidżra – ucieczka do Medyny.",
+      "Koran."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Karol Wielki",
+    "hints": [
+      "Koronacja cesarska 800.",
+      "Renovatio imperii.",
+      "Frankowie."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Ryszard Lwie Serce",
+    "hints": [
+      "Król Anglii, uczestnik krucjat.",
+      "Trzeci wyprawa krzyżowa.",
+      "Robin Hood."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Hannibal",
+    "hints": [
+      "Przekroczył Alpy na słoniach.",
+      "Wojny punickie.",
+      "Wódz Kartaginy."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Juliusz Cezar",
+    "hints": [
+      "Dyktator rzymski.",
+      "Gallia est omnis divisa.",
+      "Idy marcowe."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Kleopatra",
+    "hints": [
+      "Ostatnia królowa Egiptu.",
+      "Związana z Cezarem i Antoniuszem.",
+      "Ptolemeusze."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Ferdynand Magellan",
+    "hints": [
+      "Pierwsza wyprawa dookoła świata.",
+      "Cieśnina Magellana.",
+      "Zginął na Filipinach."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Vasco da Gama",
+    "hints": [
+      "Droga morska do Indii.",
+      "Portugalia.",
+      "Przylądek Dobrej Nadziei."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Franciszek Ksawery",
+    "hints": [
+      "Jezuita, misje w Azji.",
+      "Święty.",
+      "Indie i Japonia."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Marcin Luter",
+    "hints": [
+      "95 tez w Wittenberdze.",
+      "Reformacja.",
+      "Tłumaczenie Biblii."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Jan Kalwin",
+    "hints": [
+      "Reformacja w Genewie.",
+      "Predestynacja.",
+      "Kalwinizm."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Henryk VIII Tudor",
+    "hints": [
+      "Rozłam z Rzymem.",
+      "Sześć żon.",
+      "Anglia anglikańska."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Elżbieta I Tudor",
+    "hints": [
+      "Królowa dziewica.",
+      "Złoty wiek Anglii.",
+      "Pokonała Armadę."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Iwan IV Groźny",
+    "hints": [
+      "Car Rosji.",
+      "Opricznina.",
+      "Rozszerzenie państwa."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Karol X Gustaw",
+    "hints": [
+      "Król Szwecji, potop.",
+      "Najazd na Rzeczpospolitą.",
+      "XVII wiek."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Jerzy II Rakoczy",
+    "hints": [
+      "Książę Siedmiogrodu.",
+      "Potop – sojusznik Szwedów.",
+      "Najazd na Polskę."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Stanisław Koniecpolski",
+    "hints": [
+      "Hetman wielki koronny.",
+      "Bitwy z Tatarami i Kozakami.",
+      "XVII wiek."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Jan Karol Chodkiewicz",
+    "hints": [
+      "Hetman, obrona Chocimia.",
+      "Kircholm 1605.",
+      "Wódz RON."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Monteskiusz",
+    "hints": [
+      "Trójpodział władzy.",
+      "„O duchu praw”.",
+      "Oświecenie."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Wolter",
+    "hints": [
+      "Filozof oświecenia.",
+      "„Kandyd”.",
+      "Krytyka Kościoła."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Jean-Jacques Rousseau",
+    "hints": [
+      "„Umowa społeczna”.",
+      "Oświecenie.",
+      "Wpływ na rewolucję."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Maksymilian Robespierre",
+    "hints": [
+      "Jakobin, terror.",
+      "Rewolucja francuska.",
+      "Ścięty na gilotynie."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Ludwik XVI",
+    "hints": [
+      "Król stracony w rewolucji.",
+      "Maria Antonina.",
+      "Gilotyna 1793."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Tadeusz Rejtan",
+    "hints": [
+      "„Nie pozwalam!” – rozbiory.",
+      "Poseł na Sejm.",
+      "Upadek Rzeczypospolitej."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Stanisław August Poniatowski",
+    "hints": [
+      "Ostatni król Polski.",
+      "Konstytucja 3 maja.",
+      "Obalony w 1795."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Joachim Lelewel",
+    "hints": [
+      "Historyk, powstanie listopadowe.",
+      "Towarzystwo Patriotyczne.",
+      "Emigracja."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Adam Mickiewicz",
+    "hints": [
+      "„Pan Tadeusz”, „Dziady”.",
+      "Wieszcz narodowy.",
+      "Emigracja w Paryżu."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Juliusz Słowacki",
+    "hints": [
+      "„Kordian”, „Balladyna”.",
+      "Wieszcz.",
+      "Emigracja."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Zygmunt Krasiński",
+    "hints": [
+      "„Nie-Boska komedia”.",
+      "Wieszcz.",
+      "Hrabia."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Cyprian Kamil Norwid",
+    "hints": [
+      "Poeta, „Bema pamięci żałobny-rapsod”.",
+      "Emigracja.",
+      "XIX wiek."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Maria Konopnicka",
+    "hints": [
+      "„Rota”.",
+      "„Nasza szkapa”.",
+      "Nowele i poezja."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Stanisław Wyspiański",
+    "hints": [
+      "„Wesele”.",
+      "Malarz i dramaturg.",
+      "Młoda Polska."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Marian Langiewicz",
+    "hints": [
+      "Dyktator powstania styczniowego.",
+      "Bitwa pod Małogoszczem.",
+      "Emigracja."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Romuald Traugutt",
+    "hints": [
+      "Dyktator powstania 1863.",
+      "Rząd narodowy.",
+      "Stracony w cytadeli."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Aleksander Wielopolski",
+    "hints": [
+      "Margrabia, ugoda z carem.",
+      "Branka – pobór do wojska.",
+      "Przed powstaniem styczniowym."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Franciszek Józef I",
+    "hints": [
+      "Cesarz Austrii i król Węgier.",
+      "Długie panowanie.",
+      "I wojna światowa."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Wilhelm II",
+    "hints": [
+      "Cesarz Niemiec.",
+      "Ostatni Hohenzollern.",
+      "I wojna światowa."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Mikołaj II",
+    "hints": [
+      "Ostatni car Rosji.",
+      "Rewolucja 1917.",
+      "Rozstrzelany z rodziną."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Woodrow Wilson",
+    "hints": [
+      "Prezydent USA, 14 punktów.",
+      "Liga Narodów.",
+      "Sprawa niepodległości Polski."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Gabriel Narutowicz",
+    "hints": [
+      "Pierwszy prezydent II RP.",
+      "Zamordowany w Zachęcie.",
+      "1922."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Gen. Władysław Sikorski",
+    "hints": [
+      "Premier i Naczelny Wódz na uchodźstwie.",
+      "Katastrofa w Gibraltarze.",
+      "Rząd RP w Londynie."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Gen. Władysław Anders",
+    "hints": [
+      "Armia polska w ZSRR.",
+      "Monte Cassino.",
+      "II Korpus."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Gen. Tadeusz Kutrzeba",
+    "hints": [
+      "Bitwa nad Bzurą 1939.",
+      "Kampania wrześniowa.",
+      "Dowódca Armii „Poznań”."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Stefan Starzyński",
+    "hints": [
+      "Prezydent Warszawy we wrześniu 1939.",
+      "Obrona stolicy.",
+      "Zamordowany przez Niemców."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Jan Karski",
+    "hints": [
+      "Kurier, raport o Holocauście.",
+      "Przekazał prawdę Zachodowi.",
+      "Sprawiedliwy."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Irena Sendlerowa",
+    "hints": [
+      "Ratowała dzieci z getta.",
+      "Żegota.",
+      "Sprawiedliwa wśród Narodów Świata."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Władysław Bartoszewski",
+    "hints": [
+      "Żegota, Auschwitz.",
+      "Minister spraw zagranicznych.",
+      "Dialog polsko-niemiecki."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Witold Pilecki",
+    "hints": [
+      "Dobrowolny więzień Auschwitz.",
+      "Raporty o Holocauście.",
+      "Zamordowany przez UB."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Maksymilian Kolbe",
+    "hints": [
+      "Święty, oddał życie za współwięźnia.",
+      "Auschwitz.",
+      "Franciszkanin."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Józef Stalin",
+    "hints": [
+      "Dyktator ZSRR.",
+      "Wielka trójka.",
+      "Zbrodnie i zimna wojna."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Franklin Delano Roosevelt",
+    "hints": [
+      "Prezydent USA w II wojnie.",
+      "New Deal.",
+      "Wielka trójka."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Charles de Gaulle",
+    "hints": [
+      "Wolna Francja.",
+      "Prezydent V Republiki.",
+      "Opor przeciwko Niemcom."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Bolesław Bierut",
+    "hints": [
+      "Przywódca Polski Ludowej.",
+      "Stalinizm.",
+      "Prezydent i I sekretarz."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Władysław Gomułka",
+    "hints": [
+      "I sekretarz, październik 1956.",
+      "Odwilż.",
+      "Grudzień 1970."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Edward Gierek",
+    "hints": [
+      "I sekretarz 1970–1980.",
+      "„Pomożecie?”",
+      "Zadłużenie i Sierpień 1980."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Wojciech Jaruzelski",
+    "hints": [
+      "Generał, stan wojenny 1981.",
+      "„Solidarność” zdelegalizowana.",
+      "Prezydent w 1989."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Czesław Miłosz",
+    "hints": [
+      "Nobel z literatury.",
+      "„Zniewolony umysł”.",
+      "Emigracja."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Wisława Szymborska",
+    "hints": [
+      "Nobel z literatury.",
+      "„Nic dwa razy”.",
+      "Poetka."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Hammurabi",
+    "hints": [
+      "Kodeks Hammurabiego.",
+      "Babilon.",
+      "Starożytność."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Ramzes II",
+    "hints": [
+      "Faraon, bitwa pod Kadesz.",
+      "Abu Simbel.",
+      "Egipt."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Salomon",
+    "hints": [
+      "Król Izraela.",
+      "Świątynia w Jerozolimie.",
+      "Biblia."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Konstantyn Wielki",
+    "hints": [
+      "Edykt mediolański.",
+      "Chrześcijaństwo w Rzymie.",
+      "Konstantynopol."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Teodozjusz I",
+    "hints": [
+      "Chrześcijaństwo religią państwową.",
+      "Podział imperium rzymskiego.",
+      "Cesarz."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Saladyn",
+    "hints": [
+      "Sułtan, zdobył Jerozolimę.",
+      "Krucjaty.",
+      "Rycerski przeciwnik Ryszarda."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Święty Franciszek z Asyżu",
+    "hints": [
+      "Zakon franciszkanów.",
+      "Biedaczyna z Asyżu.",
+      "Średniowiecze."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Święty Dominik",
+    "hints": [
+      "Zakon dominikanów.",
+      "Kaznodzieje.",
+      "Inkwizycja."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Thomas Beckett",
+    "hints": [
+      "Arcybiskup Canterbury.",
+      "Konflikt z Henrykiem II.",
+      "Zamordowany w katedrze."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Eleonora Akwitanska",
+    "hints": [
+      "Królowa Francji i Anglii.",
+      "Matka Ryszarda Lwie Serce.",
+      "XII wiek."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Ludwik IX Święty",
+    "hints": [
+      "Król Francji, krucjaty.",
+      "Święty.",
+      "XIII wiek."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Filip IV Piękny",
+    "hints": [
+      "Król Francji.",
+      "Konflikt z papieżem.",
+      "Templariusze."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Eryk Rudy",
+    "hints": [
+      "Wiking, Grenlandia.",
+      "Odkrycia.",
+      "X wiek."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Leif Eriksson",
+    "hints": [
+      "Syn Eryka.",
+      "Winlandia – Ameryka przed Kolumbem.",
+      "Wiking."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Sokrates",
+    "hints": [
+      "Filozof grecki.",
+      "„Wiem, że nic nie wiem”.",
+      "Platon był uczniem."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Arystoteles",
+    "hints": [
+      "Uczeń Platona.",
+      "Nauczyciel Aleksandra Wielkiego.",
+      "Filozof i przyroda."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Aleksander Wielki",
+    "hints": [
+      "Macedoński, podboje.",
+      "Od Grecji po Indie.",
+      "Uczeń Arystotelesa."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Perykles",
+    "hints": [
+      "Złoty wiek Aten.",
+      "Demokracja ateńska.",
+      "Partenon."
+    ],
+    "grades": [
+      5
+    ]
+  },
+  {
+    "answer": "Erasm z Rotterdamu",
+    "hints": [
+      "Humanista, „Pochwała głupoty”.",
+      "Reformacja i humanizm.",
+      "Przyjaciel królów."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Thomas More",
+    "hints": [
+      "„Utopia”.",
+      "Kanclerz Anglii.",
+      "Ścięty przez Henryka VIII."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Ignacy Loyola",
+    "hints": [
+      "Założyciel zakonu jezuitów.",
+      "Ćwiczenia duchowne.",
+      "Kontrreformacja."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Kardynał Richelieu",
+    "hints": [
+      "Minister Ludwika XIII.",
+      "Umacnianie władzy króla.",
+      "Trzej muszkieterowie."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Oliver Cromwell",
+    "hints": [
+      "Lord protektor Anglii.",
+      "Wojna z królem.",
+      "Republika."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Królowa Anna Stuart",
+    "hints": [
+      "Unia Anglii i Szkocji.",
+      "Królowa Wielkiej Brytanii.",
+      "XVIII w."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Stanisław Leszczyński",
+    "hints": [
+      "Król Polski dwukrotnie.",
+      "Książę Lotaryngii.",
+      "Teść Ludwika XV."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Kazimierz Pułaski",
+    "hints": [
+      "Konfederacja barska.",
+      "Generał w USA.",
+      "„Ojciec amerykańskiej kawalerii”."
+    ],
+    "grades": [
+      6
+    ]
+  },
+  {
+    "answer": "Książę Adam Jerzy Czartoryski",
+    "hints": [
+      "Hotel Lambert.",
+      "Emigracja po powstaniu.",
+      "Dyplomata."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Piotr Wysocki",
+    "hints": [
+      "„Naszą ojczyznę zaczynamy!”",
+      "Podchorążowie.",
+      "Noc listopadowa."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Gen. Jan Skrzynecki",
+    "hints": [
+      "Wódz powstania listopadowego.",
+      "Bitwa pod Ostrołęką.",
+      "Konserwatysta."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Ludwik Mierosławski",
+    "hints": [
+      "Generał, Wiosna Ludów.",
+      "Powstanie wielkopolskie 1848.",
+      "Działacz emigracyjny."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Stefan Bobrowski",
+    "hints": [
+      "Czerwoni, powstanie styczniowe.",
+      "Komitet Centralny.",
+      "Zginął w pojedynku."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Zygmunt Padlewski",
+    "hints": [
+      "Generał powstania styczniowego.",
+      "Czerwoni.",
+      "Stracony przez Rosjan."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Jarosław Dąbrowski",
+    "hints": [
+      "Generał Komuny Paryskiej.",
+      "Powstaniec styczniowy.",
+      "Zginął na barykadach."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Bolesław Prus",
+    "hints": [
+      "„Lalka”, „Faraon”.",
+      "Pozytywizm.",
+      "Pisarz."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Eliza Orzeszkowa",
+    "hints": [
+      "„Nad Niemnem”.",
+      "Pozytywizm.",
+      "Pisarka."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Stanisław Moniuszko",
+    "hints": [
+      "„Halka”, „Straszny dwór”.",
+      "Ojciec opery polskiej.",
+      "Kompozytor."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Artur Grottger",
+    "hints": [
+      "Cykl „Polonia”, „Lituania”.",
+      "Powstanie styczniowe w rysunku.",
+      "Malarz."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Jan Matejko",
+    "hints": [
+      "„Bitwa pod Grunwaldem”.",
+      "Malarz historii Polski.",
+      "Akademia Krakowska."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Ignacy Łukasiewicz",
+    "hints": [
+      "Lampa naftowa.",
+      "Przemysł naftowy.",
+      "Wynalazca."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Maria Konopnicka",
+    "hints": [
+      "„Rota” – nie rzucim ziemi.",
+      "Dla dzieci: „O krasnoludkach”.",
+      "Pisarka."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Władysław Reymont",
+    "hints": [
+      "„Chłopi” – Nobel.",
+      "Naturalizm.",
+      "Pisarz."
+    ],
+    "grades": [
+      7
+    ]
+  },
+  {
+    "answer": "Gen. Tadeusz Kutrzeba",
+    "hints": [
+      "Bitwa nad Bzurą 1939.",
+      "Armia „Poznań”.",
+      "Kampania wrześniowa."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Stefan Starzyński",
+    "hints": [
+      "Prezydent Warszawy we wrześniu 1939.",
+      "Obrona stolicy.",
+      "Zamordowany w obozie."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Jan Karski",
+    "hints": [
+      "Kurier z getta.",
+      "Raport o Zagładzie dla świata.",
+      "Sprawiedliwy."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Irena Sendlerowa",
+    "hints": [
+      "Ratowała dzieci z getta.",
+      "Żegota.",
+      "Sprawiedliwa wśród Narodów."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Władysław Bartoszewski",
+    "hints": [
+      "Żegota, Auschwitz.",
+      "Minister spraw zagranicznych.",
+      "Dialog polsko-niemiecki."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Św. Maksymilian Kolbe",
+    "hints": [
+      "Oddał życie za współwięźnia.",
+      "Auschwitz.",
+      "Franciszkanin."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Józef Stalin",
+    "hints": [
+      "Dyktator ZSRR.",
+      "Wielka trójka.",
+      "Zbrodnie i zimna wojna."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Franklin Delano Roosevelt",
+    "hints": [
+      "Prezydent USA w II wojnie.",
+      "New Deal.",
+      "Wielka trójka."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Charles de Gaulle",
+    "hints": [
+      "Wolna Francja.",
+      "Prezydent V Republiki.",
+      "Opor przeciw Niemcom."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Bolesław Bierut",
+    "hints": [
+      "Przywódca stalinowskiej Polski.",
+      "Prezydent i I sekretarz.",
+      "PRL."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Władysław Gomułka",
+    "hints": [
+      "Październik 1956.",
+      "I sekretarz.",
+      "Grudzień 1970."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Edward Gierek",
+    "hints": [
+      "„Pomożecie?”",
+      "I sekretarz 1970–1980.",
+      "Zadłużenie, Sierpień 80."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Wojciech Jaruzelski",
+    "hints": [
+      "Stan wojenny 1981.",
+      "Generał.",
+      "Prezydent w 1989."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {
+    "answer": "Czesław Miłosz",
+    "hints": [
+      "Nobel z literatury.",
+      "„Zniewolony umysł”.",
+      "Emigracja."
+    ],
+    "grades": [
+      8
+    ]
+  },
+  {"answer":"Aleksander Głowacki","hints":["Pisarz znany jako Bolesław Prus.","„Lalka”, „Faraon”.","Pozytywizm."],"grades":[7]},
+  {"answer":"Konstanty Kalinowski","hints":["Przywódca powstania styczniowego na Litwie.","„Mużyckaja prauda”.","Stracony w Wilnie."],"grades":[7]},
+  {"answer":"Zygmunt Sierakowski","hints":["Generał powstania styczniowego.","Dowódca na Żmudzi.","Stracony przez Rosjan."],"grades":[7]},
+  {"answer":"Józef Hauke-Bosak","hints":["Generał powstania styczniowego.","Działania w Sandomierskiem.","Zginął w bitwie."],"grades":[7]},
+  {"answer":"Apollo Korzeniowski","hints":["Ojciec Josepha Conrada.","Powstaniec styczniowy.","Zesłanie."],"grades":[7]},
+  {"answer":"Edward Rydz-Śmigły","hints":["Naczelny wódz we wrześniu 1939.","Marszałek Polski.","Kampania wrześniowa."],"grades":[7,8]}
 ]
