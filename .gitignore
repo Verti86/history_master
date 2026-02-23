@@ -1,9 +1,11 @@
-# Python / Streamlit
+# Pozostałości po Streamlit (projekt usunięty)
 __pycache__/
 *.py[cod]
 *.pyo
-.streamlit/secrets.toml
+.streamlit/
 .cursor/
+requirements.txt
+run_local.ps1
 
 # Aplikacja Next.js – osobny projekt (nie do deployu z tego repo)
 quiz-app-next/
