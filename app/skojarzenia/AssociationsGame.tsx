@@ -46,6 +46,11 @@ export default function AssociationsGame({ associations, userId }: Props) {
 
   const currentItem = items[currentIndex];
 
+  /** Zawsze co najmniej pierwsza podpowiedź widoczna – wymuszenie na wypadek resetu stanu / cache */
+  useEffect(() => {
+    if (currentItem && revealedHints < 1) setRevealedHints(1);
+  }, [currentItem, revealedHints]);
+
   const revealNextHint = () => {
     if (revealedHints < currentItem.hints.length) {
       setRevealedHints((r) => r + 1);
@@ -187,23 +192,26 @@ export default function AssociationsGame({ associations, userId }: Props) {
 
         <div className="rounded-xl p-6 mb-6 border" style={{ background: "var(--hm-card)", borderColor: "var(--hm-border)" }}>
           <div className="space-y-3">
-            {currentItem.hints.map((hint, idx) => (
-              <div
-                key={idx}
-                className="p-3 rounded-lg border transition"
-                style={{
-                  background: idx < revealedHints ? "var(--hm-option-bg)" : "var(--hm-progress-track)",
-                  color: idx < revealedHints ? "var(--hm-option-text)" : "var(--hm-muted)",
-                  borderColor: "var(--hm-border)",
-                }}
-              >
-                {idx < revealedHints ? (
-                  <span>💡 {hint}</span>
-                ) : (
-                  <span>🔒 Podpowiedź {idx + 1}</span>
-                )}
-              </div>
-            ))}
+            {currentItem.hints.map((hint, idx) => {
+              const isRevealed = idx === 0 || idx < revealedHints;
+              return (
+                <div
+                  key={idx}
+                  className="p-3 rounded-lg border transition"
+                  style={{
+                    background: isRevealed ? "var(--hm-option-bg)" : "var(--hm-progress-track)",
+                    color: isRevealed ? "var(--hm-option-text)" : "var(--hm-muted)",
+                    borderColor: "var(--hm-border)",
+                  }}
+                >
+                  {isRevealed ? (
+                    <span>💡 {hint}</span>
+                  ) : (
+                    <span>🔒 Podpowiedź {idx + 1}</span>
+                  )}
+                </div>
+              );
+            })}
           </div>
 
           {revealedHints < currentItem.hints.length && !result && (
