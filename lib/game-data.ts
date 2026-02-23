@@ -1,5 +1,6 @@
 import timelineData from "./data/timeline.json";
 import associationsData from "./data/associations.json";
+import quotesData from "./data/quotes.json";
 
 export type TimelineEvent = {
   event: string;
@@ -38,4 +39,23 @@ export function getAssociations(grade: number): AssociationItem[] {
   return data
     .filter((item) => !item.grades || item.grades.length === 0 || item.grades.includes(grade))
     .map(({ answer, hints }) => ({ answer, hints }));
+}
+
+export type QuoteItem = {
+  quote: string;
+  answer: string;
+  /** Kontekst (np. rok, wydarzenie) – opcjonalnie wyświetlany pod cytatem. */
+  context?: string;
+  /** Klasy SP (4–8), dla których cytat jest w zakresie programowym. */
+  grades?: number[];
+};
+
+type QuoteRow = QuoteItem & { grades?: number[] };
+
+/** Cytaty „Kto to powiedział?” dla danej klasy – filtrowane wg podstawy programowej. */
+export function getQuotes(grade: number): Omit<QuoteItem, "grades">[] {
+  const data = quotesData as QuoteRow[];
+  return data
+    .filter((item) => !item.grades || item.grades.length === 0 || item.grades.includes(grade))
+    .map(({ quote, answer, context }) => ({ quote, answer, context }));
 }

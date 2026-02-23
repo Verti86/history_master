@@ -62,7 +62,7 @@ export default async function MenuPage({
     if (!created || created.slice(0, 10) < sevenDaysStart) return s;
     return s + (r.points || 0);
   }, 0);
-  const xpByMode: Record<string, number> = { Quiz: 0, Fiszki: 0, "Oś czasu": 0, Skojarzenia: 0 };
+  const xpByMode: Record<string, number> = { Quiz: 0, Fiszki: 0, "Oś czasu": 0, Skojarzenia: 0, "Kto to powiedział?": 0 };
   (stats || []).forEach((r) => {
     const mode = (r as { game_mode?: string }).game_mode;
     if (mode && mode in xpByMode) xpByMode[mode] += r.points || 0;
@@ -136,7 +136,7 @@ export default async function MenuPage({
       <section className="border border-[var(--hm-border)] rounded-xl p-3 mb-4" aria-label="Statystyki osobiste">
         <h3 className="font-bold text-sm mb-2">📊 Statystyki</h3>
         <p className="text-sm text-[var(--hm-muted)] mb-1">XP z ostatnich 7 dni: <strong style={{ color: "var(--hm-text)" }}>{last7Xp}</strong></p>
-        <p className="text-sm text-[var(--hm-muted)] mb-1">Wg trybów: Quiz <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Quiz"]}</strong>, Fiszki <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Fiszki"]}</strong>, Oś czasu <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Oś czasu"]}</strong>, Skojarzenia <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Skojarzenia"]}</strong></p>
+        <p className="text-sm text-[var(--hm-muted)] mb-1">Wg trybów: Quiz <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Quiz"]}</strong>, Fiszki <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Fiszki"]}</strong>, Oś czasu <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Oś czasu"]}</strong>, Skojarzenia <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Skojarzenia"]}</strong>, Kto to powiedział? <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Kto to powiedział?"]}</strong></p>
         {lastActivity && (
           <p className="text-sm text-[var(--hm-muted)]">Ostatnia aktywność: <strong style={{ color: "var(--hm-text)" }}>{lastActivity}</strong></p>
         )}
@@ -183,6 +183,14 @@ export default async function MenuPage({
         >
           <span className="menu-icon text-2xl inline-block mb-1">🕵️</span>
           <span className="block font-medium">Skojarzenia</span>
+        </Link>
+        <Link
+          href={`/kto-powiedzial?klasa=${klasa}`}
+          className="menu-card p-4 rounded-xl border hover:border-[#f59e0b] hover:shadow-lg hover:shadow-amber-500/20 text-center transition-all duration-300 group"
+          style={{ background: "var(--hm-menu-card-bg)", color: "var(--hm-menu-card-text)", borderColor: "var(--hm-menu-card-border)" }}
+        >
+          <span className="menu-icon text-2xl inline-block mb-1">💬</span>
+          <span className="block font-medium">Kto to powiedział?</span>
         </Link>
       </div>
 
