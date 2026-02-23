@@ -2,7 +2,7 @@
   {
     "quote": "Jam nie z soli ani z roli, jeno z tego, co mnie boli.",
     "answer": "Stefan Czarniecki",
-    "context": "XVII w., wojny.",
+    "context": "XVII w.",
     "grades": [
       4,
       6
@@ -20,7 +20,7 @@
   {
     "quote": "Nie lękajcie się!",
     "answer": "Jan Paweł II",
-    "context": "Homilia, inauguracja pontyfikatu 1978.",
+    "context": "Inauguracja pontyfikatu 1978.",
     "grades": [
       4,
       8
@@ -38,7 +38,7 @@
   {
     "quote": "Za króla Sasa jedz, pij i popuszczaj pasa.",
     "answer": "Szlachta polska",
-    "context": "Czasy saskie, XVIII w.",
+    "context": "Czasy saskie.",
     "grades": [
       6
     ]
@@ -71,7 +71,7 @@
     ]
   },
   {
-    "quote": "Przybywam, widzę, zwyciężam.",
+    "quote": "Veni, vidi, vici.",
     "answer": "Juliusz Cezar",
     "context": "Po bitwie pod Zelą.",
     "grades": [
@@ -89,7 +89,7 @@
   {
     "quote": "Nie będę bił w braci.",
     "answer": "Bolesław Krzywousty",
-    "context": "Testament, rozbicie dzielnicowe.",
+    "context": "Testament.",
     "grades": [
       5
     ]
@@ -114,7 +114,7 @@
   {
     "quote": "Człowiek jest człowiekowi wilkiem.",
     "answer": "Thomas Hobbes",
-    "context": "Filozof, Lewiatan.",
+    "context": "Lewiatan.",
     "grades": [
       6
     ]
@@ -122,7 +122,7 @@
   {
     "quote": "Myślę, więc jestem.",
     "answer": "Kartezjusz",
-    "context": "Filozof, oświecenie.",
+    "context": "Cogito ergo sum.",
     "grades": [
       6
     ]
@@ -148,8 +148,8 @@
   },
   {
     "quote": "Powiedzcie babci, że zachowałam się jak trzeba.",
-    "answer": "Danuta Siedzikówna „Inka”",
-    "context": "Ostatnie słowa przed śmiercią.",
+    "answer": "Danuta Siedzikówna",
+    "context": "Ostatnie słowa „Inki”.",
     "grades": [
       4,
       8
@@ -158,7 +158,7 @@
   {
     "quote": "Nie chciejcie ojczyzny, która was nic nie kosztuje.",
     "answer": "Jan Paweł II",
-    "context": "Homilia, Warszawa 1979.",
+    "context": "Warszawa 1979.",
     "grades": [
       4,
       8
@@ -182,14 +182,6 @@
     ]
   },
   {
-    "quote": "Veni, vidi, vici.",
-    "answer": "Juliusz Cezar",
-    "context": "Łacina – przybywam, widzę, zwyciężam.",
-    "grades": [
-      5
-    ]
-  },
-  {
     "quote": "Daj mi punkt oparcia, a poruszę Ziemię.",
     "answer": "Archimedes",
     "context": "Starożytność.",
@@ -198,9 +190,9 @@
     ]
   },
   {
-    "quote": "A jednak się kręci.",
+    "quote": "E pur si muove.",
     "answer": "Galileusz",
-    "context": "Po procesie, Ziemia kręci się wokół Słońca.",
+    "context": "A jednak się kręci – po procesie.",
     "grades": [
       5,
       6
@@ -209,7 +201,7 @@
   {
     "quote": "Wstrzymał Słońce, ruszył Ziemię.",
     "answer": "Jan Kochanowski",
-    "context": "O Koperniku, tren.",
+    "context": "O Koperniku.",
     "grades": [
       5,
       6
@@ -226,8 +218,8 @@
   },
   {
     "quote": "Wolność, równość, braterstwo.",
-    "answer": "Robespierre i jakobini",
-    "context": "Hasło rewolucji 1789.",
+    "answer": "Maximilien Robespierre",
+    "context": "Rewolucja francuska.",
     "grades": [
       6
     ]
@@ -235,7 +227,7 @@
   {
     "quote": "Wojna to kontynuacja polityki innymi środkami.",
     "answer": "Carl von Clausewitz",
-    "context": "XIX w., strategia.",
+    "context": "XIX w.",
     "grades": [
       7
     ]
@@ -258,15 +250,6 @@
     ]
   },
   {
-    "quote": "Odprawa posłów greckich.",
-    "answer": "Jan Kochanowski",
-    "context": "Dramat renesansowy.",
-    "grades": [
-      5,
-      6
-    ]
-  },
-  {
     "quote": "Litwo, ojczyzno moja!",
     "answer": "Adam Mickiewicz",
     "context": "Pan Tadeusz.",
@@ -277,7 +260,7 @@
   {
     "quote": "Miej serce i patrz w serce.",
     "answer": "Adam Mickiewicz",
-    "context": "Romantyzm.",
+    "context": "Dziady.",
     "grades": [
       7
     ]
@@ -318,15 +301,15 @@
   {
     "quote": "Idźcie na cały świat i głoście Ewangelię.",
     "answer": "Jezus Chrystus",
-    "context": "Biblia.",
+    "context": "Ewangelia.",
     "grades": [
       5
     ]
   },
   {
-    "quote": "Render to Caesar what is Caesar's.",
+    "quote": "Oddajcie cesarzowi, co cesarskie.",
     "answer": "Jezus Chrystus",
-    "context": "Oddajcie cesarzowi, co cesarskie.",
+    "context": "Ewangelia.",
     "grades": [
       5
     ]
@@ -374,24 +357,6 @@
     ]
   },
   {
-    "quote": "Honor i Ojczyzna.",
-    "answer": "Motto Armii Krajowej",
-    "context": "II wojna.",
-    "grades": [
-      4,
-      8
-    ]
-  },
-  {
-    "quote": "Bóg, Honor, Ojczyzna.",
-    "answer": "Motto Wojska Polskiego",
-    "context": "Tradycja.",
-    "grades": [
-      4,
-      8
-    ]
-  },
-  {
     "quote": "Naród, który traci pamięć, traci sumienie.",
     "answer": "Cyprian Kamil Norwid",
     "context": "XIX w.",
@@ -410,14 +375,14 @@
   {
     "quote": "Ku wolności wyswobodził was Chrystus.",
     "answer": "Św. Paweł",
-    "context": "Biblia.",
+    "context": "List do Galatów.",
     "grades": [
       5
     ]
   },
   {
     "quote": "Kto nie był w Warszawie w czasie powstania, nie wie, co to znaczy walka.",
-    "answer": "Gen. Tadeusz Bór-Komorowski",
+    "answer": "Tadeusz Bór-Komorowski",
     "context": "Powstanie warszawskie.",
     "grades": [
       8
@@ -425,8 +390,8 @@
   },
   {
     "quote": "Żądamy chleba i wolności.",
-    "answer": "Robotnicy Poznania 1956",
-    "context": "Poznański czerwiec.",
+    "answer": "Robotnicy Poznania",
+    "context": "Poznański czerwiec 1956.",
     "grades": [
       8
     ]
@@ -448,14 +413,6 @@
     ]
   },
   {
-    "quote": "Polak potrafi.",
-    "answer": "Slogan PRL",
-    "context": "Propaganda.",
-    "grades": [
-      8
-    ]
-  },
-  {
     "quote": "Człowiek rodzi się wolny.",
     "answer": "Jean-Jacques Rousseau",
     "context": "Umowa społeczna.",
@@ -464,7 +421,7 @@
     ]
   },
   {
-    "quote": "Władza deprawuje.",
+    "quote": "Władza deprawuje, władza absolutna deprawuje absolutnie.",
     "answer": "Lord Acton",
     "context": "XIX w.",
     "grades": [
@@ -472,9 +429,9 @@
     ]
   },
   {
-    "quote": "Demokracja to rządy ludu.",
+    "quote": "Rząd ludu, przez lud, dla ludu.",
     "answer": "Abraham Lincoln",
-    "context": "Rząd ludu, przez lud, dla ludu.",
+    "context": "Gettysburg.",
     "grades": [
       6,
       7
@@ -484,14 +441,6 @@
     "quote": "Give me liberty or give me death.",
     "answer": "Patrick Henry",
     "context": "USA, rewolucja.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Wszyscy ludzie rodzą się wolni i równi.",
-    "answer": "Deklaracja Praw Człowieka",
-    "context": "Rewolucja francuska.",
     "grades": [
       6
     ]
@@ -529,7 +478,7 @@
     ]
   },
   {
-    "quote": "Żelazna kurtyna.",
+    "quote": "Od Szczecina nad Bałtykiem po Triest nad Adriatykiem opadła żelazna kurtyna.",
     "answer": "Winston Churchill",
     "context": "Fulton 1946.",
     "grades": [
@@ -539,7 +488,7 @@
   {
     "quote": "Jedna śmierć to tragedia, milion to statystyka.",
     "answer": "Józef Stalin",
-    "context": "Przypisywane Stalinowi.",
+    "context": "Przypisywane.",
     "grades": [
       8
     ]
@@ -553,7 +502,7 @@
     ]
   },
   {
-    "quote": "Nie pytaj, co kraj może zrobić dla ciebie.",
+    "quote": "Nie pytaj, co kraj może zrobić dla ciebie – zapytaj, co ty możesz zrobić dla kraju.",
     "answer": "John F. Kennedy",
     "context": "Inauguracja 1961.",
     "grades": [
@@ -561,7 +510,7 @@
     ]
   },
   {
-    "quote": "Mam marzenie.",
+    "quote": "I have a dream.",
     "answer": "Martin Luther King",
     "context": "Waszyngton 1963.",
     "grades": [
@@ -572,13 +521,13 @@
   {
     "quote": "Prawda was wyzwoli.",
     "answer": "Jezus Chrystus",
-    "context": "Biblia.",
+    "context": "Ewangelia.",
     "grades": [
       5
     ]
   },
   {
-    "quote": "Nic nad człowieka.",
+    "quote": "Wiele jest rzeczy wspaniałych, lecz nic nad człowieka.",
     "answer": "Sofokles",
     "context": "Antygona.",
     "grades": [
@@ -586,9 +535,9 @@
     ]
   },
   {
-    "quote": "Poznać samego siebie.",
-    "answer": "Tales / napis w Delfach",
-    "context": "Starożytna Grecja.",
+    "quote": "Poznaj samego siebie.",
+    "answer": "Tales z Miletu",
+    "context": "Napis w Delfach.",
     "grades": [
       5
     ]
@@ -610,41 +559,25 @@
     ]
   },
   {
-    "quote": "Wolność sumienia.",
-    "answer": "Marcin Luter",
-    "context": "Reformacja.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Tu es Petrus.",
-    "answer": "Jezus do Piotra",
-    "context": "Ty jesteś Piotr – skała.",
-    "grades": [
-      5
-    ]
-  },
-  {
     "quote": "Królestwo moje nie jest z tego świata.",
     "answer": "Jezus Chrystus",
-    "context": "Biblia.",
+    "context": "Ewangelia.",
     "grades": [
       5
     ]
   },
   {
     "quote": "Nie samym chlebem żyje człowiek.",
-    "answer": "Biblia",
-    "context": "Pismo Święte.",
+    "answer": "Jezus Chrystus",
+    "context": "Ewangelia.",
     "grades": [
       5
     ]
   },
   {
-    "quote": "Miłuj bliźniego swego.",
-    "answer": "Biblia",
-    "context": "Przykazanie.",
+    "quote": "Miłuj bliźniego swego jak siebie samego.",
+    "answer": "Jezus Chrystus",
+    "context": "Ewangelia.",
     "grades": [
       5
     ]
@@ -652,31 +585,15 @@
   {
     "quote": "Oto człowiek.",
     "answer": "Piłat",
-    "context": "Ecce homo – Jezus przed ukrzyżowaniem.",
+    "context": "Ecce homo – o Jezusie.",
     "grades": [
       5
     ]
   },
   {
-    "quote": "Rzeczpospolita jest jak stół – każdy ma równe prawo.",
-    "answer": "Szlachta polska",
-    "context": "Złota wolność.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Liberum veto – nie pozwalam.",
-    "answer": "Władysław Siciński",
-    "context": "1652, zerwanie sejmu.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Sarmatyzm – my, szlachta, jesteśmy potomkami Sarmatów.",
-    "answer": "Szlachta Rzeczypospolitej",
-    "context": "Kultura sarmacka.",
+    "quote": "Nie pozwalam!",
+    "answer": "Tadeusz Rejtan",
+    "context": "Sejm rozbiorowy.",
     "grades": [
       6
     ]
@@ -685,57 +602,6 @@
     "quote": "Wolność, wasza mość, to skarb.",
     "answer": "Jan Zamoyski",
     "context": "Do króla.",
-    "grades": [
-      4,
-      6
-    ]
-  },
-  {
-    "quote": "Król panuje, ale nie rządzi.",
-    "answer": "Zasada Rzeczypospolitej",
-    "context": "Wolna elekcja, pacta conventa.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Od Sasa do Lasa.",
-    "answer": "Szlachta",
-    "context": "Wolna elekcja – wybór między kandydatami.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Marysieńka – listy pełne miłości.",
-    "answer": "Jan III Sobieski",
-    "context": "Do żony.",
-    "grades": [
-      4,
-      6
-    ]
-  },
-  {
-    "quote": "Wiwat król, wiwat naród!",
-    "answer": "Konstytucja 3 maja",
-    "context": "1791.",
-    "grades": [
-      4,
-      6
-    ]
-  },
-  {
-    "quote": "Naród sobą stanowi.",
-    "answer": "Konstytucja 3 maja",
-    "context": "Suwerenność narodu.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Wolność, całość, niepodległość.",
-    "answer": "Powstanie kościuszkowskie",
-    "context": "1794.",
     "grades": [
       4,
       6
@@ -769,7 +635,7 @@
   {
     "quote": "O, gdybym kiedy dożył tej pociechy.",
     "answer": "Adam Mickiewicz",
-    "context": "Pan Tadeusz – o Polsce.",
+    "context": "Pan Tadeusz.",
     "grades": [
       7
     ]
@@ -783,18 +649,18 @@
     ]
   },
   {
-    "quote": "Rota – nie rzucim ziemi, skąd nasz ród.",
+    "quote": "Nie rzucim ziemi, skąd nasz ród.",
     "answer": "Maria Konopnicka",
-    "context": "Wiersz przeciw germanizacji.",
+    "context": "Rota.",
     "grades": [
       4,
       7
     ]
   },
   {
-    "quote": "Ku pokrzepieniu serc.",
+    "quote": "Ku pokrzepieniu serc pisałem.",
     "answer": "Henryk Sienkiewicz",
-    "context": "Cel Trylogii.",
+    "context": "O Trylogii.",
     "grades": [
       4,
       7
@@ -806,14 +672,6 @@
     "context": "Dokąd idziesz, Panie? – według legendy.",
     "grades": [
       5,
-      7
-    ]
-  },
-  {
-    "quote": "Wesele – chłop i pan.",
-    "answer": "Stanisław Wyspiański",
-    "context": "Dramat.",
-    "grades": [
       7
     ]
   },
@@ -837,14 +695,6 @@
     ]
   },
   {
-    "quote": "Legiony to żołnierska nuta.",
-    "answer": "Pieśń legionów",
-    "context": "I wojna światowa.",
-    "grades": [
-      7
-    ]
-  },
-  {
     "quote": "Niepodległość nie jest dana raz na zawsze.",
     "answer": "Józef Piłsudski",
     "context": "XX w.",
@@ -853,26 +703,9 @@
     ]
   },
   {
-    "quote": "Wódz i mąż stanu.",
-    "answer": "O Piłsudskim",
-    "context": "Naczelnik państwa.",
-    "grades": [
-      7,
-      8
-    ]
-  },
-  {
-    "quote": "Polska jest jak obwarzanek.",
+    "quote": "Polska jest jak obwarzanek – wartościowe są tylko kresy.",
     "answer": "Roman Dmowski",
-    "context": "O granicach – centrum słabe.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Sprawa polska w Wersalu.",
-    "answer": "Roman Dmowski",
-    "context": "Traktat wersalski.",
+    "context": "O granicach.",
     "grades": [
       7
     ]
@@ -887,190 +720,9 @@
     ]
   },
   {
-    "quote": "Budujmy Gdynię.",
+    "quote": "Budujmy Gdynię – okno na świat.",
     "answer": "Eugeniusz Kwiatkowski",
-    "context": "Polska morska.",
-    "grades": [
-      4,
-      8
-    ]
-  },
-  {
-    "quote": "Zośka, Alek, Rudy – kamienie na szaniec.",
-    "answer": "Aleksander Kamiński",
-    "context": "Książka o harcerzach.",
-    "grades": [
-      4,
-      8
-    ]
-  },
-  {
-    "quote": "Akcja pod Arsenałem – odbicie Rudego.",
-    "answer": "Szare Szeregi",
-    "context": "1943.",
-    "grades": [
-      4,
-      8
-    ]
-  },
-  {
-    "quote": "Powstanie warszawskie – godzina W.",
-    "answer": "Gen. Tadeusz Bór-Komorowski",
-    "context": "1 sierpnia 1944.",
-    "grades": [
-      4,
-      8
-    ]
-  },
-  {
-    "quote": "Żołnierzom Armii Krajowej – dziękujemy.",
-    "answer": "Społeczeństwo",
-    "context": "Pamięć powstania.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Żegota – Rada Pomocy Żydom.",
-    "answer": "Żegota (Rada Pomocy Żydom)",
-    "context": "II wojna.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Katyń – zbrodnia na oficerach.",
-    "answer": "Związek Sowiecki (Lavrentij Beria)",
-    "context": "1940.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Monte Cassino – zdobyte przez Polaków.",
-    "answer": "Gen. Władysław Anders",
-    "context": "1944.",
-    "grades": [
-      4,
-      8
-    ]
-  },
-  {
-    "quote": "Nie ma sprawy ważniejszej niż wolność.",
-    "answer": "Lech Wałęsa",
-    "context": "Solidarność.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Strajk w Stoczni Gdańskiej.",
-    "answer": "Sierpień 1980",
-    "context": "Porozumienia sierpniowe.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Okrągły stół – rozmowy z władzą.",
-    "answer": "Opozycja 1989",
-    "context": "Przełom.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Pierwszy niekomunistyczny rząd.",
-    "answer": "Tadeusz Mazowiecki",
-    "context": "1989.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Stan wojenny – czołgi na ulicach.",
-    "answer": "Wojciech Jaruzelski",
-    "context": "13 grudnia 1981.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Msze za ojczyznę.",
-    "answer": "Ks. Jerzy Popiełuszko",
-    "context": "Lata 80.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Zniewolony umysł.",
-    "answer": "Czesław Miłosz",
-    "context": "Książka o totalitaryzmie.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Nobel dla Miłosza.",
-    "answer": "Czesław Miłosz",
-    "context": "Literatura 1980.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Nobel dla Szymborskiej.",
-    "answer": "Wisława Szymborska",
-    "context": "Literatura 1996.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Europa od Atlantyku po Ural.",
-    "answer": "Charles de Gaulle",
-    "context": "Wizja Europy.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Tear down this wall.",
-    "answer": "Ronald Reagan",
-    "context": "Berlin 1987.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Glasnost i pieriestrojka.",
-    "answer": "Michaił Gorbaczow",
-    "context": "Reformy w ZSRR.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Polska droga do wolności.",
-    "answer": "Solidarność",
-    "context": "1980–1989.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Wałęsa – laureat Nobla.",
-    "answer": "Lech Wałęsa",
-    "context": "Pokojowa Nagroda Nobla 1983.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Papież z Polski.",
-    "answer": "Jan Paweł II",
-    "context": "16 X 1978.",
+    "context": "II RP.",
     "grades": [
       4,
       8
@@ -1103,7 +755,7 @@
   {
     "quote": "Przebaczcie i proście o przebaczenie.",
     "answer": "Jan Paweł II",
-    "context": "List do biskupów polskich.",
+    "context": "List do biskupów.",
     "grades": [
       8
     ]
@@ -1111,39 +763,7 @@
   {
     "quote": "Praca u podstaw.",
     "answer": "Aleksander Świętochowski",
-    "context": "Hasło pozytywistów.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Organicznik – praca organiczna.",
-    "answer": "Aleksander Świętochowski",
-    "context": "XIX w.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Ojczyzna to wspólny język.",
-    "answer": "Adam Mickiewicz",
-    "context": "Mickiewicz, Słowacki.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Wielka emigracja – Paryż.",
-    "answer": "Powstańcy listopadowi",
-    "context": "Po 1831.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Hotel Lambert – stronnictwo.",
-    "answer": "Adam Jerzy Czartoryski",
-    "context": "Emigracja.",
+    "context": "Pozytywizm.",
     "grades": [
       7
     ]
@@ -1158,8 +778,104 @@
     ]
   },
   {
-    "quote": "Bogurodzica – pierwszy hymn.",
-    "answer": "Anonim (Bogurodzica)",
+    "quote": "Wszyscy ludzie rodzą się wolni i równi w prawach.",
+    "answer": "Deklaracja praw człowieka i obywatela",
+    "context": "Rewolucja francuska 1789.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Wesele – a to Polska właśnie.",
+    "answer": "Stanisław Wyspiański",
+    "context": "Wesele.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Róbmy swoje.",
+    "answer": "Stanisław Wyspiański",
+    "context": "Wesele.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Smutno mi, Boże.",
+    "answer": "Juliusz Słowacki",
+    "context": "Hymn.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Ojczyzna to wspólny język i wspólna sprawa.",
+    "answer": "Adam Mickiewicz",
+    "context": "Księgi narodu polskiego.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Tear down this wall!",
+    "answer": "Ronald Reagan",
+    "context": "Berlin 1987.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Europa od Atlantyku po Ural.",
+    "answer": "Charles de Gaulle",
+    "context": "Wizja Europy.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Rewolucja pożera własne dzieci.",
+    "answer": "Georges Danton",
+    "context": "Rewolucja francuska.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Państwo to ja – L'État c'est moi.",
+    "answer": "Ludwik XIV",
+    "context": "Król Francji.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Alea iacta est.",
+    "answer": "Juliusz Cezar",
+    "context": "Kostka została rzucona.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Et tu, Brute?",
+    "answer": "Juliusz Cezar",
+    "context": "I ty, Brutusie? – według Szekspira.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Nie będę bił w braci – rozdzielam ziemie.",
+    "answer": "Bolesław Krzywousty",
+    "context": "Testament 1138.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Bogurodzica, Dziewica.",
+    "answer": "anonim (Bogurodzica)",
     "context": "Pieśń rycerzy pod Grunwaldem.",
     "grades": [
       4,
@@ -1167,126 +883,16 @@
     ]
   },
   {
-    "quote": "Gall Anonim – kronika.",
-    "answer": "Gall Anonim",
-    "context": "Kronika polska.",
+    "quote": "Król panuje, ale nie rządzi.",
+    "answer": "Jan Zamoyski",
+    "context": "Zasada Rzeczypospolitej.",
     "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Kazimierz Wielki – jeden król.",
-    "answer": "O Kazimierzu",
-    "context": "Zastał drewnianą, zostawił murowaną.",
-    "grades": [
-      4,
-      5
-    ]
-  },
-  {
-    "quote": "Unia z Litwą – Krewie.",
-    "answer": "Władysław Jagiełło",
-    "context": "1385.",
-    "grades": [
-      4,
-      5
-    ]
-  },
-  {
-    "quote": "Grunwald – 15 lipca 1410.",
-    "answer": "Władysław Jagiełło",
-    "context": "Bitwa z Zakonem.",
-    "grades": [
-      4,
-      5
-    ]
-  },
-  {
-    "quote": "Hołd pruski – Albrecht w Krakowie.",
-    "answer": "Zygmunt I Stary",
-    "context": "1525.",
-    "grades": [
-      4,
       6
     ]
   },
   {
-    "quote": "Kopernik – wstrzymał Słońce.",
-    "answer": "Mikołaj Kopernik",
-    "context": "Heliocentryzm.",
-    "grades": [
-      4,
-      5,
-      6
-    ]
-  },
-  {
-    "quote": "Akademia Krakowska – Jadwiga i Jagiełło.",
-    "answer": "Uniwersytet Jagielloński",
-    "context": "1364, odnowienie.",
-    "grades": [
-      4,
-      5
-    ]
-  },
-  {
-    "quote": "Dobrawa – chrzest Mieszka.",
-    "answer": "Dobrawa",
-    "context": "966.",
-    "grades": [
-      4,
-      5
-    ]
-  },
-  {
-    "quote": "Św. Wojciech – misjonarz.",
-    "answer": "Św. Wojciech",
-    "context": "Męczennik, Gniezno.",
-    "grades": [
-      4,
-      5
-    ]
-  },
-  {
-    "quote": "Zawisza Czarny – nie ma go jako żywo.",
-    "answer": "Zawisza Czarny",
-    "context": "Rycerz.",
-    "grades": [
-      4,
-      5
-    ]
-  },
-  {
-    "quote": "Warneńczyk – zginął pod Warną.",
-    "answer": "Władysław Warneńczyk",
-    "context": "1444.",
-    "grades": [
-      4,
-      5
-    ]
-  },
-  {
-    "quote": "Bona Sforza – warzywa na stole.",
-    "answer": "Bona Sforza",
-    "context": "Królowa Polski.",
-    "grades": [
-      4,
-      5,
-      6
-    ]
-  },
-  {
-    "quote": "Stańczyk – błazen mądry.",
-    "answer": "Stańczyk",
-    "context": "Obraz Matejki.",
-    "grades": [
-      4,
-      6
-    ]
-  },
-  {
-    "quote": "Konstytucja 3 maja – pierwsza w Europie.",
-    "answer": "Hugo Kołłątaj",
+    "quote": "Wiwat król, wiwat naród, wiwat wszystkie stany!",
+    "answer": "Konstytucja 3 maja",
     "context": "1791.",
     "grades": [
       4,
@@ -1294,8 +900,384 @@
     ]
   },
   {
-    "quote": "Legiony we Włoszech – Dąbrowski.",
-    "answer": "Jan Henryk Dąbrowski",
+    "quote": "Wolność, całość, niepodległość.",
+    "answer": "Tadeusz Kościuszko",
+    "context": "Hasło insurekcji 1794.",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "quote": "Naród sobą stanowi.",
+    "answer": "Konstytucja 3 maja",
+    "context": "Suwerenność narodu.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Honor i Ojczyzna.",
+    "answer": "Armia Krajowa",
+    "context": "Motto AK.",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "quote": "Bóg, Honor, Ojczyzna.",
+    "answer": "Wojsko Polskie",
+    "context": "Motto.",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "quote": "Prawdziwy Polak to ten, kto kocha ojczyznę.",
+    "answer": "Roman Dmowski",
+    "context": "Myśli nowoczesnego Polaka.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Msze za ojczyznę odprawiam.",
+    "answer": "Ks. Jerzy Popiełuszko",
+    "context": "Lata 80.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Świat musi być bezpieczny dla demokracji.",
+    "answer": "Woodrow Wilson",
+    "context": "I wojna światowa.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Krew i żelazo.",
+    "answer": "Otto von Bismarck",
+    "context": "Zjednoczenie Niemiec.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Wojna to piekło i nie pozwólcie nikomu mówić inaczej.",
+    "answer": "William Sherman",
+    "context": "Wojna secesyjna.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Ludzie rodzą się wolni i równi.",
+    "answer": "Jean-Jacques Rousseau",
+    "context": "Umowa społeczna.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Tu es Petrus – Ty jesteś Piotr.",
+    "answer": "Jezus Chrystus",
+    "context": "Ewangelia – do Piotra.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Oto człowiek – Ecce homo.",
+    "answer": "Piłat",
+    "context": "O Jezusie przed ukrzyżowaniem.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Nie ma nic w umyśle, czego wcześniej nie było w zmysłach.",
+    "answer": "John Locke",
+    "context": "Filozof.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Wystarczy, że ludzie dobrzy nic nie robią.",
+    "answer": "Edmund Burke",
+    "context": "O złu.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Rządzić to przewidywać.",
+    "answer": "Émile de Girardin",
+    "context": "XIX w.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Demokracja to rządy ludu, przez lud, dla ludu.",
+    "answer": "Abraham Lincoln",
+    "context": "Gettysburg.",
+    "grades": [
+      6,
+      7
+    ]
+  },
+  {
+    "quote": "Ja jestem państwo.",
+    "answer": "Ludwik XIV",
+    "context": "Król Francji.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "W imię prawa.",
+    "answer": "Maximilien Robespierre",
+    "context": "Rewolucja francuska.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Oświecenie to wyjście człowieka z niepełnoletności.",
+    "answer": "Immanuel Kant",
+    "context": "Filozof.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Wolność jednego kończy się tam, gdzie zaczyna wolność drugiego.",
+    "answer": "John Stuart Mill",
+    "context": "Filozof.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Nie ma drogi do pokoju; pokój jest drogą.",
+    "answer": "Mahatma Gandhi",
+    "context": "XX w.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Jedyny sposób, by zrobić wielką robotę, to kochać to, co się robi.",
+    "answer": "Steve Jobs",
+    "context": "XX w.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Prawdziwa podróż odkrywcza nie polega na szukaniu nowych lądów.",
+    "answer": "Marcel Proust",
+    "context": "Pisarz.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Jak kamienie przez Boga rzucane na szaniec.",
+    "answer": "Juliusz Słowacki",
+    "context": "Wiersz – tytuł „Kamieni na szaniec”.",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "quote": "Wolność polega na tym, by robić to, co się chce.",
+    "answer": "Wolter",
+    "context": "Oświecenie.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Człowiek jest skazany na wolność.",
+    "answer": "Jean-Paul Sartre",
+    "context": "Egzystencjalizm.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Wiedza to potęga, a ignorancja to słabość.",
+    "answer": "Francis Bacon",
+    "context": "Filozof.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Nie ma nic bardziej praktycznego niż dobra teoria.",
+    "answer": "Kurt Lewin",
+    "context": "Psycholog.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Historia jest świadkiem czasów.",
+    "answer": "Cyceron",
+    "context": "Starożytny Rzym.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Kto nie zna historii, skazany jest na jej powtórzenie.",
+    "answer": "George Santayana",
+    "context": "Filozof.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "W historii nie ma przypadków.",
+    "answer": "Lew Tołstoj",
+    "context": "Wojna i pokój.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Naród, który nie zna swej historii, skazany jest na jej powtórzenie.",
+    "answer": "Józef Piłsudski",
+    "context": "O znaczeniu historii.",
+    "grades": [
+      7,
+      8
+    ]
+  },
+  {
+    "quote": "Polska to wielka rzecz – wielka i święta.",
+    "answer": "Józef Piłsudski",
+    "context": "O niepodległości.",
+    "grades": [
+      4,
+      7,
+      8
+    ]
+  },
+  {
+    "quote": "Niepodległość jest dobrem nie tylko cennym, ale i kosztownym.",
+    "answer": "Józef Piłsudski",
+    "context": "XX w.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Warto być uczciwym, choć nie zawsze się to opłaca.",
+    "answer": "Władysław Bartoszewski",
+    "context": "Polityk, historyk.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Prawda was wyzwoli – Veritas liberabit vos.",
+    "answer": "Jezus Chrystus",
+    "context": "Ewangelia.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Miłość i prawda spotykają się.",
+    "answer": "Jan Paweł II",
+    "context": "Encyklika.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Nie lękajcie się – otwórzcie drzwi Chrystusowi.",
+    "answer": "Jan Paweł II",
+    "context": "Inauguracja pontyfikatu.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Człowiek jest wielki nie przez to, co ma, lecz przez to, kim jest.",
+    "answer": "Jan Paweł II",
+    "context": "Homilie.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Wolność nie polega na robieniu tego, co się chce.",
+    "answer": "Jan Paweł II",
+    "context": "O wolności.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Solidarność to znaczy: jeden i drugi.",
+    "answer": "Jan Paweł II",
+    "context": "Encyklika.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Nie ma solidarności bez miłości.",
+    "answer": "Jan Paweł II",
+    "context": "Homilie.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Zwycięstwo przyjdzie przez Maryję.",
+    "answer": "Stefan kardynał Wyszyński",
+    "context": "Prymas Polski.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Non possumus – nie możemy.",
+    "answer": "Stefan Wyszyński",
+    "context": "Odpowiedź władzom komunistycznym.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Jestem z was, pamiętam o was, modlę się za was.",
+    "answer": "Jan Paweł II",
+    "context": "Do Polaków.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Człowiek jest stworzony do wolności.",
+    "answer": "Jan Paweł II",
+    "context": "Encyklika.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Marsz, marsz Dąbrowski, z ziemi włoskiej do Polski.",
+    "answer": "Józef Wybicki",
     "context": "Mazurek Dąbrowskiego.",
     "grades": [
       4,
@@ -1303,52 +1285,757 @@
     ]
   },
   {
-    "quote": "Traugutt – dyktator powstania.",
-    "answer": "Romuald Traugutt",
-    "context": "1863–1864.",
+    "quote": "Jak długo na Wawelu nie będzie Niemca.",
+    "answer": "Józef Piłsudski",
+    "context": "O niepodległości.",
+    "grades": [
+      4,
+      7,
+      8
+    ]
+  },
+  {
+    "quote": "Kościuszko był wielkim człowiekiem.",
+    "answer": "Thomas Jefferson",
+    "context": "O Kościuszce.",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "quote": "Wolność, równość, braterstwo albo śmierć.",
+    "answer": "Maximilien Robespierre",
+    "context": "Rewolucja francuska.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "O, mój Boże, czy to możliwe?",
+    "answer": "Maria Skłodowska-Curie",
+    "context": "Po odkryciu radu.",
     "grades": [
       4,
       7
     ]
   },
   {
-    "quote": "Paderewski – pianista i premier.",
-    "answer": "Ignacy Paderewski",
-    "context": "Traktat wersalski.",
+    "quote": "W nauce nie ma narodowości.",
+    "answer": "Maria Skłodowska-Curie",
+    "context": "Noblistka.",
     "grades": [
       4,
       7
     ]
   },
   {
-    "quote": "Haller – zaślubiny z morzem.",
-    "answer": "Józef Haller",
-    "context": "1920.",
+    "quote": "Uczcie się pilnie, służcie wiernie.",
+    "answer": "Jan Paweł II",
+    "context": "Do młodzieży.",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "quote": "Nie daj się zwyciężyć złu, ale zło dobrem zwyciężaj.",
+    "answer": "Św. Paweł",
+    "context": "List do Rzymian.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Cóż bowiem za korzyść odniesie człowiek, jeśli cały świat zyska.",
+    "answer": "Jezus Chrystus",
+    "context": "Ewangelia.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Pozwólcie dzieciom przychodzić do Mnie.",
+    "answer": "Jezus Chrystus",
+    "context": "Ewangelia.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Nie sądźcie, abyście nie byli sądzeni.",
+    "answer": "Jezus Chrystus",
+    "context": "Ewangelia.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Życie bez badania nie jest warte życia.",
+    "answer": "Sokrates",
+    "context": "Starożytna Grecja.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Wiem, że nic nie wiem – i to właśnie odróżnia mnie od innych.",
+    "answer": "Sokrates",
+    "context": "Starożytna Grecja.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Człowiek jest miarą wszechrzeczy.",
+    "answer": "Protagoras",
+    "context": "Starożytna Grecja.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Nic nad człowieka.",
+    "answer": "Sofokles",
+    "context": "Antygona.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Nie ma nic trwałego poza zmianą.",
+    "answer": "Heraklit",
+    "context": "Starożytna Grecja.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Wszystko płynie.",
+    "answer": "Heraklit",
+    "context": "Starożytna Grecja.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Wojna jest ojcem wszystkich rzeczy.",
+    "answer": "Heraklit",
+    "context": "Starożytna Grecja.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Platon jest mi drogi, lecz droższa prawda.",
+    "answer": "Arystoteles",
+    "context": "O Platonie.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Człowiek jest zwierzęciem politycznym.",
+    "answer": "Arystoteles",
+    "context": "Polityka.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Przyjaciel to drugi ja.",
+    "answer": "Arystoteles",
+    "context": "Etyka.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Nie ma w umyśle niczego, czego wcześniej nie było w zmysłach.",
+    "answer": "Arystoteles",
+    "context": "Filozof.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Dajcie mi wystarczająco długą dźwignię.",
+    "answer": "Archimedes",
+    "context": "O dźwigni.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Eureka!",
+    "answer": "Archimedes",
+    "context": "Po odkryciu prawa wyporu.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Przekroczyłem Alpy.",
+    "answer": "Hannibal",
+    "context": "Wojny punickie.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Aleksander płacze – nie ma już światów do zdobycia.",
+    "answer": "Aleksander Macedoński",
+    "context": "Według przekazów.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Nie boję się armii lwów, gdy prowadzi je owca.",
+    "answer": "Aleksander Macedoński",
+    "context": "O Persach.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Przyjaciele, oto koniec.",
+    "answer": "Juliusz Cezar",
+    "context": "Przed śmiercią.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "I ty, Brutusie, przeciw mnie?",
+    "answer": "Juliusz Cezar",
+    "context": "Idy marcowe.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Lepiej być pierwszym w małym mieście niż drugim w Rzymie.",
+    "answer": "Juliusz Cezar",
+    "context": "Młodzieńcze marzenia.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Przybyłem, zobaczyłem, zwyciężyłem.",
+    "answer": "Juliusz Cezar",
+    "context": "Veni, vidi, vici.",
+    "grades": [
+      5
+    ]
+  },
+  {
+    "quote": "Róbmy, co robimy – z miłości do ojczyzny.",
+    "answer": "Tadeusz Kościuszko",
+    "context": "Insurekcja.",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "quote": "Wolność całej ludzkości jest celem.",
+    "answer": "Tadeusz Kościuszko",
+    "context": "USA i Polska.",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "quote": "Za naszą i waszą wolność.",
+    "answer": "Powstańcy listopadowi",
+    "context": "Hasło powstania.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Polska jeszcze nie zginęła.",
+    "answer": "Józef Wybicki",
+    "context": "Pieśń Legionów.",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "quote": "Ojczyzna to wielka rzecz.",
+    "answer": "Józef Piłsudski",
+    "context": "O Polsce.",
+    "grades": [
+      4,
+      7,
+      8
+    ]
+  },
+  {
+    "quote": "Kto nie szanuje historii, nie jest wart wolności.",
+    "answer": "Józef Piłsudski",
+    "context": "O historii.",
+    "grades": [
+      7,
+      8
+    ]
+  },
+  {
+    "quote": "Być zwyciężonym i nie ulec – zwycięstwo.",
+    "answer": "Józef Piłsudski",
+    "context": "Myśli.",
+    "grades": [
+      4,
+      7,
+      8
+    ]
+  },
+  {
+    "quote": "Niepodległość jest dobrem cennym.",
+    "answer": "Józef Piłsudski",
+    "context": "XX w.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Tu się bijemy i tu się bronimy.",
+    "answer": "Augustyn Kordecki",
+    "context": "Jasna Góra.",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "quote": "Wolność, wasza mość, to skarb Rzeczypospolitej.",
+    "answer": "Jan Zamoyski",
+    "context": "Do króla.",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "quote": "Nie pozwalam – liberum veto.",
+    "answer": "Tadeusz Rejtan",
+    "context": "Sejm rozbiorowy.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Rzeczpospolita jest jak stół – każdy ma równe prawo.",
+    "answer": "Szlachta polska",
+    "context": "Złota wolność.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Za króla Sasa jedz, pij i popuszczaj pasa.",
+    "answer": "Szlachta",
+    "context": "Czasy saskie.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Marysieńka, serce me.",
+    "answer": "Jan III Sobieski",
+    "context": "Listy do żony.",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "quote": "Wiwat król, wiwat naród!",
+    "answer": "Ustawa 3 maja",
+    "context": "1791.",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "quote": "Naród sobą stanowi – suwerenność.",
+    "answer": "Konstytucja 3 maja",
+    "context": "1791.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Litwo! Ojczyzno moja!",
+    "answer": "Adam Mickiewicz",
+    "context": "Pan Tadeusz.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Miej serce i patrz w serce.",
+    "answer": "Adam Mickiewicz",
+    "context": "Dziady.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "O, gdybym kiedy dożył tej pociechy.",
+    "answer": "Adam Mickiewicz",
+    "context": "Pan Tadeusz.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Zemsta, zemsta na wroga – z Bogiem!",
+    "answer": "Adam Mickiewicz",
+    "context": "Dziady.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Ku pokrzepieniu serc pisałem.",
+    "answer": "Henryk Sienkiewicz",
+    "context": "O Trylogii.",
     "grades": [
       4,
       7
     ]
   },
   {
-    "quote": "Pilecki – dobrowolny więzień Auschwitz.",
+    "quote": "Nie rzucim ziemi, skąd nasz ród.",
+    "answer": "Maria Konopnicka",
+    "context": "Rota.",
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "quote": "Quo vadis, Domine?",
+    "answer": "Św. Piotr",
+    "context": "Dokąd idziesz, Panie?",
+    "grades": [
+      5,
+      7
+    ]
+  },
+  {
+    "quote": "Bóg się rodzi, moc truchleje.",
+    "answer": "Franciszek Karpiński",
+    "context": "Kolęda.",
+    "grades": [
+      4,
+      7
+    ]
+  },
+  {
+    "quote": "Praca u podstaw – hasło.",
+    "answer": "Aleksander Świętochowski",
+    "context": "Pozytywizm.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Ojczyzna to wielki zbiorowy obowiązek.",
+    "answer": "Cyprian Kamil Norwid",
+    "context": "XIX w.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Naród, który traci pamięć, traci sumienie.",
+    "answer": "Cyprian Kamil Norwid",
+    "context": "XIX w.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Róbmy swoje – każdy swe miejsce zna.",
+    "answer": "Stanisław Wyspiański",
+    "context": "Wesele.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Smutno mi, Boże – dla mnie.",
+    "answer": "Juliusz Słowacki",
+    "context": "Hymn.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Wolność wasza jest wolnością naszą.",
+    "answer": "Lech Wałęsa",
+    "context": "Kongres USA.",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "quote": "Solidarność – jeden za wszystkich.",
+    "answer": "Lech Wałęsa",
+    "context": "NSZZ.",
+    "grades": [
+      4,
+      8
+    ]
+  },
+  {
+    "quote": "Nie ma wolności bez Solidarności.",
+    "answer": "Lech Wałęsa",
+    "context": "Lata 80.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Żeby Polska była Polską.",
+    "answer": "Jan Pietrzak",
+    "context": "Piosenka.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Pomożecie? – do robotników.",
+    "answer": "Edward Gierek",
+    "context": "1971.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Nie ma lekko – trzeba pracować.",
+    "answer": "Edward Gierek",
+    "context": "PRL.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Żądamy chleba i wolności.",
+    "answer": "Robotnicy Poznania",
+    "context": "1956.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Kto nie był w Warszawie w czasie powstania.",
+    "answer": "Tadeusz Bór-Komorowski",
+    "context": "Powstanie warszawskie.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Zginę za Polskę – ostatnie słowa.",
     "answer": "Witold Pilecki",
-    "context": "Raporty.",
+    "context": "Przed egzekucją.",
     "grades": [
       4,
       8
     ]
   },
   {
-    "quote": "Inka – zachowałam się jak trzeba.",
-    "answer": "Danuta Siedzikówna",
-    "context": "Żołnierz niezłomny.",
+    "quote": "Żołnierz polski walczy o wolność wielu narodów.",
+    "answer": "Władysław Sikorski",
+    "context": "II wojna.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Nigdy w dziejach tak wielu nie zawdzięczało tak wiele tak nielicznym.",
+    "answer": "Winston Churchill",
+    "context": "Bitwa o Anglię.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "To jest ich najwspanialsza godzina.",
+    "answer": "Winston Churchill",
+    "context": "II wojna.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Od Szczecina po Triest opadła żelazna kurtyna.",
+    "answer": "Winston Churchill",
+    "context": "Fulton 1946.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Jedna śmierć to tragedia, milion to statystyka.",
+    "answer": "Józef Stalin",
+    "context": "Przypisywane.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Give me liberty or give me death.",
+    "answer": "Patrick Henry",
+    "context": "USA.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Pokój za wszelką cenę.",
+    "answer": "Neville Chamberlain",
+    "context": "Przed II wojną.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "I have a dream.",
+    "answer": "Martin Luther King",
+    "context": "Waszyngton 1963.",
+    "grades": [
+      7,
+      8
+    ]
+  },
+  {
+    "quote": "Nie pytaj, co kraj może zrobić dla ciebie.",
+    "answer": "John F. Kennedy",
+    "context": "Inauguracja.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Tear down this wall!",
+    "answer": "Ronald Reagan",
+    "context": "Berlin.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Glasnost i pieriestrojka.",
+    "answer": "Michaił Gorbaczow",
+    "context": "ZSRR.",
+    "grades": [
+      8
+    ]
+  },
+  {
+    "quote": "Wiedza to potęga.",
+    "answer": "Francis Bacon",
+    "context": "Filozof.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Cogito ergo sum – myślę, więc jestem.",
+    "answer": "Kartezjusz",
+    "context": "Filozof.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Człowiek rodzi się wolny.",
+    "answer": "Jean-Jacques Rousseau",
+    "context": "Umowa społeczna.",
+    "grades": [
+      6
+    ]
+  },
+  {
+    "quote": "Władza deprawuje, władza absolutna deprawuje absolutnie.",
+    "answer": "Lord Acton",
+    "context": "XIX w.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Proletariusze wszystkich krajów, łączcie się!",
+    "answer": "Karol Marx",
+    "context": "Manifest komunistyczny.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Wojna to kontynuacja polityki innymi środkami.",
+    "answer": "Carl von Clausewitz",
+    "context": "XIX w.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Świat musi być bezpieczny dla demokracji.",
+    "answer": "Woodrow Wilson",
+    "context": "I wojna.",
+    "grades": [
+      7
+    ]
+  },
+  {
+    "quote": "Polacy nie gęsi, swój język mają.",
+    "answer": "Mikołaj Rej",
+    "context": "Renesans.",
+    "grades": [
+      5,
+      6
+    ]
+  },
+  {
+    "quote": "Wstrzymał Słońce, ruszył Ziemię – o Koperniku.",
+    "answer": "Jan Kochanowski",
+    "context": "Tren.",
+    "grades": [
+      5,
+      6
+    ]
+  },
+  {
+    "quote": "Tu się bijemy, tu się bronimy – Jasna Góra.",
+    "answer": "Augustyn Kordecki",
+    "context": "Potop.",
+    "grades": [
+      4,
+      6
+    ]
+  },
+  {
+    "quote": "Nie ma niepodległości bez niepodległości ekonomicznej.",
+    "answer": "Eugeniusz Kwiatkowski",
+    "context": "Gdynia.",
     "grades": [
       4,
       8
     ]
   },
   {
-    "quote": "Kwiatkowski – Gdynia i COP.",
+    "quote": "Budujmy Gdynię – okno na świat.",
     "answer": "Eugeniusz Kwiatkowski",
     "context": "II RP.",
     "grades": [
@@ -1357,740 +2044,29 @@
     ]
   },
   {
-    "quote": "Sikorski – rząd na uchodźstwie.",
-    "answer": "Władysław Sikorski",
-    "context": "II wojna.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Anders – armia i Monte Cassino.",
-    "answer": "Władysław Anders",
-    "context": "II Korpus.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Churchill – sojusznik Polski.",
-    "answer": "Winston Churchill",
-    "context": "Wielka trójka.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Stalin – Jałta i podział Europy.",
-    "answer": "Józef Stalin",
-    "context": "ZSRR.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Gomułka – październik 56.",
-    "answer": "Władysław Gomułka",
-    "context": "Odwilż.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Gierek – pożyczki i kryzys.",
-    "answer": "Edward Gierek",
-    "context": "Lata 70.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Jaruzelski – stan wojenny.",
-    "answer": "Wojciech Jaruzelski",
-    "context": "13 XII 1981.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Walentynowicz – zwolnienie i strajk.",
-    "answer": "Anna Walentynowicz",
-    "context": "Sierpień 1980.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Popiełuszko – msze za ojczyznę.",
-    "answer": "Ks. Jerzy Popiełuszko",
-    "context": "Zamordowany przez SB.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Mazowiecki – pierwszy premier.",
-    "answer": "Tadeusz Mazowiecki",
-    "context": "1989.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Geremek – doradca Solidarności.",
-    "answer": "Bronisław Geremek",
-    "context": "Historyk, polityk.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Kuroń – KOR i Solidarność.",
-    "answer": "Jacek Kuroń",
-    "context": "Opozycja.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Bartoszewski – Żegota i dialog.",
-    "answer": "Władysław Bartoszewski",
-    "context": "Auschwitz, Niemcy.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Sendlerowa – dzieci z getta.",
-    "answer": "Irena Sendlerowa",
-    "context": "Sprawiedliwa.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Karski – raport o Holocauście.",
-    "answer": "Jan Karski",
-    "context": "Kurier.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Kolbe – ofiara za współwięźnia.",
-    "answer": "Maksymilian Kolbe",
-    "context": "Auschwitz.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Bierut – stalinizm w Polsce.",
-    "answer": "Bolesław Bierut",
-    "context": "PRL.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Roosevelt – New Deal i wojna.",
-    "answer": "Franklin D. Roosevelt",
-    "context": "USA.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "De Gaulle – Wolna Francja.",
-    "answer": "Charles de Gaulle",
-    "context": "II wojna.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Wilson – 14 punktów.",
-    "answer": "Woodrow Wilson",
-    "context": "I wojna, Liga Narodów.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Bismarck – żelazo i krew.",
-    "answer": "Otto von Bismarck",
-    "context": "Zjednoczenie Niemiec.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Napoleon – Kodeks.",
-    "answer": "Napoleon Bonaparte",
-    "context": "Kodeks Napoleona.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Washington – pierwszy prezydent USA.",
-    "answer": "Jerzy Washington",
-    "context": "Ojciec założyciel.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Ludwik XVI – ścięty.",
-    "answer": "Ludwik XVI",
-    "context": "Rewolucja francuska.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Robespierre – terror.",
-    "answer": "Maksymilian Robespierre",
-    "context": "Rewolucja francuska.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Monteskiusz – trójpodział władzy.",
-    "answer": "Monteskiusz",
-    "context": "O duchu praw.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Wolter – walka z przesądami.",
-    "answer": "Wolter",
-    "context": "Oświecenie.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Rousseau – umowa społeczna.",
-    "answer": "Jean-Jacques Rousseau",
-    "context": "Oświecenie.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Luter – 95 tez.",
-    "answer": "Marcin Luter",
-    "context": "Reformacja.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Henryk VIII – rozłam z Rzymem.",
-    "answer": "Henryk VIII",
-    "context": "Anglia.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Elżbieta I – złoty wiek Anglii.",
-    "answer": "Elżbieta I",
-    "context": "Królowa.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Kolumb – odkrycie Ameryki.",
-    "answer": "Krzysztof Kolumb",
-    "context": "1492.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Magellan – opłynięcie świata.",
-    "answer": "Ferdynand Magellan",
-    "context": "Wyprawa.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Chodkiewicz – Kircholm.",
-    "answer": "Jan Karol Chodkiewicz",
-    "context": "1605.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Żółkiewski – Kłuszyn i Moskwa.",
-    "answer": "Stanisław Żółkiewski",
-    "context": "XVII w.",
-    "grades": [
-      4,
-      6
-    ]
-  },
-  {
-    "quote": "Chmielnicki – powstanie kozackie.",
-    "answer": "Bohdan Chmielnicki",
-    "context": "1648.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Jan Kazimierz – śluby lwowskie.",
-    "answer": "Jan Kazimierz",
-    "context": "1656.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Rejtan – nie pozwalam.",
-    "answer": "Tadeusz Rejtan",
-    "context": "Rozbiory.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Stanisław August – ostatni król.",
-    "answer": "Stanisław August Poniatowski",
-    "context": "Konstytucja 3 maja.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Pułaski – ojciec kawalerii USA.",
-    "answer": "Kazimierz Pułaski",
-    "context": "USA.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Długosz – kroniki.",
-    "answer": "Jan Długosz",
-    "context": "Roczniki.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Wit Stwosz – ołtarz mariacki.",
-    "answer": "Wit Stwosz",
-    "context": "Kraków.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Łokietek – zjednoczenie.",
-    "answer": "Władysław Łokietek",
-    "context": "1320.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Hannibal – przejście przez Alpy.",
-    "answer": "Hannibal",
-    "context": "Wojny punickie.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Aleksander Wielki – podboje.",
-    "answer": "Aleksander Macedoński",
-    "context": "Starożytność.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Saladyn – Jerozolima.",
-    "answer": "Saladyn",
-    "context": "Krucjaty.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Karol Wielki – cesarz.",
-    "answer": "Karol Wielki",
-    "context": "800.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Justynian – Kodeks.",
-    "answer": "Justynian I",
-    "context": "Bizancjum.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Konstantyn – chrześcijaństwo.",
-    "answer": "Konstantyn Wielki",
-    "context": "Edykt mediolański.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Hammurabi – kodeks.",
-    "answer": "Hammurabi",
-    "context": "Babilon.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Ramzes – bitwa pod Kadesz.",
-    "answer": "Ramzes II",
-    "context": "Egipt.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Kleopatra – ostatnia z Ptolemeuszy.",
-    "answer": "Kleopatra",
-    "context": "Egipt, Rzym.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Perykles – złoty wiek Aten.",
-    "answer": "Perykles",
-    "context": "Demokracja ateńska.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Arystoteles – nauczyciel Aleksandra.",
-    "answer": "Arystoteles",
-    "context": "Filozof.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Św. Franciszek – biedaczyna.",
-    "answer": "Franciszek z Asyżu",
-    "context": "Zakon franciszkanów.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Ryszard Lwie Serce – krucjaty.",
-    "answer": "Ryszard I",
-    "context": "Król Anglii.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Magna Charta – ograniczenie władzy.",
-    "answer": "Jan bez Ziemi",
-    "context": "1215 Anglia.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Henryk Pobożny – Legnica.",
-    "answer": "Henryk Pobożny",
-    "context": "1241, Tatarzy.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Konrad Mazowiecki – Krzyżacy.",
-    "answer": "Konrad Mazowiecki",
-    "context": "Sprowadzenie Zakonu.",
-    "grades": [
-      4,
-      5
-    ]
-  },
-  {
-    "quote": "Gall Anonim – pierwsza kronika.",
-    "answer": "Gall Anonim",
-    "context": "Kronika polska.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Kazimierz Jagiellończyk – wojna 13-letnia.",
-    "answer": "Kazimierz Jagiellończyk",
-    "context": "Zakon krzyżacki.",
-    "grades": [
-      5
-    ]
-  },
-  {
-    "quote": "Zygmunt II August – unia lubelska.",
-    "answer": "Zygmunt II August",
-    "context": "1569.",
-    "grades": [
-      5,
-      6
-    ]
-  },
-  {
-    "quote": "Stefan Batory – oblężenie Pskowa.",
-    "answer": "Stefan Batory",
-    "context": "Król Polski.",
-    "grades": [
-      6
-    ]
-  },
-  {
-    "quote": "Mickiewicz – wieszcz.",
-    "answer": "Adam Mickiewicz",
-    "context": "Pan Tadeusz, Dziady.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Słowacki – Kordian.",
-    "answer": "Juliusz Słowacki",
-    "context": "Wieszcz.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Chopin – kompozytor.",
-    "answer": "Fryderyk Chopin",
-    "context": "Pianista, emigracja.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Matejko – malarz historii.",
-    "answer": "Jan Matejko",
-    "context": "Grunwald, Stańczyk.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Prus – Lalka.",
-    "answer": "Bolesław Prus",
-    "context": "Pozytywizm.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Sienkiewicz – Trylogia.",
-    "answer": "Henryk Sienkiewicz",
-    "context": "Nobel.",
-    "grades": [
-      4,
-      7
-    ]
-  },
-  {
-    "quote": "Konopnicka – Rota.",
-    "answer": "Maria Konopnicka",
-    "context": "Pisarka.",
-    "grades": [
-      4,
-      7
-    ]
-  },
-  {
-    "quote": "Norwid – poeta.",
-    "answer": "Cyprian Kamil Norwid",
-    "context": "XIX w.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Wyspiański – Wesele.",
-    "answer": "Stanisław Wyspiański",
-    "context": "Młoda Polska.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Reymont – Chłopi.",
-    "answer": "Władysław Reymont",
-    "context": "Nobel.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Moniuszko – Halka.",
-    "answer": "Stanisław Moniuszko",
-    "context": "Opera polska.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Narutowicz – pierwszy prezydent.",
-    "answer": "Gabriel Narutowicz",
-    "context": "Zamordowany 1922.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Dmowski – endecja.",
-    "answer": "Roman Dmowski",
-    "context": "Traktat wersalski.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Bem – generał Wiosny Ludów.",
-    "answer": "Józef Bem",
-    "context": "Węgry, Siedmiogród.",
-    "grades": [
-      7
-    ]
-  },
-  {
-    "quote": "Plater – bohaterka powstania.",
-    "answer": "Emilia Plater",
-    "context": "1830.",
-    "grades": [
-      4,
-      7
-    ]
-  },
-  {
-    "quote": "Staszic – Przestrogi dla Polski.",
-    "answer": "Stanisław Staszic",
-    "context": "Oświecenie.",
-    "grades": [
-      4,
-      6
-    ]
-  },
-  {
-    "quote": "Kołłątaj – Kuźnica.",
-    "answer": "Hugo Kołłątaj",
-    "context": "Konstytucja 3 maja.",
-    "grades": [
-      4,
-      6
-    ]
-  },
-  {
-    "quote": "Poniatowski – marszałek Francji.",
-    "answer": "Józef Poniatowski",
-    "context": "Zginął w Elsterze.",
-    "grades": [
-      4,
-      6,
-      7
-    ]
-  },
-  {
-    "quote": "Sowiński – reduta na Woli.",
-    "answer": "Józef Sowiński",
-    "context": "Powstanie listopadowe.",
-    "grades": [
-      4,
-      7
-    ]
-  },
-  {
-    "quote": "Witos – chłopski premier.",
+    "quote": "Nie ma sprawy ważniejszej niż Polska.",
     "answer": "Wincenty Witos",
-    "context": "PSL, II RP.",
+    "context": "Premier.",
     "grades": [
-      4,
       7,
       8
     ]
   },
   {
-    "quote": "Haller – Błękitna Armia.",
-    "answer": "Józef Haller",
-    "context": "Zaślubiny z morzem.",
-    "grades": [
-      4,
-      7
-    ]
-  },
-  {
-    "quote": "Mościcki – prezydent.",
-    "answer": "Ignacy Mościcki",
-    "context": "II RP.",
+    "quote": "Honor i Ojczyzna – motto AK.",
+    "answer": "Armia Krajowa",
+    "context": "II wojna.",
     "grades": [
       4,
       8
     ]
   },
   {
-    "quote": "Maczek – dywizja pancerna.",
-    "answer": "Stanisław Maczek",
-    "context": "Falaise.",
+    "quote": "Bóg, Honor, Ojczyzna.",
+    "answer": "Wojsko Polskie",
+    "context": "Motto.",
     "grades": [
       4,
-      8
-    ]
-  },
-  {
-    "quote": "Sosabowski – Arnhem.",
-    "answer": "Stanisław Sosabowski",
-    "context": "Spadochroniarze.",
-    "grades": [
-      4,
-      8
-    ]
-  },
-  {
-    "quote": "Bór-Komorowski – powstanie.",
-    "answer": "Tadeusz Bór-Komorowski",
-    "context": "AK.",
-    "grades": [
-      4,
-      8
-    ]
-  },
-  {
-    "quote": "Kutrzeba – bitwa nad Bzurą.",
-    "answer": "Tadeusz Kutrzeba",
-    "context": "1939.",
-    "grades": [
-      8
-    ]
-  },
-  {
-    "quote": "Starzyński – prezydent Warszawy.",
-    "answer": "Stefan Starzyński",
-    "context": "Wrzesień 1939.",
-    "grades": [
       8
     ]
   }

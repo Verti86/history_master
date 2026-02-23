@@ -1,3 +1,10 @@
+/**
+ * UWAGA: Ten plik zawiera STARĄ / MIESZANĄ bazę (w tym opisy "X – Y", nie cytaty).
+ * Aby zaktualizować lib/data/quotes.json, używaj WYŁĄCZNIE:
+ *   node scripts/rebuild-quotes.js
+ * Ten skrypt NIE nadpisuje już quotes.json – służy tylko do ewentualnego rozszerzania
+ * listy w rebuild-quotes.js (ręczne przenoszenie wybranych wpisów).
+ */
 const fs = require("fs");
 const path = require("path");
 
@@ -274,8 +281,6 @@ if (minCount < 50) {
   console.warn("Uwaga: minimum to", minCount, "- potrzeba co najmniej 50 na klasę.");
 }
 
-fs.writeFileSync(
-  path.join(__dirname, "../lib/data/quotes.json"),
-  JSON.stringify(quotes, null, 2),
-  "utf8"
-);
+// NIE nadpisujemy quotes.json – źródłem prawdy jest scripts/rebuild-quotes.js
+// fs.writeFileSync(path.join(__dirname, "../lib/data/quotes.json"), ...);
+console.log("Aby zaktualizować bazę cytatów, uruchom: node scripts/rebuild-quotes.js");

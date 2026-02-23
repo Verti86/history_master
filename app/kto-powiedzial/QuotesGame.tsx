@@ -206,9 +206,10 @@ export default function QuotesGame({ quotes, userId, backHref = "/menu" }: Props
                 Spróbuj jeszcze raz
               </button>
             ) : (
-              <p className="mt-2" style={{ color: "var(--hm-muted)" }}>
-                Odpowiedź: <span className="font-bold" style={{ color: "var(--hm-text)" }}>{currentItem.answer}</span>
-              </p>
+              <div className="mt-4 p-4 rounded-xl border-2 border-amber-500/50 bg-amber-500/10">
+                <p className="text-sm mb-1" style={{ color: "var(--hm-muted)" }}>Poprawna odpowiedź:</p>
+                <p className="text-xl font-bold" style={{ color: "var(--hm-text)" }}>{currentItem.answer}</p>
+              </div>
             )}
           </div>
         ) : (
