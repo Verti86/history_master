@@ -57,6 +57,24 @@ body {
   color: var(--hm-text);
 }
 
+/* Skip link – widoczny po focusie (Tab) */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #ffbd45;
+  color: #0e1117;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  outline: 2px solid #ffbd45;
+  outline-offset: 2px;
+}
+
 /* Przycisk Wyloguj – hover w trybie jasnym */
 html.light .hm-btn-logout:hover {
   background-color: #fef2f2 !important;

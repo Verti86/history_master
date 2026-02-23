@@ -166,13 +166,13 @@ export default function QuizGame({ questions, userId, categoryName, categoryId, 
       <h2 className="text-xl font-medium" style={{ color: "var(--hm-text)" }}>{current.question}</h2>
 
       {feedback === "wrong" && (
-        <div className="p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-200 text-sm">
+        <div role="status" aria-live="polite" className="p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-200 text-sm">
           Źle. Poprawna odpowiedź: <strong>{current.answers[current.correct_index]}</strong>
           <p className="mt-2 text-[#aaa]">{current.explanation}</p>
         </div>
       )}
       {feedback === "ok" && (
-        <div className="p-4 rounded-lg bg-green-900/30 border border-green-700 text-green-200 text-sm">
+        <div role="status" aria-live="polite" className="p-4 rounded-lg bg-green-900/30 border border-green-700 text-green-200 text-sm">
           Brawo!
           {current.explanation && <p className="mt-2 text-[#aaa]">{current.explanation}</p>}
         </div>

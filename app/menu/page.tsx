@@ -54,6 +54,22 @@ export default async function MenuPage({
   }, 0);
   const weekChallenge = getCurrentWeekChallenge();
 
+  const sevenDaysAgo = new Date();
+  sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+  const sevenDaysStart = sevenDaysAgo.toISOString().slice(0, 10);
+  const last7Xp = (stats || []).reduce((s, r) => {
+    const created = (r as { created_at?: string }).created_at;
+    if (!created || created.slice(0, 10) < sevenDaysStart) return s;
+    return s + (r.points || 0);
+  }, 0);
+  const xpByMode: Record<string, number> = { Quiz: 0, Fiszki: 0, "Oś czasu": 0, Skojarzenia: 0 };
+  (stats || []).forEach((r) => {
+    const mode = (r as { game_mode?: string }).game_mode;
+    if (mode && mode in xpByMode) xpByMode[mode] += r.points || 0;
+  });
+  const lastActivityRaw = (stats || []).map((r) => (r as { created_at?: string }).created_at).filter(Boolean).sort().pop() as string | undefined;
+  const lastActivity = lastActivityRaw ? lastActivityRaw.slice(0, 10) : null;
+
   const { data: unlocked } = await supabase.from("user_achievements").select("achievement_id").eq("user_id", user.id);
   const unlockedIds = new Set((unlocked || []).map((u) => u.achievement_id));
   for (const a of ACHIEVEMENTS) {
@@ -116,6 +132,16 @@ export default async function MenuPage({
       )}
       {streak > 0 && <p className="mb-4 text-amber-400">🔥 {streak} {streak === 1 ? "dzień" : "dni"} z rzędu</p>}
       <p className="mb-2 text-sm text-[var(--hm-muted)]">Odznaki: {achievementCount}/{ACHIEVEMENTS.length}</p>
+
+      <section className="border border-[var(--hm-border)] rounded-xl p-3 mb-4" aria-label="Statystyki osobiste">
+        <h3 className="font-bold text-sm mb-2">📊 Statystyki</h3>
+        <p className="text-sm text-[var(--hm-muted)] mb-1">XP z ostatnich 7 dni: <strong style={{ color: "var(--hm-text)" }}>{last7Xp}</strong></p>
+        <p className="text-sm text-[var(--hm-muted)] mb-1">Wg trybów: Quiz <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Quiz"]}</strong>, Fiszki <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Fiszki"]}</strong>, Oś czasu <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Oś czasu"]}</strong>, Skojarzenia <strong style={{ color: "var(--hm-text)" }}>{xpByMode["Skojarzenia"]}</strong></p>
+        {lastActivity && (
+          <p className="text-sm text-[var(--hm-muted)]">Ostatnia aktywność: <strong style={{ color: "var(--hm-text)" }}>{lastActivity}</strong></p>
+        )}
+      </section>
+
       <section className="border border-[var(--hm-border)] rounded-xl p-3 mb-6">
         <h3 className="font-bold text-sm mb-2">🎯 {weekChallenge.title}</h3>
         <p className="text-sm text-[var(--hm-muted)] mb-2">{weekChallenge.description}</p>
@@ -163,6 +189,9 @@ export default async function MenuPage({
       <section className="border border-[var(--hm-border)] rounded-xl p-4">
         <h2 className="font-bold mb-3">🏆 Ranking Top 10</h2>
         <MenuRanking all={rankingAll} week={rankingWeek} />
+        <p className="mt-3 text-center">
+          <Link href="/ranking" className="text-sm text-[#ffbd45] hover:underline">Zobacz pełny ranking</Link>
+        </p>
       </section>
 
       {admin && (

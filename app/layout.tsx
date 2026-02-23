@@ -83,8 +83,11 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased min-h-screen flex flex-col">
+        <a href="#main-content" className="skip-link">
+          Przejdź do treści
+        </a>
         <ThemeProvider>
-          <div className="flex-1 flex flex-col pb-16">
+          <div id="main-content" className="flex-1 flex flex-col pb-16" tabIndex={-1}>
             {children}
           </div>
           <Footer />

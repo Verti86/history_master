@@ -13,11 +13,19 @@ export default function RejestracjaPage() {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
+  function validatePassword(p: string): string | null {
+    if (p.length < 8) return "Hasło musi mieć co najmniej 8 znaków.";
+    if (!/[A-Z]/.test(p)) return "Hasło musi zawierać co najmniej jedną wielką literę.";
+    if (!/[0-9]/.test(p)) return "Hasło musi zawierać co najmniej jedną cyfrę.";
+    return null;
+  }
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError(null);
-    if (password.length < 8) {
-      setError("Hasło musi mieć co najmniej 8 znaków.");
+    const pwdErr = validatePassword(password);
+    if (pwdErr) {
+      setError(pwdErr);
       return;
     }
     setLoading(true);
@@ -85,8 +93,9 @@ export default function RejestracjaPage() {
         </div>
         <div>
           <label htmlFor="password" className="block text-sm text-[#aaa] mb-1">
-            Wymyśl hasło (co najmniej 8 znaków)
+            Wymyśl hasło
           </label>
+          <p className="text-xs text-[#888] mb-2">Min. 8 znaków, co najmniej jedna wielka litera i jedna cyfra.</p>
           <input
             id="password"
             type="password"
