@@ -35,7 +35,7 @@ const extra = [
   { event: "Stan wojenny", year: 1981, description: "13 grudnia.", epoch: "XX", grades: [4, 8] },
   { event: "Wybory 4 czerwca 1989", year: 1989, description: "Przełom, upadek komunizmu.", epoch: "XX", grades: [4, 8] },
   { event: "Wstąpienie Polski do NATO", year: 1999, description: "Sojusz północnoatlantycki.", epoch: "XX", grades: [4, 8] },
-  { event: "Wstąpienie Polski do UE", year: 2004, description: "1 maja.", epoch: "XX", grades: [4, 8] },
+  { event: "Wstąpienie Polski do UE", year: 2004, description: "1 maja.", epoch: "XXI", grades: [4, 8] },
   { event: "Śmierć Mieszka I", year: 992, description: "Pierwszy władca Polski.", epoch: "X", grades: [5] },
   { event: "Testament Bolesława Krzywoustego", year: 1138, description: "Rozbicie dzielnicowe.", epoch: "XII", grades: [5] },
   { event: "Bitwa pod Legnicą", year: 1241, description: "Henryk Pobożny i Tatarzy.", epoch: "XIII", grades: [5] },
