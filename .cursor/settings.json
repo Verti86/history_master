@@ -1,0 +1,19 @@
+{
+  "plugins": {
+    "vercel": {
+      "enabled": true
+    },
+    "supabase": {
+      "enabled": true
+    },
+    "sentry": {
+      "enabled": true
+    },
+    "superpowers": {
+      "enabled": true
+    },
+    "parallel": {
+      "enabled": true
+    }
+  }
+}
