@@ -1,3 +1,13 @@
+# Python / Streamlit
+__pycache__/
+*.py[cod]
+*.pyo
+.streamlit/secrets.toml
+.cursor/
+
+# Aplikacja Next.js – osobny projekt (nie do deployu z tego repo)
+quiz-app-next/
+
 # dependencies
 node_modules/
 .pnp
