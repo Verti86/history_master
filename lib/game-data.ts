@@ -11,7 +11,11 @@ export type TimelineEvent = {
 export type AssociationItem = {
   answer: string;
   hints: string[];
+  /** Klasy SP (4–8), dla których postać jest w zakresie programowym. */
+  grades?: number[];
 };
+
+type AssociationRow = AssociationItem & { grades?: number[] };
 
 export function getTimelineEvents(epochFilter?: string): TimelineEvent[] {
   const data = timelineData as TimelineEvent[];
@@ -19,6 +23,10 @@ export function getTimelineEvents(epochFilter?: string): TimelineEvent[] {
   return data.filter((e) => e.epoch === epochFilter);
 }
 
-export function getAssociations(): AssociationItem[] {
-  return associationsData as AssociationItem[];
+/** Skojarzenia dla danej klasy – filtrowane wg zakresu programowego. */
+export function getAssociations(grade: number): AssociationItem[] {
+  const data = associationsData as AssociationRow[];
+  return data
+    .filter((item) => !item.grades || item.grades.length === 0 || item.grades.includes(grade))
+    .map(({ answer, hints }) => ({ answer, hints }));
 }

@@ -13,6 +13,7 @@ type AssociationItem = {
 type Props = {
   associations: AssociationItem[];
   userId: string;
+  backHref?: string;
 };
 
 function shuffleArray<T>(array: T[]): T[] {
@@ -24,7 +25,7 @@ function shuffleArray<T>(array: T[]): T[] {
   return arr;
 }
 
-export default function AssociationsGame({ associations, userId }: Props) {
+export default function AssociationsGame({ associations, userId, backHref = "/menu" }: Props) {
   const [items, setItems] = useState<AssociationItem[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   /** Pierwsza podpowiedź zawsze widoczna na start – żeby nie zgadywać „z kart” */
@@ -162,7 +163,7 @@ export default function AssociationsGame({ associations, userId }: Props) {
             </div>
           )}
           <Link
-            href="/menu"
+            href={backHref}
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition"
           >
             ← Powrót do menu
@@ -275,7 +276,7 @@ export default function AssociationsGame({ associations, userId }: Props) {
         )}
 
         <div className="mt-8 text-center">
-          <Link href="/menu" className="text-sm hover:opacity-90" style={{ color: "var(--hm-muted)" }}>
+          <Link href={backHref} className="text-sm hover:opacity-90" style={{ color: "var(--hm-muted)" }}>
             ← Powrót do menu
           </Link>
         </div>

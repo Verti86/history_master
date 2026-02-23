@@ -177,7 +177,7 @@ export default async function MenuPage({
           <span className="block font-medium">Oś czasu</span>
         </Link>
         <Link
-          href="/skojarzenia"
+          href={`/skojarzenia?klasa=${klasa}`}
           className="menu-card menu-card-skojarzenia p-4 rounded-xl border hover:border-[#34d399] hover:shadow-lg hover:shadow-green-500/20 text-center transition-all duration-300 group"
           style={{ background: "var(--hm-menu-card-bg)", color: "var(--hm-menu-card-text)", borderColor: "var(--hm-menu-card-border)" }}
         >
